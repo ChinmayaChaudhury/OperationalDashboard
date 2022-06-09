@@ -1,0 +1,59 @@
+<mvc:View controllerName="order-monitor.controller.OrderDetails" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:Custom="custom-control">
+	<Page title="{i18n>title}">
+		<customHeader>
+			<Bar>
+				<!--Branding-->
+				<contentLeft>
+					<html:img src="./appResources/asset/media/images/logo.png" alt="Logo"/>
+					<html:h1>Customer Order Monitor</html:h1>
+				</contentLeft>
+				<!--Dashboard-->
+				<contentMiddle>
+					<mvc:XMLView viewName="shared.view.OrderMonitorHeader"/>
+				</contentMiddle>
+				<!--Profile-->
+				<contentRight>
+					<html:section class="popover-container">
+						<html:img src="./appResources/asset/media/images/login-user-avatar.jpg" alt="" srcset="" role="button"></html:img>
+						<html:div class="popover">
+							<html:a href="" class="icon profile">Profile</html:a>
+							<html:a href="" class="icon settings">Settings</html:a>
+						</html:div>
+					</html:section>
+					<html:h1>John Bradman</html:h1>
+				</contentRight>
+			</Bar>
+		</customHeader>
+		<content>
+			<html:div class="customer-order">
+			<List class="customer-order" items="{summary>/d/results}">
+				<items>
+					<Custom:OrderBar number="{summary>ORDER_CODE}" customer="{summary>NAME}" score="{summary>CVM}" status="{summary>STATUS}">
+						<Custom:items>
+							<Custom:InfoBox title="Start" value="{summary>START_DATETIME}"></Custom:InfoBox>
+							<Custom:InfoBox title="PAX/Order" value="{summary>NO_OF_PASSENGERS}"></Custom:InfoBox>
+							<Custom:InfoBox title="Flights" value="{summary>IMPACTED_FLIGHTS}"></Custom:InfoBox>
+							<Custom:InfoBox title="Hotels" value="{summary>IMPACTED_HOTELS}"></Custom:InfoBox>
+							<Custom:InfoBox title="Activities" value="{summary>IMPACTED_ACTIVITIES}"></Custom:InfoBox>
+						</Custom:items>
+					</Custom:OrderBar>
+				</items>
+			</List>
+				<Custom:Timeline pages="{details>/details}">
+					<Custom:pages>
+						<Custom:OrderDay day="{details>day}" cards="{path:'details>events', templateShareable:false}">
+							<Custom:cards> 
+								<Custom:OrderCard name="{details>MAIN_HEADING}" subtext="{details>SUB_HEADING}" start="{details>START_DATETIME}" end="{details>END_DATETIME}" status="{details>EVENT_STATUS}" type="{details>TYPE}" providerLogo="{details>PROVIDER_LOGO}" providerDetails="{details>providerDetails}">
+									<Custom:providerDetails>
+										<Custom:OrderDetails title="{details>title}" value="{details>value}" />
+									</Custom:providerDetails>
+								</Custom:OrderCard>
+							</Custom:cards>
+						</Custom:OrderDay>
+					</Custom:pages>
+				</Custom:Timeline>
+			</html:div>
+		</content>
+	</Page>
+</mvc:View>

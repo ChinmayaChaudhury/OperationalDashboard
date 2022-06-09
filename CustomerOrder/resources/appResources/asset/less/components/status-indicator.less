@@ -1,0 +1,79 @@
+@import (reference)  "../general/main";
+
+.status-bar(@attribute-name, @width) {
+    position: relative;
+    overflow: hidden;
+
+    &:before {
+        content: "";
+        width: @width;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    &[@{attribute-name}="green"]:before {
+        background: @green;
+    }
+
+    &[@{attribute-name}="amber"]:before {
+        background: @amber;
+    }
+
+    &[@{attribute-name}="red"]:before {
+        background: @red;
+    }
+}
+
+.status-icon(@attribute, @property) {
+    .Attribute(@value) {
+        &[@{attribute}]:before {
+            content: "\e053";
+            font-family: @SAP-iconography;
+            font-size: 0.8rem;
+            @{property}: @@value;
+            margin-right: 5px;
+        }
+    }
+
+    .Attribute("green");
+    .Attribute("amber");
+    .Attribute("red");
+
+    cursor: pointer;
+}
+
+.status-background(@attribute, @property) {
+    &[@{attribute}="green"] {
+        @{property}: @green;
+    }
+
+    &[@{attribute}="amber"] {
+        @{property}: @amber;
+    }
+
+    &[@{attribute}="red"] {
+        @{property}: @red;
+    }
+
+    @{property}: @icon-background;
+    cursor: pointer;
+}
+
+.status-text(@attribute, @property) {
+    &[@{attribute}="green"] {
+        @{property}: @green;
+    }
+
+    &[@{attribute}="amber"] {
+        @{property}: @amber;
+    }
+
+    &[@{attribute}="red"] {
+        @{property}: @red;
+    }
+
+    @{property}: @icon-background;
+    cursor: pointer;
+}

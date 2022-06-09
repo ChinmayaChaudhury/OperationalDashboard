@@ -1,0 +1,129 @@
+@import (reference)  "../general/main";
+@import (reference)  "status-indicator";
+@import (reference)  "action-button";
+@import (reference)  "badge";
+@import (reference)  "value-box";
+
+.List(@fractions) {
+    @row-height: 67px;
+    @status-bar-width: 10px;
+    
+    // Style
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    // Root font size.
+    font-size: 16px;
+
+    li {
+        display: grid;
+        grid-template-columns: @fractions;// 0.5fr;
+        grid-template-areas: "header main";// actions";
+
+        min-height: @row-height;
+        margin-bottom: 10px;
+
+        // Look-n-feel
+        background: @gradient;
+        overflow: hidden;
+
+        .roundify();
+        .shadowfy(0px, 1px, 7px, 2px, 0.2);
+    }
+
+    header {
+        // Variables
+        @side-padding: 30px;
+
+        grid-area: "header";
+        background-color: @foreground;
+        padding: 0 @side-padding 0 (@status-bar-width + @side-padding);
+        
+        // .grid-columns(3);
+        .grid-columns-nonuniform(1fr 1fr 0.25fr);
+        align-items: center;
+        justify-items: center;
+
+        .roundify();
+        .status-bar(data-status, @status-bar-width);
+        .shadowfy(0px, 0px, 50px, 5px, 0.1);
+        .Badge(0, rgb(178, 170, 161), rgb(255, 255, 255));
+
+        h1 {
+            font-family: @emirates-plain-font;
+            color: @heading01;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        h2 {
+            color: @heading02;
+            font-size: 1.125rem;
+            font-weight: lighter;
+        }
+    }
+
+    main {
+        grid-area: "main";
+        padding: 0 30px;
+        
+        .grid-columns(6);
+        align-items: center;
+        justify-items: center;
+
+        div { 
+            flex-grow: 1;
+            min-width: max-content;
+            font-family: @helvetica-neue-font;
+            font-weight: normal;
+            color: @heading01;
+            font-size: 1rem;
+            .status-icon(data-status, color);
+
+            &[data-status]:nth-child(1) {
+                .status-text(data-status, color);
+            }
+         }
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 0.9rem;
+        margin: 0;
+    }
+}
+
+.List-With-Header(@fractions) {
+    display: grid;
+    grid-template-columns: @fractions;
+    grid-template-areas: 
+    ". header"
+    "list list";
+    margin: 0 50px;
+
+    header {
+        grid-area: header;
+        
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 129.36px);
+        // grid-template-columns: repeat(1, 1fr);
+        grid-auto-flow: column;
+        justify-items: center;
+
+        padding: 0 30px;
+
+        & > h1 {
+            font-family: @helvetica-neue-font;
+            font-weight: bolder;
+            color: @heading02;
+            font-size: 0.875rem;
+            text-transform: uppercase;
+        }
+    }
+
+    ul {
+        grid-area: list;
+
+        .List(@fractions);
+    }
+}

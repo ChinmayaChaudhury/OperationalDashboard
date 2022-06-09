@@ -1,0 +1,104 @@
+{
+	"totaluld": 17,
+	"timetobay": "80",
+	"timetoload": "85",
+	"journey": [{
+		"currstep": 7,
+		"totalbags": 17,
+		"lastbagatbay": "80 mins",
+		"inprogress": 10,
+		"mup": 2,
+		"enroute": 0,
+		"bay": 0,
+		"loaded": 0
+	}],
+	"flightulds": [{
+			"uldno": "AKE11798EK",
+			"type": "BU",
+			"uldstatus": "In Progress",
+			"timetoload": "85"
+		}, {
+			"uldno": "AKE16650EK",
+			"type": "BU",
+			"uldstatus": "In Progress",
+			"timetoload": "85"
+		}, {
+			"uldno": "AKE17143EK",
+			"type": "BU",
+			"uldstatus": "",
+			"timetoload": "85"
+		}, {
+			"uldno": "AKE19036EK",
+			"type": "BU",
+			"uldstatus": "In Progress",
+			"timetoload": "85"
+		}, {
+			"uldno": "AKE40191EK",
+			"type": "BU",
+			"uldstatus": "In Progress",
+			"timetoload": "85"
+		}, {
+			"uldno": "AKE40284EK",
+			"type": "BU",
+			"uldstatus": "MUP",
+			"timetoload": "85"
+		}, {
+			"uldno": "AKE41031EK",
+			"type": "BU",
+			"uldstatus": "In Progress",
+			"timetoload": "85"
+		}, {
+			"uldno": "AKE42217EK",
+			"type": "BU",
+			"uldstatus": "In Progress",
+			"timetoload": "85"
+		}, {
+			"uldno": "AKE42531EK",
+			"type": "BU",
+			"uldstatus": "In Progress",
+			"timetoload": "85"
+		}, {
+			"uldno": "AKE44325EK",
+			"type": "BU",
+			"uldstatus": "In Progress",
+			"timetoload": "85"
+		}, {
+			"uldno": "AKE44370EK",
+			"type": "BU",
+			"uldstatus": "",
+			"timetoload": "85"
+		}, {
+			"uldno": "AKE45515EK",
+			"type": "BU",
+			"uldstatus": "",
+			"timetoload": "85"
+		}, {
+			"uldno": "AKE45570EK",
+			"type": "BU",
+			"uldstatus": "",
+			"timetoload": "85"
+		}, {
+			"uldno": "AKE45572EK",
+			"type": "BU",
+			"uldstatus": "",
+			"timetoload": "85"
+		}, {
+			"uldno": "AKE47781EK",
+			"type": "BU",
+			"uldstatus": "MUP",
+			"timetoload": "85"
+		}, {
+			"uldno": "AKE48374EK",
+			"type": "BU",
+			"uldstatus": "",
+			"timetoload": "85"
+		}, {
+			"uldno": "BLKBG",
+			"type": "BK",
+			"uldstatus": "",
+			"timetoload": "85"
+		}
+
+	]
+
+}

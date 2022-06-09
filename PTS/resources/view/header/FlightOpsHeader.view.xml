@@ -1,0 +1,10 @@
+<mvc:View controllerName="PTS.controller.header.FlightOpsHeader" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<html:section>
+		<List class="buttons-list horizontal" width="auto">
+			<ActionListItem text="{i18n>list}" class="list" press="toList"/>
+			<ActionListItem text="{i18n>aerial}" class="aerial" press="toAerial"/>
+			<ActionListItem text="{i18n>ta}" class="turn-around" press="toTurnAround"/>
+		</List>
+	</html:section>
+</mvc:View>

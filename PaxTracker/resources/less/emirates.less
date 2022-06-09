@@ -1,0 +1,186 @@
+@import './fonts.less';
+@import './utilities.less';
+
+@headerHeight: 88px;
+@subHeaderHeight: 48px;
+@nonContentHeight: @headerHeight + @subHeaderHeight;
+
+.fixHeader {
+    // Since the page's position property is set to absolute, we need to to push the content down in order to show
+    // the non-page content (i.e. header and/or subheader). This will also allow us to use the responsive splitter.
+    .position(@top: @nonContentHeight, @right: unset, @bottom: 0, @left: unset);
+}
+
+.toolBar {
+    .grid(@columns: repeat(2, 1fr 2fr));
+    .grid-properties(@align: center, @justify: stretch, @content: center);
+
+    height: @headerHeight;
+    background-image: linear-gradient(-180deg, #F2F1ED 0%, #E5E2DC 100%);
+    background-image: url('../img/header-background.png') ;
+
+    // Those are the sections of the header's toolbar.
+    & > * {
+        &:nth-child(1) { 
+            .grid(@columns: auto 1fr);
+            .grid-properties();
+            padding: 0 10px;
+        }
+
+        &:nth-child(2) { 
+            .grid(@columns: repeat(6, 1fr));
+        }
+
+        &:nth-child(3) { 
+            .grid(@columns: repeat(2, 1fr));
+            justify-self: center;
+            // width: 100%;
+        }
+
+        &:nth-child(4) { 
+            .grid(@columns: repeat(3, auto));
+            grid-auto-flow: row;
+        }
+    }
+}
+
+.stats {
+    .sapMObjectIdentifier {
+        .grid(@columns: 0.5fr 1fr);
+        grid-template-areas: "text title";
+
+        .sapMObjectIdentifierTopRow     { grid-area: title }
+        .sapMObjectIdentifierTextBellow { 
+            grid-area: text;
+            text-align: right;
+            padding-right: 0.5rem;
+        }
+    }
+}
+
+.stepStatus {
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.24);
+    border-radius: 100%;
+    height: 25px;
+    min-width: 25px;
+    outline: none;
+}
+
+.uldalign {
+	margin-top: 0.5rem;
+}
+
+.uldnumbers {
+	display: grid;
+	color: #A49552;
+} 
+
+.uldbox {
+	display: inline;
+}
+
+.uldnumbers .sapMObjectNumberUnit {
+	transform: translateY(-0.3rem);
+} 
+
+.uldnumbers .sapMObjectNumberText {
+	font-size: 20px;
+}
+
+.uldBtn {
+  padding: 1rem;
+  outline: none;
+  font-family: 'Emirates-Serif', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #9D9991;
+  letter-spacing: 0.4px;
+  text-align: center;
+  background-color: #9D9991;
+  border-radius: 10px;
+  height: 80%;
+}
+
+.uldBtn .sapMBtnInner {
+	color: white;
+	text-shadow: 0 0 0;
+}
+
+// OSM Buildings control
+.map {
+    position: relative;
+    width: 88.50vw;
+    height: 50vh; 
+    overflow: hidden;
+}
+
+.osmb-viewport {
+    left: 0;
+    right: 0;
+    width: 100%
+}
+
+.pin {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50% 50% 50% 0;
+    background: rgb(234, 67, 53);
+    transform: rotate(-45deg);
+    left: 50%;
+    top: 50%;
+    margin: -20px 0 0 -20px;
+    z-index: 999;
+
+    &:after {
+        content: '';
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        margin: 25% 0 0 25%;
+        background: rgb(173, 30, 18);
+        border-radius: 50%;
+        box-shadow: inset 0px 2px 0px rgb(0, 0, 0);
+    }
+}
+
+.pulse {
+    background: rgba(0,0,0,0.2);
+    border-radius: 50%;
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: 11px 0px 0px -12px;
+    transform: rotateX(55deg);
+    z-index: -2;
+
+    &:after {
+        content: "";
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        margin: -13px 0 0 -13px;
+        animation: pulsate 1s ease-out;
+        animation-iteration-count: infinite;
+        opacity: 0.0;
+        box-shadow: 0 0 1px 2px rgb(237, 96, 84);
+        animation-delay: 1.1s;
+    }
+}
+
+@keyframes pulsate{
+  0% {
+      transform: scale(0.1, 0.1);
+      opacity: 0.0;
+    }
+  50% {
+      opacity: 1.0
+    }
+  100% {
+      transform: scale(1.2, 1.2);
+      opacity: 0.0;
+    }
+}

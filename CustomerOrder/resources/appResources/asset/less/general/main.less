@@ -1,0 +1,918 @@
+@import (reference)  "colors";
+@import (reference)  "fonts";
+@import (reference)  "utilities";
+@import (reference)  "animations";
+@import (reference)  "../components/value-box";
+
+.sapMPageEnableScrolling {
+    height: 100%;
+}
+
+.sapMBarContainer {
+    white-space: unset;
+    overflow: visible;
+}
+
+.sapMIBar.sapMHeader-CTX {
+    background-color: unset;
+}
+
+// Bar
+header.sapMPageHeader {
+    height: 140px;
+    padding: 0 20px;
+    background-image: url("../media/images/header-background.png");
+    background-repeat: repeat-x;
+    .flexify(center, center, center, row);
+    .shadowfy(0px, 2px, 10px, 0px, 0.2);
+}
+
+.sapMList.buttons-list {  
+    width: auto;
+
+    .sapMALI > .sapMLIBContent, .sapMALI {
+        height: unset;
+        line-height: unset;
+    } 
+
+    &.horizontal ul {
+        flex-flow: row;
+
+        li {
+            display: flex;
+            flex-direction: column;
+
+            &:first-child {
+                .roundify(10px 0px 0px 10px);
+            }
+
+            &:last-child {
+                .roundify(0px 10px 10px 0px);
+            }
+
+            &:not(:last-child) {
+                border-right-width: 0px;
+            }
+        }
+    }
+
+    &.vertical ul {
+        flex-flow: column;
+        
+        li {
+            &:first-child {
+                .roundify(10px 10px 0px 0px);
+            }
+
+            &:last-child {
+                .roundify(0px 0px 10px 10px);
+            }
+
+            &:not(:last-child) {
+                border-bottom-width: 0px;
+            }
+
+            &:before{
+                display: inline-block;
+            }
+        }
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        display: inline-flex;
+
+        
+
+        .sapMLIB.sapMALI:not(.sapMLIBActive) {
+            background: @button-background;
+        }
+
+        .sapMALIText {
+            color: @title;
+        }
+    
+        li, li:hover {
+            margin: 0;
+            font-family: @emirates-serif-font;
+            font-size: 11px;
+            font-weight: bold;
+            color: @title;
+            text-transform: uppercase;
+            list-style-type: none;
+            border: 1px solid @button-border;
+            background: @button-background;
+            padding: 5px;
+            vertical-align: middle;
+    
+            // B0A696
+            box-shadow: 0px 2px 4px 0px rgba(176, 166, 150, 0.5);
+    
+            &:active {
+                background: @pressed-background;
+                border: 1px solid @pressed-border;
+                box-shadow: 0px 2px 4px 0px rgba(176, 166, 150, 1);  
+                color: rgb(255, 255, 255);     
+            }
+    
+            &:before{
+                @size: 20px;
+                content:"";
+                width: @size; 
+                height: @size;
+                background-size: @size @size;
+                background-repeat: no-repeat;
+                
+                margin-right: 5px;
+            }
+        }
+    
+        .list:before { 
+            background-image: url("../media/icons/List-Icon.svg");
+        }
+    
+        .aerial:before { 
+            background-image: url("../media/icons/airport-control-tower-svgrepo-com@2x.svg");
+        }
+    
+        .turn-around:before { 
+            background-image: url("../media/icons/Turn-Around@2x.svg");
+        }
+    
+        .arrival:before { 
+            background-image: url("../media/icons/Arrival-Icon.svg");
+        }
+    
+        .departure:before { 
+            background-image: url("../media/icons/Departure-Icon.svg");
+        }
+    
+        .critical:before { 
+            background-image: url("../media/icons/Critical-Flight@2x.svg");
+        }
+    }
+}
+
+.buttons-list {
+    
+}
+
+.buttons-image {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    margin: 0;
+    font-family: @emirates-serif-font;
+    font-size: 11px;
+    font-weight: bold;
+    color: @title;
+    text-transform: uppercase;
+    list-style-type: none;
+
+    li {
+        text-align: center;
+
+        &:after {
+            @size: 64px;
+
+            display: block;
+            content:"";
+            width: @size; 
+            height: @size;
+            background-size: @size @size;
+            background-repeat: no-repeat;
+        }
+        
+        &[data-carrier="EK"]:after {
+            background-image: url("../media/icons/EK.svg");
+        }
+    
+        &[data-carrier="Others"]:after {
+            background-image: url("../media/icons/Others.svg");
+        }
+    }
+}
+
+.stats {
+    margin: 0;
+    padding: 2px;
+    background: @stat-border;
+    display: inline-flex;
+    flex-flow: row;
+    border-radius: 10px;
+
+    li {
+        font-family: @helvetica-neue-font;
+        font-size: 9px;
+        font-weight: normal;
+        margin: 0;
+        padding: 20px;
+        color: @stat-text;
+        text-transform: capitalize;
+        list-style-type: none;
+        background: @stat-background;
+        text-align: center;
+
+        &:before {
+            content: attr(data-value);
+            font-family: @helvetica-neue-font;
+            font-size: 28px;
+            font-weight: normal;
+            color: @stat-number;
+            display: block;
+        }
+
+        &:first-child {
+            .roundify(10px 0px 0px 10px);
+        }
+
+        &:last-child {
+            .roundify(0px 10px 10px 0px);
+        }
+
+        &:not(:last-child) {
+            border-right-width: 0px;
+            margin-right: 2px;
+        }
+    }
+}
+
+.sapMBar {
+    height: 100px;
+    line-height: unset;
+    box-shadow: unset;
+
+    header.sapMPageHeader > & {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+    
+        .sapMBarLeft {
+            position: relative;
+            height: unset;
+            // background-color: @foreground;
+    
+            .flexify(center, center, space-around, row);
+            // .shadowfy(0px, 0px, 50px, 5px, 0.1);
+    
+            // Separator
+            border-image: @separator;
+            border-right-style: solid;
+            border-right-width: 2px;
+            
+            // Application name
+            h1 { 
+                color: @title;
+                font-size: 1.4rem;
+                font-weight: bold;
+                text-transform: capitalize;
+                width: 60%;
+                margin: 0;
+            }
+        }
+    
+        .sapMBarMiddle {
+            top: unset;
+            left: unset;
+            width: unset;
+            height: unset;
+
+            & > .sapMBarContainer
+            {
+                height: 100%;
+                width: 100%;
+                
+                .sapUiView {
+                    // padding: 0 50px 0 30px;
+                    .flexify(center, center, space-evenly, row);
+
+                    section:nth-child(1) {
+                        // Separator
+                        border-image: @separator;
+                        border-right-style: solid;
+                        border-right-width: 2px;
+                    
+                        .flexify(center, center, space-evenly, row);
+                        flex-wrap: nowrap;
+                        flex-grow: 1;
+                    }
+
+                    section:nth-child(2) {
+                        .flexify(center, center, space-evenly, row);
+                        flex-wrap: nowrap;
+                        flex-grow: 1;
+                    }
+                }
+            }
+        }
+    
+        .sapMBarRight {
+            position: relative;
+            height: unset;
+            // .grid-columns-nonuniform(1fr 0.4fr);
+            // grid-template-areas: "name avatar";
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            justify-items: center;
+            position: relative;
+    
+            img {
+                // grid-area: avatar;
+                width: 50px;
+                height: 50px;
+                image-rendering: crisp-edges;
+                object-fit: cover;
+                padding: 0 10px;
+    
+                .roundify(100%);
+            }
+    
+            h1 {
+                font-size: 0.9rem;
+                text-align: center;
+                color: @heading02;
+                
+                &:before {
+                    content: "Welcome ";
+                    display: block;
+                    font-weight: bolder;
+                    font-size: 1rem;                
+                }
+            }
+        }
+    }
+}
+
+
+body {
+    .sapUiRootBackground, .sapMShellGlobalOuterBackground, .sapUiGlobalBackgroundColor, .sapMShellGlobalInnerBackground {
+        background: none;
+    }
+
+    background-image: url("../media/images/background.png");
+    background-repeat: repeat;
+
+    .sapMShellBrandingBar {
+        display: none;
+    }
+
+    // .sapMShellContent {
+    //     padding-top: 20px;
+    // }
+    
+    // For the page headers.
+    margin: 0;
+}
+
+.sapMPage>.sapMPageHeader + section, .sapMPage>.sapMPageSubHeader + section, .sapMPage>.sapMPageHeader + .sapUiHiddenPlaceholder + section {
+    top: unset;
+}
+
+*:focus {
+    outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: @emirates-plain-font;
+}
+
+*[role="button"] {
+    cursor: pointer;
+}
+
+.grid-item() {
+    @status-bar-width: 10px;
+    @bar-height: 67px;
+
+    height: @bar-height;
+    
+    // Look-n-feel
+    background: rgb(240, 235, 227);
+
+    .roundify();
+    .shadowfy(0px, 1px, 7px, 2px, 0.2);
+
+    // Grid
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 2fr 1fr;
+
+    & > section:nth-child(1), & > section:nth-child(3) {
+        background-color: @foreground;
+
+        .roundify();
+        .shadowfy(0px, 0px, 50px, 5px, 0.1);
+        .flexify(center, center, space-evenly, row);
+    } 
+
+    & > section:nth-child(1) {
+        .status-bar(data-status, @status-bar-width);
+        
+        h1 {
+            font-family: @emirates-plain-font;
+            color: @heading01;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        h2 {
+            font-family: @emirates-plain-font;
+            color: @heading02;
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin: 0;
+        }
+    }
+    
+    & > section:nth-child(2) {
+        flex-grow: 2;
+        .flexify(center, center, space-evenly, row);
+
+        h1, h2 {
+            font-family: @helvetica-neue-font;
+            font-weight: normal;
+        }
+
+        h1 {
+            font-size: 0.8rem;
+        }
+    }
+
+    & > section:nth-child(3) {
+        // min-width: 250px;
+        position: absolute;
+        right: 0;
+        height: 100%;
+        
+        .action-slider {
+            height: 100%;
+            overflow: hidden;
+            flex-grow: 0;
+            .flexify(stretch, stretch, space-evenly, row);
+
+        }
+
+        .actions {
+            flex-grow: 1;
+            .flexify(center, center, space-evenly, row);
+        }
+
+        *[role="button"] {
+            font-family: @emirates-plain-font;
+            font-size: 0.75rem;
+            font-weight: bold;
+            text-decoration: none;
+
+            .status-text(data-status, color);
+            .roundify(100%);
+
+            &:hover {
+                .Grow-Animation(1.25);
+            }
+        }
+    }
+
+    div { 
+        font-family: @helvetica-neue-font;
+        font-weight: normal;
+        color: @heading01;
+        font-size: 1rem;
+        .status-icon(data-status, color);
+
+        h1, h2 {
+            font-size: 1rem;
+            font-weight: bold;
+            margin: 0;
+        }
+        
+        h1 {
+            font-family: @emirates-plain-font;
+            color: @heading02;
+        }
+        
+        h2 {
+            color: @heading01;                    
+        }
+    }
+
+    .action-slider {
+        & > div {
+            width: 0px;
+            height: 100%;
+            overflow: hidden;
+            opacity: 0;
+            .flexify(center, center, space-evenly, row);
+            flex-wrap: nowrap;
+
+            & > *:first-child, & > *:last-child {
+                // Slider borders
+                // border-right: solid 1px;
+            }
+        }
+    } 
+}
+
+.list-item() {
+    @status-bar-width: 10px;
+    @bar-height: 67px;
+
+    display: flex;
+    height: @bar-height;
+    // Look-n-feel
+    background: rgb(240, 235, 227);
+    
+    .roundify();
+    .shadowfy(0px, 1px, 7px, 2px, 0.2);
+
+    & > section:nth-child(1), section:nth-child(3) {
+        flex-grow: 0.25;
+        background-color: @foreground;
+
+        .roundify();
+        .shadowfy(0px, 0px, 50px, 5px, 0.1);
+        .flexify(center, center, space-evenly, row);
+    }
+
+    & > section:nth-child(1) {
+        .status-bar(data-status, @status-bar-width);
+        
+        h1 {
+            font-family: @emirates-plain-font;
+            color: @heading01;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        h2 {
+            font-family: @emirates-plain-font;
+            color: @heading02;
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin: 0;
+        }
+    }
+
+    & > section:nth-child(2) {
+        flex-grow: 2;
+        .flexify(center, center, space-evenly, row);
+
+        h1, h2 {
+            font-family: @helvetica-neue-font;
+            font-weight: normal;
+        }
+
+        h1 {
+            font-size: 0.8rem;
+        }
+    }
+
+    & > section:nth-child(3) {
+        min-width: 250px;
+        
+        .action-slider {
+            height: 100%;
+            overflow: hidden;
+            flex-grow: 0;
+            .flexify(stretch, stretch, space-evenly, row);
+
+        }
+
+        .actions {
+            flex-grow: 1;
+            .flexify(center, center, space-evenly, row);
+        }
+
+        *[role="button"] {
+            font-family: @emirates-plain-font;
+            font-size: 0.75rem;
+            font-weight: bold;
+            text-decoration: none;
+
+            .status-text(data-status, color);
+            .roundify(100%);
+
+            &:hover {
+                .Grow-Animation(1.25);
+            }
+        }
+    }
+
+    div { 
+        font-family: @helvetica-neue-font;
+        font-weight: normal;
+        color: @heading01;
+        font-size: 1rem;
+        .status-icon(data-status, color);
+
+        h1, h2 {
+            font-size: 1rem;
+            font-weight: bold;
+            margin: 0;
+        }
+        
+        h1 {
+            font-family: @emirates-plain-font;
+            color: @heading02;
+        }
+        
+        h2 {
+            color: @heading01;                    
+        }
+    }
+
+    .action-slider {
+        & > div {
+            width: 0px;
+            height: 100%;
+            overflow: hidden;
+            opacity: 0;
+            .flexify(center, center, space-evenly, row);
+            flex-wrap: nowrap;
+
+            & > *:first-child, & > *:last-child {
+                // Slider borders
+                // border-right: solid 1px;
+            }
+        }
+    } 
+}
+
+.panel-item() {
+    @status-bar-width: 10px;
+    // @bar-height: 67px;
+
+    display: flex;
+    .flexify(stretch, center, space-evenly, column);
+    // Look-n-feel
+    background: rgb(240, 235, 227);
+    
+    .roundify();
+    .shadowfy(0px, 1px, 7px, 2px, 0.2);
+
+    section {
+        width: 100%;
+    }
+
+    & > section:nth-child(1), section:nth-child(3) {
+        background-color: @foreground;
+
+        .roundify();
+        .shadowfy(0px, 0px, 50px, 5px, 0.1);
+        .flexify(center, center, space-evenly, row);
+    }
+
+    & > section:nth-child(1) {
+        justify-content: space-between;
+        .status-bar(data-status, @status-bar-width);
+        
+        h1 {
+            font-family: @emirates-plain-font;
+            color: @heading01;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        h2 {
+            color: @heading02;
+            font-size: 1.15rem;
+            font-weight: 500;
+        }
+    }
+
+    & > section:nth-child(2) {
+        flex-grow: 2;
+
+        .flexify(center, center, space-evenly, row);
+        flex-wrap: wrap;
+    }
+
+    & > section:nth-child(3) {
+        flex-direction: column;
+
+        .action-slider {
+            height: 100%;
+            overflow: hidden;
+            flex-grow: 0;
+            .flexify(stretch, stretch, space-evenly, row);
+
+        }
+
+        .actions {
+            flex-grow: 1;
+            .flexify(center, center, space-evenly, row);
+        }
+
+        *[role="button"] {
+            // min-width: 10px;
+            // min-height: 10px;
+            font-family: @emirates-plain-font;
+            font-size: 0.75rem;
+            font-weight: 500;
+            // .status-background(data-status, background-color);
+            .status-text(data-status, color);
+            .roundify(100%);
+
+            &:hover {
+                .Grow-Animation(1.25);
+            }
+        }
+    }
+
+    div { 
+        font-family: @helvetica-neue-font;
+        font-weight: normal;
+        color: @heading01;
+        font-size: 1rem;
+        .status-icon(data-status, color);
+        
+        h1 {
+            font-family: @emirates-plain-font;
+            color: @heading02;
+            font-size: 1rem;
+            font-weight: bold;
+            margin: 0;
+        }
+        
+        h2 {
+            color: @heading01;
+            font-size: 1rem;
+            font-weight: bold;
+            margin: 0;                        
+        }
+    }
+
+    .action-slider {
+        & > div {
+            width: 0px;
+            height: 100%;
+            overflow: hidden;
+            opacity: 0;
+            .flexify(center, center, space-evenly, row);
+            flex-wrap: nowrap;
+
+            & > *:first-child, & > *:last-child {
+                // Slider borders
+                // border-right: solid 1px;
+            }
+        }
+    } 
+}
+
+#hub-map {
+    width: 100%;
+    height: 100%;
+}
+
+.emirates {
+    font-size: 16px;
+
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: 0.75rem;
+    }
+
+    a {
+        text-decoration: none;
+        font-family: @emirates-plain-font;//@helvetica-neue-font;
+        color: @heading02;
+        font-size: 0.875rem;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+
+    .icon {
+        &:before {
+            font-family: @SAP-iconography;
+            margin-right: 5px;
+        }
+
+        &.profile:before  { content: "\e0ca"; }
+        &.settings:before { content: "\e0a6"; }
+    }
+
+    .sapMPage>section {
+        position: relative;
+        width: 100%;
+    }
+
+    .counter {
+        font-family: @helvetica-neue-font;
+        font-size: 0.8rem;
+        font-weight: 500;
+        width: 40px;
+        margin: 0;
+        margin-right: 5rem;
+        vertical-align: middle;
+
+        .Value-Box(data-value);
+    }
+
+    .search-bar {
+        position: relative;
+        color: @heading02;
+        justify-self: end;
+        
+        &:after {
+            position: absolute;
+            font-family: @SAP-iconography;
+            top: 22.5%;
+            left: 110%;
+            z-index: 1;
+            content: "\e00d";
+        }
+        
+        input[type=search] {
+            width: 125%;
+            padding: 10px 0 10px 10px;
+            background-color: #FBF9F5;
+            .roundify(20px);
+            border-width: 1px;
+            border-color: #E5E5E5;
+            border-style: solid;
+            box-shadow: inset 0 1px 10px 0 rgba(127, 119, 107, 0.2);
+        }
+    }
+
+    .popover-container {
+        @arrow-width: 7.5px;
+        position: relative;
+
+        .popover {
+            width: 100%;
+            z-index: 1;
+            left: 50%;
+            opacity: 0;
+            visibility: hidden;
+            position: absolute;
+            transform: translate(-50%, -10px);
+            background-color: @foreground;
+            width: auto;
+            .roundify(5px);
+            .shadowfy(0px, 0px, 50px, 5px, 0.1);
+            padding: 10px;
+    
+            &:before {
+                position: absolute;
+                z-index: -1;
+                content: '';
+                top: -1 * @arrow-width;
+                right: calc(50% - @arrow-width);
+                border-style: solid;
+                border-width: 0 @arrow-width @arrow-width @arrow-width;
+                border-color: transparent transparent @foreground transparent;
+                transition-duration: 0.3s;
+                transition-property: transform;
+            }
+        }
+
+        &:hover .popover {
+            z-index: 10;
+            opacity: 1;
+            visibility: visible;
+            transform: translate(-50%, 5px);
+            transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+            left: 50%;
+        }
+    }
+
+    .slider-container {
+        .slider {
+            position: absolute;
+            z-index: 1;
+            visibility: hidden;
+            min-height: 67px;
+            padding: 0 10px;
+            opacity: 0;
+            background-color: @foreground;
+            transform: translate(0%, -79%);
+            transition-duration: 0.3s;
+            transition-property: transform;
+
+            .roundify(5px);
+            .flexify(stretch, center, start);
+            // .shadowfy(0px, 0px, 50px, 5px, 0.1);
+
+            & > div { margin-right: 10px; }
+
+            h1, h2 {
+                font-size: 1rem;
+                margin: 0;
+            }
+
+            & > h1 {
+                text-transform: uppercase;
+                margin-right: 20px;
+            }
+        }
+
+        &:hover .slider {
+            z-index: -10;
+            opacity: 1;
+            visibility: visible;
+            transform: translate(-5%, -79%);
+            transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+        }
+    }
+}

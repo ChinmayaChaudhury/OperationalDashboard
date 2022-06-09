@@ -1,0 +1,22 @@
+{
+	"detail": [{
+		"bagno": "BR651897ABZ",
+		"bagstatus": "Enroute",
+		"out_uldno": "BLKBG",
+		"out_uldstatus": "",
+		"timetobay": "12 mins",
+		"custorderno": "C0292",
+		"paxname": "Robert Persin",
+		"paxstatus": "Landed",
+		"timetogate": "20 mins",
+		"uldproduct": "Local",
+		"inb_uldstatus": "",
+		"timetobhs": "5 mins",
+		"status": "",
+		"flightnum": "BR0824",
+		"pax_icon_visi": "1",
+		"pax_icon_status": "1",
+		"bag_icon_visi": "1",
+		"bag_icon_status": "1"
+	}]
+}

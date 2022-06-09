@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>All Button@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#16B5E7" offset="0%"></stop>
+            <stop stop-color="#2678A3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#0D0D0D" offset="0%"></stop>
+            <stop stop-color="#757575" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main-Nav-Bar" transform="translate(-658.000000, -85.000000)">
+            <g id="Group-21" transform="translate(0.000000, -113.000000)">
+                <g id="Group-19" transform="translate(587.000000, 152.000000)">
+                    <g id="Group-15" transform="translate(7.000000, 47.000000)">
+                        <g id="Group-2">
+                            <g id="All-Button" transform="translate(65.000000, 0.000000)">
+                                <ellipse id="Oval" stroke="url(#linearGradient-2)" fill="url(#linearGradient-1)" cx="5.83291139" cy="6" rx="5.83291139" ry="6"></ellipse>
+                                <path d="M5.63383917,10.3953193 C7.6933078,10.2935107 9.33265823,8.54368484 9.33265823,6.4 C9.33265823,4.190861 7.59166931,2.4 5.44405063,2.4 C3.36006334,2.4 1.65896686,4.08631098 1.5599934,6.20477481 C1.55697085,6.13690628 1.55544304,6.06863667 1.55544304,6 C1.55544304,3.5699471 3.47053085,1.6 5.83291139,1.6 C8.19529193,1.6 10.1103797,3.5699471 10.1103797,6 C10.1103797,8.4300529 8.19529193,10.4 5.83291139,10.4 C5.76618612,10.4 5.69981769,10.3984284 5.63383917,10.3953193 Z" id="Combined-Shape" fill="#FFFFFF" opacity="0.412533967"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

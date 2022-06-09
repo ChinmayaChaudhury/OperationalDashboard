@@ -1,0 +1,904 @@
+/* Enter your custom styles here */
+
+/* demo branch commit */
+/*Emirates Fonts Start*/
+
+
+/*@font-face {
+    font-family: "Emirates-Bold";
+    src: url("http://cdn.ek.aero/shared/fonts/emirates/Emirates-Bold.eot");
+    src: url("http://cdn.ek.aero/shared/fonts/emirates/Emirates-Bold.eot?#iefix") format("eot"), url("http://cdn.ek.aero/shared/fonts/emirates/Emirates-Bold.woff") format("woff"), url("http://cdn.ek.aero/shared/fonts/emirates/Emirates-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "iconography";
+    src: url('../fonts/iconography.eot');
+    src: url('../fonts/iconography.eot?#iefix') format('embedded-opentype'), url('../fonts/iconography.woff') format('woff'), url('../fonts/iconography.ttf') format('truetype'), url('../fonts/iconography.svg#iconography') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+
+/*Add EK icons as font*/
+@font-face {
+  font-family: 'icomoon';
+  src:url('../fonts/EKIcons/icomoon.eot?5qvb9g');
+  src:url('../fonts/EKIcons/icomoon.eot?5qvb9g#iefix') format('embedded-opentype'),
+  url('../fonts/EKIcons/icomoon.ttf?5qvb9g') format('truetype'),
+  url('../fonts/EKIcons/icomoon.woff?5qvb9g') format('woff'),
+  url('../fonts/EKIcons/icomoon.svg?5qvb9g#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+  [class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-ae:aircraft {
+	content: "\e91a";
+  }
+  
+  .icon-airplane-flight-green:airplane-flight-green {
+	content: "\e91b";
+  }
+  
+  .icon-airplane-flight-red:airplane-flight-red {
+	content: "\e91d";
+  }
+  
+  .icon-airplane-flight:airplane-flight {
+	content: "\e935";
+  }
+  
+  .icon-flight-consignment:flight-consignment {
+	content: "\e91e";
+  }
+  
+  .icon-Maintenance-green:Maintenance-green {
+	content: "\e91f";
+  }
+  
+  .icon-Maintenance-grey:Maintenance-grey {
+	content: "\e920";
+  }
+  
+  .icon-Maintenance-red:Maintenance-red {
+	content: "\e926";
+  }
+  
+  .icon-Maintenance:Maintenance {
+	content: "\e927";
+  }
+  
+  .icon-PTSIcon-green:PTSIcon-green{
+	content: "\e928";
+  }
+  
+  .icon-PTSIcon-grey:PTSIcon-grey {
+	content: "\e929";
+  }
+  
+  .icon-PTSIcon-red:PTSIcon-red {
+	content: "\e92a";
+  }
+  
+  .icon-PTSIcon:PTSIcon {
+	content: "\e92b";
+  }
+  
+  .icon-TowIcon-green:TowIcon-green {
+	content: "\e92c";
+  }
+  
+  .icon-TowIcon-grey:TowIcon-grey {
+	content: "\e92d";
+  }
+  
+  .icon-TowIcon-red:TowIcon-red {
+	content: "\e92e";
+  }
+  
+  .icon-TowIcon:TowIcon {
+	content: "\e92f";
+  }
+  
+
+@font-face {
+    font-family: "iconography";
+    src: url('../fonts/Iconography/iconography.eot');
+    src: url('../fonts/Iconography/iconography.eot?#iefix') format('embedded-opentype'), url('../fonts/Iconography/iconography.woff') format('woff'), url('../fonts/Iconography/iconography.ttf') format('truetype'), url('../fonts/Iconography/iconography.svg#iconography') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "EK03Serif-B01";
+    src: url('../fonts/Emirates/EK03Serif-B01.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "EK03Plain-B01";
+    src: url('../fonts/Emirates/EK03Serif-B01.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "EK03Serif-L01";
+    src: url('../fonts/Emirates/EK03Serif-L01.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "EK03Plain-L01";
+    src: url('../fonts/Emirates/EK03Serif-L01.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "EK03Serif-M01";
+    src: url('../fonts/Emirates/EK03Serif-M01.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "EK03Plain-M01";
+    src: url('../fonts/Emirates/EK03Serif-M01.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*Emirates Fonts End*/
+
+.turnaroundview {
+   /* background: #dfe2e2; */
+}
+
+
+/*.TopSectionHBox {
+    height: 7em !important;
+     background: darkgray; 
+    background: #f7f7f7 !important;
+    width: 1309px !important;
+     padding-left: 9%; 
+    margin-left: 78px !important;
+}*/
+
+.TopSectionHBox {
+    /*height: 4em !important;*/
+    /* background: darkgray; */
+    /*background: #e6e2de !important;*/
+    background: transparent !important;
+    
+    /*width: 1309px !important;*/
+    
+    /* padding-left: 9%; */
+    /*margin-left: 78px !important;*/
+   /* margin-top: 20px; */
+    /* margin-bottom: 19px; */
+   /* padding-bottom: -23px;
+    padding-top: -24px; */
+}
+
+.DownSectionHBox {
+    margin-left: 3%;
+   /* margin-right: 2em;
+    background: aliceblue; */
+}
+
+.DownSectionHBox .sapMFlexBoxBGTransparent {
+    width: 100% !important;
+}
+.sapUiTableColHdrCnt{
+	background: transparent !IMPORTANT;
+}
+.sapGanttChartHeader{
+    /*height: 68.0104px !important;*/
+    /*min-height: 79.0104px !important;*/
+    background-color: transparent !important;
+    overflow: hidden; 
+    /*width: 99% !IMPORTANT;*/
+} 
+
+.sapGanttTimeHeaderSvgText0 {
+    font-size: 0.7rem !important;
+    font-weight: bold !important;
+    fill: #81807e !important;
+    transform: translateY(10px);
+} 
+
+.sapGanttTimeHeaderLargeIntervalSvgPath {
+	transform: translateY(10px);
+}
+
+.sapGanttShapeSvgText {
+    fill: #000000;
+    font-size: 9px !important;
+}
+
+.sapGanttTimeHeaderSvgPath {
+    stroke: #60646975 !IMPORTANT;;
+ }
+
+.sapGanttTimeHeaderSvgText1 {
+    font-size: 0.475rem !important;
+    font-weight: bold !important;
+}
+
+.sapUiLoSplitterContent {
+	/*height of the Gantt chart container*/
+    /*height: 1500px !important;*/
+    height: 100% !important;
+}
+
+.sapGanttViewSplitterH>section:nth-child(3) .sapUiTableCtrl tr:nth-child(odd) {
+	/*dark background color of Gantt chart*/
+    /*background-color: #a7a7a7;*/
+    background-color: #5c5f63;
+}
+
+.sapGanttViewSplitterH>section:nth-child(3) .sapUiTableCtrl tr:nth-child(even) {
+	/*brighter background color of Gantt chart*/
+    /*background-color: #aeaeae;*/
+    background-color: #606469;
+}
+
+
+/*.sapGanttViewSplitterH>section:nth-child(3) .sapUiTableCtrl tr:nth-child(odd) {
+    background-color: #919191;
+}
+
+.sapGanttViewSplitterH>section:nth-child(3) .sapUiTableCtrl tr:nth-child(even) {
+    background-color: #C0C0C0;
+}*/
+/*.turnaroundview > section {
+	top: 6rem;
+}*/
+.sapUiTableTr>td {
+    border-bottom: 0px solid #e5e5e5 !important;
+    width: 100% ;
+}
+
+/*sapUiTableFirstRow sapUiTableTr*/
+
+/*.sapUiTableCCnt div div table tbody tr td {*/
+   
+/*     width: 100% !important;*/
+/*}*/
+
+
+.sapUiTableCtrl {
+    position: relative;
+    table-layout: auto !IMPORTANT;
+    width: 99% !IMPORTANT;
+}
+
+.sapUiTableRowHdr {
+    visibility: hidden !important;
+}
+
+.sapUiTableColRowHdr {
+    visibility: hidden !important;
+}
+
+.objectheaderclass {
+    padding: 0rem !important;
+}
+
+.sapMOHIcon .sapUiIcon {
+    color: #346187;
+    font-size: 1.5rem !important;
+}
+
+/*.turnaroundview > section {
+	position: relative !important;
+}*/
+/*.sapGanttViewSplitterH>.sapUiLoSplitterContent {
+    width: 230px !important;
+}*/
+
+section#__splitter0-content-0 {
+    width: 11% !important;
+    /*width of the table next to the Gantt chart*/
+    /*width: 170px !important;*/
+    /*Move table to the top -> display delay times correctly for first row*/
+    /*transform: translateY(-42px);*/
+    transform: translateY(-22px);
+}
+
+section#__splitter0-content-1 {
+	/*width of Gantt chart background*/
+    /*width: 85% !important;*/
+    /*nm*/
+    /*width: 1130px !important;*/
+    width: 90% !important;
+    /*nm*/
+    /*Move chart to the top -> display delay times correctly for first row*/
+    /*transform: translateY(-30px);*/
+    /*transform: translateY(-45px);*/
+    transform: translateY(-24px);
+}
+
+.sapGanttChartHeaderSvg{
+	/* width: 99% !IMPORTANT; */
+	    width: 1770px !IMPORTANT;
+}
+.sapGanttTimeHeaderLargeIntervalSvgPath {
+    stroke: #b3b2b2 !IMPORTANT;
+}
+/*Hide bar at bottom of chart container*/
+.sapUiTableHSb {
+	/*visibility: hidden !important;*/
+}
+
+/*Hide bar at bottom of chart container*/
+.sapUiTableHSbBg {
+	/*visibility: hidden !important;*/
+}
+
+.EKGanttChartTableTurnAround > div > section > div > div > div > div > .sapGanttChartSvg {
+	    /*nm*/
+	    /*width: 1112px !important;*/
+	    
+	    /*width : 100% !IMPORTANT;*/
+	    /*height: 100% !IMPORTANT;*/
+	    
+	    /*nm*/
+	    
+}
+ /*nm*/
+.sapGanttChartSvgCtn {
+    position: absolute;
+    /*overflow: scroll !IMPORTANT;*/
+    overflow-x: hidden !important; 
+    overflow-y: hidden !important;
+
+}
+ /*nm*/
+.EKGanttChartTableTurnAround > div > section > div > div > .sapUiTableColHdrCnt {
+	border-bottom: 5px solid #f7f7f7;
+	margin-left: 1px;
+	background-color: transparent;
+}
+/*.EKGanttChartTableTurnAround > div > section > div > div > .sapUiTableExt {*/
+/*	background-color: #e6e2de !important;*/
+/*    border-bottom: 7px solid #e6e2de !important;*/
+/*    margin-left: 1px !important;*/
+/*}*/
+
+/*nm edited*/
+.EKGanttChartTableTurnAround > div > section > div > div > .sapUiTableExt {
+    background-color: transparent!important;
+    border-bottom: 5px solid transparent !important;
+    /*margin-left: 1px !important;*/
+}
+/*nm edited*/
+
+/*.
+sapGanttChartHeader {*/
+/*	display: none !important;*/
+/*}*/
+/*.sapUiTableTr .sapUiTableRowHvr>td:not(.sapUiTableTDDummy) {
+    background-color: #a7a7a7 !important;
+}
+*/
+
+
+/*.objectheaderclass {
+    max-height: 2rem !important;
+    background: #c3c3c3 !important;
+    border-top-right-radius: 18px !important;
+    border-bottom-right-radius: 18px !important;
+    margin-left: -36px!important;
+    width: 11rem !important;
+}*/
+
+.GanttChartOuterLayer.sapMIBar.sapMTB .sapMBarChild {
+    /*visibility: hidden !important;*/
+}
+
+.GanttChartOuterLayer {
+	width: 100% !IMPORTANT;
+    height: 100% !IMPORTANT;
+}
+
+.sapMTB {
+	/*hide gantt toolbar*/
+	/*visibility: hidden !important;*/
+}
+
+.sapUiTableCellFlex {
+    /*margin-left: -26% !important;*/
+    margin-left: -1.5rem !important;
+}
+
+
+/*.sapUiTableRowSelectors:not(.sapUiTableRowHighlights) .sapUiTableCtrlScr,
+.sapUiTableRowSelectors:not(.sapUiTableRowHighlights) .sapUiTableCtrlScrFixed {
+    margin-left: 2rem !important;
+}*/
+
+.sapUiTableRowSelectors:not(.sapUiTableRowHighlights) .sapUiTableCtrlScr,
+.sapUiTableRowSelectors:not(.sapUiTableRowHighlights) .sapUiTableCtrlScrFixed {
+    margin-left: -0.2rem !important;
+}
+
+.sapUiTableTr.sapUiTableRowHvr>td:not(.sapUiTableTDDummy) {
+	/*background of rows on hover*/
+    background-color: transparent !important;
+}
+
+
+/*.sapUiTableTr.sapUiTableRowHvr>td {
+    background-color: transparent !important;
+}*/
+
+.sapUiTableCnt {
+	/*background of flight table*/
+	background-color: transparent !important;
+	/*transform: translateY(-42px);*/
+}
+
+.leftPanelClass {
+    padding-left: 11px !important;
+    background: #eaebeb !important;
+    /*border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;*/
+    margin-left: -1% !important;
+}
+
+.leftPanelClass>div:nth-child(3) {
+    margin-right: -65px !important;
+}
+
+.triangle-right {
+    width: 0;
+    /* height: 20px; */
+    border-top: 15px solid transparent;
+    border-left: 9px solid #EAEBEB;
+    border-bottom: 15px solid transparent;
+    padding: 0px !important;
+    margin-left: 7px !important;
+}
+
+.iconClass {
+    padding-left: 65% !important;
+    margin-right: -15% !important;
+    vertical-align: -webkit-baseline-middle !important;
+    width: 2px !important;
+}
+
+.sapUiTableCell {
+	/*background of rows containing data*/
+    max-height: 45px !important;
+    height: 30px !important;
+}
+
+.sapUiTableCell .sapMText {
+	/*background of text in table on left side*/
+    vertical-align: -webkit-baseline-middle !important;
+    
+}
+
+
+/*.leftPanelClass .iconClass {
+    vertical-align: -webkit-baseline-middle !important;
+}*/
+
+
+/*.sapGanttChartAdhocLine:before {
+    background: red !important;
+}*/
+
+
+/* Chart Css Start */
+
+.TopSectionHBox svg {
+    /*background-color: rgb(247, 247, 247);
+     margin-left: 240px !important;
+    margin-top: 6% !important;
+    margin-left: 42px !important;
+    margin-top: 75px !important;*/
+    /*background-color: #e6e2de !important;*/ 
+    /*margin-left: -122px !important;*/
+    margin-left: 0.84rem !important;
+    /*margin-top: 10px !important;*/
+    /* background: red; */
+    /*padding-left: 155px !important;*/
+    /*padding-right: 5px !important;*/
+    padding-top: 20px !important;
+}
+
+.horizontal {
+	/*timeline horizontal line*/
+    stroke: rgb(190, 185, 179);
+    stroke-dasharray: 5, 2.5;
+}
+
+.vertical {
+	/*timeline vertical lines*/
+    stroke: rgb(190, 185, 179);
+}
+
+.sapGanttChartVerticalLine {
+	/*vertical lines of gantt chart background*/
+	stroke: #56585a !important;
+	stroke-width: 1.2 !important;
+}
+
+.background {
+    rx: 10;
+    fill: url(#landed-background);
+    opacity: 0.2;
+}
+
+#pts #horizontal-line-1 {
+    stroke-dasharray: 0;
+}
+
+.gray-marker {
+	/*timeline dots*/
+    fill: rgb(190, 185, 179);
+}
+
+.labels,
+.ticks {
+	/*timeline ticks*/
+    fill: rgb(141, 138, 133);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    font-weight: 500;
+    transform: translate(-11px, -10px);
+}
+
+.ticks {
+    font-size: 7pt;
+}
+
+#axis-2 .ticks {
+    fill: rgb(170, 170, 170);
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+
+/* #section-3 .horizontal-line-2 {
+            stroke-dasharray: 0;
+            stroke: red;
+        } */
+
+#horizontal-line-24,
+.vertical {
+    /*display: none; */
+}
+
+
+/* Chart Css End */
+
+html.sap-desktop .sapUiLoSplitterH.sapUiLoSplitter>.sapUiLoSplitterBar,
+html.sap-desktop .sapUiLoSplitterH>.sapUiLoSplitterOverlay>.sapUiLoSplitterOverlayBar {
+    width: 0 !important;
+}
+
+
+/* Hide Gantt chart headers -start*/
+
+/*.TopSectionHBoxInfoLine {*/
+/*    font-size: xx-large;*/
+/*    font-stretch: ultra-condensed;*/
+/*    color: grey;*/
+/*}*/
+
+/*.sapGanttToolbar {*/
+/*    height: 0px !important;*/
+/*}*/
+.sapGanttToolbar {
+  visibility: hidden;
+}
+
+.sapUiSelectable>bdi {
+	margin-left: 1rem;
+    color: #6e6e6e;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/*.sapUiTableColHdrCnt {*/
+/*    min-height: 0rem !important;*/
+/*    height: 0rem !important;*/
+/*}*/
+
+/*.sapUiLoSplitterH.sapUiLoSplitter {*/
+    /*background: #dfe2e2 !important;*/
+/*}*/
+
+/*.triangleclass {*/
+/*    text-align: left !important;*/
+/*    color: red !important;*/
+/*    font-size: 28px !important;*/
+    /* margin-right: 40%; */
+/*    margin-left: 67% !important;*/
+/*    font-size: 36px !important;*/
+/*    margin-bottom: 19px !important;*/
+/*    padding-bottom: 22px !important;*/
+/*    margin-top: -20% !important;*/
+/*}*/
+
+/*.selectboxclass {*/
+    /*margin-left: 80px !important;*/
+    /*margin-top: 71px !important;*/
+    /*width: 130% !important;
+    max-width: 156% !important;
+    height: 89%!important;*/
+    /* margin-left: 80px !important; */
+/*    margin-top: 30px !important;*/
+/*    height: 2.75em;*/
+/*}*/
+
+/*.customTextClass {*/
+/*    fill: red !important;*/
+/*}*/
+
+
+/*.selectboxclass .sapMSlt {
+    width: 100% !important;
+    max-width: 156% !important;
+    
+    margin-left: 10px !important;
+}*/
+/*
+.sapUiTableColHdrCnt {
+    border-top: 0px solid transparent !important;
+    border-bottom: 3px solid transparent !important;
+} */
+
+
+/* Hide Gantt chart headers - end*/
+
+
+/*.sapUiLoSplitter {
+    width: 103% !important;
+}*/
+
+
+/*.searchActivityTable {
+    height: 30px;
+    padding-top: 4px;
+}*/
+
+.searchActivitySelectTable.sapMSlt>.sapMSltLabel {
+    line-height: 1.875rem !important;
+}
+
+.searchActivitySelectTable {
+	position: fixed;
+    border: #eaebeb !IMPORTANT;
+    height: 2rem;
+    margin-top: 2rem;
+    width: 9% !IMPORTANT;
+    border-radius: 3px;
+    background: #eaebeb !important;
+    /* margin-top: 4.3rem; */
+    left: 3.9%;
+    z-index: 1 !IMPORTANT;
+}
+
+/*.searchActivitySelectTable {*/
+/*	position: fixed;*/
+/*    height: 2rem;*/
+    /* margin-top: 10px; */
+/*    width: 9% !IMPORTANT;*/
+/*    border-radius: 3px;*/
+/*    background: #f2f2f2 !important;*/
+    /*margin-top: 4.3rem;*/
+/*    left: 4%;*/
+/*    z-index: 1 !IMPORTANT;*/
+/*}*/
+
+
+.searchActivitySelectTable .sapMSltLabel {
+	/*Text of activity select*/
+    font-size: x-small !important;
+    text-align: center !important;
+    color: black !important;
+}
+
+.searchActivitySelectTable .sapMSltArrow {
+    color: black !important;
+    line-height: 1.875rem !important;
+}
+
+.sapMSelectListItemBase {
+	/*Text of activity select list items*/
+    color: black !important;
+    font-size: x-small !important;
+    height: 1.875rem !important;
+    background: #f7f7f7 !important;
+}
+
+.textClass {
+    font-size: 0.73rem !important;
+    font-family: EK03Serif-M01 !important;
+}
+
+
+/* Footer */
+
+.PTSFooter {
+    /*background: #919191 !important;*/
+}
+
+.PredictedPrepone,
+.Prepone,
+.PastDelay,
+.PredictedDelay,
+.ActivityDelay,
+.PastActivityDelay {
+    padding-top: 10px;
+}
+
+.PredictedPreponeText,
+.PreponeText,
+.PastDelayText,
+.PredictedDelayText,
+.ActivityDelayText,
+.PastActivityDelayText {
+    word-wrap: break-word;
+    width: 63px;
+    font-size: x-small;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.FooterLegendItems {
+    padding-left: 10px;
+}
+
+.PredictedPrepone {
+    /*padding-left: 975px;*/
+    /*padding-left: 80% !IMPORTANT;*/
+}
+
+[aria-level="1"] {
+    height: 35px !important;
+}
+
+/*.sapGanttChartVerticalLine {
+    stroke: #dddddd;
+    stroke-width: 0.5px;
+    stroke-dasharray: none;
+}
+
+path[style*="fill:#6cacba"] {
+    cursor: pointer !important;
+}*/
+
+/*.sapMDialog.sapMMessageDialog>.sapMDialogTitle .sapMIBar {
+	padding-top: 1rem !important;
+}
+.sapMDialog.sapMPopup-CTX>header .sapMHeader-CTX {
+	background-color: #e2dfdf !important;
+}*/
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+    @keyframes fadeIn {
+     /* from { opacity: 0; }
+      to { opacity: 1; } */
+        0%   { opacity: 0; }
+		100% { opacity: 1; }
+    }
+
+.deviationClass {
+    background-image: linear-gradient(0deg, #ECDEC7 0%, #FFFFFF 38%, #EBE6DE 100%);
+    border: 1px solid #FFFFFF;
+    box-shadow: 0 2px 37px 0 rgba(0,0,0,0.86);
+    border-radius: 10px;
+	left: 98% !important;
+    top: 98% !important;
+    transform: translate(-100%, -100%) !important;
+	animation-duration: 2s;
+	animation-name: fadeIn; 
+	height: 128px !important;
+  /* transition: all .2s ease-out;*/
+}
+.deviationClass>.sapMDialogSection {
+	background: transparent !important;
+}
+.alertTitle {
+	font-family: EK03Plain-B01;
+    font-size: 18px;
+    color: #7E7E7E;
+    letter-spacing: 0;
+}
+.alertBlck {
+	text-align: center;
+}
+.alertTxt1 {
+font-family: HelveticaNeue;
+font-size: 14px;
+color: #7E7E7E;
+letter-spacing: 0;
+text-align: center;
+line-height: 2rem;
+}
+
+.eibtAlertTitle:before {
+    content: "\e053";
+    font-family: "SAP-Icons";
+    margin-right: 1rem;
+    color: #AD0000;
+}
+
+.eibtAlertTitle {
+	transform: translateY(-0.5rem);
+	font-family: EK03Plain-B01;
+    font-size: 18px;
+    color: #AD0000;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 0.3rem;
+}
+
+
+.alertTxt2 {
+font-family: HelveticaNeue-Bold;
+font-size: 14px;
+color: #7E7E7E;
+letter-spacing: 0;
+text-align: center;
+line-height: 22px;
+}
+.alertLink {
+font-family: HelveticaNeue-Medium;
+font-size: 14px !important;
+color: #d45853 !important;
+letter-spacing: 0;
+text-align: center;
+line-height: 16px;
+}
+.alertLine {
+    border: .5px solid #AD0000;
+    width: 217px;
+}
+.alertImg {
+	border-radius: 25px;
+    border-color: white;
+    background: #E8E4DE;
+    cursor: pointer;
+}
+.alertImgContainer {
+	text-align: right;
+	
+}
+.sapUiBLy {
+	background: transparent !important;
+	background-color: trnasparent !important;
+}
+
+.sapUiTableColHdrTr>td:last-child, .sapUiTableTr>td:last-child {
+    background: transparent !important;
+}

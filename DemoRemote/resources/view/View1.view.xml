@@ -1,0 +1,39 @@
+<mvc:View controllerName="com.ek.neo.DemoNav.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:layout="sap.ui.layout" xmlns:core="sap.ui.core">
+	<App id="idAppControl">
+		<pages>
+			<Page title="Remote Control">
+				<content>
+					<layout:BlockLayout background="Default" visible="true">
+						<layout:content>
+							<layout:BlockLayoutRow scrollable="false">
+								<layout:content>
+									<layout:BlockLayoutCell width="3" title="" titleAlignment="Begin" titleLevel="Auto">
+										<layout:content>
+											<ComboBox id="steps" selectedKey="{EK>/step}" change="stepChange" editable="true" enabled="true" visible="true" width="100%" valueState="None" maxWidth="100%">
+												<items>
+													<core:Item key="1" text="Step 1"/>
+													<core:Item key="2" text="Step 2"/>
+													<core:Item key="3" text="Step 3"/>
+													<core:Item key="4" text="Step 4"/>
+													<core:Item key="5" text="Step 5"/>
+												</items>
+											</ComboBox>
+											<HBox alignItems="Stretch" direction="Row" fitContainer="true" width="auto" height="auto" justifyContent="SpaceBetween" renderType="Div"
+												visible="true" displayInline="false">
+												<items>
+													<Button text="Reset" type="Default" icon="sap-icon://reset" iconFirst="true" width="auto" enabled="true" visible="true"
+														iconDensityAware="false" press="onReset"/>
+												</items>
+											</HBox>
+										</layout:content>
+									</layout:BlockLayoutCell>
+								</layout:content>
+							</layout:BlockLayoutRow>
+						</layout:content>
+					</layout:BlockLayout>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

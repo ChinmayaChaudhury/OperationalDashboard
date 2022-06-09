@@ -1,0 +1,1569 @@
+/*
+@font-face {
+  font-family: "Emirates-Plain";
+  src: url("../fonts/Emirates/EK03Plain-B01.ttf");
+  font-style: normal;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+}
+@font-face {
+  font-family: "Emirates-Plain";
+  src: url("../fonts/Emirates/EK03Plain-M01.ttf");
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+}
+@font-face {
+  font-family: "Emirates-Plain";
+  src: url("../fonts/Emirates/EK03Plain-L01.ttf");
+  font-style: normal;
+  font-weight: lighter;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+}
+@font-face {
+  font-family: "Emirates-Serif";
+  src: url("../fonts/Emirates/EK03Serif-B01.ttf");
+  font-style: normal;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+}
+@font-face {
+  font-family: "Emirates-Serif";
+  src: url("../fonts/Emirates/EK03Serif-M01.ttf");
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+}
+@font-face {
+  font-family: "Emirates-Serif";
+  src: url("../fonts/Emirates/EK03Serif-L01.ttf");
+  font-style: normal;
+  font-weight: lighter;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+}
+
+*/
+@font-face {
+  font-family: "Helvetica-Neue";
+  src: url("../fonts/Helvetica-Neue/HelveticaNeue.ttf");
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+}
+@font-face {
+  font-family: "Helvetica-Neue";
+  src: url("../fonts/Helvetica-Neue/HelveticaNeueBd.ttf");
+  font-style: normal;
+  font-weight: bold;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+@font-face {
+  font-family: "Helvetica-Neue";
+  src: url("../fonts/Helvetica-Neue/HelveticaNeueHv.ttf");
+  font-style: normal;
+  font-weight: bolder;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+}
+@font-face {
+  font-family: "Helvetica-Neue";
+  src: url("../fonts/Helvetica-Neue/HelveticaNeueIt.ttf");
+  font-style: italic;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+}
+@font-face {
+  font-family: "Helvetica-Neue";
+  src: url("../fonts/Helvetica-Neue/HelveticaNeueLt.ttf");
+  font-style: normal;
+  font-weight: lighter;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+}
+@font-face {
+  font-family: "Iconography";
+  src: url('../fonts/Iconography/iconography.eot');
+  src: url('../fonts/Iconography/iconography.eot?#iefix') format('embedded-opentype'), url('../fonts/Iconography/iconography.woff') format('woff'), url('../fonts/Iconography/iconography.ttf') format('truetype'), url('../fonts/Iconography/iconography.svg#iconography') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+}
+@font-face {
+  font-family: "SAP-Iconography";
+  src: url('../fonts/SAP-icons/SAP-icons.ttf');
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+}
+.library-iconography [class^="icon-"],
+.library-iconography [class*="icon-"] {
+  font-family: "iconography";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sapMPageEnableScrolling {
+  height: 100%;
+}
+.sapMBarContainer {
+  white-space: unset !important;
+  overflow: visible !important;
+}
+.sapMIBar.sapMHeader-CTX {
+  background-color: unset !important;
+}
+header.sapMPageHeader {
+ /* height: 125px; */
+ /* height: 140px; */
+ /* height : 4rem !important; */
+ height : 6rem !important;
+  padding: 0 20px; 
+  /*padding: 20px; */
+  background-image: url("../media/images/header-background.png");
+  background-repeat: repeat-x;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.sapMList.buttons-list {
+  width: auto;
+}
+.sapMList.buttons-list .sapMALI > .sapMLIBContent,
+.sapMList.buttons-list .sapMALI {
+  height: unset;
+  line-height: unset;
+}
+.sapMList.buttons-list.horizontal ul {
+  flex-flow: row;
+}
+.sapMList.buttons-list.horizontal ul li {
+  display: flex;
+  flex-direction: column;
+}
+.sapMList.buttons-list.horizontal ul li:first-child {
+  border-radius: 10px 0px 0px 10px;
+}
+.sapMList.buttons-list.horizontal ul li:last-child {
+  border-radius: 0px 10px 10px 0px;
+}
+.sapMList.buttons-list.horizontal ul li:not(:last-child) {
+  border-right-width: 0px;
+}
+.sapMList.buttons-list.vertical ul {
+  flex-flow: column;
+}
+.sapMList.buttons-list.vertical ul li:first-child {
+  border-radius: 10px 10px 0px 0px;
+}
+.sapMList.buttons-list.vertical ul li:last-child {
+  border-radius: 0px 0px 10px 10px;
+}
+.sapMList.buttons-list.vertical ul li:not(:last-child) {
+  border-bottom-width: 0px;
+}
+.sapMList.buttons-list.vertical ul li:before {
+  display: inline-block;
+}
+.sapMList.buttons-list ul {
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+}
+.sapMList.buttons-list ul .sapMLIB.sapMALI:not(.sapMLIBActive) {
+  background: linear-gradient(to bottom, #f4f2ef 0%, #f3f1ee 50%, #eae7e0 51%, #e9e5de 100%) !important;
+}
+.sapMList.buttons-list ul .sapMALIText {
+  color: #6e6e6e;
+}
+.sapMList.buttons-list ul li,
+.sapMList.buttons-list ul li:hover {
+  margin: 0;
+ /* font-family: 'Emirates-Serif', Helvetica, Arial, sans-serif; */
+ font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: #6e6e6e;
+  text-transform: uppercase;
+  list-style-type: none;
+  border: 1px solid rgba(176, 166, 150, 0.5);
+  background: linear-gradient(to bottom, #f4f2ef 0%, #f3f1ee 50%, #eae7e0 51%, #e9e5de 100%);
+  padding: 5px;
+  vertical-align: middle;
+  box-shadow: 0px 2px 4px 0px rgba(176, 166, 150, 0.5);
+}
+.sapMList.buttons-list ul li:active,
+.sapMList.buttons-list ul li:hover:active {
+  background: linear-gradient(to bottom, #cecece 0%, #b9b6b0 50%, #9d9a93 100%);
+  border: 1px solid #b4b1ad;
+  box-shadow: 0px 2px 4px 0px #b0a696;
+  color: #ffffff;
+}
+.sapMList.buttons-list ul li:before,
+.sapMList.buttons-list ul li:hover:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  margin-right: 5px;
+}
+.sapMList.buttons-list ul .list:before {
+  background-image: url("../media/icons/List-Icon.svg");
+}
+.sapMList.buttons-list ul .aerial:before {
+  background-image: url("../media/icons/airport-control-tower-svgrepo-com@2x.svg");
+}
+.sapMList.buttons-list ul .turn-around:before {
+  background-image: url("../media/icons/Turn-Around@2x.svg");
+}
+.sapMList.buttons-list ul .arrival:before {
+  background-image: url("../media/icons/Arrival-Icon.svg");
+}
+.sapMList.buttons-list ul .departure:before {
+  background-image: url("../media/icons/Departure-Icon.svg");
+}
+.sapMList.buttons-list ul .critical:before {
+  background-image: url("../media/icons/Critical-Flight@2x.svg");
+}
+.buttons-image {
+  padding: 0;
+  display: inline-flex;
+  margin: 0;
+ /* font-family: 'Emirates-Serif', Helvetica, Arial, sans-serif; */
+  font-family:  Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: #6e6e6e;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+.buttons-image li {
+  text-align: center;
+}
+.buttons-image li:after {
+  display: block;
+  content: "";
+  width: 64px;
+  height: 64px;
+  background-size: 64px 64px;
+  background-repeat: no-repeat;
+}
+.buttons-image li[data-carrier="EK"]:after {
+  background-image: url("../media/icons/EK.svg");
+}
+.buttons-image li[data-carrier="Others"]:after {
+  background-image: url("../media/icons/Others.svg");
+}
+.stats {
+  margin: 0;
+  padding: 2px;
+  background: linear-gradient(45deg, #f4f2ef 0%, #f0ede8 0%, #b4b1ac 100%);
+  display: inline-flex;
+  flex-flow: row;
+  border-radius: 10px;
+}
+.stats li {
+  font-family: 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+  font-size: 9px;
+  font-weight: normal;
+  margin: 0;
+  padding: 20px;
+  color: #c9bc86;
+  text-transform: capitalize;
+  list-style-type: none;
+  background: linear-gradient(to bottom, #fcfaf5 0%, #eeece9 40%, #f1f0ee 41%, #e5e3dd 100%);
+  text-align: center;
+}
+.stats li:before {
+  content: attr(data-value);
+  font-family: 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  color: #afaba4;
+  display: block;
+}
+.stats li:first-child {
+  border-radius: 10px 0px 0px 10px;
+}
+.stats li:last-child {
+  border-radius: 0px 10px 10px 0px;
+}
+.stats li:not(:last-child) {
+  border-right-width: 0px;
+  margin-right: 2px;
+}
+.sapMBar {
+  height: 100px !important;
+  line-height: unset !important;
+  box-shadow: unset !important;
+}
+header.sapMPageHeader > .sapMBar {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+}
+header.sapMPageHeader > .sapMBar .sapMBarLeft {
+  position: relative;
+  height: unset;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-image: linear-gradient(to bottom, #D4CEC0 0%, #F2F2F2 100%) 1 100%;
+  border-right-style: solid;
+  border-right-width: 0px;
+}
+header.sapMPageHeader > .sapMBar .sapMBarLeft h1 {
+  color: #6e6e6e;
+  /*font-size: 1.4rem;*/
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  /*width: 60%;*/
+     /* width: 6rem; */
+  /*margin: 0;*/
+  margin-right: 0.5rem;
+      margin-left: 0.5rem;
+}
+header.sapMPageHeader > .sapMBar .sapMBarMiddle {
+  top: unset;
+  left: unset;
+  width: unset;
+  height: unset;
+}
+header.sapMPageHeader > .sapMBar .sapMBarMiddle > .sapMBarContainer {
+  height: 100%;
+  width: 100%;
+}
+header.sapMPageHeader > .sapMBar .sapMBarMiddle > .sapMBarContainer .sapUiView {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+header.sapMPageHeader > .sapMBar .sapMBarMiddle > .sapMBarContainer .sapUiView section:nth-child(1) {
+  border-image: linear-gradient(to bottom, #D4CEC0 0%, #F2F2F2 100%) 1 100%;
+  border-right-style: solid;
+  border-right-width: 2px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+}
+header.sapMPageHeader > .sapMBar .sapMBarMiddle > .sapMBarContainer .sapUiView section:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+}
+header.sapMPageHeader > .sapMBar .sapMBarRight {
+  height: unset;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+}
+header.sapMPageHeader > .sapMBar .sapMBarRight img {
+  margin-top: 1.4rem;
+  width: 40px;
+  height: 40px;
+  image-rendering: crisp-edges;
+  object-fit: cover;
+  padding: 0 10px;
+  border-radius: 100%;
+}
+header.sapMPageHeader > .sapMBar .sapMBarRight h1 {
+  margin-top: -0.2rem;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #a99f93;
+}
+header.sapMPageHeader > .sapMBar .sapMBarRight h1:before {
+  /*content: "Welcome ";*/
+  display: block;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+body {
+  background-image: url("../media/images/background.png");
+  background-repeat: repeat;
+  margin: 0;
+}
+body .sapUiRootBackground,
+body .sapMShellGlobalOuterBackground,
+body .sapUiGlobalBackgroundColor,
+body .sapMShellGlobalInnerBackground {
+  background: none;
+}
+body .sapMShellBrandingBar {
+  display: none;
+}
+.sapMPage > .sapMPageHeader + section,
+.sapMPage > .sapMPageSubHeader + section,
+.sapMPage > .sapMPageHeader + .sapUiHiddenPlaceholder + section {
+  top: unset;
+}
+*:focus {
+  outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ /* font-family: 'Emirates-Plain', Helvetica, Arial, sans-serif; */
+  font-family: Helvetica, Arial, sans-serif;
+}
+*[role="button"] {
+  cursor: pointer;
+}
+#hub-map {
+  width: 100%;
+  height: 100%;
+}
+.emirates {
+  font-size: 16px !important;
+}
+.emirates h1,
+.emirates h2,
+.emirates h3,
+.emirates h4,
+.emirates h5,
+.emirates h6 {
+  /*margin-top: 0.75rem !important;*/
+}
+.emirates a {
+  text-decoration: none;
+/*  font-family: 'Emirates-Plain', Helvetica, Arial, sans-serif !important; */
+ font-family:  Helvetica, Arial, sans-serif;
+  color: #a99f93;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.emirates .icon:before {
+  font-family: 'SAP-Iconography';
+  margin-right: 5px;
+}
+.emirates .icon.profile:before {
+  content: "\e0ca";
+}
+.emirates .icon.settings:before {
+  content: "\e0a6";
+}
+.emirates .sapMPage > section {
+  /*position: fixed;*/
+  position : relative;
+  width: 100%;
+  top:1rem !important;
+  margin-left: 1rem;
+}
+.emirates .counter {
+  font-family: 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  width: 40px;
+  margin: 0;
+  margin-right: 5rem;
+  vertical-align: middle;
+  display: inline-flex;
+  color: #a99f93;
+  font-weight: normal;
+}
+.emirates .counter::before {
+  content: attr(data-value);
+  display: inline-flex;
+  margin-right: 5px;
+  font-size: 2rem;
+  color: #6a6259;
+  vertical-align: middle;
+  line-height: 1.8rem;
+}
+.emirates .search-bar {
+  position: relative;
+  color: #a99f93;
+  justify-self: end;
+}
+.emirates .search-bar:after {
+  position: absolute;
+  font-family: 'SAP-Iconography';
+  top: 22.5%;
+  left: 110%;
+  z-index: 1;
+  content: "\e00d";
+}
+.emirates .search-bar input[type=search] {
+  width: 125%;
+  padding: 10px 0 10px 10px;
+  background-color: #FBF9F5;
+  border-radius: 20px;
+  border-width: 1px;
+  border-color: #E5E5E5;
+  border-style: solid;
+  box-shadow: inset 0 1px 10px 0 rgba(127, 119, 107, 0.2);
+}
+.emirates .popover-container {
+  position: relative;
+}
+.emirates .popover-container .popover {
+  width: 100%;
+  z-index: 1;
+  left: 50%;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  transform: translate(-50%, -10px);
+  background-color: #fffcf9;
+  width: auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+.emirates .popover-container .popover:before {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: -7.5px;
+  right: calc(50% - 7.5px);
+  border-style: solid;
+  border-width: 0 7.5px 7.5px 7.5px;
+  border-color: transparent transparent #fffcf9 transparent;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.emirates .popover-container:hover .popover {
+  z-index: 10;
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, 5px);
+  transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+  left: 50%;
+}
+.emirates .slider-container .slider {
+  position: absolute;
+  z-index: 1;
+  visibility: hidden;
+  min-height: 67px;
+  padding: 0 10px;
+  opacity: 0;
+  background-color: #fffcf9;
+  transform: translate(0%, -79%);
+  transition-duration: 0.3s;
+  transition-property: transform;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.emirates .slider-container .slider > div {
+  margin-right: 10px;
+}
+.emirates .slider-container .slider h1,
+.emirates .slider-container .slider h2 {
+  font-size: 1rem;
+  margin: 0;
+}
+.emirates .slider-container .slider > h1 {
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+.emirates .slider-container:hover .slider {
+  z-index: -10;
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-5%, -79%);
+  transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+}
+
+
+.flight-list ul {
+  padding: 0 20px;
+}
+.flight-list ul .list-item {
+  display: flex;
+  height: 67px;
+  background: #f0ebe3;
+  border-radius: 10px;
+  box-shadow: 0px 1px 7px 2px rgba(0, 0, 0, 0.2);
+}
+.flight-list ul .list-item > section:nth-child(1),
+.flight-list ul .list-item section:nth-child(3) {
+  flex-grow: 0.25;
+  background-color: #fffcf9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.flight-list ul .list-item > section:nth-child(1) {
+  position: relative;
+  overflow: hidden;
+}
+.flight-list ul .list-item > section:nth-child(1):before {
+  content: "";
+  width: 10px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.flight-list ul .list-item > section:nth-child(1)[data-status="green"]:before {
+  background: #1ca012;
+}
+.flight-list ul .list-item > section:nth-child(1)[data-status="amber"]:before {
+  background: #ffc700;
+}
+.flight-list ul .list-item > section:nth-child(1)[data-status="red"]:before {
+  background: #ab0000;
+}
+.flight-list ul .list-item > section:nth-child(1) h1 {
+  font-family: 'Emirates-Plain', Helvetica, Arial, sans-serif;
+  color: #6a6259;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+.flight-list ul .list-item > section:nth-child(1) h2 {
+ /* font-family: 'Emirates-Plain', Helvetica, Arial, sans-serif; */
+ font-family:  Helvetica, Arial, sans-serif;
+  color: #a99f93;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+.flight-list ul .list-item > section:nth-child(2) {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.flight-list ul .list-item > section:nth-child(2) h1,
+.flight-list ul .list-item > section:nth-child(2) h2 {
+  font-family: 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+.flight-list ul .list-item > section:nth-child(2) h1 {
+  font-size: 0.8rem;
+}
+.flight-list ul .list-item > section:nth-child(3) {
+  min-width: 250px;
+}
+.flight-list ul .list-item > section:nth-child(3) .action-slider {
+  height: 100%;
+  overflow: hidden;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  align-items: stretch;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.flight-list ul .list-item > section:nth-child(3) .actions {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.flight-list ul .list-item > section:nth-child(3) *[role="button"] {
+ /* font-family: 'Emirates-Plain', Helvetica, Arial, sans-serif; */
+ font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #7a7a7a;
+  cursor: pointer;
+  border-radius: 100%;
+}
+.flight-list ul .list-item > section:nth-child(3) *[role="button"][data-status="green"] {
+  color: #1ca012;
+}
+.flight-list ul .list-item > section:nth-child(3) *[role="button"][data-status="amber"] {
+  color: #ffc700;
+}
+.flight-list ul .list-item > section:nth-child(3) *[role="button"][data-status="red"] {
+  color: #ab0000;
+}
+.flight-list ul .list-item > section:nth-child(3) *[role="button"]:hover {
+  transform: scale(1.25);
+  transition: all 250ms ease;
+}
+.flight-list ul .list-item div {
+  font-family: 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #6a6259;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.flight-list ul .list-item div[data-status]:before {
+  content: "\e053";
+  font-family: 'SAP-Iconography';
+  font-size: 0.8rem;
+  color: #1ca012;
+  margin-right: 5px;
+}
+.flight-list ul .list-item div[data-status]:before {
+  content: "\e053";
+  font-family: 'SAP-Iconography';
+  font-size: 0.8rem;
+  color: #ffc700;
+  margin-right: 5px;
+}
+.flight-list ul .list-item div[data-status]:before {
+  content: "\e053";
+  font-family: 'SAP-Iconography';
+  font-size: 0.8rem;
+  color: #ab0000;
+  margin-right: 5px;
+}
+.flight-list ul .list-item div h1,
+.flight-list ul .list-item div h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+}
+.flight-list ul .list-item div h1 {
+ /* font-family: 'Emirates-Plain', Helvetica, Arial, sans-serif;*/
+  font-family: Helvetica, Arial, sans-serif;
+  color: #a99f93;
+}
+.flight-list ul .list-item div h2 {
+  color: #6a6259;
+}
+.flight-list ul .list-item .action-slider > div {
+  width: 0px;
+  height: 100%;
+  overflow: hidden;
+  opacity: 0;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-wrap: nowrap;
+}
+.emirates .hub-monitor .flight-number {
+  font-size: 1.5rem;
+}
+.emirates .hub-monitor [data-icon="arrived"] .flight-number:before {
+  content: "\e031";
+  font-family: 'Iconography';
+  font-size: 1.5rem;
+  vertical-align: bottom;
+  margin-right: 5px;
+}
+.emirates .hub-monitor [data-icon="departed"] .flight-number:before {
+  content: "\e02e";
+  font-family: 'Iconography';
+  font-size: 1.5rem;
+  vertical-align: bottom;
+  margin-right: 5px;
+}
+.emirates .hub-monitor .flight-route {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.emirates .hub-monitor .flight-route > *:not(:first-child):before {
+  content: "\e0d1";
+  font-family: 'Iconography';
+  font-size: 1rem;
+  margin: 0 5px;
+}
+.emirates .hub-monitor .panel-item {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background: #f0ebe3;
+  border-radius: 10px;
+  box-shadow: 0px 1px 7px 2px rgba(0, 0, 0, 0.2);
+}
+.emirates .hub-monitor .panel-item section {
+  width: 100%;
+}
+.emirates .hub-monitor .panel-item > section:nth-child(1),
+.emirates .hub-monitor .panel-item section:nth-child(3) {
+  background-color: #fffcf9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.emirates .hub-monitor .panel-item > section:nth-child(1) {
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+.emirates .hub-monitor .panel-item > section:nth-child(1):before {
+  content: "";
+  width: 10px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.emirates .hub-monitor .panel-item > section:nth-child(1)[data-status="green"]:before {
+  background: #1ca012;
+}
+.emirates .hub-monitor .panel-item > section:nth-child(1)[data-status="amber"]:before {
+  background: #ffc700;
+}
+.emirates .hub-monitor .panel-item > section:nth-child(1)[data-status="red"]:before {
+  background: #ab0000;
+}
+.emirates .hub-monitor .panel-item > section:nth-child(1) h1 {
+/*  font-family: 'Emirates-Plain', Helvetica, Arial, sans-serif; */
+ font-family: Helvetica, Arial, sans-serif;
+  color: #6a6259;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.emirates .hub-monitor .panel-item > section:nth-child(1) h2 {
+  color: #a99f93;
+  font-size: 1.15rem;
+  font-weight: 500;
+}
+.emirates .hub-monitor .panel-item > section:nth-child(2) {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.emirates .hub-monitor .panel-item > section:nth-child(3) {
+  flex-direction: column;
+}
+.emirates .hub-monitor .panel-item > section:nth-child(3) .action-slider {
+  height: 100%;
+  overflow: hidden;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  align-items: stretch;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.emirates .hub-monitor .panel-item > section:nth-child(3) .actions {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.emirates .hub-monitor .panel-item > section:nth-child(3) *[role="button"] {
+ /* font-family: 'Emirates-Plain', Helvetica, Arial, sans-serif; */
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #7a7a7a;
+  cursor: pointer;
+  border-radius: 100%;
+}
+.emirates .hub-monitor .panel-item > section:nth-child(3) *[role="button"][data-status="green"] {
+  color: #1ca012;
+}
+.emirates .hub-monitor .panel-item > section:nth-child(3) *[role="button"][data-status="amber"] {
+  color: #ffc700;
+}
+.emirates .hub-monitor .panel-item > section:nth-child(3) *[role="button"][data-status="red"] {
+  color: #ab0000;
+}
+.emirates .hub-monitor .panel-item > section:nth-child(3) *[role="button"]:hover {
+  transform: scale(1.25);
+  transition: all 250ms ease;
+}
+.emirates .hub-monitor .panel-item div {
+  font-family: 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #6a6259;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.emirates .hub-monitor .panel-item div[data-status]:before {
+  content: "\e053";
+  font-family: 'SAP-Iconography';
+  font-size: 0.8rem;
+  color: #1ca012;
+  margin-right: 5px;
+}
+.emirates .hub-monitor .panel-item div[data-status]:before {
+  content: "\e053";
+  font-family: 'SAP-Iconography';
+  font-size: 0.8rem;
+  color: #ffc700;
+  margin-right: 5px;
+}
+.emirates .hub-monitor .panel-item div[data-status]:before {
+  content: "\e053";
+  font-family: 'SAP-Iconography';
+  font-size: 0.8rem;
+  color: #ab0000;
+  margin-right: 5px;
+}
+.emirates .hub-monitor .panel-item div h1 {
+ /* font-family: 'Emirates-Plain', Helvetica, Arial, sans-serif; */
+  font-family: Helvetica, Arial, sans-serif;
+  color: #a99f93;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+}
+.emirates .hub-monitor .panel-item div h2 {
+  color: #6a6259;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+}
+.emirates .hub-monitor .panel-item .action-slider > div {
+  width: 0px;
+  height: 100%;
+  overflow: hidden;
+  opacity: 0;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-wrap: nowrap;
+}
+
+.customer-order ul {
+  padding: 0 20px;
+}
+.customer-order ul .list-item {
+  margin-bottom: 10px;
+  display: flex;
+  height: 67px;
+  background: #f0ebe3;
+  border-radius: 10px;
+  box-shadow: 0px 1px 7px 2px rgba(0, 0, 0, 0.2);
+}
+.customer-order ul .list-item > section:nth-child(1),
+.customer-order ul .list-item section:nth-child(3) {
+  flex-grow: 0.25;
+  background-color: #fffcf9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.customer-order ul .list-item > section:nth-child(1) {
+  position: relative;
+  overflow: hidden;
+}
+.customer-order ul .list-item > section:nth-child(1):before {
+  content: "";
+  width: 10px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.customer-order ul .list-item > section:nth-child(1)[data-status="green"]:before {
+  background: #1ca012;
+}
+.customer-order ul .list-item > section:nth-child(1)[data-status="amber"]:before {
+  background: #ffc700;
+}
+.customer-order ul .list-item > section:nth-child(1)[data-status="red"]:before {
+  background: #ab0000;
+}
+.customer-order ul .list-item > section:nth-child(1) h1 {
+ /* font-family: 'Emirates-Plain', Helvetica, Arial, sans-serif; */
+  font-family: Helvetica, Arial, sans-serif;
+  color: #6a6259;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+.customer-order ul .list-item > section:nth-child(1) h2 {
+/*  font-family: 'Emirates-Plain', Helvetica, Arial, sans-serif; */
+ font-family: Helvetica, Arial, sans-serif;
+  color: #a99f93;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+.customer-order ul .list-item > section:nth-child(2) {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.customer-order ul .list-item > section:nth-child(2) h1,
+.customer-order ul .list-item > section:nth-child(2) h2 {
+  font-family: 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+.customer-order ul .list-item > section:nth-child(2) h1 {
+  font-size: 0.8rem;
+}
+.customer-order ul .list-item > section:nth-child(3) {
+  min-width: 250px;
+}
+.customer-order ul .list-item > section:nth-child(3) .action-slider {
+  height: 100%;
+  overflow: hidden;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  align-items: stretch;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.customer-order ul .list-item > section:nth-child(3) .actions {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.customer-order ul .list-item > section:nth-child(3) *[role="button"] {
+ /* font-family: 'Emirates-Plain', Helvetica, Arial, sans-serif; */
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #7a7a7a;
+  cursor: pointer;
+  border-radius: 100%;
+}
+.customer-order ul .list-item > section:nth-child(3) *[role="button"][data-status="green"] {
+  color: #1ca012;
+}
+.customer-order ul .list-item > section:nth-child(3) *[role="button"][data-status="amber"] {
+  color: #ffc700;
+}
+.customer-order ul .list-item > section:nth-child(3) *[role="button"][data-status="red"] {
+  color: #ab0000;
+}
+.customer-order ul .list-item > section:nth-child(3) *[role="button"]:hover {
+  transform: scale(1.25);
+  transition: all 250ms ease;
+}
+.customer-order ul .list-item div {
+  font-family: 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #6a6259;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.customer-order ul .list-item div[data-status]:before {
+  content: "\e053";
+  font-family: 'SAP-Iconography';
+  font-size: 0.8rem;
+  color: #1ca012;
+  margin-right: 5px;
+}
+.customer-order ul .list-item div[data-status]:before {
+  content: "\e053";
+  font-family: 'SAP-Iconography';
+  font-size: 0.8rem;
+  color: #ffc700;
+  margin-right: 5px;
+}
+.customer-order ul .list-item div[data-status]:before {
+  content: "\e053";
+  font-family: 'SAP-Iconography';
+  font-size: 0.8rem;
+  color: #ab0000;
+  margin-right: 5px;
+}
+.customer-order ul .list-item div h1,
+.customer-order ul .list-item div h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+}
+.customer-order ul .list-item div h1 {
+ /* font-family: 'Emirates-Plain', Helvetica, Arial, sans-serif; */
+  font-family: Helvetica, Arial, sans-serif;
+  color: #a99f93;
+}
+.customer-order ul .list-item div h2 {
+  color: #6a6259;
+}
+.customer-order ul .list-item .action-slider > div {
+  width: 0px;
+  height: 100%;
+  overflow: hidden;
+  opacity: 0;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-wrap: nowrap;
+}
+*[data-badge-value]:after {
+  content: attr(data-badge-value);
+  font-family: 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 23px;
+  vertical-align: middle;
+  max-width: 100%;
+  background: #b2aaa1;
+  color: #ffffff;
+  margin-left: 15px;
+  padding: 7px 10px;
+  border-radius: 100%;
+}
+.emirates .customer-order .order-number:before {
+  content: "#";
+}
+.emirates .customer-order .summary {
+  margin: 0 50px 40px 50px;
+  font-size: 16px;
+  display: grid;
+  grid-template-columns: 0.7fr 2.5fr;
+  grid-template-areas: "header main";
+  min-height: 67px;
+  margin-bottom: 10px;
+  background: linear-gradient(to bottom, #eeeae5 0%, #e6ddd2 100%);
+  border-radius: 10px;
+  box-shadow: 0px 1px 7px 2px rgba(0, 0, 0, 0.2);
+}
+.emirates .customer-order .summary section {
+  padding: 0 30px;
+  align-items: center;
+  justify-items: center;
+}
+.emirates .customer-order .summary section:nth-child(1) {
+  grid-area: header;
+  background-color: #fffcf9;
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.25fr;
+  grid-auto-flow: row;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.1);
+}
+.emirates .customer-order .summary section:nth-child(1):before {
+  content: "";
+  width: 10px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.emirates .customer-order .summary section:nth-child(1)[data-status="green"]:before {
+  background: #1ca012;
+}
+.emirates .customer-order .summary section:nth-child(1)[data-status="amber"]:before {
+  background: #ffc700;
+}
+.emirates .customer-order .summary section:nth-child(1)[data-status="red"]:before {
+  background: #ab0000;
+}
+.emirates .customer-order .summary section:nth-child(1) *[data-badge-value]:after {
+  content: attr(data-badge-value);
+  font-family: 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 23px;
+  vertical-align: middle;
+  max-width: 100%;
+  background: #b2aaa1;
+  color: #ffffff;
+  margin-left: 0;
+  padding: 7px 10px;
+  border-radius: 100%;
+}
+.emirates .customer-order .summary section:nth-child(1) h1 {
+/*  font-family: 'Emirates-Plain', Helvetica, Arial, sans-serif; */
+ font-family: Helvetica, Arial, sans-serif;
+  color: #6a6259;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.emirates .customer-order .summary section:nth-child(1) h2 {
+  color: #a99f93;
+  font-size: 1.15rem;
+  font-weight: 500;
+}
+.emirates .customer-order .summary section:nth-child(2) {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, calc(100% / 3));
+  grid-auto-flow: row;
+}
+.emirates .customer-order .summary section:nth-child(2) div {
+  flex-grow: 1;
+  min-width: max-content;
+  font-family: 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #6a6259;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.emirates .customer-order .summary section:nth-child(2) div[data-status]:before {
+  content: "\e053";
+  font-family: 'SAP-Iconography';
+  font-size: 0.8rem;
+  color: #1ca012;
+  margin-right: 5px;
+}
+.emirates .customer-order .summary section:nth-child(2) div[data-status]:before {
+  content: "\e053";
+  font-family: 'SAP-Iconography';
+  font-size: 0.8rem;
+  color: #ffc700;
+  margin-right: 5px;
+}
+.emirates .customer-order .summary section:nth-child(2) div[data-status]:before {
+  content: "\e053";
+  font-family: 'SAP-Iconography';
+  font-size: 0.8rem;
+  color: #ab0000;
+  margin-right: 5px;
+}
+.emirates .customer-order ul.timeline {
+  font-size: 16px;
+  height: 100%;
+  grid-column-gap: 5px;
+  margin: 0 50px;
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(5, 6.75fr);
+}
+.emirates .customer-order ul.timeline .day {
+  align-self: stretch;
+  background-color: rgba(106, 98, 89, 0.2);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.emirates .customer-order ul.timeline .day > h1 {
+  background-color: #e5e2da;
+  font-size: 1rem;
+  align-self: start;
+  margin: 0 auto;
+  padding: 5px 0;
+  font-family: 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+.emirates .customer-order ul.timeline .day.today {
+  background-color: rgba(169, 159, 147, 0);
+}
+.emirates .customer-order ul.timeline .day.today > h1 {
+  background-color: #6a6259;
+  color: white;
+  font-weight: bold;
+}
+.emirates .customer-order ul.timeline .day > h1 {
+  text-align: center;
+}
+.emirates .customer-order ul.timeline .day > [role="entries"] {
+  margin: 30px 0 0 0;
+  padding: 0;
+  list-style-type: none;
+  grid-template-columns: 1fr;
+  align-items: start;
+  justify-items: center;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-row-gap: 20px;
+}
+.emirates .customer-order ul.timeline .location {
+  background-color: #f4efe8;
+  width: max-content;
+  padding: 2.5px 20px !important;
+  border-radius: 20px;
+}
+.emirates .customer-order ul.timeline .location > img {
+  width: 21px;
+}
+.emirates .customer-order ul.timeline .location > h1 {
+  display: inline;
+  font-size: 13.5px;
+  text-transform: uppercase;
+  color: #6a6259;
+}
+.emirates .customer-order ul.timeline .past .card {
+  background-color: #e3e0da;
+}
+.emirates .customer-order ul.timeline .card {
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.2);
+  color: #627170;
+  padding: 10px;
+  overflow: hidden;
+  width: 80%;
+  display: grid;
+}
+.emirates .customer-order ul.timeline .card h1,
+.emirates .customer-order ul.timeline .card h2,
+.emirates .customer-order ul.timeline .card h3,
+.emirates .customer-order ul.timeline .card h4,
+.emirates .customer-order ul.timeline .card h5,
+.emirates .customer-order ul.timeline .card h6 {
+  margin: 0;
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.2), 0 0 5px 0 rgba(251, 139, 139, 0);
+  }
+  50% {
+    box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.2), 0 0 5px 3px #fb8b8b;
+  }
+  100% {
+    box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.2), 0 0 5px 3px rgba(251, 139, 139, 0);
+  }
+}
+.emirates .customer-order ul.timeline .card.deviation.deviation {
+  animation: pulse 2s infinite;
+}
+.emirates .customer-order ul.timeline .card > header {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 0.75fr 1fr 0.75fr;
+  grid-template-areas: "icon name start-time" "icon subtext end-time";
+  min-height: max-content;
+  position: relative;
+}
+.emirates .customer-order ul.timeline .card > header:before {
+  content: "";
+  width: 10px;
+  height: 80%;
+  position: absolute;
+  border-radius: 2.5px;
+  top: 10%;
+  left: -16.5px;
+}
+.emirates .customer-order ul.timeline .card > header[data-status="gray"]:before {
+  background: #7a7a7a;
+}
+.emirates .customer-order ul.timeline .card > header[data-status="green"]:before {
+  background: #1ca012;
+}
+.emirates .customer-order ul.timeline .card > header[data-status="amber"]:before {
+  background: #ffc700;
+}
+.emirates .customer-order ul.timeline .card > header[data-status="red"]:before {
+  background: #ab0000;
+}
+.emirates .customer-order ul.timeline .card > header .icon {
+  grid-area: icon;
+  align-self: center;
+  justify-self: center;
+  width: 40px;
+  height: 40px;
+}
+.emirates .customer-order ul.timeline .card > header .name {
+  grid-area: name;
+  font-size: 0.9rem;
+  justify-self: start;
+  align-self: end;
+}
+.emirates .customer-order ul.timeline .card > header .subtext {
+  grid-area: subtext;
+  font-size: 0.8rem;
+  justify-self: start;
+}
+.emirates .customer-order ul.timeline .card > header time.start,
+.emirates .customer-order ul.timeline .card > header time.end {
+  grid-area: start-time;
+  font-size: 0.9rem;
+  align-self: center;
+  justify-self: center;
+  font-weight: bold;
+}
+.emirates .customer-order ul.timeline .card > header time.end {
+  grid-area: end-time;
+  font-size: 0.9rem;
+  align-self: center;
+  justify-self: center;
+}
+.emirates .customer-order ul.timeline .card > header [role="navigation"] {
+  grid-area: "navigation";
+  font-size: 13.5px;
+  color: #627170;
+  width: 10px;
+  height: 10px;
+  align-self: center;
+  justify-self: center;
+}
+.emirates .customer-order ul.timeline .card main {
+  margin-top: 10px;
+}
+.emirates .customer-order ul.timeline .card ul.participants {
+  margin: 0;
+  padding: 10px;
+  list-style-type: none;
+  font-size: 0.8rem;
+  text-align: justify;
+  background-color: #fafafa;
+  border-radius: 10px;
+}
+.emirates .customer-order ul.timeline .card ul.participants > li {
+  display: inline;
+}
+.emirates .customer-order ul.timeline .card ul.participants > li:not(:last-child):after {
+  content: ",";
+}
+.emirates .customer-order ul.timeline .card section.partner {
+  display: grid;
+}
+.emirates .customer-order ul.timeline .card section.partner main {
+  display: grid;
+  grid-template-columns: max-content auto;
+}
+.emirates .customer-order ul.timeline .card section.partner main > .details {
+  display: flex;
+  flex-wrap: wrap;
+}
+.emirates .customer-order ul.timeline .card section.partner main > .details div {
+  flex-grow: 1;
+  min-width: 25%;
+  margin-bottom: 10px;
+}
+.emirates .customer-order ul.timeline .card section.partner main > .details h1 {
+  text-align: left;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+.emirates .customer-order ul.timeline .card section.partner main > .details h2 {
+  text-align: left;
+  font-size: 0.7rem;
+}
+.emirates .customer-order ul.timeline .card section.partner footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  grid-column-gap: 10px;
+  margin-top: 10px;
+}
+.emirates .customer-order ul.timeline .card section.partner footer a {
+  background-color: #fafafa;
+  color: #627170;
+  width: 100%;
+  text-align: center;
+  font-size: 0.8rem;
+  border-radius: 20px;
+}
+.emirates .customer-order ul.timeline .card nav {
+  justify-self: center;
+  cursor: pointer;
+}
+.emirates .customer-order ul.timeline .card nav:after {
+  font-family: 'SAP-Iconography';
+  vertical-align: bottom;
+  font-size: 10px;
+}
+.emirates .customer-order ul.timeline .card.expand nav:after {
+  content: "\e1e2";
+}
+.emirates .customer-order ul.timeline .card.collapse nav:after {
+  content: "\e1e1";
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.2), 0 0 5px 0 rgba(251, 139, 139, 0);
+  }
+  50% {
+    box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.2), 0 0 5px 3px #fb8b8b;
+  }
+  100% {
+    box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.2), 0 0 5px 3px rgba(251, 139, 139, 0);
+  }
+}
+.emirates .customer-order ul.timeline .card.alert.deviation {
+  animation: pulse 2s infinite;
+}
+.emirates .customer-order ul.timeline .partner-logo {
+  width: 60px;
+  height: 60px;
+}

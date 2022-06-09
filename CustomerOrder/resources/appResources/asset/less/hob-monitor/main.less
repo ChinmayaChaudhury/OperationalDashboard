@@ -1,0 +1,75 @@
+@import (reference)  "../general/main";
+@import (reference)  "../components/list";
+@import (reference)  "../components/status-indicator";
+
+// Arrived/Departed Icon
+.flight-number {
+    @font-size: 1.5rem;
+
+    font-size: @font-size;
+}
+
+[data-icon="arrived"] .flight-number:before {
+    @font-size: 1.5rem;
+    content: "\e031";
+    font-family: @iconography-font;
+    font-size: @font-size;
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+
+[data-icon="departed"] .flight-number:before {
+    @font-size: 1.5rem;
+    content: "\e02e";
+    font-family: @iconography-font;
+    font-size: @font-size;
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+
+// Arrow icon for route
+.flight-route {
+    .flexify(center, center, start, row);
+
+    & > *:not(:first-child):before {
+        content: "\e0d1";
+        font-family: @iconography-font;
+        font-size: 1rem;
+        margin: 0 5px;
+    }
+}
+
+.sapMTitle{
+    font-family: @emirates-plain-font;
+}
+
+.flight-list { 
+    padding: 0 40px;
+
+    ul {
+        .list-item {
+            .list-item();
+        }
+
+        .grid-item {
+            .grid-item();
+        }
+    }
+}
+
+.emirates {
+    .hub-monitor {
+        
+        // .list {
+        //     .List(0.7fr 2.4fr 0.8fr; 1fr 1fr; 8; 9);
+        // }
+
+        
+
+        .panel-item {
+            margin: 0 20px;
+
+            .panel-item();
+        }
+    }
+}

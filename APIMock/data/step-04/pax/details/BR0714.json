@@ -1,0 +1,87 @@
+{
+	"detail": [
+
+		{
+			"paxname": 11,
+			"status": "Landed",
+			"class": "Y",
+			"cltv": 10,
+			"currentlocation": "",
+			"timetogate": 40,
+			"baggagedetails": "",
+			"custorderno": "C420"
+		}, {
+			"paxname": 104,
+			"status": "Landed",
+			"class": "Y",
+			"cltv": 2,
+			"currentlocation": "",
+			"timetogate": 40,
+			"baggagedetails": "BR615487, , AKE48374EK",
+			"custorderno": "C0058"
+		}, {
+			"paxname": 193,
+			"status": "Landed",
+			"class": "Y",
+			"cltv": 3,
+			"currentlocation": "",
+			"timetogate": 30,
+			"baggagedetails": "BR615663, , AKE48374EK      \nBR615664, , AKE48374EK       \nBR615665, , AKE48374EK       \nBR615666, , AKE48374EK",
+			"custorderno": "C0101"
+		}, {
+			"paxname": 261,
+			"status": "Landed",
+			"class": "Y",
+			"cltv": 9,
+			"currentlocation": "",
+			"timetogate": 38,
+			"baggagedetails": "BR622632, , AKE48374EK   -    \nBR622633, , AKE48374EK   -    \nBR622634, , BLKBG \nBR622635, , AKE48374EK",
+			"custorderno": "C0144"
+		}, {
+			"paxname": 262,
+			"status": "Landed",
+			"class": "Y",
+			"cltv": 3,
+			"currentlocation": "",
+			"timetogate": 40,
+			"baggagedetails": "",
+			"custorderno": "C425"
+		}, {
+			"paxname": 370,
+			"status": "Landed",
+			"class": "Y",
+			"cltv": 6,
+			"currentlocation": "",
+			"timetogate": 40,
+			"baggagedetails": "BR611513, , AKE48374EK",
+			"custorderno": "C0208"
+		}, {
+			"paxname": 397,
+			"status": "Landed",
+			"class": "Y",
+			"cltv": 2,
+			"currentlocation": "",
+			"timetogate": 40,
+			"baggagedetails": "BR605503, , AKE48374EK   -   \nBR605504, , AKE48374EK",
+			"custorderno": "C0223"
+		}, {
+			"paxname": 475,
+			"status": "Landed",
+			"class": "Y",
+			"cltv": 7,
+			"currentlocation": "",
+			"timetogate": 40,
+			"baggagedetails": "",
+			"custorderno": "C430"
+		}, {
+			"paxname": 543,
+			"status": "Landed",
+			"class": "Y",
+			"cltv": 9,
+			"currentlocation": "",
+			"timetogate": 40,
+			"baggagedetails": "",
+			"custorderno": "C433"
+		}
+	]
+}

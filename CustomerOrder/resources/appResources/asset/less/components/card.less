@@ -1,0 +1,218 @@
+@import (reference)  "../general/main";
+@import (reference)  "status-indicator";
+
+.Card() {
+    // Root font size.
+    font-size: 1px;
+
+    background-color: white;
+
+    .roundify();
+    box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    overflow: hidden;
+    width: 80%;
+    display: grid;
+    margin: 0 auto;
+    
+    .Pulse();
+
+    header {
+        display: grid;
+        height: 100%;
+        grid-template-areas: 
+        "icon name start-time"
+        "icon subtext end-time"
+        ;
+        min-height: max-content;
+        position: relative;
+        color: @heading01;
+
+        &:before {
+            content: "";
+            width: 10px;
+            height: 80%;
+            position: absolute;
+            border-radius: 2.5px;
+            top: 10%;
+            left: -16.5px;
+        }
+
+        &[data-status="gray"]:before {
+            background: @icon-background;
+        }
+
+        &[data-status="green"]:before {
+            background: @green;
+        }
+
+        &[data-status="amber"]:before {
+            background: @amber;
+        }
+
+        &[data-status="red"]:before {
+            background: @red;
+        }
+
+        .icon {
+            grid-area: icon;  
+            align-self: center;          
+            justify-self: center;
+            width: 40px;
+            height: 40px;
+        }
+
+        .name {
+            grid-area: name;
+            font-size: 1.5rem;
+            justify-self: start;
+            align-self: end;
+            font-weight: bold;
+        }
+        
+        .subtext {
+            grid-area: subtext;
+            font-size: 1.25rem;
+            justify-self: start;
+            font-weight: bold;
+        }
+
+        time {
+            font-family: @emirates-plain-font;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        time.start {
+            grid-area: start-time;
+            align-self: center;
+            justify-self: center;
+        }
+        
+        time.end {
+            grid-area: end-time;
+            align-self: center;
+            justify-self: center;
+        }
+    }
+
+    main {
+        margin-top: 10px;
+    }
+
+    ul.participants {
+        // Style
+        margin: 0;
+        padding: 10px;
+        list-style-type: none;
+        font-size: 1.25rem;
+        text-align: justify;
+        background: @gradient;
+        border-radius: 10px;
+
+        & > li {
+            display: inline;
+            font-family: @emirates-plain-font;
+
+            &:not(:last-child):after{
+                content: ",";
+            }
+        }
+    }
+
+    section.partner {
+        display: grid;
+        color: @heading01;
+
+        main {
+            display: grid;
+            grid-template-columns: max-content auto;
+
+            & > .details {
+                display: flex;
+                flex-wrap: wrap;
+                
+                div { 
+                    flex-grow: 1;
+                    min-width: 25%;
+                    margin-bottom: 10px;
+                 }
+
+                h1 { 
+                    text-align: left;
+                    font-size: 1.25rem;
+                    text-transform: uppercase;
+                }
+
+                h2 { 
+                    text-align: left;
+                    font-size: 1.25rem;
+                }
+            }
+        }
+
+        footer {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-items: center;
+            grid-column-gap: 10px;
+            margin-top: 10px;
+
+            a {
+                background-color: @icon-background;
+                color: @icon-text;
+                width: 100%;
+                text-align: center;
+                font-size: 1.25rem;               
+                border-radius: 20px;
+                padding: 10px 0;
+                vertical-align: middle;        
+                font-family: @emirates-plain-font;                            
+
+                &.email:before {
+                    content: "\e011";
+                    font-family: @iconography-font;
+                    margin-right: 0.5rem;
+                    vertical-align: -0.2rem;
+                }
+
+                &.call:before {
+                    content: "\e105";
+                    font-family: @iconography-font;
+                    margin-right: 0.2rem;
+                    vertical-align: -0.2rem;                    
+                }
+            }
+        }
+    }
+    
+    nav {
+        justify-self: center;
+        cursor: pointer;
+
+        &:after {
+            font-family: "iconography";
+            color: @heading01;
+            vertical-align: bottom;
+            font-size: 10px;
+        }
+    }
+
+    .partner-logo {
+        // @size: @container * 0.25;
+
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+    }
+
+    &.expand nav:after { 
+        content: "\e01a";
+        font-family: @iconography-font;
+    }
+
+    &.collapse nav:after {
+        content: "\5b";
+        font-family: @iconography-font;
+    }
+}

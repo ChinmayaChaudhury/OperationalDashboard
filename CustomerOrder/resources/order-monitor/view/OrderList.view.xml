@@ -1,0 +1,79 @@
+<mvc:View controllerName="order-monitor.controller.OrderList" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:Custom="custom-control">
+	<Page title="{order-list>i18n>title}">
+		<customHeader>
+			<Bar>
+				<!--Branding-->
+				<contentLeft>
+					<html:img src="./appResources/asset/media/images/logo.png" alt="Logo"/>
+					<html:h1>Customer Order Monitor</html:h1>
+				</contentLeft>
+				<!--Dashboard-->
+				<contentMiddle>
+					<mvc:XMLView viewName="shared.view.OrderMonitorHeader"/>
+				</contentMiddle>
+				<!--Profile-->
+				<contentRight>
+					<html:section class="popover-container">
+						<html:img src="./appResources/asset/media/images/login-user-avatar.jpg" alt="" srcset="" role="button"></html:img>
+						<html:div class="popover">
+							<html:a href="" class="icon profile">Profile</html:a>
+							<html:a href="" class="icon settings">Settings</html:a>
+						</html:div>
+					</html:section>
+					<html:h1>John Bradman</html:h1>
+				</contentRight>
+			</Bar>
+		</customHeader>
+		<content>
+			<List class="customer-order" growing="true" growingThreshold="10" updateFinished="updateFinishedImpacted"
+				items="{ path: 'order-list>/d/results', filters : [ { path : 'IMPACTED', operator : 'EQ', value1 : true } ]}">
+				<headerToolbar>
+					<Toolbar>
+						<Title level="H3" text="Impacted"/>
+						<Custom:Badge id="coimpacted" score="2"/>
+						<ToolbarSpacer/>
+						<Button icon="sap-icon://add-favorite" press="handleButtonPress" text="Favorites"/>
+						<Button icon="sap-icon://settings" press="handleButtonPress" text="Tab Settings"/>
+					</Toolbar>
+				</headerToolbar>
+				<items>
+					<Custom:OrderBar number="{order-list>ORDER_CODE}" customer="{order-list>NAME}" score="{order-list>CVM}" press="goToDetails"
+						status="{order-list>STATUS}">
+						<Custom:items>
+							<Custom:InfoBox title="Start" value="{order-list>START_DATETIME}"></Custom:InfoBox>
+							<Custom:InfoBox title="PAX/Order" value="{order-list>NO_OF_PASSENGERS}"></Custom:InfoBox>
+							<Custom:InfoBox title="Flights" value="{order-list>IMPACTED_FLIGHTS}"></Custom:InfoBox>
+							<Custom:InfoBox title="Hotels" value="{order-list>IMPACTED_HOTELS}"></Custom:InfoBox>
+							<Custom:InfoBox title="Activities" value="{order-list>IMPACTED_ACTIVITIES}"></Custom:InfoBox>
+						</Custom:items>
+					</Custom:OrderBar>
+				</items>
+			</List>
+			<List class="customer-order" growing="true" growingThreshold="10" updateFinished="updateFinishedOthers"
+				items="{ path: 'order-list>/d/results', filters : [ { path : 'IMPACTED', operator : 'EQ', value1 : false } ]}">
+				<headerToolbar>
+					<Toolbar>
+						<Title level="H3" text="Others"/>
+						<Custom:Badge score="10"/>
+						<ToolbarSpacer/>
+						<Button icon="sap-icon://add-favorite" press="handleButtonPress" text="Favorites"/>
+						<Button icon="sap-icon://settings" press="handleButtonPress" text="Tab Settings"/>
+					</Toolbar>
+				</headerToolbar>
+				<items>
+					<Custom:OrderBar number="{order-list>ORDER_CODE}" customer="{order-list>NAME}" score="{order-list>CVM}" press="goToDetails"
+						status="{order-list>STATUS}">
+						<Custom:items>
+							<Custom:InfoBox title="Start" value="{order-list>START_DATETIME}"></Custom:InfoBox>
+							<Custom:InfoBox title="PAX/Order" value="{order-list>NO_OF_PASSENGERS}"></Custom:InfoBox>
+							<Custom:InfoBox title="Flights" value="{order-list>IMPACTED_FLIGHTS}"></Custom:InfoBox>
+							<Custom:InfoBox title="Hotels" value="{order-list>IMPACTED_HOTELS}"></Custom:InfoBox>
+							<Custom:InfoBox title="Activities" value="{order-list>IMPACTED_ACTIVITIES}"></Custom:InfoBox>
+						</Custom:items>
+					</Custom:OrderBar>
+				</items>
+			</List>
+		</content>
+	</Page>
+</mvc:View>

@@ -1,0 +1,155 @@
+<mvc:View controllerName="ULD.controller.BaggageTracker" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+	xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns="sap.m" xmlns:si="sap.suite.ui.commons.statusindicator" xmlns:custom="ULD.control">
+	<App>
+		<pages>
+			<Page title="{i18n>title}" enableScrolling="false">
+				<customHeader>
+					<Toolbar>
+						<!-- Logo -->
+						<html:section class="logo">
+							<Image src="img/logo.png"/>
+							<HBox>
+								<core:Icon src="sap-icon://circle-task-2" class="sapUiTinyMarginTop sapUiSmallMarginEnd" color="{= ${headerModel>/header/status_ind} === '01' ? '#fc0d1b' : '#64c056' }"/>
+								<ObjectIdentifier title="{headerModel>/header/flight}" text="{headerModel>/header/connection}-{headerModel>/header/dest}"/>
+							</HBox>
+						</html:section>
+						<!-- Flight info -->
+						<html:section>
+							<ObjectIdentifier title="TAIL#" text="{headerModel>/header/tail}"/>
+							<ObjectIdentifier title="TYPE" text="{headerModel>/header/type}"/>
+							<ObjectIdentifier title="STAND" text="{headerModel>/header/stand}"/>
+							<ObjectIdentifier title="SOBT" text="{headerModel>/header/sobt}"/>
+							<ObjectIdentifier title="EOBT" text="{headerModel>/header/eobt}"/>
+							<ObjectIdentifier title="TOBT" text="{headerModel>/header/tobt}"/>
+						</html:section>
+						<!-- Navigation buttons -->
+						<SegmentedButton selectionChange="onUldFilter" selectedKey="bags" class="navigation">
+							<items>
+								<SegmentedButtonItem text="PAX" key="pax"/>
+								<SegmentedButtonItem text="Bags" key="bags"/>
+							</items>
+						</SegmentedButton>
+						<!-- PAX/Bags Stats -->
+						<html:section class="stats">
+							<HBox>
+								<Image src="img/icons/PAX@2x.png" width="1rem" class="sapUiTinyMarginBottom"/>
+								<ObjectIdentifier title="{headerModel>/header/pax_join} jn / {headerModel>/header/pax_connect} cn" text="{headerModel>/header/pax_total}"/>
+							</HBox>
+							<ObjectIdentifier title="Pax @ Risk" text="{=${headerModel>/header/paxrisk} === '' ? 0 : ${headerModel>/header/paxrisk}}"/>
+							<ObjectIdentifier title="Misconnects" text="{=${headerModel>/header/paxmisc} === '' ? 0 : ${headerModel>/header/paxmisc}}"/>
+							<HBox>
+								<Image src="img/icons/Bag_icon@2x.png" width="1rem"/>
+								<ObjectIdentifier title="{headerModel>/header/bag_join} jn / {headerModel>/header/bag_connect} cn" text="{headerModel>/header/bag_total}"/>
+							</HBox>
+							<ObjectIdentifier title="Bags @ Risk" text="{=${headerModel>/header/bagsrisk} === '' ? 0 : ${headerModel>/header/bagsrisk}}"/>
+							<ObjectIdentifier title="Misconnects" text="{=${headerModel>/header/bagsmisc} === '' ? 0 : ${headerModel>/header/bagsmisc}}"/>
+						</html:section>
+					</Toolbar>
+				</customHeader>
+				<subHeader>
+					<Toolbar>
+						<SegmentedButton select="onUldFilter" selectedKey="AllBagsAtRisk" class="parallelogram">
+							<items>
+								<SegmentedButtonItem text="Bags @ Risk" key="AllBagsAtRisk" press="filterBagsAtRisk"/>
+								<SegmentedButtonItem text="Baggage" key="Baggage" press="filterAllBags"/>
+							</items>
+						</SegmentedButton>
+						<Button text="ULD" press="onULD" class="uldBtn sapUiSmallMarginBeginEnd"/>
+						<ObjectStatus text="Last Bag at Bay in {journey>/journey/0/lastbagatbay} mins" state="None"/>
+					</Toolbar>
+				</subHeader>
+				<content>
+					<BusyDialog id="BusyDialog" customIcon="img/preloader.png" text="Fasten your seatbelt, we're about to take off!" />
+					<html:div class="baggageSection">
+						<Table id="journeySummaryTbl" class="bagJourney sapUiSmallMarginTop" items="{journey>/journey}">
+							<columns>
+								<Column vAlign="Middle" hAlign="Center">
+									<Text text="Landed"/>
+								</Column>
+								<Column vAlign="Middle" hAlign="Center">
+									<Text text="@ Bay"/>
+								</Column>
+								<Column vAlign="Middle" hAlign="Center">
+									<Text text="Enroute"/>
+								</Column>
+								<Column vAlign="Middle" hAlign="Center">
+									<Text text="@ Transfer"/>
+								</Column>
+								<Column vAlign="Middle" hAlign="Center">
+									<Text text="BHS"/>
+								</Column>
+								<Column vAlign="Middle" hAlign="Center">
+									<Text text="Reconcile"/>
+								</Column>
+								<Column vAlign="Middle" hAlign="Center">
+									<Text text="@ MUP"/>
+								</Column>
+								<Column vAlign="Middle" hAlign="Center">
+									<Text text="Enroute"/>
+								</Column>
+								<Column vAlign="Middle" hAlign="Center">
+									<Text text="@ Bay"/>
+								</Column>
+								<Column vAlign="Middle" hAlign="Center">
+									<Text text="Loaded"/>
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<VBox class="journeyProgressBar">
+											<ProgressIndicator percentValue="{=100 * (${journey>currstep} - 1) / 9}" state="None"/>
+											<custom:ProgressStep class="statusButton" count="{=${journey>landed}}" total="{=${journey>totalconnect}}" />
+											<!-- Display absolute received value-->
+											<Text text="{=Math.abs(${journey>landed})} / {journey>totalconnect}"/>
+										</VBox>
+										<VBox>
+											<custom:ProgressStep class="statusButton" count="{=${journey>inb_bay}}" total="{=${journey>totalconnect}}" />
+											<Text text="{=Math.abs(${journey>inb_bay})} / {journey>totalconnect}"/>
+											<customData>
+												<core:CustomData value="{journey>inb_bay}"></core:CustomData>
+											</customData>
+										</VBox>
+										<VBox>
+											<custom:ProgressStep class="statusButton" count="{=${journey>inb_enroute}}" total="{=${journey>totalconnect}}" />
+											<Text text="{=Math.abs(${journey>inb_enroute})} / {journey>totalconnect}"/>
+										</VBox>
+										<VBox>
+											<custom:ProgressStep class="statusButton" count="{=${journey>inb_transfer}}" total="{=${journey>totalconnect}}" />
+											<Text text="{=Math.abs(${journey>inb_transfer})} / {journey>totalconnect}"/>
+										</VBox>
+										<VBox>
+											<custom:ProgressStep class="statusButton" count="{=${journey>bhs}}" total="{=${journey>totalbags}}" />
+											<Text text="{=Math.abs(${journey>bhs})} / {journey>totalbags}"/>
+										</VBox>
+										<VBox>
+											<custom:ProgressStep class="statusButton" count="{=${journey>out_reconcile}}" total="{=${journey>totalbags}}" />
+											<Text text="{=Math.abs(${journey>out_reconcile})} / {journey>totalbags}"/>
+										</VBox>
+										<VBox>
+											<custom:ProgressStep class="statusButton" count="{=${journey>out_mup}}" total="{=${journey>totalbags}}" />
+											<Text text="{=Math.abs(${journey>out_mup})} / {journey>totalbags}"/>
+										</VBox>
+										<VBox>
+											<custom:ProgressStep class="statusButton" count="{=${journey>out_enroute}}" total="{=${journey>totalbags}}" />
+											<Text text="{=Math.abs(${journey>out_enroute})} / {journey>totalbags}"/>
+										</VBox>
+										<VBox>
+											<custom:ProgressStep class="statusButton" count="{=${journey>out_bay}}" total="{=${journey>totalbags}}" />
+											<Text text="{=Math.abs(${journey>out_bay})} / {journey>totalbags}"/>
+										</VBox>
+										<VBox>
+											<custom:ProgressStep class="statusButton" count="{=${journey>out_loaded}}" total="{=${journey>totalbags}}" />
+											<Text text="{=Math.abs(${journey>out_loaded})} / {journey>totalbags}"/>
+										</VBox>
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+					</html:div>
+					<core:Fragment fragmentName="ULD.view.Fragments.allBagsAtRisk" type="XML" class="baggageDetails"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

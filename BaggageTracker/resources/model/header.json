@@ -1,0 +1,20 @@
+{
+    "flight": "BR001",
+    "origin": "DXB",
+    "dest": "jfk",
+    "tail": "A123",
+    "type": "A380",
+    "stand": "B12",
+    "sobt": "10:35",
+    "eobt": "10:39",
+    "tobt": "10:39",
+    "paxclass1": "150 j",
+    "paxclass2": "300 c",
+    "paxrisk": "5",
+    "paxmisc": "75",
+    "bagclass1": "550 j",
+    "bagclass2": "300 c",
+    "bagsrisk": "20",
+    "bagsmisc": "200"
+  
+}

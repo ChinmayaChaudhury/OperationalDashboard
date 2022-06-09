@@ -1,0 +1,62 @@
+{
+   "totaluld":"45",
+   "timetobay":"23 mins",
+   "timetoload":"60 mins",
+   "journey": [ 
+     {
+      "currstep": "4",
+      "totalbags":"200",
+      "lastbadatbay":"45 mins",
+      "in-progress": "200",
+      "pump": "-180",
+      "enroute": "-150",
+      "bay": "-167",
+      "loaded": "145"
+     }]
+   ,
+  "flightulds": [
+    {
+      "uldno": "2321",
+      "type": "392082",
+      "uldstatus": "enroute",
+      "timetobay": "30 mins",
+      "timetoload": "15 mins"
+    },
+    {
+      "uldno": "2911",
+      "type": "392022",
+      "uldstatus": "enroute",
+      "timetobay": "25 mins",
+      "timetoload": "35 mins"
+      
+    },
+    {
+      "uldno": "2811",
+      "type": "392022",
+      "uldstatus": "enroute",
+      "timetobay": "40 mins",
+      "timetoload": "25 mins"
+    },
+    {
+      "uldno": "2311",
+      "type": "392022",
+      "uldstatus": "enroute",
+      "timetobay": "10 mins",
+      "timetoload": "15 mins"
+    },
+    {
+      "uldno": "2311",
+      "type": "392022",
+      "uldstatus": "enroute",
+      "timetobay": "76 mins",
+      "timetoload": "78 mins"
+    },
+    {
+      "uldno": "2111",
+      "type": "392022",
+      "uldstatus": "enroute",
+      "timetobay": "40 mins",
+      "timetoload": "25 mins"
+    }
+  ]
+}

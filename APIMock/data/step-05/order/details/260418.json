@@ -1,0 +1,168 @@
+{
+	"details": [{
+		"day": "February 19, 2018",
+		"events": [ {
+			"ORDER_CODE": "260418",
+			"MAIN_HEADING": "BR0002",
+			"SUB_HEADING": "LHR-DXB",
+			"ORIGIN_DESTINATION_REFNUMBER": 1,
+			"START_DATETIME": "13:45",
+			"END_DATETIME": "20:40",
+			"EVENT_STATUS": "red",
+			"PROVIDER_LOGO": "./appResources/asset/media/partners/ek.png",
+			"providerDetails": [
+				{
+					"title": "Check-In",
+					"value": "Done"
+				},
+				{
+					"title": "Immigration",
+					"value": "-"
+				},
+				{
+					"title": "Lounge",
+					"value": "-"
+				},
+				{
+					"title": "Boarding",
+					"value": "-"
+				}
+			],
+			"TYPE": "FLIGHT"
+		}]
+	}, {
+		"day": "February 20, 2018",
+		"events": [{
+			"ORDER_CODE": "260418",
+			"MAIN_HEADING": "BR0322",
+			"SUB_HEADING": "DXB-ICN",
+			"ORIGIN_DESTINATION_REFNUMBER": 1,
+			"START_DATETIME": "23:30",
+			"END_DATETIME": "07:50",
+			"EVENT_STATUS": "red",
+			"providerDetails": [],
+			"TYPE": "FLIGHT"
+		}]
+	}, {
+		"day": "February 20, 2018",
+		"events": [{
+			"ORDER_CODE": "260418",
+			"MAIN_HEADING": "Car Hire",
+			"PROVIDER_NAME": "CarTrawler",
+			"PROVIDER_CONTACT": "Anil Kumar",
+			"PROVIDER_NUMBER": "+9715234974389",
+			"PROVIDER_ADDRESS": "Classon House, Dundrum Business Park, Dundrum, Dublin 14, Ireland",
+			"EMAIL": "anil@hertz.com",
+			"SUB_HEADING": "To Dubai",
+			"START_DATETIME": "10:20",
+			"END_DATETIME": "",
+			"EVENT_STATUS": "gray",
+			"PROVIDER_LOGO": "./appResources/asset/media/partners/cartrawler.png",
+			"providerDetails": [
+				{
+					"title": "Check-In",
+					"value": "Done"
+				},
+				{
+					"title": "Immigration",
+					"value": "Done"
+				},
+				{
+					"title": "Lounge",
+					"value": "Done"
+				},
+				{
+					"title": "Boarding",
+					"value": "Done"
+				}
+			],
+			"TYPE": "TAXI"
+		}, {
+			"ORDER_CODE": "260418",
+			"MAIN_HEADING": "Deluxe Twin Room",
+			"PROVIDER_NAME": "JW Marriott",
+			"BPNUMBER": 283923,
+			"ROOM_STAY_REFNUMBER": "0",
+			"RATEPLAN": "DEFAULT_RATE_PLAN",
+			"START_DATETIME": "13:30",
+			"END_DATETIME": "",
+			"EVENT_STATUS": "gray",
+			"PROVIDER_LOGO": "./appResources/asset/media/partners/jw.png",
+			"PROVIDER_ADDRESS": "Abu Baker Al Siddique Rd, Deira, near Hamarain Shopping Center, PO Box 16590, Dubai, United Arab Emirates",
+			"providerDetails": [
+				{
+					"title": "Check-In",
+					"value": "Done"
+				},
+				{
+					"title": "Immigration",
+					"value": "Done"
+				},
+				{
+					"title": "Lounge",
+					"value": "Done"
+				},
+				{
+					"title": "Boarding",
+					"value": "Done"
+				}
+			],
+			"TYPE": "HOTEL"
+		}, {
+			"ORDER_CODE": "260418",
+			"MAIN_HEADING": "Rugby Sevens",
+			"PROVIDER_NAME": "Dubai Rugby Sevens",
+			"BPNUMBER": 283923,
+			"START_DATETIME": "17:30",
+			"REFNUMBER": 1,
+			"EVENT_STATUS": "gray",
+			"PROVIDER_LOGO": "./appResources/asset/media/partners/rugby.png",
+			"PROVIDER_ADDRESS": "The Sevens Stadium - Al Ain Road, E66, Dubai, United Arab Emirates",
+			"providerDetails": [
+				{
+					"title": "Check-In",
+					"value": "Done"
+				},
+				{
+					"title": "Immigration",
+					"value": "Done"
+				},
+				{
+					"title": "Lounge",
+					"value": "Done"
+				},
+				{
+					"title": "Boarding",
+					"value": "Done"
+				}
+			],
+			"TYPE": "ACTIVITY"
+		}, {
+			"ORDER_CODE": "260418",
+			"MAIN_HEADING": "Signed Rugby Ball",
+			"SUB_HEADING": "Jean de Villiers",
+			"START_DATETIME": "17:30",
+			"BPNUMBER": 283923,
+			"REFNUMBER": 2,
+			"EVENT_STATUS": "gray",
+			"providerDetails": [],
+			"TYPE": "ACTIVITY"
+		}]
+	}, {
+		"day": "February 21, 2018",
+		"events": [{
+			"ORDER_CODE": "260418",
+			"MAIN_HEADING": "BR0404",
+			"SUB_HEADING": "ICN-SIN",
+			"ORIGIN_DESTINATION_REFNUMBER": 3,
+			"START_DATETIME": "09:25",
+			"END_DATETIME": "20:25",
+			"EVENT_STATUS": "gray",
+			"providerDetails": [],
+			"TYPE": "FLIGHT"
+		}]
+	}, {
+		"day": "February 22, 2018",
+		"events": []
+	}]
+}

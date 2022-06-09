@@ -1,0 +1,4611 @@
+{
+    "flights": [
+        {
+            "number": "BR0322",
+            "origin": "DXB",
+            "destination": "ICN",
+            "status": "complete",
+            "critical": false,
+            "fltnum_1": "0002",
+            "fltnum_2": "0322",
+            "arr_dt": "2018-02-19T01:20:00.000Z",
+            "dep_dt": "2018-02-19T03:25:00.000Z",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "D01",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "A8",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WFR",
+                    "status": "done"
+                },
+                {
+                    "title": "SIBT",
+                    "value": "01:20",
+                    "status": "done"
+                },
+                {
+                    "title": "EIBT",
+                    "value": "00:38",
+                    "status": "done"
+                },
+                {
+                    "title": "AIBT",
+                    "value": "00:36",
+                    "status": "done"
+                }
+            ],
+            "activities": [
+                {
+                    "name": "Aircraft",
+                    "abbreviation": "AC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "In-blocks",
+                            "value": "00:38",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Passenger",
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Loading, Bridges Docking",
+                            "value": "00:38-00:40",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Cabin door open",
+                            "value": "00:40-00:41",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Pax disembarkation",
+                            "value": "00:41-00:56",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Cleaning",
+                    "abbreviation": "CL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Cabin Clean/Dress",
+                            "value": "00:56-01:41",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Technical Services",
+                    "abbreviation": "TS",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Wastage Services",
+                            "value": "00:40-01:05",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "UnLoading",
+                    "abbreviation": "UL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Belly door open",
+                            "value": "00:38-00:39",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Ramp Equip connected",
+                            "value": "00:39-00:41",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Unload (Sub Tasks)",
+                            "value": "00:41-01:21",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Belly Door close",
+                            "value": "01:21-01:22",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Catering",
+                    "abbreviation": "CT",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Catering off load",
+                            "value": "00:56-01:11",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "EA",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "End of Arrival",
+                            "value": "01:42",
+                            "status": "complete"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": "BR0141",
+            "origin": "DXB",
+            "destination": "MAD",
+            "status": "complete",
+            "critical": false,
+            "fltnum_1": "0435",
+            "fltnum_2": "0141",
+            "arr_dt": "2018-02-19T01:20:00.000Z",
+            "dep_dt": "2018-02-19T03:25:00.000Z",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "D01",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "A8",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WFR",
+                    "status": "done"
+                },
+                {
+                    "title": "SOBT",
+                    "value": "03:25",
+                    "status": "done"
+                },
+                {
+                    "title": "EOBT",
+                    "value": "03:30",
+                    "status": "done"
+                },
+                {
+                    "title": "AOBT",
+                    "value": "03:25",
+                    "status": "done"
+                }
+            ],
+            "activities": [
+                {
+                    "name": "UnLoading",
+                    "abbreviation": "UL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Unload (Sub Tasks)",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Belly Door close",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Catering",
+                    "abbreviation": "CT",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Catering off load",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "EA",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "End of Arrival",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "RD",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Dispatcher at bay",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Aircraft",
+                    "abbreviation": "AC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "In-blocks",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Passenger",
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Loading, Bridges Docking",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Cabin door open",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Cabin Clean-Readiness",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Gate Open",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Pax System Boarding",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Catering",
+                    "abbreviation": "CT",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Catering -On Load",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Crew",
+                    "abbreviation": "CR",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Crew On board",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Security",
+                    "abbreviation": "SC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Cabin Security Check",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Pax Aircraft Boarding",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Cabin door closed",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "TS",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Wastage Services -Readiness",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "LD",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Belly door open",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Ramp Equip connected",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "TS",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Water Services",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Fuelling",
+                    "abbreviation": "FL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Fuelling",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Loading",
+                    "abbreviation": "LD",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "LIRF Received",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Last Baggage ULD at bay",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Last Bulk Baggage at the bay",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Last Cargo ULD at bay",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Loading (Sub tasks)",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Belly Door close",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Load Sheet Acceptance",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "PB",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Pushback Activity",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Off-block",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": "BR0363",
+            "origin": "CAN",
+            "destination": "DXB",
+            "status": "complete",
+            "critical": false,
+            "fltnum_1": "0363",
+            "fltnum_2": "0751",
+            "arr_dt": "2018-02-19T01:15:00.000Z",
+            "dep_dt": "2018-02-19T03:25:00.000Z",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "A09",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "A21",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WFK",
+                    "status": "done"
+                },
+                {
+                    "title": "SIBT",
+                    "value": "01:15",
+                    "status": "done"
+                },
+                {
+                    "title": "EIBT",
+                    "value": "00:45",
+                    "status": "done"
+                },
+                {
+                    "title": "AIBT",
+                    "value": "00:43",
+                    "status": "done"
+                }
+            ],
+            "activities": [
+                {
+                    "name": "Aircraft",
+                    "abbreviation": "AC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "In-blocks",
+                            "value": "00:45",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Passenger",
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Loading, Bridges Docking",
+                            "value": "00:45-00:47",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Cabin door open",
+                            "value": "00:47-00:48",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Pax disembarkation",
+                            "value": "00:48-01:03",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Cleaning",
+                    "abbreviation": "CL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Cabin Clean/Dress",
+                            "value": "01:03-01:48",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Passenger",
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Cabin door closed",
+                            "value": "01:48-01:49",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Technical Services",
+                    "abbreviation": "TS",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Wastage Services",
+                            "value": "00:47-01:12",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "UnLoading",
+                    "abbreviation": "UL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Belly door open",
+                            "value": "00:45-00:46",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Ramp Equip connected",
+                            "value": "00:46-00:48",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Unload (Sub Tasks)",
+                            "value": "00:48-01:28",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Belly Door close",
+                            "value": "01:28-01:29",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Catering",
+                    "abbreviation": "CT",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Catering off load",
+                            "value": "01:03-01:18",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "EA",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "End of Arrival",
+                            "value": "01:49",
+                            "status": "complete"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": "BR0751",
+            "origin": "DXB",
+            "destination": "CMN",
+            "status": "complete",
+            "critical": false,
+            "fltnum_1": "0363",
+            "fltnum_2": "0751",
+            "arr_dt": "2018-02-19T01:15:00.000Z",
+            "dep_dt": "2018-02-19T03:25:00.000Z",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "A09",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "A21",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WFK",
+                    "status": "done"
+                },
+                {
+                    "title": "SOBT",
+                    "value": "03:25",
+                    "status": "done"
+                },
+                {
+                    "title": "EOBT",
+                    "value": "03:35",
+                    "status": "done"
+                },
+                {
+                    "title": "AOBT",
+                    "value": "03:31",
+                    "status": "done"
+                }
+            ],
+            "activities": [
+                {
+                    "name": "UnLoading",
+                    "abbreviation": "UL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Unload (Sub Tasks)",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Belly Door close",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Catering",
+                    "abbreviation": "CT",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Catering off load",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "EA",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "End of Arrival",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "RD",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Dispatcher at bay",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Aircraft",
+                    "abbreviation": "AC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "In-blocks",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Passenger",
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Loading, Bridges Docking",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Cabin door open",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Cabin Clean-Readiness",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Gate Open",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Pax System Boarding",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Catering",
+                    "abbreviation": "CT",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Catering -On Load",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Crew",
+                    "abbreviation": "CR",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Crew On board",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Security",
+                    "abbreviation": "SC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Cabin Security Check",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Pax Aircraft Boarding",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Cabin door closed",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "TS",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Wastage Services -Readiness",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "LD",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Belly door open",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Ramp Equip connected",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "TS",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Water Services",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Fuelling",
+                    "abbreviation": "FL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Fuelling",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Loading",
+                    "abbreviation": "LD",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "LIRF Received",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Last Baggage ULD at bay",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Last Bulk Baggage at the bay",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Last Cargo ULD at bay",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Loading (Sub tasks)",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Belly Door close",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Load Sheet Acceptance",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "PB",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Pushback Activity",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Off-block",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": "BR0367",
+            "origin": "TPE",
+            "destination": "DXB",
+            "status": "complete",
+            "critical": false,
+            "fltnum_1": "0367",
+            "fltnum_2": "0185",
+            "arr_dt": "2018-02-19T01:45:00.000Z",
+            "dep_dt": "2018-02-19T03:50:00.000Z",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "F20",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "B17",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WFU",
+                    "status": "done"
+                },
+                {
+                    "title": "SIBT",
+                    "value": "01:45",
+                    "status": "done"
+                },
+                {
+                    "title": "EIBT",
+                    "value": "01:26",
+                    "status": "done"
+                },
+                {
+                    "title": "AIBT",
+                    "value": "01:24",
+                    "status": "done"
+                }
+            ],
+            "activities": [
+                {
+                    "name": "Aircraft",
+                    "abbreviation": "AC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "In-blocks",
+                            "value": "01:26",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Passenger",
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Loading, Bridges Docking",
+                            "value": "01:26-01:28",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Cabin door open",
+                            "value": "01:28-01:29",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Pax disembarkation",
+                            "value": "01:29-01:44",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Cleaning",
+                    "abbreviation": "CL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Cabin Clean/Dress",
+                            "value": "01:44-02:29",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Passenger",
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Cabin door closed",
+                            "value": "02:29-02:30",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Technical Services",
+                    "abbreviation": "TS",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Wastage Services",
+                            "value": "01:28-01:53",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "UnLoading",
+                    "abbreviation": "UL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Belly door open",
+                            "value": "01:26-01:27",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Ramp Equip connected",
+                            "value": "01:27-01:29",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Unload (Sub Tasks)",
+                            "value": "01:29-02:09",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Belly Door close",
+                            "value": "02:09-02:10",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Catering",
+                    "abbreviation": "CT",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Catering off load",
+                            "value": "01:44-01:59",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "EA",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "End of Arrival",
+                            "value": "02:30",
+                            "status": "complete"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": "BR0185",
+            "origin": "DXB",
+            "destination": "BCN",
+            "status": "complete",
+            "critical": false,
+            "fltnum_1": "0367",
+            "fltnum_2": "0185",
+            "arr_dt": "2018-02-19T01:45:00.000Z",
+            "dep_dt": "2018-02-19T03:50:00.000Z",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "F20",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "B17",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WFU",
+                    "status": "done"
+                },
+                {
+                    "title": "SOBT",
+                    "value": "03:50",
+                    "status": "done"
+                },
+                {
+                    "title": "EOBT",
+                    "value": "04:00",
+                    "status": "done"
+                },
+                {
+                    "title": "AOBT",
+                    "value": "04:03",
+                    "status": "done"
+                }
+            ],
+            "activities": [
+                {
+                    "name": "UnLoading",
+                    "abbreviation": "UL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Unload (Sub Tasks)",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Belly Door close",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Catering",
+                    "abbreviation": "CT",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Catering off load",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "EA",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "End of Arrival",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "RD",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Dispatcher at bay",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Aircraft",
+                    "abbreviation": "AC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "In-blocks",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Passenger",
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Loading, Bridges Docking",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Cabin door open",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Cabin Clean-Readiness",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Gate Open",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Pax System Boarding",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Catering",
+                    "abbreviation": "CT",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Catering -On Load",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Crew",
+                    "abbreviation": "CR",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Crew On board",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Security",
+                    "abbreviation": "SC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Cabin Security Check",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Pax Aircraft Boarding",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Cabin door closed",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "TS",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Wastage Services -Readiness",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "LD",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Belly door open",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Ramp Equip connected",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "TS",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Water Services",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Fuelling",
+                    "abbreviation": "FL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Fuelling",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Loading",
+                    "abbreviation": "LD",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "LIRF Received",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Last Baggage ULD at bay",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Last Bulk Baggage at the bay",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Last Cargo ULD at bay",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Loading (Sub tasks)",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Belly Door close",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Load Sheet Acceptance",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "PB",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Pushback Activity",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Off-block",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": "BR0501",
+            "origin": "BOM",
+            "destination": "DXB",
+            "status": "complete",
+            "critical": false,
+            "fltnum_1": "0501",
+            "fltnum_2": "0147",
+            "arr_dt": "2018-02-19T02:05:00.000Z",
+            "dep_dt": "2018-02-19T04:10:00.000Z",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "A08",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "A22",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WLT",
+                    "status": "done"
+                },
+                {
+                    "title": "SIBT",
+                    "value": "02:05",
+                    "status": "done"
+                },
+                {
+                    "title": "EIBT",
+                    "value": "02:09",
+                    "status": "done"
+                },
+                {
+                    "title": "AIBT",
+                    "value": "02:08",
+                    "status": "done"
+                }
+            ],
+            "activities": [
+                {
+                    "name": "Aircraft",
+                    "abbreviation": "AC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "In-blocks",
+                            "value": "02:20",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Passenger",
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Loading, Bridges Docking",
+                            "value": "02:20-02:22",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Cabin door open",
+                            "value": "02:22-02:23",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Pax disembarkation",
+                            "value": "02:23-02:38",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Cleaning",
+                    "abbreviation": "CL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Cabin Clean/Dress",
+                            "value": "02:38-03:23",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Technical Services",
+                    "abbreviation": "TS",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Wastage Services",
+                            "value": "02:50-03:15",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "UnLoading",
+                    "abbreviation": "UL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Belly door open",
+                            "value": "02:20-02:21",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Ramp Equip connected",
+                            "value": "02:21-02:23",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Unload (Sub Tasks)",
+                            "value": "02:23-03:03",
+                            "status": "complete"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": "BR0147",
+            "origin": "DXB",
+            "destination": "AMS",
+            "status": "complete",
+            "critical": false,
+            "fltnum_1": "0501",
+            "fltnum_2": "0147",
+            "arr_dt": "2018-02-19T02:05:00.000Z",
+            "dep_dt": "2018-02-19T04:10:00.000Z",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "A08",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "A22",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WLT",
+                    "status": "done"
+                },
+                {
+                    "title": "SOBT",
+                    "value": "04:10",
+                    "status": "done"
+                },
+                {
+                    "title": "EOBT",
+                    "value": "04:15",
+                    "status": "done"
+                },
+                {
+                    "title": "AOBT",
+                    "value": "04:10",
+                    "status": "done"
+                }
+            ],
+            "activities": [
+                {
+                    "name": "Passenger",
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Gate Open",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Pax System Boarding",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Pax Aircraft Boarding",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Cabin door closed",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Security",
+                    "abbreviation": "SC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Cabin Security Check",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Catering",
+                    "abbreviation": "CT",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Catering",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Crew",
+                    "abbreviation": "CR",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Crew On board",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Technical Services",
+                    "abbreviation": "TS",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Water Services",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Pushback Activity",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Loading",
+                    "abbreviation": "LD",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "LIRF Received",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Last Baggage ULD at bay",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Last Bulk Baggage at the bay",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Last Cargo ULD at bay",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Loading (Sub tasks)",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Belly Door close",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Load Sheet Acceptance",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Fuelling",
+                    "abbreviation": "FL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Fuelling",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Aircraft",
+                    "abbreviation": "AC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Offblock",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": "BR0419",
+            "origin": "BKK",
+            "destination": "DXB",
+            "status": "complete",
+            "critical": false,
+            "fltnum_1": "0419",
+            "fltnum_2": "0201",
+            "arr_dt": "2018-02-19T02:45:00.000Z",
+            "dep_dt": "2018-02-19T04:30:00.000Z",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "F22",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "B21",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WLI",
+                    "status": "done"
+                },
+                {
+                    "title": "SIBT",
+                    "value": "02:45",
+                    "status": "done"
+                },
+                {
+                    "title": "EIBT",
+                    "value": "02:45",
+                    "status": "done"
+                },
+                {
+                    "title": "AIBT",
+                    "value": "02:44",
+                    "status": "done"
+                }
+            ],
+            "activities": [
+                {
+                    "name": "Aircraft",
+                    "abbreviation": "AC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "In-blocks",
+                            "value": "02:45",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Passenger",
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Loading, Bridges Docking",
+                            "value": "02:45-02:47",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Cabin door open",
+                            "value": "02:47-02:48",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Pax disembarkation",
+                            "value": "02:48-03:03",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Cleaning",
+                    "abbreviation": "CL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Cabin Clean/Dress",
+                            "value": "03:03-03:48",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Passenger",
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Cabin door closed",
+                            "value": "03:48-03:49",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Technical Services",
+                    "abbreviation": "TS",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Wastage Services",
+                            "value": "02:47-03:12",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "UnLoading",
+                    "abbreviation": "UL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Belly door open",
+                            "value": "02:45-02:46",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Ramp Equip connected",
+                            "value": "02:46-02:48",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Unload (Sub Tasks)",
+                            "value": "02:48-03:28",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Belly Door close",
+                            "value": "03:28-03:29",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Catering",
+                    "abbreviation": "CT",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Catering off load",
+                            "value": "03:03-03:18",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "EA",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "End of Arrival",
+                            "value": "03:49",
+                            "status": "complete"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": "BR0201",
+            "origin": "DXB",
+            "destination": "JFK",
+            "status": "complete",
+            "critical": false,
+            "fltnum_1": "0419",
+            "fltnum_2": "0201",
+            "arr_dt": "2018-02-19T02:45:00.000Z",
+            "dep_dt": "2018-02-19T04:30:00.000Z",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "F22",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "B21",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WLI",
+                    "status": "done"
+                },
+                {
+                    "title": "SOBT",
+                    "value": "04:30",
+                    "status": "done"
+                },
+                {
+                    "title": "EOBT",
+                    "value": "04:50",
+                    "status": "done"
+                },
+                {
+                    "title": "AOBT",
+                    "value": "04:52",
+                    "status": "done"
+                }
+            ],
+            "activities": [
+                {
+                    "name": "UnLoading",
+                    "abbreviation": "UL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Unload (Sub Tasks)",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Belly Door close",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Catering",
+                    "abbreviation": "CT",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Catering off load",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "EA",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "End of Arrival",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "RD",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Dispatcher at bay",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Aircraft",
+                    "abbreviation": "AC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "In-blocks",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Passenger",
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Loading, Bridges Docking",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Cabin door open",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Cabin Clean-Readiness",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Gate Open",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Pax System Boarding",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Catering",
+                    "abbreviation": "CT",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Catering -On Load",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Crew",
+                    "abbreviation": "CR",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Crew On board",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Security",
+                    "abbreviation": "SC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Cabin Security Check",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Pax Aircraft Boarding",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Cabin door closed",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "TS",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Wastage Services -Readiness",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "LD",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Belly door open",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Ramp Equip connected",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "TS",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Water Services",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Fuelling",
+                    "abbreviation": "FL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Fuelling",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Loading",
+                    "abbreviation": "LD",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "LIRF Received",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Last Baggage ULD at bay",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Last Bulk Baggage at the bay",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Last Cargo ULD at bay",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Loading (Sub tasks)",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Belly Door close",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Load Sheet Acceptance",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "PB",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Pushback Activity",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Off-block",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": "BR0052",
+            "origin": "MUC",
+            "destination": "DXB",
+            "status": "complete",
+            "critical": false,
+            "fltnum_1": "0052",
+            "fltnum_2": "0045",
+            "arr_dt": "2018-02-19T02:40:00.000Z",
+            "dep_dt": "2018-02-19T04:40:00.000Z",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "D06",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "A13",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WNW",
+                    "status": "done"
+                },
+                {
+                    "title": "SIBT",
+                    "value": "02:40",
+                    "status": "done"
+                },
+                {
+                    "title": "EIBT",
+                    "value": "02:53",
+                    "status": "done"
+                },
+                {
+                    "title": "AIBT",
+                    "value": "02:52",
+                    "status": "done"
+                }
+            ],
+            "activities": [
+                {
+                    "name": "Aircraft",
+                    "abbreviation": "AC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "In-blocks",
+                            "value": "02:50",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Passenger",
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Loading, Bridges Docking",
+                            "value": "02:50-02:52",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Cabin door open",
+                            "value": "02:52-02:53",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Pax disembarkation",
+                            "value": "02:53-03:08",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Cleaning",
+                    "abbreviation": "CL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Cabin Clean/Dress",
+                            "value": "03:08-03:53",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Technical Services",
+                    "abbreviation": "TS",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Wastage Services",
+                            "value": "03:20-03:45",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "UnLoading",
+                    "abbreviation": "UL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Belly door open",
+                            "value": "02:50-02:51",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Ramp Equip connected",
+                            "value": "02:51-02:53",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Unload (Sub Tasks)",
+                            "value": "02:53-03:33",
+                            "status": "complete"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": "BR0045",
+            "origin": "DXB",
+            "destination": "FRA",
+            "status": "complete",
+            "critical": false,
+            "fltnum_1": "0052",
+            "fltnum_2": "0045",
+            "arr_dt": "2018-02-19T02:40:00.000Z",
+            "dep_dt": "2018-02-19T04:40:00.000Z",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "D06",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "A13",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WNW",
+                    "status": "done"
+                },
+                {
+                    "title": "SOBT",
+                    "value": "04:40",
+                    "status": "done"
+                },
+                {
+                    "title": "EOBT",
+                    "value": "04:45",
+                    "status": "done"
+                },
+                {
+                    "title": "AOBT",
+                    "value": "04:51",
+                    "status": "done"
+                }
+            ],
+            "activities": [
+                {
+                    "name": "Passenger",
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Gate Open",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Pax System Boarding",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Pax Aircraft Boarding",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Cabin door closed",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Security",
+                    "abbreviation": "SC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Cabin Security Check",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Catering",
+                    "abbreviation": "CT",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Catering",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Crew",
+                    "abbreviation": "CR",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Crew On board",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Technical Services",
+                    "abbreviation": "TS",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Water Services",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Pushback Activity",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Loading",
+                    "abbreviation": "LD",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "LIRF Received",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Last Baggage ULD at bay",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Last Bulk Baggage at the bay",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Last Cargo ULD at bay",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Loading (Sub tasks)",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Belly Door close",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Load Sheet Acceptance",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Fuelling",
+                    "abbreviation": "FL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Fuelling",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Aircraft",
+                    "abbreviation": "AC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Offblock",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": "BR0204",
+            "origin": "JFK",
+            "destination": "DXB",
+            "status": "complete",
+            "critical": false,
+            "fltnum_1": "0204",
+            "fltnum_2": "0241",
+            "arr_dt": "2018-02-19T04:10:00.000Z",
+            "dep_dt": "2018-02-19T05:55:00.000Z",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "F19",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "B15",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WNN",
+                    "status": "done"
+                },
+                {
+                    "title": "SIBT",
+                    "value": "04:10",
+                    "status": "done"
+                },
+                {
+                    "title": "EIBT",
+                    "value": "04:23",
+                    "status": "done"
+                },
+                {
+                    "title": "AIBT",
+                    "value": "03:45",
+                    "status": "done"
+                }
+            ],
+            "activities": [
+                {
+                    "name": "Aircraft",
+                    "abbreviation": "AC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "In-blocks",
+                            "value": "04:23",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Passenger",
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Loading, Bridges Docking",
+                            "value": "04:23-04:25",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Cabin door open",
+                            "value": "04:25-04:26",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Pax disembarkation",
+                            "value": "04:26-04:41",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Cleaning",
+                    "abbreviation": "CL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Cabin Clean/Dress",
+                            "value": "04:41-05:26",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "CD",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Cabin door closed",
+                            "value": "05:26-05:27",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Technical Services",
+                    "abbreviation": "TS",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Wastage Services",
+                            "value": "04:25-04:50",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "UnLoading",
+                    "abbreviation": "UL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Belly door open",
+                            "value": "04:23-04:24",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Ramp Equip connected",
+                            "value": "04:24-04:26",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Unload (Sub Tasks)",
+                            "value": "04:26-05:06",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Belly Door close",
+                            "value": "05:06-05:07",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "CT",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Catering off load",
+                            "value": "04:41-04:56",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "TW",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Pushback Tow - Readiness",
+                            "value": "05:17",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Pushback Tow Engagement",
+                            "value": "05:27-05:37",
+                            "status": "complete"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": "BR0241",
+            "origin": "DXB",
+            "destination": "YYZ",
+            "status": "complete",
+            "critical": false,
+            "fltnum_1": "0204",
+            "fltnum_2": "0241",
+            "arr_dt": "2018-02-19T04:10:00.000Z",
+            "dep_dt": "2018-02-19T05:55:00.000Z",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "F19",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "B15",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WNN",
+                    "status": "done"
+                },
+                {
+                    "title": "SOBT",
+                    "value": "05:55",
+                    "status": "done"
+                },
+                {
+                    "title": "EOBT",
+                    "value": "06:25",
+                    "status": "done"
+                },
+                {
+                    "title": "AOBT",
+                    "value": "",
+                    "status": "done"
+                }
+            ],
+            "activities": [
+                {
+                    "name": "UnLoading",
+                    "abbreviation": "UL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Unload (Sub Tasks)",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Belly Door close",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "CT",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Catering off load",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "TW",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Pushback Tow - Readiness",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Pushback Tow Engagement",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "RD",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Dispatcher at bay",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Aircraft",
+                    "abbreviation": "AC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "In-blocks",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Passenger",
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Loading, Bridges Docking",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Cabin door open",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Cabin Clean-Readiness",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Gate Open",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Pax System Boarding",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Catering",
+                    "abbreviation": "CT",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Catering -On Load",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Crew",
+                    "abbreviation": "CR",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Crew On board",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Security",
+                    "abbreviation": "SC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Cabin Security Check",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Pax Aircraft Boarding",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Cabin door closed",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "TS",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Wastage Services -Readiness",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "LD",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Belly door open",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Ramp Equip connected",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "TS",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Water Services",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Fuelling",
+                    "abbreviation": "FL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Fuelling",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "name": "Loading",
+                    "abbreviation": "LD",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "LIRF Received",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Last Baggage ULD at bay",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Last Bulk Baggage at the bay",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Last Cargo ULD at bay",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Loading (Sub tasks)",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Belly Door close",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Load Sheet Acceptance",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "PB",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Pushback Activity",
+                            "value": null,
+                            "status": null
+                        },
+                        {
+                            "title": "Off-block",
+                            "value": null,
+                            "status": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": "BR0011",
+            "origin": "DXB",
+            "destination": "LGW",
+            "status": "delayed",
+            "critical": false,
+            "fltnum_1": "",
+            "fltnum_2": "",
+            "arr_dt": "",
+            "dep_dt": "",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "D03",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "B29",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WNK",
+                    "status": "done"
+                },
+                {
+                    "title": "SIBT",
+                    "value": "06:40",
+                    "status": "done"
+                },
+                {
+                    "title": "EIBT",
+                    "value": "06:33",
+                    "status": "done"
+                },
+                {
+                    "title": "AIBT",
+                    "value": "06:37",
+                    "status": "done"
+                }
+            ],
+            "activities": []
+        },
+        {
+            "number": "BR0012",
+            "origin": "LGW",
+            "destination": "DXB",
+            "status": "delayed",
+            "critical": false,
+            "fltnum_1": "",
+            "fltnum_2": "",
+            "arr_dt": "",
+            "dep_dt": "",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "F26R",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "B29",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WNK",
+                    "status": "done"
+                },
+                {
+                    "title": "SOBT",
+                    "value": "09:40",
+                    "status": "done"
+                },
+                {
+                    "title": "EOBT",
+                    "value": "09:40",
+                    "status": "done"
+                },
+                {
+                    "title": "AOBT",
+                    "value": "09:37",
+                    "status": "done"
+                }
+            ],
+            "activities": []
+        },
+        {
+            "number": "BR0185",
+            "origin": "DXB",
+            "destination": "BCN",
+            "status": "delayed",
+            "critical": false,
+            "fltnum_1": "",
+            "fltnum_2": "",
+            "arr_dt": "",
+            "dep_dt": "",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "F20",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "C23",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WFU",
+                    "status": "done"
+                },
+                {
+                    "title": "SIBT",
+                    "value": "11:25",
+                    "status": "done"
+                },
+                {
+                    "title": "EIBT",
+                    "value": "11:24",
+                    "status": "done"
+                },
+                {
+                    "title": "AIBT",
+                    "value": "11:22",
+                    "status": "done"
+                }
+            ],
+            "activities": []
+        },
+        {
+            "number": "BR0186",
+            "origin": "BCN",
+            "destination": "DXB",
+            "status": "delayed",
+            "critical": false,
+            "fltnum_1": "",
+            "fltnum_2": "",
+            "arr_dt": "",
+            "dep_dt": "",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "F12",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "C23",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WFU",
+                    "status": "done"
+                },
+                {
+                    "title": "SOBT",
+                    "value": "13:50",
+                    "status": "done"
+                },
+                {
+                    "title": "EOBT",
+                    "value": "13:50",
+                    "status": "done"
+                },
+                {
+                    "title": "AOBT",
+                    "value": "13:45",
+                    "status": "done"
+                }
+            ],
+            "activities": []
+        },
+        {
+            "number": "BR0141",
+            "origin": "DXB",
+            "destination": "MAD",
+            "status": "delayed",
+            "critical": false,
+            "fltnum_1": "",
+            "fltnum_2": "",
+            "arr_dt": "",
+            "dep_dt": "",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "D01",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "A2",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WFR",
+                    "status": "done"
+                },
+                {
+                    "title": "SIBT",
+                    "value": "11:40",
+                    "status": "done"
+                },
+                {
+                    "title": "EIBT",
+                    "value": "11:30",
+                    "status": "done"
+                },
+                {
+                    "title": "AIBT",
+                    "value": "11:32",
+                    "status": "done"
+                }
+            ],
+            "activities": []
+        },
+        {
+            "number": "BR0142",
+            "origin": "MAD",
+            "destination": "DXB",
+            "status": "delayed",
+            "critical": false,
+            "fltnum_1": "",
+            "fltnum_2": "",
+            "arr_dt": "",
+            "dep_dt": "",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "A04",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "A2",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WFR",
+                    "status": "done"
+                },
+                {
+                    "title": "SOBT",
+                    "value": "13:25",
+                    "status": "done"
+                },
+                {
+                    "title": "EOBT",
+                    "value": "13:25",
+                    "status": "done"
+                },
+                {
+                    "title": "AOBT",
+                    "value": "13:22",
+                    "status": "done"
+                }
+            ],
+            "activities": []
+        },
+        {
+            "number": "BR0147",
+            "origin": "DXB",
+            "destination": "AMS",
+            "status": "delayed",
+            "critical": false,
+            "fltnum_1": "",
+            "fltnum_2": "",
+            "arr_dt": "",
+            "dep_dt": "",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "A08",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "B29",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WLT",
+                    "status": "done"
+                },
+                {
+                    "title": "SIBT",
+                    "value": "11:40",
+                    "status": "done"
+                },
+                {
+                    "title": "EIBT",
+                    "value": "11:38",
+                    "status": "done"
+                },
+                {
+                    "title": "AIBT",
+                    "value": "11:40",
+                    "status": "done"
+                }
+            ],
+            "activities": []
+        },
+        {
+            "number": "BR0148",
+            "origin": "AMS",
+            "destination": "DXB",
+            "status": "delayed",
+            "critical": false,
+            "fltnum_1": "",
+            "fltnum_2": "",
+            "arr_dt": "",
+            "dep_dt": "",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "F26R",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "B29",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WLT",
+                    "status": "done"
+                },
+                {
+                    "title": "SOBT",
+                    "value": "13:30",
+                    "status": "done"
+                },
+                {
+                    "title": "EOBT",
+                    "value": "13:40",
+                    "status": "done"
+                },
+                {
+                    "title": "AOBT",
+                    "value": "13:45",
+                    "status": "done"
+                }
+            ],
+            "activities": []
+        },
+        {
+            "number": "BR0045",
+            "origin": "DXB",
+            "destination": "FRA",
+            "status": "delayed",
+            "critical": false,
+            "fltnum_1": "",
+            "fltnum_2": "",
+            "arr_dt": "",
+            "dep_dt": "",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "D06",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "A16",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WNW",
+                    "status": "done"
+                },
+                {
+                    "title": "SIBT",
+                    "value": "11:45",
+                    "status": "done"
+                },
+                {
+                    "title": "EIBT",
+                    "value": "11:53",
+                    "status": "done"
+                },
+                {
+                    "title": "AIBT",
+                    "value": "11:50",
+                    "status": "done"
+                }
+            ],
+            "activities": []
+        },
+        {
+            "number": "BR0046",
+            "origin": "FRA",
+            "destination": "DXB",
+            "status": "delayed",
+            "critical": false,
+            "fltnum_1": "",
+            "fltnum_2": "",
+            "arr_dt": "",
+            "dep_dt": "",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "D09",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "A16",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WNW",
+                    "status": "done"
+                },
+                {
+                    "title": "SOBT",
+                    "value": "13:30",
+                    "status": "done"
+                },
+                {
+                    "title": "EOBT",
+                    "value": "13:30",
+                    "status": "done"
+                },
+                {
+                    "title": "AOBT",
+                    "value": "13:38",
+                    "status": "done"
+                }
+            ],
+            "activities": []
+        },
+        {
+            "number": "BR0751",
+            "origin": "DXB",
+            "destination": "CMN",
+            "status": "delayed",
+            "critical": false,
+            "fltnum_1": "",
+            "fltnum_2": "",
+            "arr_dt": "",
+            "dep_dt": "",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "A09",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "A9",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WFK",
+                    "status": "done"
+                },
+                {
+                    "title": "SIBT",
+                    "value": "12:15",
+                    "status": "done"
+                },
+                {
+                    "title": "EIBT",
+                    "value": "12:12",
+                    "status": "done"
+                },
+                {
+                    "title": "AIBT",
+                    "value": "12:14",
+                    "status": "done"
+                }
+            ],
+            "activities": []
+        },
+        {
+            "number": "BR0752",
+            "origin": "CMN",
+            "destination": "DXB",
+            "status": "delayed",
+            "critical": false,
+            "fltnum_1": "",
+            "fltnum_2": "",
+            "arr_dt": "",
+            "dep_dt": "",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "D02",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "A9",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WFK",
+                    "status": "done"
+                },
+                {
+                    "title": "SOBT",
+                    "value": "14:00",
+                    "status": "done"
+                },
+                {
+                    "title": "EOBT",
+                    "value": "14:00",
+                    "status": "done"
+                },
+                {
+                    "title": "AOBT",
+                    "value": "14:18",
+                    "status": "done"
+                }
+            ],
+            "activities": []
+        },
+        {
+            "number": "BR0012",
+            "origin": "LGW",
+            "destination": "DXB",
+            "status": "complete",
+            "critical": false,
+            "fltnum_1": "0012",
+            "fltnum_2": "0500",
+            "arr_dt": "2018-02-19T16:35:00.000Z",
+            "dep_dt": "2018-02-19T17:50:00.000Z",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "F26R",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "B29",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WNK",
+                    "status": "done"
+                },
+                {
+                    "title": "SIBT",
+                    "value": "16:35",
+                    "status": "done"
+                },
+                {
+                    "title": "EIBT",
+                    "value": "16:35",
+                    "status": "done"
+                },
+                {
+                    "title": "AIBT",
+                    "value": "16:22",
+                    "status": "done"
+                }
+            ],
+            "activities": [
+                {
+                    "name": "Aircraft",
+                    "abbreviation": "AC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "In-blocks",
+                            "value": "16:35",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Passenger",
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Loading, Bridges Docking",
+                            "value": "16:35-16:37",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Cabin door open",
+                            "value": "16:37-16:38",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Pax disembarkation",
+                            "value": "16:38-16:53",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Cleaning",
+                    "abbreviation": "CL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Cabin Clean/Dress",
+                            "value": "16:53-17:38",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Technical Services",
+                    "abbreviation": "TS",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Wastage Services",
+                            "value": "16:35-17:00",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "UnLoading",
+                    "abbreviation": "UL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Belly door open",
+                            "value": "16:35-16:36",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Ramp Equip connected",
+                            "value": "16:36-16:38",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Unload (Sub Tasks)",
+                            "value": "16:38-17:18",
+                            "status": "complete"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": "BR0500",
+            "origin": "DXB",
+            "destination": "BOM",
+            "status": "complete",
+            "critical": false,
+            "fltnum_1": "0012",
+            "fltnum_2": "0500",
+            "arr_dt": "2018-02-19T16:35:00.000Z",
+            "dep_dt": "2018-02-19T17:50:00.000Z",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "F26R",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "B29",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WNK",
+                    "status": "done"
+                },
+                {
+                    "title": "SOBT",
+                    "value": "17:50",
+                    "status": "done"
+                },
+                {
+                    "title": "EOBT",
+                    "value": "18:05",
+                    "status": "done"
+                },
+                {
+                    "title": "AOBT",
+                    "value": "18:09",
+                    "status": "done"
+                }
+            ],
+            "activities": [
+                {
+                    "name": "Passenger",
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Gate Open",
+                            "value": " ",
+                            "status": " "
+                        },
+                        {
+                            "title": "Pax System Boarding",
+                            "value": " ",
+                            "status": " "
+                        },
+                        {
+                            "title": "Pax Aircraft Boarding",
+                            "value": " ",
+                            "status": " "
+                        },
+                        {
+                            "title": "Cabin door closed",
+                            "value": " ",
+                            "status": " "
+                        }
+                    ]
+                },
+                {
+                    "name": "Security",
+                    "abbreviation": "SC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Cabin Security Check",
+                            "value": " ",
+                            "status": " "
+                        }
+                    ]
+                },
+                {
+                    "name": "Catering",
+                    "abbreviation": "CT",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Catering",
+                            "value": " ",
+                            "status": " "
+                        }
+                    ]
+                },
+                {
+                    "name": "Crew",
+                    "abbreviation": "CR",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Crew On board",
+                            "value": " ",
+                            "status": " "
+                        }
+                    ]
+                },
+                {
+                    "name": "Technical Services",
+                    "abbreviation": "TS",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Water Services",
+                            "value": " ",
+                            "status": " "
+                        },
+                        {
+                            "title": "Pushback Activity",
+                            "value": " ",
+                            "status": " "
+                        }
+                    ]
+                },
+                {
+                    "name": "Loading",
+                    "abbreviation": "LD",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "LIRF Received",
+                            "value": " ",
+                            "status": " "
+                        },
+                        {
+                            "title": "Last Baggage ULD at bay",
+                            "value": " ",
+                            "status": " "
+                        },
+                        {
+                            "title": "Last Bulk Baggage at the bay",
+                            "value": " ",
+                            "status": " "
+                        },
+                        {
+                            "title": "Last Cargo ULD at bay",
+                            "value": " ",
+                            "status": " "
+                        },
+                        {
+                            "title": "Loading (Sub tasks)",
+                            "value": " ",
+                            "status": " "
+                        },
+                        {
+                            "title": "Belly Door close",
+                            "value": " ",
+                            "status": " "
+                        },
+                        {
+                            "title": "Load Sheet Acceptance",
+                            "value": " ",
+                            "status": " "
+                        }
+                    ]
+                },
+                {
+                    "name": "Fuelling",
+                    "abbreviation": "FL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Fuelling",
+                            "value": " ",
+                            "status": " "
+                        }
+                    ]
+                },
+                {
+                    "name": "Aircraft",
+                    "abbreviation": "AC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Offblock",
+                            "value": " ",
+                            "status": " "
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": "BR0201",
+            "origin": "DXB",
+            "destination": "JFK",
+            "status": "delayed",
+            "critical": false,
+            "fltnum_1": "",
+            "fltnum_2": "",
+            "arr_dt": "",
+            "dep_dt": "",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "F22",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "A9",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WLI",
+                    "status": "done"
+                },
+                {
+                    "title": "SIBT",
+                    "value": "18:55",
+                    "status": "done"
+                },
+                {
+                    "title": "EIBT",
+                    "value": "18:49",
+                    "status": "done"
+                },
+                {
+                    "title": "AIBT",
+                    "value": "18:56",
+                    "status": "done"
+                }
+            ],
+            "activities": []
+        },
+        {
+            "number": "BR0208",
+            "origin": "JFK",
+            "destination": "DXB",
+            "status": "delayed",
+            "critical": false,
+            "fltnum_1": "",
+            "fltnum_2": "",
+            "arr_dt": "",
+            "dep_dt": "",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "D02",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "A9",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WLI",
+                    "status": "done"
+                },
+                {
+                    "title": "SOBT",
+                    "value": "21:35",
+                    "status": "done"
+                },
+                {
+                    "title": "EOBT",
+                    "value": "21:35",
+                    "status": "done"
+                },
+                {
+                    "title": "AOBT",
+                    "value": "21:32",
+                    "status": "done"
+                }
+            ],
+            "activities": []
+        },
+        {
+            "number": "BR0046",
+            "origin": "FRA",
+            "destination": "DXB",
+            "status": "complete",
+            "critical": false,
+            "fltnum_1": "0046",
+            "fltnum_2": "0011",
+            "arr_dt": "2018-02-19T19:45:00.000Z",
+            "dep_dt": "2018-02-19T22:50:00.000Z",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "D09",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "A16",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WNW",
+                    "status": "done"
+                },
+                {
+                    "title": "SIBT",
+                    "value": "19:45",
+                    "status": "done"
+                },
+                {
+                    "title": "EIBT",
+                    "value": "20:08",
+                    "status": "done"
+                },
+                {
+                    "title": "AIBT",
+                    "value": "20:08",
+                    "status": "done"
+                }
+            ],
+            "activities": [
+                {
+                    "name": "Aircraft",
+                    "abbreviation": "AC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "In-blocks",
+                            "value": "19:45",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Passenger",
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Loading, Bridges Docking",
+                            "value": "19:45-19:47",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Cabin door open",
+                            "value": "19:47-19:48",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Pax disembarkation",
+                            "value": "19:48-20:03",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Cleaning",
+                    "abbreviation": "CL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Cabin Clean/Dress",
+                            "value": "20:03-20:48",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Passenger",
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Cabin door closed",
+                            "value": "20:48-20:49",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Technical Services",
+                    "abbreviation": "TS",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Wastage Services",
+                            "value": "19:47-20:12",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "UnLoading",
+                    "abbreviation": "UL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Belly door open",
+                            "value": "19:45-19:46",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Ramp Equip connected",
+                            "value": "19:46-19:48",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Unload (Sub Tasks)",
+                            "value": "19:48-20:28",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Belly Door close",
+                            "value": "20:28-20:29",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Catering",
+                    "abbreviation": "CT",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Catering off load",
+                            "value": "20:03-20:18",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "EA",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "End of Arrival",
+                            "value": "20:49",
+                            "status": "complete"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": "BR0011",
+            "origin": "DXB",
+            "destination": "LGW",
+            "status": "complete",
+            "critical": false,
+            "fltnum_1": "0046",
+            "fltnum_2": "0011",
+            "arr_dt": "2018-02-19T19:45:00.000Z",
+            "dep_dt": "2018-02-19T22:50:00.000Z",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "D09",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "A16",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WNW",
+                    "status": "done"
+                },
+                {
+                    "title": "SOBT",
+                    "value": "22:50",
+                    "status": "done"
+                },
+                {
+                    "title": "EOBT",
+                    "value": "22:55",
+                    "status": "done"
+                },
+                {
+                    "title": "AOBT",
+                    "value": "22:57",
+                    "status": "done"
+                }
+            ],
+            "activities": [
+                {
+                    "name": "UnLoading",
+                    "abbreviation": "UL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Unload (Sub Tasks)",
+                            "value": " ",
+                            "status": " "
+                        },
+                        {
+                            "title": "Belly Door close",
+                            "value": " ",
+                            "status": " "
+                        }
+                    ]
+                },
+                {
+                    "name": "Catering",
+                    "abbreviation": "CT",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Catering off load",
+                            "value": " ",
+                            "status": " "
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "EA",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "End of Arrival",
+                            "value": " ",
+                            "status": " "
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "RD",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Dispatcher at bay",
+                            "value": " ",
+                            "status": " "
+                        }
+                    ]
+                },
+                {
+                    "name": "Aircraft",
+                    "abbreviation": "AC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "In-blocks",
+                            "value": " ",
+                            "status": " "
+                        }
+                    ]
+                },
+                {
+                    "name": "Passenger",
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Loading, Bridges Docking",
+                            "value": " ",
+                            "status": " "
+                        },
+                        {
+                            "title": "Cabin door open",
+                            "value": " ",
+                            "status": " "
+                        },
+                        {
+                            "title": "Cabin Clean-Readiness",
+                            "value": " ",
+                            "status": " "
+                        },
+                        {
+                            "title": "Gate Open",
+                            "value": " ",
+                            "status": " "
+                        },
+                        {
+                            "title": "Pax System Boarding",
+                            "value": " ",
+                            "status": " "
+                        }
+                    ]
+                },
+                {
+                    "name": "Catering",
+                    "abbreviation": "CT",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Catering -On Load",
+                            "value": " ",
+                            "status": " "
+                        }
+                    ]
+                },
+                {
+                    "name": "Crew",
+                    "abbreviation": "CR",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Crew On board",
+                            "value": " ",
+                            "status": " "
+                        }
+                    ]
+                },
+                {
+                    "name": "Security",
+                    "abbreviation": "SC",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Cabin Security Check",
+                            "value": " ",
+                            "status": " "
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "PX",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Pax Aircraft Boarding",
+                            "value": " ",
+                            "status": " "
+                        },
+                        {
+                            "title": "Cabin door closed",
+                            "value": " ",
+                            "status": " "
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "TS",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Wastage Services -Readiness",
+                            "value": " ",
+                            "status": " "
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "LD",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Belly door open",
+                            "value": " ",
+                            "status": " "
+                        },
+                        {
+                            "title": "Ramp Equip connected",
+                            "value": " ",
+                            "status": " "
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "TS",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Water Services",
+                            "value": " ",
+                            "status": " "
+                        }
+                    ]
+                },
+                {
+                    "name": "Fuelling",
+                    "abbreviation": "FL",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Fuelling",
+                            "value": " ",
+                            "status": " "
+                        }
+                    ]
+                },
+                {
+                    "name": "Loading",
+                    "abbreviation": "LD",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "LIRF Received",
+                            "value": " ",
+                            "status": " "
+                        },
+                        {
+                            "title": "Last Baggage ULD at bay",
+                            "value": " ",
+                            "status": " "
+                        },
+                        {
+                            "title": "Last Bulk Baggage at the bay",
+                            "value": " ",
+                            "status": " "
+                        },
+                        {
+                            "title": "Last Cargo ULD at bay",
+                            "value": " ",
+                            "status": " "
+                        },
+                        {
+                            "title": "Loading (Sub tasks)",
+                            "value": " ",
+                            "status": " "
+                        },
+                        {
+                            "title": "Belly Door close",
+                            "value": " ",
+                            "status": " "
+                        },
+                        {
+                            "title": "Load Sheet Acceptance",
+                            "value": " ",
+                            "status": " "
+                        }
+                    ]
+                },
+                {
+                    "abbreviation": "PB",
+                    "status": "complete",
+                    "events": [
+                        {
+                            "title": "Pushback Activity",
+                            "value": " ",
+                            "status": " "
+                        },
+                        {
+                            "title": "Off-block",
+                            "value": " ",
+                            "status": " "
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "number": "BR0500",
+            "origin": "DXB",
+            "destination": "BOM",
+            "status": "delayed",
+            "critical": false,
+            "fltnum_1": "",
+            "fltnum_2": "",
+            "arr_dt": "",
+            "dep_dt": "",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "F26R",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "A4",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WNK",
+                    "status": "done"
+                },
+                {
+                    "title": "SIBT",
+                    "value": "20:45",
+                    "status": "done"
+                },
+                {
+                    "title": "EIBT",
+                    "value": "20:55",
+                    "status": "done"
+                },
+                {
+                    "title": "AIBT",
+                    "value": "20:57",
+                    "status": "done"
+                }
+            ],
+            "activities": []
+        },
+        {
+            "number": "BR0501",
+            "origin": "BOM",
+            "destination": "DXB",
+            "status": "delayed",
+            "critical": false,
+            "fltnum_1": "",
+            "fltnum_2": "",
+            "arr_dt": "",
+            "dep_dt": "",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "388",
+                    "status": "done"
+                },
+                {
+                    "title": "Stand",
+                    "value": "A02",
+                    "status": "done"
+                },
+                {
+                    "title": "Gate",
+                    "value": "A4",
+                    "status": "done"
+                },
+                {
+                    "title": "Tail",
+                    "value": "A0WNK",
+                    "status": "done"
+                },
+                {
+                    "title": "SOBT",
+                    "value": "22:45",
+                    "status": "done"
+                },
+                {
+                    "title": "EOBT",
+                    "value": "22:45",
+                    "status": "done"
+                },
+                {
+                    "title": "AOBT",
+                    "value": "22:38",
+                    "status": "done"
+                }
+            ],
+            "activities": []
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+ID: EmiratesDemo
+_schema-version: '2.0'
+description: MVP-3 Demo
+version: 0.0.1
+modules:
+  - name: APIMock
+    type: nodejs
+    path: APIMock
+    provides:
+      - name: APIMock_api
+        properties:
+          url: '${default-url}'
+
+  - name: PTS
+    type: html5
+    path: PTS
+    requires:
+      - name: APIMock_api
+        group: destinations
+        properties:
+          name: core-backend
+          url: '~{url}'
+          forwardAuthToken: true
+
+  - name: TA
+    type: html5
+    path: TA
+    requires:
+      - name: APIMock_api
+        group: destinations
+        properties:
+          name: core-backend
+          url: '~{url}'
+          forwardAuthToken: true
+
+  - name: DemoRemote
+    type: html5
+    path: DemoRemote
+    requires:
+      - name: APIMock_api
+        group: destinations
+        properties:
+          name: core-backend
+          url: '~{url}'
+          forwardAuthToken: true
+
+  - name: CustomerOrder
+    type: html5
+    path: CustomerOrder
+    requires:
+      - name: APIMock_api
+        group: destinations
+        properties:
+          name: core-backend
+          url: '~{url}'
+          forwardAuthToken: true
+
+  - name: PaxTracker
+    type: html5
+    path: PaxTracker
+    requires:
+      - name: APIMock_api
+        group: destinations
+        properties:
+          name: core-backend
+          url: '~{url}'
+          forwardAuthToken: true
+
+
+  - name: BaggageTracker
+    type: html5
+    path: BaggageTracker
+    requires:
+      - name: APIMock_api
+        group: destinations
+        properties:
+          name: core-backend
+          url: '~{url}'
+          forwardAuthToken: true
+
+

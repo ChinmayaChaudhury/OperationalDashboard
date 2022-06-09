@@ -1,0 +1,48 @@
+{
+	"detail": [{
+		"paxname": 202,
+		"status": "Checked-In",
+		"class": "Y",
+		"cltv": 10,
+		"currentlocation": "",
+		"timetogate": 80,
+		"baggagedetails": "BR642291, , AKE48374EK",
+		"custorderno": "C0108"
+	}, {
+		"paxname": 305,
+		"status": "Checked-In",
+		"class": "Y",
+		"cltv": 8,
+		"currentlocation": "",
+		"timetogate": 80,
+		"baggagedetails": "BR645840, , AKE48374EK   -    \nBR645841, , AKE48374EK",
+		"custorderno": "C0170"
+	}, {
+		"paxname": 467,
+		"status": "Checked-In",
+		"class": "Y",
+		"cltv": 7,
+		"currentlocation": "",
+		"timetogate": 80,
+		"baggagedetails": "BR646544, , AKE48374EK   -    \nBR646545, , AKE48374EK",
+		"custorderno": "C0265"
+	}, {
+		"paxname": 526,
+		"status": "",
+		"class": "Y",
+		"cltv": 10,
+		"currentlocation": "",
+		"timetogate": 80,
+		"baggagedetails": "",
+		"custorderno": "C431"
+	}, {
+		"paxname": 539,
+		"status": "Checked-In",
+		"class": "Y",
+		"cltv": 1,
+		"currentlocation": "",
+		"timetogate": 80,
+		"baggagedetails": "BR647119, , AKE48374EK   -   BR647120, , BLKBG",
+		"custorderno": "C0305"
+	}]
+}

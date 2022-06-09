@@ -1,0 +1,4004 @@
+{
+  "PTS": [
+    {
+      "flightOne": "BR0002",
+      "flightOneEndTime": "20180219205000",
+      "flightTwo": "BR0322",
+      "flightTwoStartTime": "20180219233000",
+      "PTS": "A",
+      "read_pts_output": {
+        "root": {
+          "id": "root",
+          "level": "root",
+          "TA_BUTTON": 1,
+          "children": [
+            {
+              "text": "Readiness",
+              "name": "Readiness",
+              "icon": "readiness",
+              "PTS": "A",
+              "COLOR": "#ffffff",
+              "processStatus": "intime",
+              "id": "01",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219203000",
+                  "endTime": "20180219203000",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219203300",
+                  "text": "Readiness ",
+                  "info": "",
+                  "fill": "#FFFFFF"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219202700",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "1_1",
+                  "name": "Dispatcher at bay",
+                  "level": "01",
+                  "time": "20:30 Delay 0",
+                  "activityStatus": "20:30 Delay 0",
+                  "InCompletedMileStoneTask": [
+                    {
+                      "id": "1_1_7",
+                      "startTime": "20180219203000",
+                      "endTime": "20180219204500",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStone": [
+                    {
+                      "id": "1_1_8",
+                      "time": "20180219203000",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStoneTaskText": [
+                    {
+                      "id": "1_1_9",
+                      "time": "20180219203200",
+                      "text": "Dispatcher at bay",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Aircraft",
+              "name": "Aircraft",
+              "icon": "aircraft",
+              "PTS": "A",
+              "COLOR": "#ffffff",
+              "processStatus": "intime",
+              "id": "02",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219204000",
+                  "endTime": "20180219204000",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219204300",
+                  "text": "Aircraft ",
+                  "info": "",
+                  "fill": "#FFFFFF"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219203700",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "2_1",
+                  "name": "In-blocks",
+                  "level": "01",
+                  "time": "20:40 Delay 0",
+                  "activityStatus": "20:40 Delay 0",
+                  "InCompletedMileStoneTask": [
+                    {
+                      "id": "2_1_19",
+                      "startTime": "20180219204000",
+                      "endTime": "20180219205500",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStone": [
+                    {
+                      "id": "2_1_20",
+                      "time": "20180219204000",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStoneTaskText": [
+                    {
+                      "id": "2_1_21",
+                      "time": "20180219204200",
+                      "text": "In-blocks",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Passenger",
+              "name": "Passenger",
+              "icon": "passenger",
+              "PTS": "A",
+              "COLOR": "#ffffff",
+              "processStatus": "delay",
+              "id": "03",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219211000",
+                  "endTime": "20180219212800",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219211300",
+                  "text": "Passenger ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219212500",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "3_1",
+                  "level": "01",
+                  "name": "Loading, Bridges Docking",
+                  "time": "21:10-21:12 Delay 30",
+                  "activityStatus": "delay",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "3_1_25",
+                      "startTime": "20180219211000",
+                      "endTime": "20180219211200",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "3_1_29",
+                      "time": "20180219211300",
+                      "text": "Loading, Bridges Docking"
+                    }
+                  ],
+                  "DelayedActivityTask": [
+                    {
+                      "id": "3_1_40",
+                      "startTime": "20180219204000",
+                      "endTime": "20180219211000",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "3_2",
+                  "level": "01",
+                  "name": "Cabin door open",
+                  "time": "21:12-21:13 Delay 30",
+                  "activityStatus": "delay",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "3_2_41",
+                      "startTime": "20180219211200",
+                      "endTime": "20180219211300",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "3_2_45",
+                      "time": "20180219211500",
+                      "text": "Cabin door open by crew"
+                    }
+                  ],
+                  "DelayedActivityTask": [
+                    {
+                      "id": "3_2_56",
+                      "startTime": "20180219204500",
+                      "endTime": "20180219211200",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "3_3",
+                  "level": "01",
+                  "name": "Pax disembarkation",
+                  "time": "21:13-21:28 Delay 30",
+                  "activityStatus": "delay",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "3_3_57",
+                      "startTime": "20180219211300",
+                      "endTime": "20180219212800",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "3_3_61",
+                      "time": "20180219211600",
+                      "text": "Passengers disembarkation"
+                    }
+                  ],
+                  "DelayedActivityTask": [
+                    {
+                      "id": "3_3_72",
+                      "startTime": "20180219204600",
+                      "endTime": "20180219211300",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Cleaning",
+              "name": "Cleaning",
+              "icon": "cleaning",
+              "PTS": "A",
+              "COLOR": "#ffffff",
+              "processStatus": "intime",
+              "id": "04",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219205800",
+                  "endTime": "20180219214300",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219210100",
+                  "text": "Cleaning ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219214000",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "4_1",
+                  "level": "01",
+                  "name": "Cabin Clean/Dress",
+                  "time": "20:58-21:43 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "4_1_73",
+                      "startTime": "20180219205800",
+                      "endTime": "20180219214300",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "4_1_77",
+                      "time": "20180219210100",
+                      "text": "Cabin Clean/Dress"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "4_1_88",
+                      "startTime": "20180219205500",
+                      "endTime": "20180219205800",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Passenger",
+              "name": "Passenger",
+              "icon": "passenger",
+              "PTS": "A",
+              "COLOR": "#ffffff",
+              "processStatus": "intime",
+              "id": "05",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219214300",
+                  "endTime": "20180219214400",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219214600",
+                  "text": "Passenger ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219214100",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "5_1",
+                  "level": "01",
+                  "name": "Cabin door closed",
+                  "time": "21:43-21:44 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "5_1_89",
+                      "startTime": "20180219214300",
+                      "endTime": "20180219214400",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "5_1_93",
+                      "time": "20180219214600",
+                      "text": "Cabin Door Close"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "5_1_104",
+                      "startTime": "20180219214000",
+                      "endTime": "20180219214300",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Technical Services",
+              "name": "Technical Services",
+              "icon": "techservices",
+              "PTS": "A",
+              "COLOR": "#ffffff",
+              "processStatus": "intime",
+              "id": "06",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219204200",
+                  "endTime": "20180219210700",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219204500",
+                  "text": "Technical Services ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219210400",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "6_1",
+                  "level": "01",
+                  "name": "Wastage Services",
+                  "time": "20:42-21:07 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "6_1_105",
+                      "startTime": "20180219204200",
+                      "endTime": "20180219210700",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "6_1_109",
+                      "time": "20180219204500",
+                      "text": "Wastage Services"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "6_1_120",
+                      "startTime": "20180219203900",
+                      "endTime": "20180219204200",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Unloading",
+              "name": "Unloading",
+              "icon": "unloading",
+              "PTS": "A",
+              "COLOR": "#ffffff",
+              "processStatus": "intime",
+              "id": "07",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219204000",
+                  "endTime": "20180219212400",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219204300",
+                  "text": "Unloading ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219212100",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "7_1",
+                  "level": "01",
+                  "name": "Belly door open",
+                  "time": "20:40-20:41 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "7_1_121",
+                      "startTime": "20180219204000",
+                      "endTime": "20180219204100",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "7_1_125",
+                      "time": "20180219204300",
+                      "text": "Belly door open"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "7_1_136",
+                      "startTime": "20180219203700",
+                      "endTime": "20180219204000",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "7_2",
+                  "level": "01",
+                  "name": "Ramp Equip connected",
+                  "time": "20:41-20:43 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "7_2_137",
+                      "startTime": "20180219204100",
+                      "endTime": "20180219204300",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "7_2_141",
+                      "time": "20180219204400",
+                      "text": "Ramp Equipment connected"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "7_2_152",
+                      "startTime": "20180219203800",
+                      "endTime": "20180219204100",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "7_3",
+                  "level": "01",
+                  "name": "Unload (Sub Tasks)",
+                  "time": "20:43-21:23 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "7_3_153",
+                      "startTime": "20180219204300",
+                      "endTime": "20180219212300",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "7_3_157",
+                      "time": "20180219204600",
+                      "text": "Unload"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "7_3_168",
+                      "startTime": "20180219204000",
+                      "endTime": "20180219204300",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "7_4",
+                  "level": "01",
+                  "name": "Belly Door close",
+                  "time": "21:23-21:24 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "7_4_169",
+                      "startTime": "20180219212300",
+                      "endTime": "20180219212400",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "7_4_173",
+                      "time": "20180219212600",
+                      "text": "Belly Door Close"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "7_4_184",
+                      "startTime": "20180219212000",
+                      "endTime": "20180219212300",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Catering",
+              "name": "Catering",
+              "icon": "catering",
+              "PTS": "A",
+              "COLOR": "#ffffff",
+              "processStatus": "intime",
+              "id": "08",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219205800",
+                  "endTime": "20180219211300",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219210100",
+                  "text": "Catering ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219211000",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "8_1",
+                  "level": "01",
+                  "name": "Catering off load",
+                  "time": "20:58-21:13 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "8_1_185",
+                      "startTime": "20180219205800",
+                      "endTime": "20180219211300",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "8_1_189",
+                      "time": "20180219210100",
+                      "text": "catering off load"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "8_1_200",
+                      "startTime": "20180219205500",
+                      "endTime": "20180219205800",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "End of Arrival",
+              "name": "End of Arrival",
+              "PTS": "A",
+              "COLOR": "#ffffff",
+              "processStatus": "intime",
+              "id": "09",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219214400",
+                  "endTime": "20180219214400",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219214700",
+                  "text": "End of Arrival ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219214100",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "9_1",
+                  "name": "End of Arrival",
+                  "level": "01",
+                  "time": "21:44 Delay 0",
+                  "activityStatus": "21:44 Delay 0",
+                  "InCompletedMileStoneTask": [
+                    {
+                      "id": "9_1_207",
+                      "startTime": "20180219214400",
+                      "endTime": "20180219215900",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStone": [
+                    {
+                      "id": "9_1_208",
+                      "time": "20180219214400",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStoneTaskText": [
+                    {
+                      "id": "9_1_209",
+                      "time": "20180219214600",
+                      "text": "End of Arrival",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Readiness",
+              "name": "Readiness",
+              "icon": "readiness",
+              "PTS": "D",
+              "COLOR": "#e3e3e3",
+              "processStatus": "intime",
+              "id": "10",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219220500",
+                  "endTime": "20180219220500",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219220800",
+                  "text": "Readiness ",
+                  "info": "",
+                  "fill": "#FFFFFF"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219220200",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "10_1",
+                  "name": "Dispatcher at bay",
+                  "level": "01",
+                  "time": "22:05 Delay 0",
+                  "activityStatus": "22:05 Delay 0",
+                  "InCompletedMileStoneTask": [
+                    {
+                      "id": "10_1_219",
+                      "startTime": "20180219220500",
+                      "endTime": "20180219222000",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStone": [
+                    {
+                      "id": "10_1_220",
+                      "time": "20180219220500",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStoneTaskText": [
+                    {
+                      "id": "10_1_221",
+                      "time": "20180219220700",
+                      "text": "Dispatcher at bay",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Aircraft",
+              "name": "Aircraft",
+              "icon": "aircraft",
+              "PTS": "D",
+              "COLOR": "#e3e3e3",
+              "processStatus": "intime",
+              "id": "11",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219221500",
+                  "endTime": "20180219221500",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219221800",
+                  "text": "Aircraft ",
+                  "info": "",
+                  "fill": "#FFFFFF"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219221200",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "11_1",
+                  "name": "In-blocks",
+                  "level": "01",
+                  "time": "22:15 Delay 0",
+                  "activityStatus": "22:15 Delay 0",
+                  "InCompletedMileStoneTask": [
+                    {
+                      "id": "11_1_231",
+                      "startTime": "20180219221500",
+                      "endTime": "20180219223000",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStone": [
+                    {
+                      "id": "11_1_232",
+                      "time": "20180219221500",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStoneTaskText": [
+                    {
+                      "id": "11_1_233",
+                      "time": "20180219221700",
+                      "text": "In-blocks",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Passenger",
+              "name": "Passenger",
+              "icon": "passenger",
+              "PTS": "D",
+              "COLOR": "#e3e3e3",
+              "processStatus": "intime",
+              "id": "12",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219215300",
+                  "endTime": "20180219231100",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219215600",
+                  "text": "Passenger ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219230800",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "12_1",
+                  "level": "01",
+                  "name": "Loading, Bridges Docking",
+                  "time": "22:15-22:17 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "12_1_237",
+                      "startTime": "20180219221500",
+                      "endTime": "20180219221700",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "12_1_241",
+                      "time": "20180219221800",
+                      "text": "Loading, Bridges Docking"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "12_1_252",
+                      "startTime": "20180219221200",
+                      "endTime": "20180219221500",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "12_2",
+                  "level": "01",
+                  "name": "Cabin door open",
+                  "time": "22:17-22:18 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "12_2_253",
+                      "startTime": "20180219221700",
+                      "endTime": "20180219221800",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "12_2_257",
+                      "time": "20180219222000",
+                      "text": "Cabin door open"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "12_2_268",
+                      "startTime": "20180219221400",
+                      "endTime": "20180219221700",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "12_3",
+                  "name": "Cabin Clean-Readiness",
+                  "level": "01",
+                  "time": "21:53 Delay 0",
+                  "activityStatus": "21:53 Delay 0",
+                  "InCompletedMileStoneTask": [
+                    {
+                      "id": "12_3_275",
+                      "startTime": "20180219215300",
+                      "endTime": "20180219220800",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStone": [
+                    {
+                      "id": "12_3_276",
+                      "time": "20180219215300",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStoneTaskText": [
+                    {
+                      "id": "12_3_277",
+                      "time": "20180219215500",
+                      "text": "Cabin Clean/Dress -Readiness",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "12_4",
+                  "level": "01",
+                  "name": "Gate Open",
+                  "time": "22:00-22:01 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "12_4_281",
+                      "startTime": "20180219220000",
+                      "endTime": "20180219220100",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "12_4_285",
+                      "time": "20180219220300",
+                      "text": "Gate Open"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "12_4_296",
+                      "startTime": "20180219215700",
+                      "endTime": "20180219220000",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "12_5",
+                  "level": "01",
+                  "name": "Pax System Boarding",
+                  "time": "22:01-23:11 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "12_5_297",
+                      "startTime": "20180219220100",
+                      "endTime": "20180219231100",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "12_5_301",
+                      "time": "20180219220400",
+                      "text": "Passengers On-System Boarding"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "12_5_312",
+                      "startTime": "20180219215800",
+                      "endTime": "20180219220100",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Catering",
+              "name": "Catering",
+              "icon": "catering",
+              "PTS": "D",
+              "COLOR": "#e3e3e3",
+              "processStatus": "intime",
+              "id": "13",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219221800",
+                  "endTime": "20180219223800",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219222100",
+                  "text": "Catering ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219223500",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "13_1",
+                  "level": "01",
+                  "name": "Catering -On Load",
+                  "time": "22:18-22:38 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "13_1_313",
+                      "startTime": "20180219221800",
+                      "endTime": "20180219223800",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "13_1_317",
+                      "time": "20180219222100",
+                      "text": "Catering -On Load"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "13_1_328",
+                      "startTime": "20180219221500",
+                      "endTime": "20180219221800",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Crew",
+              "name": "Crew",
+              "icon": "crew",
+              "PTS": "D",
+              "COLOR": "#e3e3e3",
+              "processStatus": "intime",
+              "id": "14",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219221800",
+                  "endTime": "20180219221800",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219222100",
+                  "text": "Crew ",
+                  "info": "",
+                  "fill": "#FFFFFF"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219221500",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "14_1",
+                  "name": "Crew On board",
+                  "level": "01",
+                  "time": "22:18 Delay 0",
+                  "activityStatus": "22:18 Delay 0",
+                  "InCompletedMileStoneTask": [
+                    {
+                      "id": "14_1_335",
+                      "startTime": "20180219221800",
+                      "endTime": "20180219223300",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStone": [
+                    {
+                      "id": "14_1_336",
+                      "time": "20180219221800",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStoneTaskText": [
+                    {
+                      "id": "14_1_337",
+                      "time": "20180219222000",
+                      "text": "Crew On board",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Security",
+              "name": "Security",
+              "icon": "security",
+              "PTS": "D",
+              "COLOR": "#e3e3e3",
+              "processStatus": "intime",
+              "id": "15",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219223800",
+                  "endTime": "20180219224800",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219224100",
+                  "text": "Security ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219224500",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "15_1",
+                  "level": "01",
+                  "name": "Cabin Security Check",
+                  "time": "22:38-22:48 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "15_1_341",
+                      "startTime": "20180219223800",
+                      "endTime": "20180219224800",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "15_1_345",
+                      "time": "20180219224100",
+                      "text": "Cabin Security Check"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "15_1_356",
+                      "startTime": "20180219223500",
+                      "endTime": "20180219223800",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Passenger",
+              "name": "Passenger",
+              "PTS": "D",
+              "COLOR": "#e3e3e3",
+              "processStatus": "intime",
+              "id": "16",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219224800",
+                  "endTime": "20180219232700",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219225100",
+                  "text": "Passenger ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219232400",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "16_1",
+                  "level": "01",
+                  "name": "Pax Aircraft Boarding",
+                  "time": "22:48-23:26 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "16_1_357",
+                      "startTime": "20180219224800",
+                      "endTime": "20180219232600",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "16_1_361",
+                      "time": "20180219225100",
+                      "text": "Passengers On-Aircraft Boarding"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "16_1_372",
+                      "startTime": "20180219224500",
+                      "endTime": "20180219224800",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "16_2",
+                  "level": "01",
+                  "name": "Cabin door closed",
+                  "time": "23:26-23:27 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "16_2_373",
+                      "startTime": "20180219232600",
+                      "endTime": "20180219232700",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "16_2_377",
+                      "time": "20180219232900",
+                      "text": "Cabin door closed by Crew"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "16_2_388",
+                      "startTime": "20180219232300",
+                      "endTime": "20180219232600",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Technical Services",
+              "name": "Technical Services",
+              "PTS": "D",
+              "COLOR": "#e3e3e3",
+              "processStatus": "intime",
+              "id": "17",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219220500",
+                  "endTime": "20180219220500",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219220800",
+                  "text": "Technical Services ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219220200",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "17_1",
+                  "name": "Wastage Services -Readiness",
+                  "level": "01",
+                  "time": "22:05 Delay 0",
+                  "activityStatus": "22:05 Delay 0",
+                  "InCompletedMileStoneTask": [
+                    {
+                      "id": "17_1_395",
+                      "startTime": "20180219220500",
+                      "endTime": "20180219222000",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStone": [
+                    {
+                      "id": "17_1_396",
+                      "time": "20180219220500",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStoneTaskText": [
+                    {
+                      "id": "17_1_397",
+                      "time": "20180219220700",
+                      "text": "Wastage Services -Readiness",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Loading",
+              "name": "Loading",
+              "PTS": "D",
+              "COLOR": "#e3e3e3",
+              "processStatus": "intime",
+              "id": "18",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219221500",
+                  "endTime": "20180219221800",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219221800",
+                  "text": "Loading ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219221500",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "18_1",
+                  "level": "01",
+                  "name": "Belly door open",
+                  "time": "22:15-22:16 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "18_1_401",
+                      "startTime": "20180219221500",
+                      "endTime": "20180219221600",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "18_1_405",
+                      "time": "20180219221800",
+                      "text": "Belly Door Open"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "18_1_416",
+                      "startTime": "20180219221200",
+                      "endTime": "20180219221500",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "18_2",
+                  "level": "01",
+                  "name": "Ramp Equip connected",
+                  "time": "22:16-22:18 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "18_2_417",
+                      "startTime": "20180219221600",
+                      "endTime": "20180219221800",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "18_2_421",
+                      "time": "20180219221900",
+                      "text": "Ramp Equipment connected"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "18_2_432",
+                      "startTime": "20180219221300",
+                      "endTime": "20180219221600",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Technical Services",
+              "name": "Technical Services",
+              "PTS": "D",
+              "COLOR": "#e3e3e3",
+              "processStatus": "intime",
+              "id": "19",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219223000",
+                  "endTime": "20180219225000",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219223300",
+                  "text": "Technical Services ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219224700",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "19_1",
+                  "level": "01",
+                  "name": "Water Services",
+                  "time": "22:30-22:50 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "19_1_433",
+                      "startTime": "20180219223000",
+                      "endTime": "20180219225000",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "19_1_437",
+                      "time": "20180219223300",
+                      "text": "Water Services"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "19_1_448",
+                      "startTime": "20180219222700",
+                      "endTime": "20180219223000",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Fuelling",
+              "name": "Fuelling",
+              "icon": "fueling",
+              "PTS": "D",
+              "COLOR": "#e3e3e3",
+              "processStatus": "intime",
+              "id": "20",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219221500",
+                  "endTime": "20180219231000",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219221800",
+                  "text": "Fuelling ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219230700",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "20_1",
+                  "level": "01",
+                  "name": "Fuelling",
+                  "time": "22:15-23:10 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "20_1_449",
+                      "startTime": "20180219221500",
+                      "endTime": "20180219231000",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "20_1_453",
+                      "time": "20180219221800",
+                      "text": "Fuelling"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "20_1_464",
+                      "startTime": "20180219221200",
+                      "endTime": "20180219221500",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Loading",
+              "name": "Loading",
+              "icon": "loading",
+              "PTS": "D",
+              "COLOR": "#e3e3e3",
+              "processStatus": "intime",
+              "id": "21",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219220000",
+                  "endTime": "20180219232600",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219220300",
+                  "text": "Loading ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219232300",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "21_1",
+                  "name": "LIRF Received",
+                  "level": "01",
+                  "time": "22:00 Delay 0",
+                  "activityStatus": "22:00 Delay 0",
+                  "InCompletedMileStoneTask": [
+                    {
+                      "id": "21_1_471",
+                      "startTime": "20180219220000",
+                      "endTime": "20180219221500",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStone": [
+                    {
+                      "id": "21_1_472",
+                      "time": "20180219220000",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStoneTaskText": [
+                    {
+                      "id": "21_1_473",
+                      "time": "20180219220200",
+                      "text": "LIRF Received",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "21_2",
+                  "name": "Last Baggage ULD at bay",
+                  "level": "01",
+                  "time": "23:10 Delay 0",
+                  "activityStatus": "23:10 Delay 0",
+                  "InCompletedMileStoneTask": [
+                    {
+                      "id": "21_2_483",
+                      "startTime": "20180219231000",
+                      "endTime": "20180219232500",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStone": [
+                    {
+                      "id": "21_2_484",
+                      "time": "20180219231000",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStoneTaskText": [
+                    {
+                      "id": "21_2_485",
+                      "time": "20180219231200",
+                      "text": "Last Baggage ULD positioned at bay",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "21_3",
+                  "name": "Last Bulk Baggage at the bay",
+                  "level": "01",
+                  "time": "23:20 Delay 0",
+                  "activityStatus": "23:20 Delay 0",
+                  "InCompletedMileStoneTask": [
+                    {
+                      "id": "21_3_495",
+                      "startTime": "20180219232000",
+                      "endTime": "20180219233500",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStone": [
+                    {
+                      "id": "21_3_496",
+                      "time": "20180219232000",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStoneTaskText": [
+                    {
+                      "id": "21_3_497",
+                      "time": "20180219232200",
+                      "text": "Last Bulk Baggage positioned at the bay",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "21_4",
+                  "name": "Last Cargo ULD at bay",
+                  "level": "01",
+                  "time": "23:00 Delay 0",
+                  "activityStatus": "23:00 Delay 0",
+                  "InCompletedMileStoneTask": [
+                    {
+                      "id": "21_4_507",
+                      "startTime": "20180219230000",
+                      "endTime": "20180219231500",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStone": [
+                    {
+                      "id": "21_4_508",
+                      "time": "20180219230000",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStoneTaskText": [
+                    {
+                      "id": "21_4_509",
+                      "time": "20180219230200",
+                      "text": "Last Cargo ULD Positioned at bay",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "21_5",
+                  "level": "01",
+                  "name": "Loading (Sub tasks)",
+                  "time": "22:30-23:25 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "21_5_513",
+                      "startTime": "20180219223000",
+                      "endTime": "20180219232500",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "21_5_517",
+                      "time": "20180219223300",
+                      "text": "Loading (Sub tasks)"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "21_5_528",
+                      "startTime": "20180219222700",
+                      "endTime": "20180219223000",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "21_6",
+                  "level": "01",
+                  "name": "Belly Door close",
+                  "time": "23:25-23:26 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "21_6_529",
+                      "startTime": "20180219232500",
+                      "endTime": "20180219232600",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "21_6_533",
+                      "time": "20180219232800",
+                      "text": "Belly Door Closed"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "21_6_544",
+                      "startTime": "20180219232200",
+                      "endTime": "20180219232500",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "21_7",
+                  "level": "01",
+                  "name": "Load Sheet Acceptance",
+                  "time": "23:15-23:25 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "21_7_545",
+                      "startTime": "20180219231500",
+                      "endTime": "20180219232500",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "21_7_549",
+                      "time": "20180219231800",
+                      "text": "Load Sheet Acceptance"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "21_7_560",
+                      "startTime": "20180219231200",
+                      "endTime": "20180219231500",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Aircraft",
+              "name": "Aircraft",
+              "PTS": "D",
+              "COLOR": "#e3e3e3",
+              "processStatus": "intime",
+              "id": "22",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219232700",
+                  "endTime": "20180219233000",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219233000",
+                  "text": "Aircraft ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219232700",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "22_1",
+                  "level": "01",
+                  "name": "Pushback Activity",
+                  "time": "23:27-23:30 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "22_1_561",
+                      "startTime": "20180219232700",
+                      "endTime": "20180219233000",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "22_1_565",
+                      "time": "20180219233000",
+                      "text": "Pushback Activity"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "22_1_576",
+                      "startTime": "20180219232400",
+                      "endTime": "20180219232700",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "22_2",
+                  "name": "Off-block",
+                  "level": "01",
+                  "time": "23:30 Delay 0",
+                  "activityStatus": "23:30 Delay 0",
+                  "InCompletedMileStoneTask": [
+                    {
+                      "id": "22_2_583",
+                      "startTime": "20180219233000",
+                      "endTime": "20180219234500",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStone": [
+                    {
+                      "id": "22_2_584",
+                      "time": "20180219233000",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStoneTaskText": [
+                    {
+                      "id": "22_2_585",
+                      "time": "20180219233200",
+                      "text": "Off-block",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "headerinfo": {
+            "currentTime": "20180219214000",
+            "sch_inblock": "20180219204000",
+            "act_inblock": "20180219204400",
+            "est_inblock": "20180219204500",
+            "sch_offblock": "20180219233000",
+            "est_offblock": "20180219233000",
+            "tobt_timestamp": "20180219233000",
+            "aobt": "20180219233000",
+            "actualOffBlockTime": "20180219233000",
+            "delayInTOBT": 0,
+            "flightIn_no": "BR0002",
+            "flightIn_from_to": "LHR->DXB",
+            "flightIn_stand": "F19",
+            "flightIn_gate": "B15",
+            "flightIn_EIBT": "20:45",
+            "flightIn_AIBT": "20:44",
+            "aircraft_type": "388",
+            "tail_id": "A0WFC",
+            "flightOut_no": "BR0322",
+            "flightOut_from_to": "DXB->ICN",
+            "flightOut_stand": "F19",
+            "flightOut_gate": "B15",
+            "flightOut_EOBT": "23:30",
+            "flightOut_TOBT": "23:30",
+            "flightOut_SOBT": "23:30",
+            "outstation_ATOT_ET": "18:15",
+            "outstation_ATOT_PT": "18:25",
+            "outstation_ATOT_AT": "18:15",
+            "firEntry_ET": "20:05",
+            "firEntry_PT": "20:05",
+            "firEntry_AT": "20:05",
+            "finalApproach_ET": "20:10",
+            "finalApproach_PT": "20:10",
+            "finalApproach_AT": "20:10",
+            "landing_ET": "20:20",
+            "landing_PT": "20:20",
+            "landing_AT": "",
+            "actualInBlock_ET": "20:40",
+            "actualInBlock_PT": "20:45",
+            "actualInBlock_AT": "20:44",
+            "actualOffBlock_ET": "23:30",
+            "actualOffBlock_PT": "23:30",
+            "actualOffBlock_AT": "23:30",
+            "outstation_EOBT_ET": "23:30",
+            "outstation_EOBT_PT": "",
+            "outstation_EOBT_AT": " ",
+            "outstation_TOBT_ET": "",
+            "outstation_TOBT_PT": "23:50",
+            "outstation_TOBT_AT": " "
+          },
+          "relationship": [
+            {
+              "fromDataId": "3_1",
+              "fromObjectPath": "3_1",
+              "toDataId": "3_2",
+              "toObjectPath": "3_2",
+              "relation_type": 3,
+              "fromShapeId": "InCompletedActivityTask",
+              "toShapeId": "InCompletedActivityTask",
+              "style": 0,
+              "guid": "Chinm"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "flightOne": "BR0002",
+      "flightOneEndTime": "20180219205000",
+      "flightTwo": "BR0322",
+      "flightTwoStartTime": "20180219233000",
+      "PTS": "D",
+      "read_pts_output": {
+        "root": {
+          "id": "root",
+          "level": "root",
+          "TA_BUTTON": 1,
+          "children": [
+            {
+              "text": "Readiness",
+              "name": "Readiness",
+              "icon": "readiness",
+              "PTS": "A",
+              "COLOR": "#ffffff",
+              "processStatus": "intime",
+              "id": "01",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219203000",
+                  "endTime": "20180219203000",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219203300",
+                  "text": "Readiness ",
+                  "info": "",
+                  "fill": "#FFFFFF"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219202700",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "1_1",
+                  "name": "Dispatcher at bay",
+                  "level": "01",
+                  "time": "20:30 Delay 0",
+                  "activityStatus": "20:30 Delay 0",
+                  "InCompletedMileStoneTask": [
+                    {
+                      "id": "1_1_7",
+                      "startTime": "20180219203000",
+                      "endTime": "20180219204500",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStone": [
+                    {
+                      "id": "1_1_8",
+                      "time": "20180219203000",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStoneTaskText": [
+                    {
+                      "id": "1_1_9",
+                      "time": "20180219203200",
+                      "text": "Dispatcher at bay",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Aircraft",
+              "name": "Aircraft",
+              "icon": "aircraft",
+              "PTS": "A",
+              "COLOR": "#ffffff",
+              "processStatus": "intime",
+              "id": "02",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219204000",
+                  "endTime": "20180219204000",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219204300",
+                  "text": "Aircraft ",
+                  "info": "",
+                  "fill": "#FFFFFF"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219203700",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "2_1",
+                  "name": "In-blocks",
+                  "level": "01",
+                  "time": "20:40 Delay 0",
+                  "activityStatus": "20:40 Delay 0",
+                  "InCompletedMileStoneTask": [
+                    {
+                      "id": "2_1_19",
+                      "startTime": "20180219204000",
+                      "endTime": "20180219205500",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStone": [
+                    {
+                      "id": "2_1_20",
+                      "time": "20180219204000",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStoneTaskText": [
+                    {
+                      "id": "2_1_21",
+                      "time": "20180219204200",
+                      "text": "In-blocks",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Passenger",
+              "name": "Passenger",
+              "icon": "passenger",
+              "PTS": "A",
+              "COLOR": "#ffffff",
+              "processStatus": "intime",
+              "id": "03",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219204000",
+                  "endTime": "20180219205800",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219204300",
+                  "text": "Passenger ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219205500",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "3_1",
+                  "level": "01",
+                  "name": "Loading, Bridges Docking",
+                  "time": "20:40-20:42 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "3_1_25",
+                      "startTime": "20180219204000",
+                      "endTime": "20180219204200",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "3_1_29",
+                      "time": "20180219204300",
+                      "text": "Loading, Bridges Docking"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "3_1_40",
+                      "startTime": "20180219203700",
+                      "endTime": "20180219204000",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "3_2",
+                  "level": "01",
+                  "name": "Cabin door open",
+                  "time": "20:42-20:43 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "3_2_41",
+                      "startTime": "20180219204200",
+                      "endTime": "20180219204300",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "3_2_45",
+                      "time": "20180219204500",
+                      "text": "Cabin door open by crew"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "3_2_56",
+                      "startTime": "20180219203900",
+                      "endTime": "20180219204200",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "3_3",
+                  "level": "01",
+                  "name": "Pax disembarkation",
+                  "time": "20:43-20:58 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "3_3_57",
+                      "startTime": "20180219204300",
+                      "endTime": "20180219205800",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "3_3_61",
+                      "time": "20180219204600",
+                      "text": "Passengers disembarkation"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "3_3_72",
+                      "startTime": "20180219204000",
+                      "endTime": "20180219204300",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Cleaning",
+              "name": "Cleaning",
+              "icon": "cleaning",
+              "PTS": "A",
+              "COLOR": "#ffffff",
+              "processStatus": "intime",
+              "id": "04",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219205800",
+                  "endTime": "20180219214300",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219210100",
+                  "text": "Cleaning ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219214000",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "4_1",
+                  "level": "01",
+                  "name": "Cabin Clean/Dress",
+                  "time": "20:58-21:43 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "4_1_73",
+                      "startTime": "20180219205800",
+                      "endTime": "20180219214300",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "4_1_77",
+                      "time": "20180219210100",
+                      "text": "Cabin Clean/Dress"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "4_1_88",
+                      "startTime": "20180219205500",
+                      "endTime": "20180219205800",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Passenger",
+              "name": "Passenger",
+              "icon": "passenger",
+              "PTS": "A",
+              "COLOR": "#ffffff",
+              "processStatus": "intime",
+              "id": "05",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219214300",
+                  "endTime": "20180219214400",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219214600",
+                  "text": "Passenger ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219214100",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "5_1",
+                  "level": "01",
+                  "name": "Cabin door closed",
+                  "time": "21:43-21:44 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "5_1_89",
+                      "startTime": "20180219214300",
+                      "endTime": "20180219214400",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "5_1_93",
+                      "time": "20180219214600",
+                      "text": "Cabin Door Close"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "5_1_104",
+                      "startTime": "20180219214000",
+                      "endTime": "20180219214300",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Technical Services",
+              "name": "Technical Services",
+              "icon": "techservices",
+              "PTS": "A",
+              "COLOR": "#ffffff",
+              "processStatus": "intime",
+              "id": "06",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219204200",
+                  "endTime": "20180219210700",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219204500",
+                  "text": "Technical Services ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219210400",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "6_1",
+                  "level": "01",
+                  "name": "Wastage Services",
+                  "time": "20:42-21:07 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "6_1_105",
+                      "startTime": "20180219204200",
+                      "endTime": "20180219210700",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "6_1_109",
+                      "time": "20180219204500",
+                      "text": "Wastage Services"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "6_1_120",
+                      "startTime": "20180219203900",
+                      "endTime": "20180219204200",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Unloading",
+              "name": "Unloading",
+              "icon": "unloading",
+              "PTS": "A",
+              "COLOR": "#ffffff",
+              "processStatus": "intime",
+              "id": "07",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219204000",
+                  "endTime": "20180219212400",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219204300",
+                  "text": "Unloading ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219212100",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "7_1",
+                  "level": "01",
+                  "name": "Belly door open",
+                  "time": "20:40-20:41 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "7_1_121",
+                      "startTime": "20180219204000",
+                      "endTime": "20180219204100",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "7_1_125",
+                      "time": "20180219204300",
+                      "text": "Belly door open"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "7_1_136",
+                      "startTime": "20180219203700",
+                      "endTime": "20180219204000",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "7_2",
+                  "level": "01",
+                  "name": "Ramp Equip connected",
+                  "time": "20:41-20:43 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "7_2_137",
+                      "startTime": "20180219204100",
+                      "endTime": "20180219204300",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "7_2_141",
+                      "time": "20180219204400",
+                      "text": "Ramp Equipment connected"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "7_2_152",
+                      "startTime": "20180219203800",
+                      "endTime": "20180219204100",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "7_3",
+                  "level": "01",
+                  "name": "Unload (Sub Tasks)",
+                  "time": "20:43-21:23 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "7_3_153",
+                      "startTime": "20180219204300",
+                      "endTime": "20180219212300",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "7_3_157",
+                      "time": "20180219204600",
+                      "text": "Unload"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "7_3_168",
+                      "startTime": "20180219204000",
+                      "endTime": "20180219204300",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "7_4",
+                  "level": "01",
+                  "name": "Belly Door close",
+                  "time": "21:23-21:24 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "7_4_169",
+                      "startTime": "20180219212300",
+                      "endTime": "20180219212400",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "7_4_173",
+                      "time": "20180219212600",
+                      "text": "Belly Door Close"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "7_4_184",
+                      "startTime": "20180219212000",
+                      "endTime": "20180219212300",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Catering",
+              "name": "Catering",
+              "icon": "catering",
+              "PTS": "A",
+              "COLOR": "#ffffff",
+              "processStatus": "intime",
+              "id": "08",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219205800",
+                  "endTime": "20180219211300",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219210100",
+                  "text": "Catering ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219211000",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "8_1",
+                  "level": "01",
+                  "name": "Catering off load",
+                  "time": "20:58-21:13 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "8_1_185",
+                      "startTime": "20180219205800",
+                      "endTime": "20180219211300",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "8_1_189",
+                      "time": "20180219210100",
+                      "text": "catering off load"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "8_1_200",
+                      "startTime": "20180219205500",
+                      "endTime": "20180219205800",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "End of Arrival",
+              "name": "End of Arrival",
+              "PTS": "A",
+              "COLOR": "#ffffff",
+              "processStatus": "intime",
+              "id": "09",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219214400",
+                  "endTime": "20180219214400",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219214700",
+                  "text": "End of Arrival ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219214100",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "9_1",
+                  "name": "End of Arrival",
+                  "level": "01",
+                  "time": "21:44 Delay 0",
+                  "activityStatus": "21:44 Delay 0",
+                  "InCompletedMileStoneTask": [
+                    {
+                      "id": "9_1_207",
+                      "startTime": "20180219214400",
+                      "endTime": "20180219215900",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStone": [
+                    {
+                      "id": "9_1_208",
+                      "time": "20180219214400",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStoneTaskText": [
+                    {
+                      "id": "9_1_209",
+                      "time": "20180219214600",
+                      "text": "End of Arrival",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Readiness",
+              "name": "Readiness",
+              "icon": "readiness",
+              "PTS": "D",
+              "COLOR": "#e3e3e3",
+              "processStatus": "intime",
+              "id": "10",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219220500",
+                  "endTime": "20180219220500",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219220800",
+                  "text": "Readiness ",
+                  "info": "",
+                  "fill": "#FFFFFF"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219220200",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "10_1",
+                  "name": "Dispatcher at bay",
+                  "level": "01",
+                  "time": "22:05 Delay 0",
+                  "activityStatus": "22:05 Delay 0",
+                  "InCompletedMileStoneTask": [
+                    {
+                      "id": "10_1_219",
+                      "startTime": "20180219220500",
+                      "endTime": "20180219222000",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStone": [
+                    {
+                      "id": "10_1_220",
+                      "time": "20180219220500",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStoneTaskText": [
+                    {
+                      "id": "10_1_221",
+                      "time": "20180219220700",
+                      "text": "Dispatcher at bay",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Aircraft",
+              "name": "Aircraft",
+              "icon": "aircraft",
+              "PTS": "D",
+              "COLOR": "#e3e3e3",
+              "processStatus": "intime",
+              "id": "11",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219221500",
+                  "endTime": "20180219221500",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219221800",
+                  "text": "Aircraft ",
+                  "info": "",
+                  "fill": "#FFFFFF"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219221200",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "11_1",
+                  "name": "In-blocks",
+                  "level": "01",
+                  "time": "22:15 Delay 0",
+                  "activityStatus": "22:15 Delay 0",
+                  "InCompletedMileStoneTask": [
+                    {
+                      "id": "11_1_231",
+                      "startTime": "20180219221500",
+                      "endTime": "20180219223000",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStone": [
+                    {
+                      "id": "11_1_232",
+                      "time": "20180219221500",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStoneTaskText": [
+                    {
+                      "id": "11_1_233",
+                      "time": "20180219221700",
+                      "text": "In-blocks",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Passenger",
+              "name": "Passenger",
+              "icon": "passenger",
+              "PTS": "D",
+              "COLOR": "#e3e3e3",
+              "processStatus": "intime",
+              "id": "12",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219215300",
+                  "endTime": "20180219231100",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219215600",
+                  "text": "Passenger ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219230800",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "12_1",
+                  "level": "01",
+                  "name": "Loading, Bridges Docking",
+                  "time": "22:15-22:17 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "12_1_237",
+                      "startTime": "20180219221500",
+                      "endTime": "20180219221700",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "12_1_241",
+                      "time": "20180219221800",
+                      "text": "Loading, Bridges Docking"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "12_1_252",
+                      "startTime": "20180219221200",
+                      "endTime": "20180219221500",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "12_2",
+                  "level": "01",
+                  "name": "Cabin door open",
+                  "time": "22:17-22:18 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "12_2_253",
+                      "startTime": "20180219221700",
+                      "endTime": "20180219221800",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "12_2_257",
+                      "time": "20180219222000",
+                      "text": "Cabin door open"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "12_2_268",
+                      "startTime": "20180219221400",
+                      "endTime": "20180219221700",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "12_3",
+                  "name": "Cabin Clean-Readiness",
+                  "level": "01",
+                  "time": "21:53 Delay 0",
+                  "activityStatus": "21:53 Delay 0",
+                  "InCompletedMileStoneTask": [
+                    {
+                      "id": "12_3_275",
+                      "startTime": "20180219215300",
+                      "endTime": "20180219220800",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStone": [
+                    {
+                      "id": "12_3_276",
+                      "time": "20180219215300",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStoneTaskText": [
+                    {
+                      "id": "12_3_277",
+                      "time": "20180219215500",
+                      "text": "Cabin Clean/Dress -Readiness",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "12_4",
+                  "level": "01",
+                  "name": "Gate Open",
+                  "time": "22:00-22:01 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "12_4_281",
+                      "startTime": "20180219220000",
+                      "endTime": "20180219220100",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "12_4_285",
+                      "time": "20180219220300",
+                      "text": "Gate Open"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "12_4_296",
+                      "startTime": "20180219215700",
+                      "endTime": "20180219220000",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "12_5",
+                  "level": "01",
+                  "name": "Pax System Boarding",
+                  "time": "22:01-23:11 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "12_5_297",
+                      "startTime": "20180219220100",
+                      "endTime": "20180219231100",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "12_5_301",
+                      "time": "20180219220400",
+                      "text": "Passengers On-System Boarding"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "12_5_312",
+                      "startTime": "20180219215800",
+                      "endTime": "20180219220100",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Catering",
+              "name": "Catering",
+              "icon": "catering",
+              "PTS": "D",
+              "COLOR": "#e3e3e3",
+              "processStatus": "intime",
+              "id": "13",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219221800",
+                  "endTime": "20180219223800",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219222100",
+                  "text": "Catering ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219223500",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "13_1",
+                  "level": "01",
+                  "name": "Catering -On Load",
+                  "time": "22:18-22:38 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "13_1_313",
+                      "startTime": "20180219221800",
+                      "endTime": "20180219223800",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "13_1_317",
+                      "time": "20180219222100",
+                      "text": "Catering -On Load"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "13_1_328",
+                      "startTime": "20180219221500",
+                      "endTime": "20180219221800",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Crew",
+              "name": "Crew",
+              "icon": "crew",
+              "PTS": "D",
+              "COLOR": "#e3e3e3",
+              "processStatus": "intime",
+              "id": "14",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219221800",
+                  "endTime": "20180219221800",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219222100",
+                  "text": "Crew ",
+                  "info": "",
+                  "fill": "#FFFFFF"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219221500",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "14_1",
+                  "name": "Crew On board",
+                  "level": "01",
+                  "time": "22:18 Delay 0",
+                  "activityStatus": "22:18 Delay 0",
+                  "InCompletedMileStoneTask": [
+                    {
+                      "id": "14_1_335",
+                      "startTime": "20180219221800",
+                      "endTime": "20180219223300",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStone": [
+                    {
+                      "id": "14_1_336",
+                      "time": "20180219221800",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStoneTaskText": [
+                    {
+                      "id": "14_1_337",
+                      "time": "20180219222000",
+                      "text": "Crew On board",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Security",
+              "name": "Security",
+              "icon": "security",
+              "PTS": "D",
+              "COLOR": "#e3e3e3",
+              "processStatus": "intime",
+              "id": "15",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219223800",
+                  "endTime": "20180219224800",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219224100",
+                  "text": "Security ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219224500",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "15_1",
+                  "level": "01",
+                  "name": "Cabin Security Check",
+                  "time": "22:38-22:48 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "15_1_341",
+                      "startTime": "20180219223800",
+                      "endTime": "20180219224800",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "15_1_345",
+                      "time": "20180219224100",
+                      "text": "Cabin Security Check"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "15_1_356",
+                      "startTime": "20180219223500",
+                      "endTime": "20180219223800",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Passenger",
+              "name": "Passenger",
+              "PTS": "D",
+              "COLOR": "#e3e3e3",
+              "processStatus": "intime",
+              "id": "16",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219224800",
+                  "endTime": "20180219232700",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219225100",
+                  "text": "Passenger ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219232400",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "16_1",
+                  "level": "01",
+                  "name": "Pax Aircraft Boarding",
+                  "time": "22:48-23:26 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "16_1_357",
+                      "startTime": "20180219224800",
+                      "endTime": "20180219232600",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "16_1_361",
+                      "time": "20180219225100",
+                      "text": "Passengers On-Aircraft Boarding"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "16_1_372",
+                      "startTime": "20180219224500",
+                      "endTime": "20180219224800",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "16_2",
+                  "level": "01",
+                  "name": "Cabin door closed",
+                  "time": "23:26-23:27 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "16_2_373",
+                      "startTime": "20180219232600",
+                      "endTime": "20180219232700",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "16_2_377",
+                      "time": "20180219232900",
+                      "text": "Cabin door closed by Crew"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "16_2_388",
+                      "startTime": "20180219232300",
+                      "endTime": "20180219232600",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Technical Services",
+              "name": "Technical Services",
+              "PTS": "D",
+              "COLOR": "#e3e3e3",
+              "processStatus": "intime",
+              "id": "17",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219220500",
+                  "endTime": "20180219220500",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219220800",
+                  "text": "Technical Services ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219220200",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "17_1",
+                  "name": "Wastage Services -Readiness",
+                  "level": "01",
+                  "time": "22:05 Delay 0",
+                  "activityStatus": "22:05 Delay 0",
+                  "InCompletedMileStoneTask": [
+                    {
+                      "id": "17_1_395",
+                      "startTime": "20180219220500",
+                      "endTime": "20180219222000",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStone": [
+                    {
+                      "id": "17_1_396",
+                      "time": "20180219220500",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStoneTaskText": [
+                    {
+                      "id": "17_1_397",
+                      "time": "20180219220700",
+                      "text": "Wastage Services -Readiness",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Loading",
+              "name": "Loading",
+              "PTS": "D",
+              "COLOR": "#e3e3e3",
+              "processStatus": "intime",
+              "id": "18",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219221500",
+                  "endTime": "20180219221800",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219221800",
+                  "text": "Loading ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219221500",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "18_1",
+                  "level": "01",
+                  "name": "Belly door open",
+                  "time": "22:15-22:16 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "18_1_401",
+                      "startTime": "20180219221500",
+                      "endTime": "20180219221600",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "18_1_405",
+                      "time": "20180219221800",
+                      "text": "Belly Door Open"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "18_1_416",
+                      "startTime": "20180219221200",
+                      "endTime": "20180219221500",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "18_2",
+                  "level": "01",
+                  "name": "Ramp Equip connected",
+                  "time": "22:16-22:18 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "18_2_417",
+                      "startTime": "20180219221600",
+                      "endTime": "20180219221800",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "18_2_421",
+                      "time": "20180219221900",
+                      "text": "Ramp Equipment connected"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "18_2_432",
+                      "startTime": "20180219221300",
+                      "endTime": "20180219221600",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Technical Services",
+              "name": "Technical Services",
+              "PTS": "D",
+              "COLOR": "#e3e3e3",
+              "processStatus": "intime",
+              "id": "19",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219223000",
+                  "endTime": "20180219225000",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219223300",
+                  "text": "Technical Services ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219224700",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "19_1",
+                  "level": "01",
+                  "name": "Water Services",
+                  "time": "22:30-22:50 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "19_1_433",
+                      "startTime": "20180219223000",
+                      "endTime": "20180219225000",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "19_1_437",
+                      "time": "20180219223300",
+                      "text": "Water Services"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "19_1_448",
+                      "startTime": "20180219222700",
+                      "endTime": "20180219223000",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Fuelling",
+              "name": "Fuelling",
+              "icon": "fueling",
+              "PTS": "D",
+              "COLOR": "#e3e3e3",
+              "processStatus": "intime",
+              "id": "20",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219221500",
+                  "endTime": "20180219231000",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219221800",
+                  "text": "Fuelling ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219230700",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "20_1",
+                  "level": "01",
+                  "name": "Fuelling",
+                  "time": "22:15-23:10 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "20_1_449",
+                      "startTime": "20180219221500",
+                      "endTime": "20180219231000",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "20_1_453",
+                      "time": "20180219221800",
+                      "text": "Fuelling"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "20_1_464",
+                      "startTime": "20180219221200",
+                      "endTime": "20180219221500",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Loading",
+              "name": "Loading",
+              "icon": "loading",
+              "PTS": "D",
+              "COLOR": "#e3e3e3",
+              "processStatus": "intime",
+              "id": "21",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219220000",
+                  "endTime": "20180219232600",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219220300",
+                  "text": "Loading ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219232300",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "21_1",
+                  "name": "LIRF Received",
+                  "level": "01",
+                  "time": "22:00 Delay 0",
+                  "activityStatus": "22:00 Delay 0",
+                  "InCompletedMileStoneTask": [
+                    {
+                      "id": "21_1_471",
+                      "startTime": "20180219220000",
+                      "endTime": "20180219221500",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStone": [
+                    {
+                      "id": "21_1_472",
+                      "time": "20180219220000",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStoneTaskText": [
+                    {
+                      "id": "21_1_473",
+                      "time": "20180219220200",
+                      "text": "LIRF Received",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "21_2",
+                  "name": "Last Baggage ULD at bay",
+                  "level": "01",
+                  "time": "23:10 Delay 0",
+                  "activityStatus": "23:10 Delay 0",
+                  "InCompletedMileStoneTask": [
+                    {
+                      "id": "21_2_483",
+                      "startTime": "20180219231000",
+                      "endTime": "20180219232500",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStone": [
+                    {
+                      "id": "21_2_484",
+                      "time": "20180219231000",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStoneTaskText": [
+                    {
+                      "id": "21_2_485",
+                      "time": "20180219231200",
+                      "text": "Last Baggage ULD positioned at bay",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "21_3",
+                  "name": "Last Bulk Baggage at the bay",
+                  "level": "01",
+                  "time": "23:20 Delay 0",
+                  "activityStatus": "23:20 Delay 0",
+                  "InCompletedMileStoneTask": [
+                    {
+                      "id": "21_3_495",
+                      "startTime": "20180219232000",
+                      "endTime": "20180219233500",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStone": [
+                    {
+                      "id": "21_3_496",
+                      "time": "20180219232000",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStoneTaskText": [
+                    {
+                      "id": "21_3_497",
+                      "time": "20180219232200",
+                      "text": "Last Bulk Baggage positioned at the bay",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "21_4",
+                  "name": "Last Cargo ULD at bay",
+                  "level": "01",
+                  "time": "23:00 Delay 0",
+                  "activityStatus": "23:00 Delay 0",
+                  "InCompletedMileStoneTask": [
+                    {
+                      "id": "21_4_507",
+                      "startTime": "20180219230000",
+                      "endTime": "20180219231500",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStone": [
+                    {
+                      "id": "21_4_508",
+                      "time": "20180219230000",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStoneTaskText": [
+                    {
+                      "id": "21_4_509",
+                      "time": "20180219230200",
+                      "text": "Last Cargo ULD Positioned at bay",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "21_5",
+                  "level": "01",
+                  "name": "Loading (Sub tasks)",
+                  "time": "22:30-23:25 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "21_5_513",
+                      "startTime": "20180219223000",
+                      "endTime": "20180219232500",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "21_5_517",
+                      "time": "20180219223300",
+                      "text": "Loading (Sub tasks)"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "21_5_528",
+                      "startTime": "20180219222700",
+                      "endTime": "20180219223000",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "21_6",
+                  "level": "01",
+                  "name": "Belly Door close",
+                  "time": "23:25-23:26 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "21_6_529",
+                      "startTime": "20180219232500",
+                      "endTime": "20180219232600",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "21_6_533",
+                      "time": "20180219232800",
+                      "text": "Belly Door Closed"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "21_6_544",
+                      "startTime": "20180219232200",
+                      "endTime": "20180219232500",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "21_7",
+                  "level": "01",
+                  "name": "Load Sheet Acceptance",
+                  "time": "23:15-23:25 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "21_7_545",
+                      "startTime": "20180219231500",
+                      "endTime": "20180219232500",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "21_7_549",
+                      "time": "20180219231800",
+                      "text": "Load Sheet Acceptance"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "21_7_560",
+                      "startTime": "20180219231200",
+                      "endTime": "20180219231500",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Aircraft",
+              "name": "Aircraft",
+              "PTS": "D",
+              "COLOR": "#e3e3e3",
+              "processStatus": "intime",
+              "id": "22",
+              "CompletedProcessTask": [
+                {
+                  "startTime": "20180219232700",
+                  "endTime": "20180219233000",
+                  "info": ""
+                }
+              ],
+              "ProcessTaskText": [
+                {
+                  "time": "20180219233000",
+                  "text": "Aircraft ",
+                  "info": "",
+                  "fill": "#84848"
+                }
+              ],
+              "uptriangle": [
+                {
+                  "time": "20180219232700",
+                  "rotationAngle": 90,
+                  "info": ""
+                }
+              ],
+              "children": [
+                {
+                  "id": "22_1",
+                  "level": "01",
+                  "name": "Pushback Activity",
+                  "time": "23:27-23:30 Delay 0",
+                  "activityStatus": "intime",
+                  "InCompletedActivityTask": [
+                    {
+                      "id": "22_1_561",
+                      "startTime": "20180219232700",
+                      "endTime": "20180219233000",
+                      "info": "123"
+                    }
+                  ],
+                  "InCompletedActivityTaskText": [
+                    {
+                      "id": "22_1_565",
+                      "time": "20180219233000",
+                      "text": "Pushback Activity"
+                    }
+                  ],
+                  "PredictedStartTaskEarly": [
+                    {
+                      "id": "22_1_576",
+                      "startTime": "20180219232400",
+                      "endTime": "20180219232700",
+                      "info": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "22_2",
+                  "name": "Off-block",
+                  "level": "01",
+                  "time": "23:30 Delay 0",
+                  "activityStatus": "23:30 Delay 0",
+                  "InCompletedMileStoneTask": [
+                    {
+                      "id": "22_2_583",
+                      "startTime": "20180219233000",
+                      "endTime": "20180219234500",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStone": [
+                    {
+                      "id": "22_2_584",
+                      "time": "20180219233000",
+                      "info": ""
+                    }
+                  ],
+                  "InCompletedMileStoneTaskText": [
+                    {
+                      "id": "22_2_585",
+                      "time": "20180219233200",
+                      "text": "Off-block",
+                      "info": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "headerinfo": {
+            "currentTime": "20180219214000",
+            "sch_inblock": "20180219204000",
+            "act_inblock": "20180219204400",
+            "est_inblock": "20180219204500",
+            "sch_offblock": "20180219233000",
+            "est_offblock": "20180219233000",
+            "tobt_timestamp": "20180219233000",
+            "aobt": "20180219233000",
+            "actualOffBlockTime": "20180219233000",
+            "delayInTOBT": 0,
+            "flightIn_no": "BR0002",
+            "flightIn_from_to": "LHR->DXB",
+            "flightIn_stand": "F19",
+            "flightIn_gate": "B15",
+            "flightIn_EIBT": "20:45",
+            "flightIn_AIBT": "20:44",
+            "aircraft_type": "388",
+            "tail_id": "A0WFC",
+            "flightOut_no": "BR0322",
+            "flightOut_from_to": "DXB->ICN",
+            "flightOut_stand": "F19",
+            "flightOut_gate": "B15",
+            "flightOut_EOBT": "23:30",
+            "flightOut_TOBT": "23:30",
+            "flightOut_SOBT": "23:30",
+            "outstation_ATOT_ET": "18:15",
+            "outstation_ATOT_PT": "18:25",
+            "outstation_ATOT_AT": "18:15",
+            "firEntry_ET": "20:05",
+            "firEntry_PT": "20:05",
+            "firEntry_AT": "20:05",
+            "finalApproach_ET": "20:10",
+            "finalApproach_PT": "20:10",
+            "finalApproach_AT": "20:10",
+            "landing_ET": "20:20",
+            "landing_PT": "20:20",
+            "landing_AT": "",
+            "actualInBlock_ET": "20:40",
+            "actualInBlock_PT": "20:45",
+            "actualInBlock_AT": "20:44",
+            "actualOffBlock_ET": "23:30",
+            "actualOffBlock_PT": "23:30",
+            "actualOffBlock_AT": "23:30",
+            "outstation_EOBT_ET": "23:30",
+            "outstation_EOBT_PT": "",
+            "outstation_EOBT_AT": " ",
+            "outstation_TOBT_ET": "",
+            "outstation_TOBT_PT": "23:50",
+            "outstation_TOBT_AT": " "
+          },
+          "relationship": [
+            {
+              "fromDataId": "3_1",
+              "fromObjectPath": "3_1",
+              "toDataId": "3_2",
+              "toObjectPath": "3_2",
+              "relation_type": 3,
+              "fromShapeId": "InCompletedActivityTask",
+              "toShapeId": "InCompletedActivityTask",
+              "style": 0,
+              "guid": "Chinm"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

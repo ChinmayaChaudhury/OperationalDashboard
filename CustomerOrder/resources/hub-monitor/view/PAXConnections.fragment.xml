@@ -1,0 +1,203 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<Dialog id="paxDialog" title="PAX" contentWidth="400px" contentHeight="100%" class="pax" showHeader="false">
+		<content>
+			<NavContainer id="navCon" class="navContainerControl">
+				<pages>
+					<Page id="pax">
+						<customHeader>
+							<Bar design="Header" class="containerHeader">
+								<contentLeft>
+									<Title text="PAX TRACKING" class="sapUiLargeMarginBegin plainMText font16 color7E"/>
+								</contentLeft>
+								<contentRight>
+									<core:Icon src="sap-icon://employee-lookup" size="1.5rem" class="sapUiSmallMarginBegin sapUiSmallMarginEnd sapUiSmallMarginTop colorB7"/>
+									<Button icon="sap-icon://sys-cancel" press="onCloseDialog" class="buttonColor" />
+								</contentRight>
+							</Bar>
+						</customHeader>
+						<content>
+							<VBox>
+								<!--Flight info-->
+								<VBox>
+									<HBox class="sapUiLargeMarginBegin sapUiTinyMargin" alignItems="Baseline">
+										<Text text="BR0505" class="plainMText font14 color7E sapUiTinyMarginEnd"/>
+										<Text text="DXB-LHR" class="plainLText font12 color7E sapUiTinyMarginEnd"/>
+										<Text text="(F22 / J87 / Y23)" class="plainMText font10 color7E"/>
+									</HBox>
+									<HBox class="sapUiLargeMarginBegin">
+										<Text text="STAND:" class="plainMText font10 color7E"/>
+										<Text text="23 C" class="plainLText font10 color7E sapUiTinyMarginEnd"/>
+										<Text text="GATE:" class="plainMText font10 color7E"/>
+										<Text text="03A" class="plainLText font10 color7E sapUiTinyMarginEnd"/>
+										<Text text="AIRCRAFT:" class="plainMText color7E font10"/>
+										<Text text="A380" class="plainLText font10 color7E"/>
+									</HBox>
+									<HBox class="sapUiLargeMarginBegin">
+										<Text text="SOBT:" class="plainMText font10 color7E"/>
+										<Text text="12:45 hrs" class="plainLText font10 color7E sapUiTinyMarginEnd"/>
+										<Text text="TOBT:" class="plainMText font10 color7E"/>
+										<Text text="12:55" class="plainLText font10 color7E"/>
+									</HBox>
+								</VBox>
+								<!--Connecting/Joining-->
+								<HBox>
+									<!--Connecting-->
+									<VBox class="sapUiSmallMargin" width="60%">
+										<VBox class="boxConnecting">
+											<VBox alignItems="Center">
+												<Text text="CONNECTING" class="plainMText font14 color7E"/>
+											</VBox>
+											<HBox class="sapUiSmallMarginTop">
+												<Text text="342" class="plainBText font18 color78 sapUiTinyMarginEnd"/>
+												<core:Icon src="sap-icon://group" size="1rem" class="colorB9 lessMargin2"/>
+											</HBox>
+											<Text text="TOTAL PASSENGERS" class="plainMText font8 color7E lessMargin"/>
+											<VBox alignItems="Center" class="sapUiTinyMargin">
+												<Text text="STATUS" class="plainMText font10 color7E"/>
+											</VBox>
+											<HBox>
+												<VBox items="{connections>/pax/connecting}">
+													<HBox>
+														<VBox width="35px">
+															<core:Icon src="{connections>icon}" class="sapUiTinyMarginEnd colorB9" size="1.5rem"/>
+														</VBox>
+														<VBox class="sapUiSmallMarginBottom statusBox">
+															<Text text="{connections>statusNumber}" class="plainBText font15 color78"/>
+															<Text text="{connections>statusText}" class="plainMText font8 color7E lessMargin"/>
+														</VBox>
+														<VBox class="sapUiTinyMarginBegin sapUiSmallMarginBottom paxBox lessLineHeight">
+															<Text text="F {connections>F}" class="helveticaText font8 color9C"/>
+															<Text text="J {connections>J}" class="helveticaText font8 color9C"/>
+															<Text text="Y {connections>Y}" class="helveticaText font8 color9C"/>
+														</VBox>
+													</HBox>
+												</VBox>
+											</HBox>
+										</VBox>
+										<!--Inbound Flight-->
+										<VBox class="sapUiSmallMarginTop sapUiLargeMarginBegin">
+											<HBox>
+												<Button icon="sap-icon://ek/inboundFlight" class="sapUiTinyMarginEnd buttonColor" type="Transparent" press="toInbound"/>
+												<!--<core:Icon src="sap-icon://ek/inboundFlight" class="sapUiTinyMarginEnd colorB9" size="1.5rem" press="toInbound"/>-->
+												<VBox class="lessLineHeight">
+													<Text text="121" class="plainBText font15 color78"/>
+													<Text text="INBOUND" class="plainMText font8 color7E"/>
+													<Text text="CONNECTIONS" class="plainMText font8 color7E"/>
+												</VBox>
+											</HBox>
+											<ProgressIndicator percentValue="70" showValue="false" state="Error" width="100px"/>
+										</VBox>
+									</VBox>
+									<!--Joining-->
+									<VBox class="sapUiSmallMargin" width="50%">
+										<VBox class="boxJoining">
+											<VBox alignItems="Center">
+												<Text text="JOINING" class="plainMText font14 color7E"/>
+											</VBox>
+											<HBox class="sapUiSmallMarginTop">
+												<Text text="271" class="plainBText font18 color78 sapUiTinyMarginEnd"/>
+												<core:Icon src="sap-icon://group" size="1rem" class="colorB9 lessMargin2"/>
+											</HBox>
+											<Text text="TOTAL PASSENGERS" class="plainMText font8 color7E lessMargin"/>
+											<VBox alignItems="Center" class="sapUiTinyMargin">
+												<Text text="STATUS" class="plainMText font10 color7E"/>
+											</VBox>
+											<VBox items="{connections>/pax/joining}">
+												<HBox>
+													<VBox class="sapUiSmallMarginBottom statusBox">
+														<Text text="{connections>statusNumber}" class="plainBText font15 color78"/>
+														<Text text="{connections>statusText}" class="plainMText font8 color7E lessMargin"/>
+													</VBox>
+													<VBox class="sapUiTinyMarginBegin sapUiSmallMarginBottom paxBox lessLineHeight">
+														<Text text="F {connections>F}" class="helveticaText font8 color9C"/>
+														<Text text="J {connections>J}" class="helveticaText font8 color9C"/>
+														<Text text="Y {connections>Y}" class="helveticaText font8 color9C"/>
+													</VBox>
+												</HBox>
+											</VBox>
+										</VBox>
+										<!--Outbound Flight-->
+										<VBox class="sapUiSmallMarginTop">
+											<HBox>
+												<Button icon="sap-icon://ek/outboundFlight" class="sapUiTinyMarginEnd buttonColor" type="Transparent"/>
+												<!--<core:Icon src="sap-icon://ek/outboundFlight" class="sapUiTinyMarginEnd colorB9" size="1.5rem"/>-->
+												<VBox class="lessLineHeight">
+													<Text text="67" class="plainBText font15 color78"/>
+													<Text text="OUTBOUND" class="plainMText font8 color7E"/>
+													<Text text="CONNECTIONS" class="plainMText font8 color7E"/>
+												</VBox>
+											</HBox>
+											<ProgressIndicator percentValue="85" showValue="false" state="Error" width="100px"/>
+										</VBox>
+									</VBox>
+								</HBox>
+							</VBox>
+						</content>
+					</Page>
+					<Page id="inbound">
+						<customHeader>
+							<Bar design="Header" class="containerHeader">
+								<contentLeft>
+									<Button icon="sap-icon://nav-back" class="buttonColor" press="onBack"/>
+									<Title text="INBOUND CONNECTIONS" class="sapUiLargeMarginBegin plainMText font16 color7E"/>
+								</contentLeft>
+								<contentRight>
+									<core:Icon src="sap-icon://employee-lookup" size="1.5rem" class="sapUiSmallMarginBegin sapUiSmallMarginEnd sapUiSmallMarginTop colorB7"/>
+								</contentRight>
+							</Bar>
+						</customHeader>
+						<content>
+							<VBox class="sapUiSmallMargin">
+								<!--<Text text="INBOUND CONNECTIONS" class="plainMText font14 color7E"/>-->
+								<HBox alignItems="Center">
+									<Text text="23" class="plainBText font18 colorAD moreMargin"/>
+									<Text text="IMPACTED" class="plainMText font10 colorB9 sapUiSmallMarginEnd"/>
+									<Text text="10" class="plainBText font18 colorFF moreMargin"/>
+									<Text text="IMPACTED" class="plainMText font10 colorB9 sapUiSmallMarginEnd"/>
+								</HBox>
+								
+								<Table items="{connections>/pax/inbound}" class="inboundTable sapUiMediumMarginTop" backgroundDesign="Transparent" fixedLayout="false">
+									<columns>
+										<Column>
+											<Text text="FLIGHT" class="tableTitle"/>
+										</Column>
+										<Column>
+											<Text text="SECTOR" class="tableTitle"/>
+										</Column>
+										<Column>
+											<Text text="STAND" class="tableTitle"/>
+										</Column>
+										<Column>
+											<Text text="EIBT/AIBT" class="tableTitle"/>
+										</Column>
+										<Column>
+											<Text text="NEW TOBT" class="tableTitle"/>
+										</Column>
+										<Column>
+											<Text text="TIME TO CONN." class="tableTitle"/>
+										</Column>
+										<Column>
+											<Text text="PASSENGERS" class="tableTitle"/>
+										</Column>
+									</columns>
+									<items>
+										<ColumnListItem>
+											
+											<Text text="{connections>flight}"/>
+											<Text text="{connections>sector}"/>
+											<Text text="{connections>stand}"/>
+											<Text text="{connections>eibt}"/>
+											<Text text="{connections>tobt}"/>
+											<Text text="{connections>time}"/>
+											<Text text="{connections>pax}"/>
+										</ColumnListItem>
+									</items>
+								</Table>
+							</VBox>
+						</content>
+					</Page>
+				</pages>
+			</NavContainer>
+		</content>
+	</Dialog>
+</core:FragmentDefinition>

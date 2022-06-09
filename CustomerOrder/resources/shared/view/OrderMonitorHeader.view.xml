@@ -1,0 +1,15 @@
+<mvc:View controllerName="shared.controller.FlightOpsHeader" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<html:section>
+		<html:ul class="stats">
+			<html:li data-value="129">Total Orders</html:li>
+			<html:li data-value="40">Impacted Orders</html:li>
+			<html:li data-value="12">Predected Impacts</html:li>
+		</html:ul>
+	</html:section>
+	<html:section>
+		<html:span class="search-bar">
+			<html:input type="search" placeholder="Search"></html:input>
+		</html:span>
+	</html:section>
+</mvc:View>

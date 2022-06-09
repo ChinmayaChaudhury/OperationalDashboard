@@ -1,0 +1,25 @@
+{
+	"dependencies": {
+		"express": "4.15.3",
+		"ws": "1.1.4"
+	},
+	"devDependencies": {
+		"gulp": "*",
+		"gulp-replace": "*",
+		"jasmine-reporters": "*",
+		"gulp-jasmine": "*",
+		"gulp-istanbul": "*"
+	},
+	"files": [],
+	"main": "index.js",
+	"name": "APIMock",
+	"scripts": {
+		"start": "node index.js",
+		"test": "node ./node_modules/gulp/bin/gulp test",
+		"test-coverage": "node ./node_modules/gulp/bin/gulp test-coverage"
+	},
+	"engines": {
+		"node": "12.x"
+	},
+	"version": "0.0.1"
+}

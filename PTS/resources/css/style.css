@@ -1,0 +1,977 @@
+.detailsLink {
+	/*color: #0070b1 !important;
+	font-size: 10px !important;*/
+	/*transform: translate(1.5rem, 0.3rem);*/
+	transform: translate(-1.5rem) !important;
+} 
+
+.iconBox {
+	position: absolute;
+}
+
+/* emirates fonts */
+
+
+/* Comment in master branch */
+
+
+/* comment in css in ptsdemo */
+
+
+/*
+
+/*Add EK icons as font*/
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/EKIcons/icomoon.eot?5qvb9g');
+    src: url('../fonts/EKIcons/icomoon.eot?5qvb9g#iefix') format('embedded-opentype'), url('../fonts/EKIcons/icomoon.ttf?5qvb9g') format('truetype'), url('../fonts/EKIcons/icomoon.woff?5qvb9g') format('woff'), url('../fonts/EKIcons/icomoon.svg?5qvb9g#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ae:before {
+    content: "\e900";
+}
+
+.icon-unloading:before {
+    content: "\e904";
+}
+
+.icon-techservices:before {
+    content: "\e905";
+}
+
+.icon-taking-off:before {
+    content: "\e906";
+}
+
+.icon-security:before {
+    content: "\e907";
+}
+
+.icon-readiness:before {
+    content: "\e908";
+}
+
+.icon-Pushback_Truck:before {
+    content: "\e909";
+}
+
+.icon-passenger_intime:before {
+    content: "\e90a";
+}
+
+.icon-passenger_delay:before {
+    content: "\e90b";
+}
+
+.icon-passenger:before {
+    content: "\e90c";
+}
+
+.icon-loading:before {
+    content: "\e90d";
+}
+
+.icon-landed:before {
+    content: "\e90e";
+}
+
+.icon-fueling:before {
+    content: "\e90f";
+}
+
+.icon-flight-consignment:before {
+    content: "\e910";
+}
+
+.icon-crew:before {
+    content: "\e911";
+}
+
+.icon-cleaning:before {
+    content: "\e912";
+}
+
+.icon-catering:before {
+    content: "\e913";
+}
+
+.icon-block:before {
+    content: "\e914";
+}
+
+.icon-aircraft222:before {
+    content: "\e915";
+}
+
+.icon-aircraft:before {
+    content: "\e916";
+}
+/*
+@font-face {
+    font-family: "EK03Serif-L01";
+    src: url('../fonts/Emirates/EK03Serif-L01.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "EK03Serif-M01";
+    src: url('../fonts/Emirates/EK03Serif-M01.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "EK03Serif-B01";
+    src: url('../fonts/Emirates/EK03Serif-B01.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "EK03Plain-L01";
+    src: url('../fonts/Emirates/EK03Plain-L01.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "EK03Plain-M01";
+    src: url('../fonts/Emirates/EK03Plain-M01.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "EK03Plain-B01";
+    src: url('../fonts/Emirates/EK03Plain-B01.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+
+/* Code snippet to load the font file*/
+
+
+/*
+@font-face {
+    font-family: "Roboto";
+    src: url("https://fonts.googleapis.com/css?family=Roboto");
+}
+*/
+
+
+/* hover */
+
+
+/*
+.sapUiTableRowHvr{
+               background-color: black !important;
+}
+.sapUiTableCtrl tr:hover{
+                              background-color: black !important;
+}
+*/
+
+
+/*  Top Layout */
+
+/*.emiratesFlightDetails {
+    width: 100% !important;
+    height: 200px !important;
+}*/
+
+.emiratesLogoHBox {
+    /*--removed emirates logo based on discussion with Mohan. Imran
+    padding-top: 30px;*/
+    padding-top: 114px;
+    padding-left: 10px;
+}
+
+.emiratesLogoVBox {
+    /*background: #f8f7f6;*/
+    /*position: relative;*/
+    /*Parent MUST be relative*/
+    z-index: 9;
+    background: #F7F7F7;
+    width: 100px !important;
+    /*width:4.9%; */
+    height: 12.4em;
+    /* adjust the padding to remove the EK logo */
+    padding-top: 7rem;
+}
+
+.emiratesLogoVBox:before {
+    background: #E3E3E3;
+    content: "";
+    /*position: absolute;*/
+    /*set 'child' to be absolute*/
+    z-index: -1;
+    /*Make this lower so text appears in front*/
+    /*You can choose to align it left, right, top or bottom here*/
+    top: 0;
+    right: 0;
+    bottom: 66%;
+    left: 0;
+}
+
+.searchActivity {
+    height: 30px;
+    padding-top: 4px;
+}
+
+.searchActivitySelect {
+    height: 30px;
+    padding: 0px !important;
+    margin-left: 34px !important;
+    /* margin-top: 10px; */
+    width: 130px !important;
+    border-radius: 3px;
+    background: #f2f2f2 !important;
+}
+
+.searchActivitySelect>label {
+    font-size: x-small !important;
+    text-align: center !important;
+}
+
+.searchActivityTable {
+    height: 30px;
+}
+
+.switchToML {
+    height: 1.9rem;
+}
+
+.toggleML {
+    width: 200px !important;
+    margin-bottom: -8px;
+}
+
+.toggleML .sapMSegBBtn {
+    height: 2rem !important;
+    font-size: x-small !important;
+    text-align: center !important;
+   /* font-family: EK03Serif-M01 !important; */
+    line-height: 2rem;
+}
+
+.searchActivitySelectTable {
+    height: 30px;
+    /* margin-top: 10px; */
+    width: 165px !important;
+    border-radius: 3px;
+    background: #f2f2f2 !important;
+}
+
+.searchActivitySelectTable .sapMSltLabel {
+    font-size: x-small !important;
+    text-align: center !important;
+    color: #333333 !important;
+   /* font-family: EK03Serif-M01; */
+    line-height: 2rem;
+}
+
+.searchActivitySelectTable .sapMSltArrow {
+    color: #333333 !important;
+    line-height: 2.2rem !important;
+}
+
+.sapMPopoverScroll li {
+    font-size: 10.5px !important;
+    color: #333333 !important;
+  /*  font-family: EK03Plain-M01; */
+}
+
+.FlightInIconNo img,
+.FlightOutIconNo img {
+    width: 20px !important;
+}
+
+.FlightInIconNo {}
+
+.FlightInIconNo .sapMText {
+    color: #929292;
+    font-weight: bold;
+  /*  font-family: EK03Serif-M01; */
+}
+
+.flightTailInfoClass {
+    margin-left: 1rem;
+}
+
+.FlightOutIconNo {}
+
+.FlightOutIconNo .sapMText {
+    color: #929292;
+    font-weight: bold;
+/*    font-family: EK03Serif-M01; */
+}
+
+.FlightOutIconNo>div:nth-child(2) {
+    /*padding-right: 35px;*/
+}
+
+.FlightOutIconNo>div:nth-child(3) .sapMText {
+    color: grey;
+    font-weight: bold;
+  /*  font-family: EK03Serif-M01; */
+}
+
+.FlightOutIconNo>div:nth-child(2) .sapMText {
+   /* color: #A59654; */
+       color: lightseagreen;
+    font-size: larger;
+   /* font-family: EK03Serif-B01; */
+}
+
+.sapMObjectIdentifierTextBellow {
+    margin-top: 0rem;
+}
+
+
+/* end */
+
+.sapGanttToolbar {
+    height: 0px !important;
+}
+
+.sapUiTableColHdrCnt {
+    visibility: hidden !important;
+}
+
+
+/* slider */
+
+svg {
+    z-index: 1 !important;
+}
+
+.horizontal {
+    stroke: rgb(190, 185, 179);
+    stroke-dasharray: 5, 2.5
+}
+
+.vertical {
+    stroke: rgb(190, 185, 179);
+}
+
+.background {
+    rx: 10;
+    opacity: 0 !important;
+}
+
+.pgrvb>div:nth-child(2) {
+    position: absolute!important;
+}
+
+#pts #horizontal-line-1 {
+    stroke-dasharray: 0;
+}
+
+.gray-marker {
+    fill: rgb(190, 185, 179);
+}
+
+.labels {
+    fill: rgb(141, 138, 133);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5pt;
+    font-weight: 600
+}
+
+.ticks {
+    fill: rgb(141, 138, 133);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6pt;
+    font-weight: 600
+}
+
+.tab1-text {
+    fill: #DFDFDF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6pt;
+    font-weight: bold;
+}
+
+.tab2-text {
+    fill: #212122;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6pt;
+    font-weight: bold;
+}
+
+.ticks {
+    font-size: 7pt;
+}
+
+.tab1 {
+    fill: #888888;
+    rx: 4;
+    width: 60px;
+    height: 21px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.tab2 {
+    fill: #E5E4E1;
+    rx: 7;
+    width: 40px;
+    height: 21px;
+    cursor: pointer;
+}
+
+#axis-2 .ticks {
+    fill: rgb(170, 170, 170);
+}
+
+
+/* slider end */
+
+/*.PTSView {}*/
+
+.TopSectionHBoxInfo {
+    height: 4.22em;
+    width: 100% !important;
+    background: #E3E3E3;
+}
+
+.TopSectionHBoxInfo>Div {
+    width: 100%;
+}
+
+.StandGateEIBT {}
+
+.StandGateEOBT {}
+
+.StandGateEIBT .sapMObjectIdentifierTitle .sapMText,
+.StandGateEOBT .sapMObjectIdentifierTitle .sapMText {
+    color: #807d78;
+    font-size: x-small;
+  /*  font-family: EK03Serif-M01; */
+}
+
+.dateTextFormat {
+	color: #807d78;
+    font-size: medium;
+   /* font-family: EK03Serif-M01; */
+}
+
+.StandGateEIBT .sapMObjectIdentifierText .sapMText,
+.StandGateEOBT .sapMObjectIdentifierText .sapMText {
+    font-size: smaller;
+    font-weight: bold;
+    color: #807d78;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.StandGateEIBT .sapMFlexItem {
+    padding-left: 17px;
+}
+
+.StandGateEOBT .sapMFlexItem {
+    padding-left: 13px;
+}
+
+.AIRCRAFT_TAIL {
+    width: 100%;
+    height: 67px;
+    background: #ECECEC;
+}
+
+.AIRCRAFT_TAIL .sapMOH {
+    padding: 0rem !important;
+}
+
+.AIRCRAFT_TAIL>div:nth-child(1) {
+    width: 170px;
+}
+
+.AIRCRAFT_TAIL>div:nth-child(3) {
+    width: 120px;
+    padding-left: 7px;
+}
+
+.AIRCRAFT_TAIL>div:nth-child(2) {
+    padding: 0 10px;
+}
+
+.AIRCRAFT_TAIL>div:nth-child(3) .sapMOHTitleDiv {
+    width: 70% !important;
+}
+
+.AIRCRAFT_TAIL .sapMOHTitle .sapMTextLineClamp {
+   /* color: #A59654; */
+  color : lightseagreen;
+    /* font-family: EK03Serif-M01; */
+    font-size: medium;
+}
+
+.AIRCRAFT_TAIL .sapMOHNumberDiv {
+    float: left !important;
+    padding-top: 5px;
+}
+
+.AIRCRAFT_TAIL .sapMOHNumberDiv .sapMObjectNumberText {
+    font-size: 15px !important;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+/**.DownSectionHBox {
+    background: #B3AfA9;
+}
+
+.DownSectionRightHBox {}
+
+.DownSectionHBox>div {
+    width: 100% !important;
+}**/
+
+/* Start 26th Mar */
+
+.nestedFlexboxes {
+    margin-left: 2px;
+    /*width: 99% !important;*/
+    padding: 0 0 0.1em 0 !important;
+}
+
+
+/* end */
+
+.VerticalLineHeaderInfo {
+    margin-right: 1rem;
+    background: #C7C7C7;
+    width: 1.5px;
+    border: none;
+}
+
+.sapGanttShapeSvgText {
+    fill: #919191;
+    font-size: 11px !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sapGanttTimeHeaderSvgText1 {
+    font-size: 0.475rem !important;
+    font-weight: bold !important;
+}
+
+.sapGanttViewSplitterH>section:nth-child(3) .sapUiTableCtrl tr:nth-child(odd) {
+    /*dark background color of Gantt chart*/
+    background-color: #5c5f63;
+}
+
+.sapGanttViewSplitterH>section:nth-child(3) .sapUiTableCtrl tr:nth-child(even) {
+    /*brighter background color of Gantt chart*/
+    background-color: #606469;
+}
+
+.__diamond0-row path {
+    stroke-width: 2 !important;
+    stroke: #D1D1D1 !important;
+}
+
+.__diamond1-row path {
+    stroke-width: 2 !important;
+    stroke: #D1D1D1 !important;
+}
+
+.__diamond2-row path {
+    stroke-width: 2 !important;
+    stroke: #D1D1D1 !important;
+}
+
+.__diamond3-row path {
+    stroke-width: 2 !important;
+    stroke: #D1D1D1 !important;
+}
+
+/*.GCtableColumn {
+    width: 100px;
+}*/
+
+/*section#__splitter0-content-0 {
+    width: 248px !impoortant;
+}
+
+section#__splitter0-content-1 {
+    width: 1308px !impoortant;
+}*/
+
+section#__splitter0-content-0 {
+    width: 15% !important;
+    height: 100% !important;
+} 
+
+section#__splitter0-content-1 {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.sapGanttChartSvg {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.sapGanttChartTT {
+	background-image: url("../media/images/background.png");
+}
+
+.sapGanttChartLayoutBG {
+	background-image: url("../media/images/background.png");
+}
+
+.EKGanttChartTable {
+    background: #B3AfA9 !important;
+    /*width: 99.5% !important;*/
+    height: 60% !important;
+}
+
+.EKGanttChartTable>div {
+    background: #F9F7F5 !important;
+} 
+
+/*.sapUiLoSplitter {
+	height: 80% !important;
+}*/
+
+/*.sapUiLoSplitterContent {*/
+    /*height: 650px !important;*/
+    /*overflow: scroll;*/
+    /*height: 1000px !important;*/
+/*}*/
+
+.EKGanttChartTable .sapMOHBottomRow {
+    margin-top: 0rem;
+    font-size: 0.05rem;
+}
+
+.EKGanttChartTable .sapMOH {
+    padding: 0rem !important;
+}
+
+/**.EKGanttChartTable .sapMOHIcon {
+    margin-top: 0px !important;
+    width: 16px;
+    height: 16px;
+}**/
+
+.EKGanttChartTable .sapMOHIcon .sapUiIcon {
+    margin-top: 0rem;
+    font-size: 1rem !important;
+}
+
+.sapUiTableTreeIcon {
+    align-self: baseline !important;
+}
+
+.sapMOHIcon + .sapMOHTitle {
+    margin-left: 1.5rem;
+}
+
+.EKGanttChartTable .sapMOHTitle h1 .sapMText {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.EKGanttChartTable .sapMOHTitle {
+    margin-top: 0rem !important;
+}
+
+.sapMOH .sapMOHAttr .sapMObjectAttributeText {
+    font-size: 0.575rem;
+}
+
+.sapGanttChartHeader {
+    width: 100% !important;
+}
+
+
+/* */
+
+
+/*   Header   */
+
+
+.TopSectionHBoxClass {
+    background: #F7F7F7;
+}
+
+.TopSectionHBoxClass>div:nth-child(1) {
+    width: 100px !important;
+    padding-top: 0.5rem;
+    font-weight: bold;
+}
+
+.TopSectionHBoxClass>div:nth-child(2) {
+    margin-left: 7rem;
+}
+
+/* hide header */
+
+.sapGanttChartHeaderSvg,
+.sapGanttChartHeader,
+.sapGanttChart {
+    background: #f8f7f6 !important;
+}
+
+.PTSSlider svg {
+    /*width: 1260 !important;*/
+}
+
+
+/*nm*/
+
+/*.sapGanttViewSplitterH>.sapUiLoSplitterContent {
+    overflow: hidden;
+}*/
+
+
+/*nm*/
+
+
+/* end */
+
+
+/* Merge Table cells  */
+
+
+/*  Alignment of Gantt Chart to better*/
+
+.sapUiTableCnt {
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-top: 0px !important;
+}
+
+.sapGanttChartVerticalLine {
+    stroke: #56585a !important;
+    stroke-width: 0.5px !important;
+}
+
+.sapUiTableTr.sapUiTableRowHvr>td:not(.sapUiTableTDDummy) {
+    background-color: transparent !important;
+}
+
+.sapUiTableTreeIcon {
+    font-weight: bold !important;
+}
+
+.sapGanttChartTT .sapUiTableTr>td {
+    border-bottom: 0px solid #e5e5e5 !important;
+}
+
+.EKGanttChartTable .sapMOH {
+    width: 145px;
+}
+
+/**.EKGanttChartTable .TableItems {
+    width: 160px;
+}**/ 
+
+.activityStatusIcons {
+	font-size: 10px;
+}
+
+/**.EKGanttChartTable .sapUiTableCellFlex>div {
+    width: 160px;
+}**/
+
+
+/* Footer */
+
+.footerLegendText {
+    word-wrap: break-word;
+    width: 4rem;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.PTSFooter {
+    background: #919191 !important;
+    height: 3rem !important;
+    /*object-position: bottom !important;*/
+}
+
+.searchActivitySelectTable>label,
+.searchActivitySelectTable>span {
+    margin-top: -3px !important;
+}
+
+
+/* left table */
+
+.sapUiTableCnt {
+    background: #f8f8f8 !important;
+}
+
+
+/* Expand Collapse and Search */
+
+.collapseexpand .sapMBtnInner {
+    border: 0px !important;
+}
+
+.collapseexpand {
+    padding-top: 45px !important;
+    padding-left: 5px !important;
+}
+
+
+/* working with table attributes */
+
+.sapUiTableCell .sapMObjStatus {
+    font-size: 0.6rem !important;
+    padding-left: 0rem !important;
+  /*  font-family: EK03Plain-M01 !important; */
+}
+
+[aria-level="2"] .sapUiTableCellFlex>span,
+[aria-level="2"] .sapUiTableCellFlex>div {
+    margin-top: 0px !important;
+}
+
+[aria-level="1"] .sapUiTableCellFlex>span,
+[aria-level="1"] .sapUiTableCellFlex>div {
+    margin-top: 5px !important;
+}
+
+[aria-level="1"] .sapMOHTitle h1 .sapMText {
+    font-size: 12.5px !important;
+    font-weight: normal !important;
+   /* font-family: EK03Plain-L01 !important; */
+}
+
+[aria-level="2"] .sapMOHTitle h1 .sapMText {
+    font-size: 10.5px !important;
+  /*  font-family: EK03Plain-M01 !important; */
+}
+
+[aria-level="2"] .sapUiTableCellFlex>div {
+    margin-top: 0px !important;
+}
+
+[aria-level="2"] td {
+    padding-left: 12px !important;
+}
+
+[aria-level="1"] .sapMOHTitleDiv {
+    padding-top: 1px !important;
+}
+
+[aria-level="1"] .prcessStausImage {
+    padding-top: 5px !important;
+}
+
+[aria-level="1"] {
+    height: 40px !important;
+}
+
+[aria-level="2"] {
+    height: 40px !important;
+}
+
+.TopSectionHBoxInfo .sapMObjectIdentifierTitle {
+    text-align: center !important;
+}
+
+
+/* Refresh Button */
+
+.RefreshButton {
+    margin: 0px !important;
+    padding: 0px !important;
+    height: 2rem !important;
+}
+
+.RefreshButton .sapMBtnInner {
+    height: 2rem !important;
+}
+
+.RefreshButton .sapMBtnIcon {
+    font-size: 1.1rem !important;
+    line-height: 2rem !important;
+}
+
+
+.boxTOBT {
+    transform: translateX(-10px);
+}
+
+.fontTOBT {
+    font-family: "Helvetica";
+    font-weight: bold;
+    font-size: 11px;
+    transform: translateY(-1px);
+}
+
+
+/* progress bar start*/
+
+.pgrbar.sapMPI.sapMPIDisplayOnly {
+    height: 1rem;
+    min-width: 4rem;
+    margin: 1.7rem;
+    /*width: 57.5% !important;//699.0749999999999*/
+    width: 699.0749999999999px !important;
+    margin-left: 17.8rem;
+} 
+
+/*progess bar display value*/
+.sapMPIDisplayOnly .sapMPIText {
+	color: #333333;
+	z-index: 1;
+}
+
+/*progress bar display value*/
+.sapMPIDisplayOnly:not(.sapMPIBarDisabled) .sapMPIText.sapMPITextLeft {
+	color: #333333;
+	z-index: 1;
+}
+
+.sapMPIBarCritical {
+    background: #cbe7fff5;
+}
+
+/*progress bar end*/
+
+.sapGanttChartSvgCtn {
+    /*position: absolute;*/
+    overflow-x: hidden !important; 
+    overflow-y: hidden !important;
+}
+
+.sapMPageFooter {
+    position: fixed !important;
+}
+
+/*@media only screen and (max-width: 1020px) {*/
+
+
+/*    body {*/
+
+
+/*        background-color: green;*/
+
+
+/*    }*/
+
+
+/*}*/

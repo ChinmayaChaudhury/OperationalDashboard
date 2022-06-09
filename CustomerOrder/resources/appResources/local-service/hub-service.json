@@ -1,0 +1,1141 @@
+{
+    "flights": [
+        {
+            "number": "BR0123",
+            "status": "delayed",
+            "origin": "DXB",
+            "critical": false,
+            "destination": "LHR",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "BR0235",
+                    "status": ""
+                },
+                {
+                    "title": "Stand",
+                    "value": "B10",
+                    "status": ""
+                },
+                {
+                    "title": "Gate",
+                    "value": "",
+                    "status": ""
+                },
+                {
+                    "title": "Tail",
+                    "value": "338",
+                    "status": ""
+                },
+                {
+                    "title": "SIBT",
+                    "value": "17:20",
+                    "status": ""
+                },
+                {
+                    "title": "EIBT",
+                    "value": "17:50",
+                    "status": ""
+                },
+                {
+                    "title": "AIBT",
+                    "value": "",
+                    "status": ""
+                }
+            ],
+            "activities": [
+                {
+                    "name": "Passenger",
+                    "abbreviation": "PX",
+                    "status": "delayed",
+                    "events": [
+                        {
+                            "title": "Booked First",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Booked Business",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Booked Economy",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Accepted First",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Accepted Business",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Accepted Economy",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Boarded First",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Boarded Business",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Boarded Economy",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Total Connection",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer First",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer Business",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer Economy",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Quick Connection First",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Quick Connection Business",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Quick Connection Economy",
+                            "value": "30",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Aircraft",
+                    "abbreviation": "AC",
+                    "status": "delayed",
+                    "events": [
+                        {
+                            "title": "Aircraft",
+                            "value": "338",
+                            "status": ""
+                        },
+                        {
+                            "title": "Stand",
+                            "value": "F10",
+                            "status": "delayed"
+                        },
+                        {
+                            "title": "Gate",
+                            "value": "A22",
+                            "status": ""
+                        },
+                        {
+                            "title": "Tail",
+                            "value": "BR21",
+                            "status": ""
+                        },
+                        {
+                            "title": "STD",
+                            "value": "11:30",
+                            "status": ""
+                        },
+                        {
+                            "title": "SOBT",
+                            "value": "11:40",
+                            "status": ""
+                        },
+                        {
+                            "title": "ETOT",
+                            "value": "11:45",
+                            "status": ""
+                        },
+                        {
+                            "title": "TOBT",
+                            "value": "11:54",
+                            "status": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "Unloading",
+                    "abbreviation": "UL",
+                    "status": "delayed",
+                    "events": [
+                        {
+                            "title": "Total ULD on Plane",
+                            "value": "6",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Unload at bay",
+                            "value": "4",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer ULD",
+                            "value": "2",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Critical transfer",
+                            "value": "2",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Terminating ULD",
+                            "value": "4",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Total bag First",
+                            "value": "80",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Total bag Economy",
+                            "value": "60",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Total bag Business",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer bag First",
+                            "value": "80",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer bag Economy",
+                            "value": "60",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer bag Business",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Critical bag First",
+                            "value": "80",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Critical bag Economy",
+                            "value": "60",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Critical bag Business",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Terminating bag First",
+                            "value": "80",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Terminating bag Economy",
+                            "value": "60",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Terminating bag Business",
+                            "value": "30",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Loading",
+                    "abbreviation": "LD",
+                    "status": "delayed",
+                    "events": [
+                        {
+                            "title": "Tot bag acc First bag First",
+                            "value": "80",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Tot bag acc First bag Economy",
+                            "value": "60",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Tot bag acc First bag Business",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer bag acc First bag First",
+                            "value": "80",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer bag acc First bag Economy",
+                            "value": "60",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer bag acc First bag Business",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Missed bag acc First bag First",
+                            "value": "80",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Missed bag acc First bag Economy",
+                            "value": "60",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Missed bag acc First bag Business",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Critical bag acc First bag First",
+                            "value": "80",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Critical bag acc First bag Economy",
+                            "value": "60",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Critical bag acc First bag Business",
+                            "value": "30",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Aircraft Control",
+                    "abbreviation": "AC",
+                    "status": "delayed",
+                    "events": []
+                },
+                {
+                    "name": "Aircraft Apperance",
+                    "abbreviation": "AA",
+                    "status": "delayed",
+                    "events": []
+                },
+                {
+                    "name": "Fuel",
+                    "abbreviation": "FL",
+                    "status": "delayed",
+                    "events": [
+                        {
+                            "title": "Fuel on board",
+                            "value": "1234",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Fuel Required",
+                            "value": "4321",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Top up requested",
+                            "value": "500",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Ramp",
+                    "abbreviation": "RM",
+                    "status": "delayed",
+                    "events": []
+                }
+            ]
+        },
+        {
+            "number": "BR0235",
+            "status": "delayed",
+            "origin": "DXB",
+            "critical": false,
+            "destination": "LHR",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "BR0235",
+                    "status": ""
+                },
+                {
+                    "title": "Stand",
+                    "value": "F18",
+                    "status": ""
+                },
+                {
+                    "title": "Gate",
+                    "value": "",
+                    "status": ""
+                },
+                {
+                    "title": "Tail",
+                    "value": "338",
+                    "status": ""
+                },
+                {
+                    "title": "SIBT",
+                    "value": "17:20",
+                    "status": ""
+                },
+                {
+                    "title": "EIBT",
+                    "value": "17:50",
+                    "status": ""
+                },
+                {
+                    "title": "AIBT",
+                    "value": "",
+                    "status": ""
+                }
+            ],
+            "activities": [
+                {
+                    "name": "Passenger",
+                    "abbreviation": "PX",
+                    "status": "delayed",
+                    "events": [
+                        {
+                            "title": "Booked First",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Booked Business",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Booked Economy",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Accepted First",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Accepted Business",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Accepted Economy",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Boarded First",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Boarded Business",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Boarded Economy",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Total Connection",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer First",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer Business",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer Economy",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Quick Connection First",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Quick Connection Business",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Quick Connection Economy",
+                            "value": "30",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Aircraft",
+                    "abbreviation": "AC",
+                    "status": "delayed",
+                    "events": [
+                        {
+                            "title": "Aircraft",
+                            "value": "338",
+                            "status": ""
+                        },
+                        {
+                            "title": "Stand",
+                            "value": "F10",
+                            "status": "delayed"
+                        },
+                        {
+                            "title": "Gate",
+                            "value": "A22",
+                            "status": ""
+                        },
+                        {
+                            "title": "Tail",
+                            "value": "BR21",
+                            "status": ""
+                        },
+                        {
+                            "title": "STD",
+                            "value": "11:30",
+                            "status": ""
+                        },
+                        {
+                            "title": "SOBT",
+                            "value": "11:40",
+                            "status": ""
+                        },
+                        {
+                            "title": "ETOT",
+                            "value": "11:45",
+                            "status": ""
+                        },
+                        {
+                            "title": "TOBT",
+                            "value": "11:54",
+                            "status": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "Unloading",
+                    "abbreviation": "UL",
+                    "status": "delayed",
+                    "events": [
+                        {
+                            "title": "Total ULD on Plane",
+                            "value": "6",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Unload at bay",
+                            "value": "4",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer ULD",
+                            "value": "2",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Critical transfer",
+                            "value": "2",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Terminating ULD",
+                            "value": "4",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Total bag First",
+                            "value": "80",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Total bag Economy",
+                            "value": "60",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Total bag Business",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer bag First",
+                            "value": "80",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer bag Economy",
+                            "value": "60",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer bag Business",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Critical bag First",
+                            "value": "80",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Critical bag Economy",
+                            "value": "60",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Critical bag Business",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Terminating bag First",
+                            "value": "80",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Terminating bag Economy",
+                            "value": "60",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Terminating bag Business",
+                            "value": "30",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Loading",
+                    "abbreviation": "LD",
+                    "status": "delayed",
+                    "events": [
+                        {
+                            "title": "Tot bag acc First bag First",
+                            "value": "80",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Tot bag acc First bag Economy",
+                            "value": "60",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Tot bag acc First bag Business",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer bag acc First bag First",
+                            "value": "80",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer bag acc First bag Economy",
+                            "value": "60",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer bag acc First bag Business",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Missed bag acc First bag First",
+                            "value": "80",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Missed bag acc First bag Economy",
+                            "value": "60",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Missed bag acc First bag Business",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Critical bag acc First bag First",
+                            "value": "80",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Critical bag acc First bag Economy",
+                            "value": "60",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Critical bag acc First bag Business",
+                            "value": "30",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Aircraft Control",
+                    "abbreviation": "AC",
+                    "status": "delayed",
+                    "events": []
+                },
+                {
+                    "name": "Aircraft Apperance",
+                    "abbreviation": "AA",
+                    "status": "delayed",
+                    "events": []
+                },
+                {
+                    "name": "Fuel",
+                    "abbreviation": "FL",
+                    "status": "delayed",
+                    "events": [
+                        {
+                            "title": "Fuel on board",
+                            "value": "1234",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Fuel Required",
+                            "value": "4321",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Top up requested",
+                            "value": "500",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Ramp",
+                    "abbreviation": "RM",
+                    "status": "delayed",
+                    "events": []
+                }
+            ]
+        },
+        {
+            "number": "BR0235",
+            "status": "delayed",
+            "origin": "DXB",
+            "critical": true,
+            "destination": "LHR",
+            "general": [
+                {
+                    "title": "Aircraft",
+                    "value": "BR0235",
+                    "status": ""
+                },
+                {
+                    "title": "Stand",
+                    "value": "F19",
+                    "status": ""
+                },
+                {
+                    "title": "Gate",
+                    "value": "",
+                    "status": ""
+                },
+                {
+                    "title": "Tail",
+                    "value": "338",
+                    "status": ""
+                },
+                {
+                    "title": "SIBT",
+                    "value": "17:20",
+                    "status": ""
+                },
+                {
+                    "title": "EIBT",
+                    "value": "17:50",
+                    "status": ""
+                },
+                {
+                    "title": "AIBT",
+                    "value": "",
+                    "status": ""
+                }
+            ],
+            "activities": [
+                {
+                    "name": "Passenger",
+                    "abbreviation": "PX",
+                    "status": "delayed",
+                    "events": [
+                        {
+                            "title": "Booked First",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Booked Business",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Booked Economy",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Accepted First",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Accepted Business",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Accepted Economy",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Boarded First",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Boarded Business",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Boarded Economy",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Total Connection",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer First",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer Business",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer Economy",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Quick Connection First",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Quick Connection Business",
+                            "value": "50",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Quick Connection Economy",
+                            "value": "30",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Aircraft",
+                    "abbreviation": "AC",
+                    "status": "delayed",
+                    "events": [
+                        {
+                            "title": "Aircraft",
+                            "value": "338",
+                            "status": ""
+                        },
+                        {
+                            "title": "Stand",
+                            "value": "F10",
+                            "status": "delayed"
+                        },
+                        {
+                            "title": "Gate",
+                            "value": "A22",
+                            "status": ""
+                        },
+                        {
+                            "title": "Tail",
+                            "value": "BR21",
+                            "status": ""
+                        },
+                        {
+                            "title": "STD",
+                            "value": "11:30",
+                            "status": ""
+                        },
+                        {
+                            "title": "SOBT",
+                            "value": "11:40",
+                            "status": ""
+                        },
+                        {
+                            "title": "ETOT",
+                            "value": "11:45",
+                            "status": ""
+                        },
+                        {
+                            "title": "TOBT",
+                            "value": "11:54",
+                            "status": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "Unloading",
+                    "abbreviation": "UL",
+                    "status": "delayed",
+                    "events": [
+                        {
+                            "title": "Total ULD on Plane",
+                            "value": "6",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Unload at bay",
+                            "value": "4",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer ULD",
+                            "value": "2",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Critical transfer",
+                            "value": "2",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Terminating ULD",
+                            "value": "4",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Total bag First",
+                            "value": "80",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Total bag Economy",
+                            "value": "60",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Total bag Business",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer bag First",
+                            "value": "80",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer bag Economy",
+                            "value": "60",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer bag Business",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Critical bag First",
+                            "value": "80",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Critical bag Economy",
+                            "value": "60",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Critical bag Business",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Terminating bag First",
+                            "value": "80",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Terminating bag Economy",
+                            "value": "60",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Terminating bag Business",
+                            "value": "30",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Loading",
+                    "abbreviation": "LD",
+                    "status": "delayed",
+                    "events": [
+                        {
+                            "title": "Tot bag acc First bag First",
+                            "value": "80",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Tot bag acc First bag Economy",
+                            "value": "60",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Tot bag acc First bag Business",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer bag acc First bag First",
+                            "value": "80",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer bag acc First bag Economy",
+                            "value": "60",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Transfer bag acc First bag Business",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Missed bag acc First bag First",
+                            "value": "80",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Missed bag acc First bag Economy",
+                            "value": "60",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Missed bag acc First bag Business",
+                            "value": "30",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Critical bag acc First bag First",
+                            "value": "80",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Critical bag acc First bag Economy",
+                            "value": "60",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Critical bag acc First bag Business",
+                            "value": "30",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Aircraft Control",
+                    "abbreviation": "AC",
+                    "status": "delayed",
+                    "events": []
+                },
+                {
+                    "name": "Aircraft Apperance",
+                    "abbreviation": "AA",
+                    "status": "delayed",
+                    "events": []
+                },
+                {
+                    "name": "Fuel",
+                    "abbreviation": "FL",
+                    "status": "delayed",
+                    "events": [
+                        {
+                            "title": "Fuel on board",
+                            "value": "1234",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Fuel Required",
+                            "value": "4321",
+                            "status": "complete"
+                        },
+                        {
+                            "title": "Top up requested",
+                            "value": "500",
+                            "status": "complete"
+                        }
+                    ]
+                },
+                {
+                    "name": "Ramp",
+                    "abbreviation": "RM",
+                    "status": "delayed",
+                    "events": []
+                }
+            ]
+        }
+    ]
+}

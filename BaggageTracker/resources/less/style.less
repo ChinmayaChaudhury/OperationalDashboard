@@ -1,0 +1,604 @@
+@import './utilities.less';
+@import './animation.less';
+@import './emirates.less';
+
+// App body
+.sapUiBody {
+    background-image: url(../img/background.png);
+    background-repeat: repeat;
+    background-position: unset;
+    background-size: unset;
+}
+
+// Don't know what to classify this
+.sapUiGlobalBackgroundColor {
+    background: unset;
+}
+
+// Component container 
+.sapUiComponentContainer {
+    margin: 1.5% 5% 0 5%;
+    width: unset !important;
+}
+
+.sapMNav {
+    overflow: unset;
+}
+
+// Page
+.sapMPage {
+    width: 100%;
+
+    // The following selectors inherit the properties of '.fixHeader' ruleset.
+    & > &Header + section:extend(.fixHeader) {}
+    & > &SubHeader + section:extend(.fixHeader) {}
+    & > &Header + &SubHeader + section:extend(.fixHeader) {}
+}
+
+// Page header
+.sapMPageHeader {
+    &.sapMIBar:extend(.toolBar all) {}
+    box-shadow: 0 0px 10px 3px rgba(0, 0, 0, 0.075) !important;
+}
+
+// Page sub-header
+.sapMPageSubHeader {
+    @margin: 10px;
+
+    background-image: linear-gradient(-180deg, #F2F1ED 45%, #E5E2DC 65%);
+    height: calc(53.5% - @margin);
+    margin-top: @margin;
+
+    .sapMIBar {
+        background: unset;
+        border-style: none;
+
+        .sapMBarChild {
+            margin: 0;
+            padding-top: 0;
+        }
+    }
+
+    .sapMObjStatusText {
+        font-family: @helvetica-neue-font;
+        font-style: italic;
+        font-size: 18px;
+        color: #8C7300;
+        letter-spacing: 0;
+        margin-left: 20px;
+    }
+
+    &:before {
+        content: " ";
+        width: 100%;
+        height: 100%;
+        // TODO: replace with the subheader margin
+        position: absolute;
+        top: @headerHeight + 10px;
+        box-shadow: 0 0px 10px 3px rgba(0, 0, 0, 0.075) !important;
+    }
+}
+
+.sapMIBar {
+    .connectingFlights & {
+        background-image: linear-gradient(-180deg, #F1EFEC 34%, #E8E3DF 73%);
+        box-shadow: 0 5px 10px 0 rgba(191,187,181,0.52);
+    }
+
+    .bags & {
+        background-color: #F1EFEC;
+    }
+} 
+
+// Tables
+.sapMListTbl {
+    .sapMListTblHeader, th {
+        background: unset;
+        border-style: none;
+    }
+
+    .sapMListTblRow {
+        background: unset;
+    }
+
+    .sapMListTblStickyColHdr {
+        & > .sapMTableTH {
+            box-shadow: 0 5px 10px 0 rgba(191,187,181,0.52);
+            clip-path: inset(-15px 0px);
+
+            .connectingFlights & {
+                background-image: linear-gradient(-180deg, #F1EFEC 34%, #E8E3DF 73%);
+            }
+
+            .bags & {
+                background-image: linear-gradient(-180deg, #F1EFEC 34%, #E8E3DF 73%);
+            }
+
+            .ulds & {
+                background: #F6F4F1;
+                box-shadow: none;
+            }
+        }
+    }
+
+    .connectingFlights &, .bags & {
+        background: #F6F4F1;
+    }
+
+    .uldJourney & {
+        background-image: linear-gradient(-180deg, #FBFAF9 0%, #EEEAE5 100%);
+    }
+
+    .sapMListTblCell {
+        .bags &, .ulds & {
+
+            &:nth-child(even):not(.sapMListTblHeaderCell) {
+                background: #F9F9F9;
+            }
+        }
+
+        .connectingFlights &, .uldJourney & {
+            border-style: none !important;
+        }
+    }
+
+}
+
+// Table rows
+.sapMListTblRow {
+    position: relative;
+}
+
+.sapMTableTBody {
+    background: transparent;
+}
+
+.uldJourney, .ulds {
+    margin: 0 auto;
+}
+
+// Text
+.sapMText {
+    font-family: @emirates-serif-font;
+
+    .sapMObjectIdentifierTitle & { 
+        font: bold 16px @emirates-serif-font;
+        color: #8A8A8A;
+        letter-spacing: 0;
+        line-height: 21px;
+
+        .stats & {
+            font: medium 12px @emirates-serif-font;
+        }
+
+        .flight & {
+            font-family: @helvetica-neue-font;
+            font-weight: bold;
+            font-size: 10px;
+            color: #8A8A8A;
+            letter-spacing: 0;
+            line-height: 0px;
+        }
+
+        .bagsPane .sapMListHdrTBar & {
+            font-family: @helvetica-neue-font;
+            font-weight: bold;
+            font-size: 20px;
+            color: #656565;
+            letter-spacing: 0;
+        }
+    } 
+
+    .sapMObjectIdentifierText &  { 
+        font: bold 16px @helvetica-neue-font;
+        // font-size: 16px;
+        color: #A49552;
+        letter-spacing: 0;
+        line-height: 21px;
+
+        .stats & {
+            font: bold 20px @helvetica-neue-font;
+        }
+
+        .flight & {
+            font-family: @helvetica-neue-font;
+            font-weight: bold;
+            font-size: 10px;
+            color: #8A8A8A;
+            letter-spacing: 0;
+            line-height: 0px;
+        }
+
+        .bagsPane .sapMListHdrTBar & {
+            font-family: @helvetica-neue-font;
+            font-weight: bold;
+            font-size: 20px;
+            color: #656565;
+            letter-spacing: 0;
+        }
+     }
+
+    .sapMListTblCell & { 
+        font-family: @helvetica-neue-font;
+        font-size: 12px;
+        color: #787878;
+        letter-spacing: 0;
+        text-align: center;
+    }    
+
+    &.flightNumber {
+        font-family: @helvetica-neue-font;
+        font-weight: bold;
+        font-size: 16px;
+        color: #5F5F5F;
+        letter-spacing: 0;
+    }
+
+    .sapMTableTH &               { 
+        font-family: @emirates-serif-font;
+        font-weight: bold;
+        font-size: 18px;
+        color: #7A7A7A;
+        letter-spacing: 0;
+
+        .connectingFlights & {
+            font-family: @helvetica-neue-font;
+            font-size: 14px;
+            color: #797062;
+        }
+
+        .bags & {
+            font-family: @helvetica-neue-font;
+            font-size: 12px;
+            color: #797062;
+            text-align: center;
+            line-height: 13px;
+        }
+
+        .ulds & {
+            font-family: @helvetica-neue-font;
+            font-size: 14px;
+            color: #867E72;
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 13px;
+        }
+    }
+}
+
+// Objects status
+.sapMObjStatus {
+    margin: unset !important;
+
+    &.sapMObjectAttributeDiv {
+        padding-left: 10px;
+    }
+
+    .sapMObjStatusTitle, .sapMText {
+        font-family: @helvetica-neue-font;
+        font-size: 12px;
+        letter-spacing: 0;
+        line-height: 13px;
+        color: #8A8A8A;
+    }
+
+    .sapMObjStatusText {
+        &:not(.sapMTB &) {
+            font-family: @helvetica-neue-font;
+            font-size: 12px;
+            letter-spacing: 0;
+            line-height: 13px;
+        }
+    }
+
+    .sapUiIcon {
+        font-size: 12px !important;
+    }
+
+    .sapMTextMaxLine {
+        overflow: unset;
+    }
+}
+
+// Search fields
+.sapMSF {
+    background: #F9F9F9;
+    border: 1px solid #CEC8C1;
+    border-radius: 100px;
+    height: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    .sapMSFF {
+        background: unset;
+        border-style: none;
+        color: rgba(209,209,209,1);
+        height: 100%;
+    }
+
+    .sapMSFI {
+        height: 30px;
+    }
+
+    .sapMSFB {
+        width: 30px;
+        height: 30px;
+        line-height: 2.38rem; 
+        right: 10px;
+        top: -5px;
+        color: #D1D1D1;
+    }
+}
+
+// Object Identifiers
+.sapMObjectIdentifier {
+    &TopRow     {  }
+    &TextBellow { margin-top: 0; }
+
+    .bagsPane .sapMListHdrTBar & {
+        .grid(@columns: 1fr 1fr);
+        grid-template-areas: "text title";
+
+        .sapMObjectIdentifierTopRow     { grid-area: title }
+        .sapMObjectIdentifierTextBellow { 
+            grid-area: text;
+            text-align: right;
+            padding-right: 0.5rem;
+        }
+    }
+}
+
+.sapUiBody:extend(.EmiratesFont) {}
+
+.statusButton {
+    .sapMBtnInner:extend(.stepStatus all) {
+        text-shadow: unset;
+
+        .sapMBtnIcon {
+            color: #FFF;
+            font-size: 0.9rem;
+            line-height: 1.5rem;
+            width: auto;
+        }
+    }
+
+    &.notStarted > .sapMBtnInner { background: #f7f7f7; }
+    &.started > .sapMBtnInner    { background: #91B0BC; }
+    &.complete > .sapMBtnInner   { background: #91B0BC; }
+    &.error > .sapMBtnInner      { background: #ff0000; }
+
+    &:hover > .sapMBtnHoverable:extend(.grow all) {}
+}
+
+// Progress indicator
+.journeyProgressBar {
+    // This assumes that the progress indicator control should be the first to appear in the view!
+    & > *:first-child {
+        .bagJourney & { 
+            .processSteps(@steps:10);
+        }
+
+        .connectingFlights & { 
+            .processSteps(@steps:10, @offset: -0.75rem);
+        }
+
+        .uldJourney & {
+            .processSteps(@steps:5);
+        }
+    }
+}
+
+.sapMPI {
+    background-color: rgba(255,255,255,1);
+    height: 14px;
+    margin: 1rem 0 0 0; // This is half of the height of '.flight'
+
+    .bagJourney & {
+    }
+
+    // 20rem is the width of the first cell in .connectingFlights' table. 
+    // .connectingFlights & { 
+    //     .processSteps(@steps:10);
+    // }
+
+    // .uldJourney & {
+    //     .processSteps(@steps:5);
+    // }
+
+    .sapMPIBarNeutral {
+        background-color: rgba(212,225,230,1);
+    }
+
+    .sapMPIBarRemaining {
+        border-style: none;
+    }
+} 
+
+// Responsive splitter
+.sapUiResponsiveSplitter {
+    background-color: #F6F4F1;
+}
+
+.navigation {
+    @borderRadius: 10px;
+    width: 50%;
+
+    &.sapMSegB {
+        .sapMSegBBtn {
+            width: 100% !important;
+            padding: 0;
+            outline: none;
+            font-family: @emirates-serif-font;
+            font-size: 12px;
+            font-weight: bold;
+            color: #9D9991;
+            letter-spacing: 0.4px;
+            text-align: center;
+
+            &:first-child {
+                border-top-left-radius: @borderRadius;
+                border-bottom-left-radius: @borderRadius;
+            }
+
+            &:last-child {
+                border-top-right-radius: @borderRadius;
+                border-bottom-right-radius: @borderRadius;
+            }
+
+            &:not(.sapMSegBBtnSel) {
+                background-image: linear-gradient(-180deg, #F4F2EF 0%, #F3F1EE 49%, #EAE7E0 52%, #E9E5DE 100%);
+                border: 1px solid #F6F3ED;
+                box-shadow: 0 2px 4px 0 rgba(176,166,150,0.51);
+            }
+            
+            &.sapMSegBBtnSel {
+                background-image: linear-gradient(-180deg, #CCCCCB 0%, #B7B4AE 49%, #A09D96 100%);
+                border: 1px solid #B4B1AD;
+                box-shadow: 0 2px 4px 0 rgba(176,166,150,0.51);
+                color: #FFFFFF;
+            }
+        } 
+
+        .sapMSegBBtn.sapMSegBBtnFocusable.sapMSegBBtnSel:hover {
+            background-image: linear-gradient(-180deg, #CCCCCB 0%, #B7B4AE 49%, #A09D96 100%);
+            border: 1px solid #B4B1AD;
+            box-shadow: 0 2px 4px 0 rgba(176,166,150,0.51);
+            color: #FFFFFF;
+        }
+    }
+}
+
+.parallelogram {
+    @borderRadius: 0px;
+    height: 100% !important;
+    width: 25% !important;
+
+    &.sapMSegB {
+        .sapMSegBBtn {
+            height: 100%;
+            padding: 0;
+            outline: none;
+            font-family: @helvetica-neue-font;
+            font-size: 14px;
+            font-weight: bold;
+            color: #FFFFFF;
+            letter-spacing: 0.4px;
+            text-align: center;
+
+            &:first-child {
+                border-top-left-radius: @borderRadius;
+                border-bottom-left-radius: @borderRadius;
+            }
+
+            &:last-child {
+                border-top-right-radius: @borderRadius;
+                border-bottom-right-radius: @borderRadius;
+            }
+
+            &:not(.sapMSegBBtnSel) {
+                background: #E8E4E0;
+                color: #797062;
+                border-style: none;
+            }
+
+            &.sapMSegBBtnSel {
+                background: #797062;
+                border-style: none;
+                color: #FFFFFF;
+            }
+        } 
+
+        .sapMSegBBtn.sapMSegBBtnFocusable.sapMSegBBtnSel:hover {
+            background: #797062;
+            // border: 1px solid #B4B1AD;
+            color: #FFFFFF;
+        }
+    }
+}
+
+// Splitter
+.sapUiLoSplitterBar {
+    min-height: 20px;
+    background-image: linear-gradient(-180deg, #FCFCFC 16%, #D7D7D7 100%);
+    box-shadow: 0 0 7px 0 rgba(0,0,0,0.23);
+}
+
+.sapUiLoSplitterBarIcon {
+    display: none;
+}
+
+.sapMDialog {
+    border-radius: 20px;
+
+    .sapMDialogSubHeader {
+
+        & > .sapMBar {
+            background: #F6F4F1 !important;
+            box-shadow: none !important;
+        }
+    }
+
+    & > .sapMDialogSection {
+        background: #F6F4F1;
+    }
+
+    #dialogButton {
+        &-inner
+        {
+            color: #FFFFFF;
+            border: 2px solid #F6F4F1;
+            opacity: 0.58;
+            background: #BBAC98;
+            border-radius: 100%;
+        }
+
+        &-img {
+            color: #FFFFFF;
+        }
+    }
+}
+
+.flight {
+    @skew: 45deg;
+    @height: 1.05rem;
+
+    .grid(@columns: 1fr 0.75fr 0.75fr 0.75fr 0.1fr);
+    .grid-properties();
+    width: 275px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 0 10px;
+    position: relative;
+    z-index: 1;
+
+    &:before {
+        background-color: white;
+        border-radius: 2px;
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: @height;
+        -webkit-transform: skew(@skew);
+        transform: skew(@skew);
+        top: 0;
+        box-shadow: 0 0 4px 0 rgba(0,0,0,0.23);
+        clip-path: inset(-5px -5px 1px -5px);
+    }
+
+    &:after {
+        background-image: linear-gradient(0deg, #F5F5F5 0%, #FFFFFF 55%);
+        border-radius: 2px;
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: @height;
+        transform: skew(-@skew);
+        bottom: 0;
+        z-index: -1;
+        box-shadow: 0 0 4px 0 rgba(0,0,0,0.23);
+    }
+}

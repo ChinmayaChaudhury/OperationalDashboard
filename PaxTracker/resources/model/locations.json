@@ -1,0 +1,84 @@
+{
+    "locations": [{
+        "text": "Terminal 1",
+        "items": [{
+            "text": "Arrivals",
+            "id": "T1GF"
+        }, {
+            "text": "Food Court",
+            "id": "T1U1"
+        }, {
+            "text": "Departures",
+            "id": "T1U2"
+        }]
+    }, {
+        "text": "Terminal 2",
+        "items": [{
+            "text": "Arrivals",
+            "id": "T2GF-A"
+        }, {
+            "text": "Departures",
+            "id": "T2GF-D"
+        }]
+    }, {
+        "text": "Terminal 3",
+        "items": [{
+            "text": "Arrivals",
+            "id": "T3L4"
+        }, {
+            "text": "Departures",
+            "id": "T3L2"
+        }]
+    }, {
+        "text": "Gate A",
+        "items": [{
+            "text": "Train Connection",
+            "id": "CAL2"
+        }, {
+            "text": "Connection Floor",
+            "id": "CAGF"
+        }, {
+            "text": "Arrivals",
+            "id": "CAU1"
+        }, {
+            "text": "Departures",
+            "id": "CAU2"
+        }, {
+            "text": "BR First Class Lounge",
+            "id": "CAU3"
+        }, {
+            "text": "BR Business Class Lounge",
+            "id": "CAU4"
+        }]
+    }, {
+        "text": "Gate B",
+        "items": [{
+            "text": "Connection Floor",
+            "id": "CBGF"
+        }, {
+            "text": "Arrivals",
+            "id": "CBU1"
+        }, {
+            "text": "Departures",
+            "id": "CBU2"
+        }, {
+            "text": "BR Lounges",
+            "id": "CAU3"
+        }, {
+            "text": "BR Business Class Lounge",
+            "id": "CBU3"
+        }]
+    }, {
+        "text": "Gate D",
+        "items": [{
+            "text": "Arrivals",
+            "id": "CDGF"
+        }, {
+            "text": "Departures",
+            "id": "CDU1"
+        }, {
+            "text": "Upper Floor",
+            "id": "CDU2"
+        }]
+    }]
+}

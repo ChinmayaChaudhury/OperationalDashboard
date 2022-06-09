@@ -1,0 +1,175 @@
+{
+	"pax": {
+		"connecting": [{
+			"icon": "sap-icon://ek/checkedIn",
+			"statusNumber": 122,
+			"statusText": "CHECKED-IN",
+			"F": 22,
+			"J": 87,
+			"Y": 23
+		}, {
+			"icon": "sap-icon://ek/passport",
+			"statusNumber": 25,
+			"statusText": "PASSPORT",
+			"F": 22,
+			"J": 87,
+			"Y": 23
+		}, {
+			"icon": "sap-icon://ek/atGate",
+			"statusNumber": 75,
+			"statusText": "AT GATE",
+			"F": 22,
+			"J": 87,
+			"Y": 23
+		}, {
+			"icon": "sap-icon://ek/boarded",
+			"statusNumber": 22,
+			"statusText": "BOARDED",
+			"F": 22,
+			"J": 87,
+			"Y": 23
+		}, {
+			"icon": "sap-icon://ek/notAtGate",
+			"statusNumber": 199,
+			"statusText": "NOT AT GATE",
+			"F": 22,
+			"J": 87,
+			"Y": 23
+		}, {
+			"icon": "sap-icon://ek/notArrived",
+			"statusNumber": 15,
+			"statusText": "NOT ARRIVED",
+			"F": 22,
+			"J": 87,
+			"Y": 23
+		}],
+		"joining": [{
+			"statusNumber": 122,
+			"statusText": "CHECKED-IN",
+			"F": 22,
+			"J": 87,
+			"Y": 23
+		}, {
+			"statusNumber": 25,
+			"statusText": "PASSPORT",
+			"F": 22,
+			"J": 87,
+			"Y": 23
+		}, {
+			"statusNumber": 75,
+			"statusText": "AT GATE",
+			"F": 22,
+			"J": 87,
+			"Y": 23
+		}, {
+			"statusNumber": 22,
+			"statusText": "BOARDED",
+			"F": 22,
+			"J": 87,
+			"Y": 23
+		}, {
+			"statusNumber": 45,
+			"statusText": "NOT AT GATE",
+			"F": 22,
+			"J": 87,
+			"Y": 23
+		}, {
+			"statusNumber": "NA",
+			"statusText": "NOT ARRIVED",
+			"F": 22,
+			"J": 87,
+			"Y": 23
+		}],
+		"inbound": [{
+			"flight": "EK203",
+			"sector": "JFK-DXB",
+			"stand": "F34",
+			"eibt": "23:00 E",
+			"tobt": "23:00",
+			"time": "00:32",
+			"pax": "F22 / J87 / Y23",
+			"state": "Error"
+		}, {
+			"flight": "EK203",
+			"sector": "JFK-DXB",
+			"stand": "F34",
+			"eibt": "23:00 E",
+			"tobt": "23:00",
+			"time": "00:32",
+			"pax": "F22 / J87 / Y23",
+			"state": "Error"
+		}, {
+			"flight": "EK203",
+			"sector": "JFK-DXB",
+			"stand": "F34",
+			"eibt": "23:00 E",
+			"tobt": "23:00",
+			"time": "00:32",
+			"pax": "F22 / J87 / Y23",
+			"state": "Error"
+		}, {
+			"flight": "EK203",
+			"sector": "JFK-DXB",
+			"stand": "F34",
+			"eibt": "23:00 E",
+			"tobt": "23:00",
+			"time": "00:32",
+			"pax": "F22 / J87 / Y23",
+			"state": "Error"
+		}, {
+			"flight": "EK203",
+			"sector": "JFK-DXB",
+			"stand": "F34",
+			"eibt": "23:00 E",
+			"tobt": "23:00",
+			"time": "00:32",
+			"pax": "F22 / J87 / Y23",
+			"state": "Error"
+		}, {
+			"flight": "EK203",
+			"sector": "JFK-DXB",
+			"stand": "F34",
+			"eibt": "23:00 E",
+			"tobt": "23:00",
+			"time": "00:32",
+			"pax": "F22 / J87 / Y23",
+			"state": "Warning"
+		}, {
+			"flight": "EK203",
+			"sector": "JFK-DXB",
+			"stand": "F34",
+			"eibt": "23:00 E",
+			"tobt": "23:00",
+			"time": "00:32",
+			"pax": "F22 / J87 / Y23",
+			"state": "Warning"
+		}, {
+			"flight": "EK203",
+			"sector": "JFK-DXB",
+			"stand": "F34",
+			"eibt": "23:00 E",
+			"tobt": "23:00",
+			"time": "00:32",
+			"pax": "F22 / J87 / Y23",
+			"state": "Warning"
+		}, {
+			"flight": "EK203",
+			"sector": "JFK-DXB",
+			"stand": "F34",
+			"eibt": "23:00 E",
+			"tobt": "23:00",
+			"time": "00:32",
+			"pax": "F22 / J87 / Y23",
+			"state": "None"
+		}, {
+			"flight": "EK203",
+			"sector": "JFK-DXB",
+			"stand": "F34",
+			"eibt": "23:00 E",
+			"tobt": "23:00",
+			"time": "00:32",
+			"pax": "F22 / J87 / Y23",
+			"state": "None"
+		}]
+	}
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="19px" viewBox="0 0 26 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Outbound</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.000219088937 25.5253332 0.000219088937 25.5253332 17.2742863 0 17.2742863"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PAX-Connection" transform="translate(-363.000000, -617.000000)">
+            <g id="Group-45" transform="translate(363.000000, 598.000000)">
+                <g id="Outbound" transform="translate(0.000000, 19.813449)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M0,17.2742863 L25.5253332,17.2742863 L25.5253332,16.4045033 L0,16.4045033 L0,17.2742863 Z M4.04534211,8.81745336 L0.285500666,10.1495141 L0.896966659,10.6326052 L5.94605718,14.6309783 L23.4627594,8.41761605 C24.2821688,8.12403688 24.7924732,7.37256182 24.7924732,6.56850542 C24.7924732,6.34393926 24.7531325,6.11608677 24.6710792,5.89480694 C24.3709663,5.09622777 23.5987657,4.59889588 22.7726122,4.59889588 C22.5421884,4.59889588 22.3095166,4.63723644 22.0835889,4.71829935 L16.6871767,6.63094577 L7.00263444,-0.000876355748 L3.33271447,1.30051193 L10.9692953,8.65970933 L6.32372735,10.3083536 L4.04534211,8.81745336 Z" id="Fill-1" fill="#B9AD9C" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

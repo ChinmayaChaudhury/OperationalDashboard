@@ -1,0 +1,73 @@
+{
+    "buildings/ConA.obj": [{
+        "latitude": 25.24310,
+        "longitude": 55.37239,
+        "minZoom": 15,
+        "maxZoom": 18.5,
+        "id": "",
+        "scale": 1,
+        "elevation": 0,
+        "rotation": 0
+    }],
+    "buildings/ConB.obj": [{
+        "latitude": 25.24841,
+        "longitude": 55.36170,
+        "minZoom": 15,
+        "maxZoom": 18.5,
+        "id": "",
+        "scale": 1,
+        "elevation": 0,
+        "rotation": 0
+    }],
+    "buildings/ConC.obj": [{
+        "latitude": 25.25262,
+        "longitude": 55.35406,
+        "minZoom": 15,
+        "maxZoom": 18.5,
+        "id": "",
+        "scale": 1,
+        "elevation": 0,
+        "rotation": 0
+    }],
+    "buildings/ConD.obj": [{
+        "latitude": 25.25784,
+        "longitude": 55.34399,
+        "minZoom": 15,
+        "maxZoom": 18.5,
+        "id": "",
+        "scale": 1,
+        "elevation": 0,
+        "rotation": 0
+    }],
+    "buildings/Terminal1.obj": [{
+        "latitude": 25.24873,
+        "longitude": 55.35266,
+        "minZoom": 15,
+        "maxZoom": 18.5,
+        "id": "",
+        "scale": 1,
+        "elevation": 10,
+        "rotation": 0
+    }],
+    "buildings/Terminal2.obj": [{
+        "latitude": 25.26617,
+        "longitude": 55.35695,
+        "minZoom": 15,
+        "maxZoom": 18.5,
+        "id": "",
+        "scale": 1,
+        "elevation": 0,
+        "rotation": 0
+    }],
+    "buildings/Terminal3.obj": [{
+        "latitude": 25.24570,
+        "longitude": 55.36033,
+        "minZoom": 15,
+        "maxZoom": 18.5,
+        "id": "",
+        "scale": 1,
+        "elevation": 0,
+        "rotation": 0
+    }]
+
+}

@@ -1,0 +1,108 @@
+@import (reference)  "../general/main";
+@import (reference)  "../components/page-header";
+@import (reference)  "../components/badge";
+@import (reference)  "../components/value-box";
+@import (reference)  "../components/status-indicator";
+@import (reference)  "../components/timeline";
+
+
+.customer-order ul {
+    padding: 0 20px;
+
+    .list-item {
+        margin-bottom: 10px;
+
+        .list-item();
+
+        .customer-name {
+            width: 250px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}
+
+.Badge(15px, rgb(178, 170, 161), rgb(255, 255, 255));
+
+.emirates {
+    .customer-order {
+
+        .order-number:before {
+            content: "#";
+        }
+
+        .summary {
+            margin: 0 50px 40px 50px;
+            @status-bar-width: 10px;
+            @row-height: 67px; 
+            @fractions: 0.7fr 2.5fr;
+            @header: 1fr 1fr 0.25fr;
+            @main: 3;
+            // Root font size.
+            font-size: 16px;
+            display: grid;
+            grid-template-columns: @fractions;
+            grid-template-areas: "header main";
+
+            min-height: @row-height;
+            margin-bottom: 10px;
+
+            // Look-n-feel
+            background: @gradient;
+            // overflow: hidden;
+
+            .roundify();
+            .shadowfy(0px, 1px, 7px, 2px, 0.2);
+    
+            section {
+                padding: 0 30px;
+                align-items: center;
+                justify-items: center;
+    
+                &:nth-child(1) {
+                    grid-area: header;
+                    background-color: @foreground;
+                    .grid-columns-nonuniform(@header);
+    
+                    .roundify();
+                    .status-bar(data-status, @status-bar-width);
+                    .shadowfy(0px, 0px, 50px, 5px, 0.1);
+                    .Badge(0, rgb(178, 170, 161), rgb(255, 255, 255));
+    
+                    h1 {
+                        font-family: @emirates-plain-font;
+                        color: @heading01;
+                        font-size: 1.5rem;
+                        font-weight: bold;
+                    }
+    
+                    h2 {
+                        color: @heading02;
+                        font-size: 1.15rem;
+                        font-weight: 500;
+                    }
+                }
+    
+                &:nth-child(2) {
+                    grid-area: main;
+                    .grid-columns(@main);
+                    
+                    div { 
+                        flex-grow: 1;
+                        min-width: max-content;
+                        font-family: @helvetica-neue-font;
+                        font-weight: normal;
+                        color: @heading01;
+                        font-size: 1rem;
+                        .status-icon(data-status, color);
+                    }
+                }
+            }
+        }
+
+        ul.timeline {
+            .Timeline();
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "segments": [{
+        "label": "Outstation AOBT",
+        "icon": "media/images/taking-off.svg",
+        "position": "start",
+        "tab1Tooltip": "Plan | Schd",
+        "tab1_1": "data.root.headerinfo.outstation_ATOT_ET",
+        "tab1_2": "data.root.headerinfo.outstation_ATOT_PT",
+        "tab2Tooltip": "Act",
+        "tab2": "data.root.headerinfo.outstation_ATOT_AT"
+    }, {
+        "label": "FIR Entry",
+        "icon": "media/images/taking-off.svg",
+        "position": "start",
+        "tab1Tooltip": "Plan | Schd",
+        "tab1_1": "data.root.headerinfo.firEntry_ET",
+        "tab1_2": "data.root.headerinfo.firEntry_PT",
+        "tab2Tooltip": "Act",
+        "tab2": "data.root.headerinfo.firEntry_AT"
+    }, {
+        "label": "Final Approach",
+        "icon": "media/images/taking-off.svg",
+        "position": "start",
+        "tab1Tooltip": "Plan | Schd",
+        "tab1_1": "data.root.headerinfo.finalApproach_ET",
+        "tab1_2": "data.root.headerinfo.landing_PT",
+        "tab2Tooltip": "Act",
+        "tab2": "data.root.headerinfo.landing_AT"
+    },
+    {
+        "label": "In-Block",
+        "icon": "media/images/block.svg",
+        "position": "start",
+        "tab1Tooltip": "Plan | Schd",
+        "tab1_1": "data.root.headerinfo.actualInBlock_ET",
+        "tab1_2": "data.root.headerinfo.actualInBlock_PT",
+        "tab2Tooltip": "Act",
+        "tab2": "data.root.headerinfo.actualInBlock_AT"
+    }, {
+        "label": "Off-Block",
+        "icon": "media/images/block.svg",
+        "position": "end",
+        "tab1Tooltip": "Plan | Schd",
+        "tab1_1": "data.root.headerinfo.actualOffBlock_ET",
+        "tab1_2": "data.root.headerinfo.actualOffBlock_PT",
+        "tab2Tooltip": "Act",
+        "tab2": "data.root.headerinfo.actualOffBlock_AT"
+    },
+    {
+        "label": "Take-Off",
+        "icon": "media/images/taking-off.svg",
+        "position": "end",
+        "tab1Tooltip": "Plan | Schd",
+        "tab1_1": "data.root.headerinfo.outstation_TOBT_ET",
+        "tab1_2": "data.root.headerinfo.outstation_TOBT_PT",
+        "tab2Tooltip": "Act",
+        "tab2": "data.root.headerinfo.outstation_TOBT_AT"
+    }]
+}

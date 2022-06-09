@@ -1,0 +1,1140 @@
+#2.0#2020 05 12 12:48:03.827#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:46:50 UTC 2020] Created app with guid b6519c81-5dac-433b-894d-d77d2cf76455 (STDOUT, API)#
+
+#2.0#2020 05 12 12:48:03.827#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:46:52 UTC 2020] Updated app with guid b6519c81-5dac-433b-894d-d77d2cf76455 ({"route"=>"93d21ac8-ad07-4308-a421-bfe399e2d586", :verb=>"add", :relation=>"routes", :related_guid=>"93d21ac8-ad07-4308-a421-bfe399e2d586"}) (STDOUT, API)#
+
+#2.0#2020 05 12 12:48:03.827#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:46:54 UTC 2020] Updated app with guid b6519c81-5dac-433b-894d-d77d2cf76455 ({"metadata"=>{"annotations"=>{"mta_id"=>"EmiratesDemo", "mta_version"=>"0.0.1", "mta_module"=>"{\"name\":\"APIMock\"}", "mta_module_provided_dependencies"=>"[]", "mta_bound_services"=>"[]"}, "labels"=>{"mta_id"=>"57247034da69a27b9a693e6af0b7114b"}}}) (STDOUT, API)#
+
+#2.0#2020 05 12 12:48:03.827#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:46:58 UTC 2020] Updated app with guid b6519c81-5dac-433b-894d-d77d2cf76455 ({"environment_json"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+
+#2.0#2020 05 12 12:48:03.827#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:47:00 UTC 2020] Updated app with guid b6519c81-5dac-433b-894d-d77d2cf76455 ({"metadata"=>{"annotations"=>{"mta_id"=>"EmiratesDemo", "mta_version"=>"0.0.1", "mta_module"=>"{\"name\":\"APIMock\"}", "mta_module_provided_dependencies"=>"[]", "mta_bound_services"=>"[]"}, "labels"=>{"mta_id"=>"57247034da69a27b9a693e6af0b7114b"}}}) (STDOUT, API)#
+
+#2.0#2020 05 12 12:48:03.827#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:47:06 UTC 2020] Updated app with guid b6519c81-5dac-433b-894d-d77d2cf76455 ({"environment_json"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+
+#2.0#2020 05 12 12:48:03.827#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:47:10 UTC 2020] Uploading app package for app with guid b6519c81-5dac-433b-894d-d77d2cf76455 (STDOUT, API)#
+
+#2.0#2020 05 12 12:48:03.827#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:47:25 UTC 2020] Updated app with guid b6519c81-5dac-433b-894d-d77d2cf76455 ({"instances"=>1}) (STDOUT, API)#
+
+#2.0#2020 05 12 12:48:03.827#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:47:26 UTC 2020] Creating build for app with guid b6519c81-5dac-433b-894d-d77d2cf76455 (STDOUT, API)#
+
+#2.0#2020 05 12 12:48:03.828#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:47:44 UTC 2020] Failed to stage build: Stager error: bbs stager client staging failed: the requested resource already exists (STDERR, API)#
+
+#2.0#2020 05 12 12:48:03.828#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:47:50 UTC 2020] Creating build for app with guid b6519c81-5dac-433b-894d-d77d2cf76455 (STDOUT, API)#
+
+#2.0#2020 05 12 12:48:03.828#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:47:59 UTC 2020] Downloading nodejs_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.828#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:47:59 UTC 2020] Downloading r_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.828#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:47:59 UTC 2020] Downloading ruby_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.828#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:47:59 UTC 2020] Downloading python_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.828#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:47:59 UTC 2020] Downloading uas_dataflow_server_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.828#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:47:59 UTC 2020] Downloaded nodejs_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.828#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:47:59 UTC 2020] Downloading binary_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.828#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:47:59 UTC 2020] Downloading php_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.828#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:47:59 UTC 2020] Downloaded python_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.828#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:47:59 UTC 2020] Downloading dotnet_core_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.828#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:47:59 UTC 2020] Downloaded r_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.828#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:47:59 UTC 2020] Downloading go_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.828#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:47:59 UTC 2020] Downloaded binary_buildpack (9.1M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.828#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:47:59 UTC 2020] Downloading sap_java_buildpack_1_23... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.829#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:47:59 UTC 2020] Downloaded go_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.829#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloading r_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.829#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloading staticfile_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.829#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloading ruby_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.829#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloading python_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.829#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloading uas_dataflow_server_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.829#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloading sap_java_buildpack_1_25... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.829#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloaded staticfile_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.829#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloading binary_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.829#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloaded ruby_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.829#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloading sap_java_buildpack_1_24... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.829#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloading java_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.829#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloaded uas_dataflow_server_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.829#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloaded python_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.829#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloading sap_java_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.830#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloaded r_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.830#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloading php_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.830#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloaded java_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.830#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloading sap_java_buildpack_1_23... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.830#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloaded sap_java_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.830#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloading dotnet_core_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.830#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloaded sap_java_buildpack_1_25 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.830#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloading nodejs_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.830#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloaded sap_java_buildpack_1_24 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.830#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloading nginx_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.830#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloaded binary_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.830#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloading go_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.830#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloaded sap_java_buildpack_1_23 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.830#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloaded nodejs_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.830#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloaded dotnet_core_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.831#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloaded php_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.831#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloaded nginx_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.831#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Cell 4a0b16cd-b9b2-458e-9c44-c8470ebf4329 creating container for instance 1625becf-9822-4522-938b-af2514c34f78 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.831#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:00 UTC 2020] Downloaded go_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.831#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:01 UTC 2020] Cell 4a0b16cd-b9b2-458e-9c44-c8470ebf4329 successfully created container for instance 1625becf-9822-4522-938b-af2514c34f78 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.831#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:01 UTC 2020] Downloading app package... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.831#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:01 UTC 2020] Downloaded app package (756.4K) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.831#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:02 UTC 2020] -----> Nodejs Buildpack version 1.7.15 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.831#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:02 UTC 2020]        [31;1m**ERROR**[0m Unable to install node: no match found for 6.x in [10.18.1 10.19.0 12.16.0 12.16.1 13.10.1 13.11.0] (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.831#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:02 UTC 2020]        engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.831#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:02 UTC 2020]        engines.node (package.json): 6.x (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.831#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:02 UTC 2020] -----> Installing binaries (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.831#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:02 UTC 2020] Failed to compile droplet: Failed to run all supply scripts: exit status 14 (STDERR, STG)#
+
+#2.0#2020 05 12 12:48:03.831#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:02 UTC 2020] Exit status 223 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.831#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:02 UTC 2020] Cell 4a0b16cd-b9b2-458e-9c44-c8470ebf4329 destroying container for instance 1625becf-9822-4522-938b-af2514c34f78 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.831#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:02 UTC 2020] Cell 4a0b16cd-b9b2-458e-9c44-c8470ebf4329 stopping instance 1625becf-9822-4522-938b-af2514c34f78 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:03.832#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:02 UTC 2020] Failed to stage build: staging failed (STDERR, API)#
+
+#2.0#2020 05 12 12:48:19.606#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:03 UTC 2020] Cell 4a0b16cd-b9b2-458e-9c44-c8470ebf4329 successfully destroyed container for instance 1625becf-9822-4522-938b-af2514c34f78 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:19.606#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:05 UTC 2020] Downloading sap_java_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:19.606#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:05 UTC 2020] Downloaded uas_dataflow_server_buildpack (176.3M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:19.606#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:05 UTC 2020] Downloading sap_java_buildpack_1_24... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:19.606#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:05 UTC 2020] Downloaded sap_java_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:19.606#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:07 UTC 2020] Downloading sap_java_buildpack_1_25... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:19.606#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:07 UTC 2020] Downloaded sap_java_buildpack_1_23 (290.2M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:19.607#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:11 UTC 2020] Downloading staticfile_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:19.607#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:11 UTC 2020] Downloaded dotnet_core_buildpack (426.8M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:19.607#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:11 UTC 2020] Downloaded staticfile_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:19.607#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:11 UTC 2020] Downloading java_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:19.607#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:12 UTC 2020] Downloading nginx_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:19.607#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:12 UTC 2020] Downloaded sap_java_buildpack_1_24 (290.2M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:19.607#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:13 UTC 2020] Downloaded nginx_buildpack (33M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:19.607#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:14 UTC 2020] Downloaded sap_java_buildpack_1_25 (290.3M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:19.607#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:15 UTC 2020] Downloaded ruby_buildpack (371.4M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:19.607#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:17 UTC 2020] Downloaded php_buildpack (525.2M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:34.058#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:26 UTC 2020] Cell 13d36eb9-4d05-4a33-b549-f316253d5311 creating container for instance 361ec8ac-e7be-4583-a12d-0130faa89b91 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:34.059#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:26 UTC 2020] Downloaded java_buildpack (747.4M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:34.059#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:27 UTC 2020] Cell 13d36eb9-4d05-4a33-b549-f316253d5311 successfully created container for instance 361ec8ac-e7be-4583-a12d-0130faa89b91 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:34.059#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:27 UTC 2020] Downloading app package... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:34.059#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:27 UTC 2020] Downloaded app package (756.4K) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:34.059#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:28 UTC 2020] -----> Nodejs Buildpack version 1.7.15 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:34.059#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:28 UTC 2020]        [31;1m**ERROR**[0m Unable to install node: no match found for 6.x in [10.18.1 10.19.0 12.16.0 12.16.1 13.10.1 13.11.0] (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:34.059#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:28 UTC 2020]        engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:34.059#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:28 UTC 2020]        engines.node (package.json): 6.x (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:34.059#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:28 UTC 2020] -----> Installing binaries (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:34.059#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:28 UTC 2020] Failed to compile droplet: Failed to run all supply scripts: exit status 14 (STDERR, STG)#
+
+#2.0#2020 05 12 12:48:34.059#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:28 UTC 2020] Exit status 223 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:34.059#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:28 UTC 2020] Cell 13d36eb9-4d05-4a33-b549-f316253d5311 destroying container for instance 361ec8ac-e7be-4583-a12d-0130faa89b91 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:34.059#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:28 UTC 2020] Cell 13d36eb9-4d05-4a33-b549-f316253d5311 stopping instance 361ec8ac-e7be-4583-a12d-0130faa89b91 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:34.060#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:29 UTC 2020] Cell 13d36eb9-4d05-4a33-b549-f316253d5311 successfully destroyed container for instance 361ec8ac-e7be-4583-a12d-0130faa89b91 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:48:34.060#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:30 UTC 2020] Failed to stage build: staging failed (STDERR, API)#
+
+#2.0#2020 05 12 12:49:04.091#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:26 UTC 2020] Cell 13d36eb9-4d05-4a33-b549-f316253d5311 creating container for instance 361ec8ac-e7be-4583-a12d-0130faa89b91 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:04.092#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:26 UTC 2020] Downloaded java_buildpack (747.4M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:04.092#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:27 UTC 2020] Cell 13d36eb9-4d05-4a33-b549-f316253d5311 successfully created container for instance 361ec8ac-e7be-4583-a12d-0130faa89b91 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:04.092#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:27 UTC 2020] Downloading app package... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:04.092#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:27 UTC 2020] Downloaded app package (756.4K) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:04.092#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:28 UTC 2020] -----> Nodejs Buildpack version 1.7.15 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:04.092#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:28 UTC 2020]        [31;1m**ERROR**[0m Unable to install node: no match found for 6.x in [10.18.1 10.19.0 12.16.0 12.16.1 13.10.1 13.11.0] (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:04.092#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:28 UTC 2020]        engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:04.092#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:28 UTC 2020]        engines.node (package.json): 6.x (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:04.092#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:28 UTC 2020] -----> Installing binaries (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:04.092#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:28 UTC 2020] Failed to compile droplet: Failed to run all supply scripts: exit status 14 (STDERR, STG)#
+
+#2.0#2020 05 12 12:49:04.092#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:28 UTC 2020] Exit status 223 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:04.092#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:28 UTC 2020] Cell 13d36eb9-4d05-4a33-b549-f316253d5311 destroying container for instance 361ec8ac-e7be-4583-a12d-0130faa89b91 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:04.092#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:28 UTC 2020] Cell 13d36eb9-4d05-4a33-b549-f316253d5311 stopping instance 361ec8ac-e7be-4583-a12d-0130faa89b91 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:04.092#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:29 UTC 2020] Cell 13d36eb9-4d05-4a33-b549-f316253d5311 successfully destroyed container for instance 361ec8ac-e7be-4583-a12d-0130faa89b91 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:04.092#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:30 UTC 2020] Failed to stage build: staging failed (STDERR, API)#
+
+#2.0#2020 05 12 12:49:04.093#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:48:36 UTC 2020] Creating build for app with guid b6519c81-5dac-433b-894d-d77d2cf76455 (STDOUT, API)#
+
+#2.0#2020 05 12 12:49:25.301#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:19 UTC 2020] Downloading staticfile_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:25.301#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:19 UTC 2020] Downloading nodejs_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:25.301#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:19 UTC 2020] Downloading ruby_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:25.301#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:19 UTC 2020] Downloading python_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:25.301#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:19 UTC 2020] Downloading uas_dataflow_server_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:25.301#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:19 UTC 2020] Downloading java_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:25.301#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:19 UTC 2020] Downloaded nodejs_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:25.301#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:19 UTC 2020] Downloading go_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:25.301#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:19 UTC 2020] Downloaded java_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:25.301#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:19 UTC 2020] Downloading dotnet_core_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:25.302#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:19 UTC 2020] Downloaded go_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:25.302#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:20 UTC 2020] Downloading r_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:25.302#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:20 UTC 2020] Downloaded staticfile_buildpack (7.7M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:25.302#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:24 UTC 2020] Downloading php_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:25.302#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:24 UTC 2020] Downloaded uas_dataflow_server_buildpack (176.3M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:25.302#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:24 UTC 2020] Downloaded php_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:25.302#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:24 UTC 2020] Downloading nginx_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:25.302#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:24 UTC 2020] Downloaded binary_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:39.911#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:24 UTC 2020] Downloading nginx_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:39.911#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:26 UTC 2020] Downloading sap_java_buildpack_1_25... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:39.911#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:26 UTC 2020] Downloaded nginx_buildpack (33M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:39.911#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:29 UTC 2020] Downloading sap_java_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:39.911#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:29 UTC 2020] Downloaded ruby_buildpack (371.4M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:39.911#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:29 UTC 2020] Downloaded sap_java_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:39.912#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:29 UTC 2020] Downloading sap_java_buildpack_1_23... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:39.912#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:31 UTC 2020] Downloading sap_java_buildpack_1_24... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:39.912#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:31 UTC 2020] Downloaded dotnet_core_buildpack (426.8M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:39.912#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:34 UTC 2020] Downloaded sap_java_buildpack_1_25 (290.3M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:39.912#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:36 UTC 2020] Downloaded python_buildpack (490.1M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:39.912#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:37 UTC 2020] Downloaded sap_java_buildpack_1_23 (290.2M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:39.912#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:38 UTC 2020] Downloaded r_buildpack (635M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:39.912#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:38 UTC 2020] Cell 5ef298e1-cb34-4318-a907-ebd1eae180aa creating container for instance b3ed1194-b8e4-486d-aa17-edfcb75afaec (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:39.912#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:38 UTC 2020] Downloaded sap_java_buildpack_1_24 (290.2M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:55.279#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:38 UTC 2020] Cell 5ef298e1-cb34-4318-a907-ebd1eae180aa creating container for instance b3ed1194-b8e4-486d-aa17-edfcb75afaec (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:55.279#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:39 UTC 2020] Cell 5ef298e1-cb34-4318-a907-ebd1eae180aa successfully created container for instance b3ed1194-b8e4-486d-aa17-edfcb75afaec (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:55.279#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:39 UTC 2020] Downloading app package... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:55.279#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:40 UTC 2020] Downloaded app package (756.4K) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:55.279#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:40 UTC 2020] -----> Nodejs Buildpack version 1.7.15 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:55.279#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:40 UTC 2020]        [31;1m**ERROR**[0m Unable to install node: no match found for 6.x in [10.18.1 10.19.0 12.16.0 12.16.1 13.10.1 13.11.0] (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:55.280#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:40 UTC 2020]        engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:55.280#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:40 UTC 2020]        engines.node (package.json): 6.x (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:55.280#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:40 UTC 2020] -----> Installing binaries (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:55.280#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:40 UTC 2020] Failed to compile droplet: Failed to run all supply scripts: exit status 14 (STDERR, STG)#
+
+#2.0#2020 05 12 12:49:55.280#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:40 UTC 2020] Exit status 223 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:55.280#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:44 UTC 2020] Cell 5ef298e1-cb34-4318-a907-ebd1eae180aa destroying container for instance b3ed1194-b8e4-486d-aa17-edfcb75afaec (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:55.280#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:44 UTC 2020] Cell 5ef298e1-cb34-4318-a907-ebd1eae180aa stopping instance b3ed1194-b8e4-486d-aa17-edfcb75afaec (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:55.280#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:45 UTC 2020] Cell 5ef298e1-cb34-4318-a907-ebd1eae180aa successfully destroyed container for instance b3ed1194-b8e4-486d-aa17-edfcb75afaec (STDOUT, STG)#
+
+#2.0#2020 05 12 12:49:55.280#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:47 UTC 2020] Failed to stage build: staging failed (STDERR, API)#
+
+#2.0#2020 05 12 12:50:14.560#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:38 UTC 2020] Cell 5ef298e1-cb34-4318-a907-ebd1eae180aa creating container for instance b3ed1194-b8e4-486d-aa17-edfcb75afaec (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:14.560#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:39 UTC 2020] Cell 5ef298e1-cb34-4318-a907-ebd1eae180aa successfully created container for instance b3ed1194-b8e4-486d-aa17-edfcb75afaec (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:14.560#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:39 UTC 2020] Downloading app package... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:14.560#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:40 UTC 2020] Downloaded app package (756.4K) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:14.560#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:40 UTC 2020] -----> Nodejs Buildpack version 1.7.15 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:14.561#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:40 UTC 2020]        [31;1m**ERROR**[0m Unable to install node: no match found for 6.x in [10.18.1 10.19.0 12.16.0 12.16.1 13.10.1 13.11.0] (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:14.561#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:40 UTC 2020]        engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:14.561#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:40 UTC 2020]        engines.node (package.json): 6.x (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:14.561#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:40 UTC 2020] -----> Installing binaries (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:14.561#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:40 UTC 2020] Failed to compile droplet: Failed to run all supply scripts: exit status 14 (STDERR, STG)#
+
+#2.0#2020 05 12 12:50:14.561#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:40 UTC 2020] Exit status 223 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:14.561#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:44 UTC 2020] Cell 5ef298e1-cb34-4318-a907-ebd1eae180aa destroying container for instance b3ed1194-b8e4-486d-aa17-edfcb75afaec (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:14.561#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:44 UTC 2020] Cell 5ef298e1-cb34-4318-a907-ebd1eae180aa stopping instance b3ed1194-b8e4-486d-aa17-edfcb75afaec (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:14.561#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:45 UTC 2020] Cell 5ef298e1-cb34-4318-a907-ebd1eae180aa successfully destroyed container for instance b3ed1194-b8e4-486d-aa17-edfcb75afaec (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:14.561#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:49:47 UTC 2020] Failed to stage build: staging failed (STDERR, API)#
+
+#2.0#2020 05 12 12:50:14.562#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:01 UTC 2020] Creating build for app with guid b6519c81-5dac-433b-894d-d77d2cf76455 (STDOUT, API)#
+
+#2.0#2020 05 12 12:50:14.562#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:10 UTC 2020] Downloading r_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:14.562#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:10 UTC 2020] Downloading nodejs_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:14.562#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:10 UTC 2020] Downloading ruby_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:14.562#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:10 UTC 2020] Downloading python_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:14.562#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:10 UTC 2020] Downloading uas_dataflow_server_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:14.562#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:10 UTC 2020] Downloading binary_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:14.562#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:10 UTC 2020] Downloaded nodejs_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:14.562#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:10 UTC 2020] Downloading php_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:14.563#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:10 UTC 2020] Downloaded binary_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:24.777#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:10 UTC 2020] Downloading php_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:24.777#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:17 UTC 2020] Downloading dotnet_core_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:24.777#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:17 UTC 2020] Downloaded uas_dataflow_server_buildpack (176.3M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:24.778#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:19 UTC 2020] Downloading staticfile_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:24.778#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:19 UTC 2020] Downloaded ruby_buildpack (371.4M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:24.778#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:20 UTC 2020] Downloaded staticfile_buildpack (7.7M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:24.778#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:20 UTC 2020] Downloading sap_java_buildpack_1_25... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:38.001#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-21###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:28 UTC 2020] Downloading sap_java_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:38.001#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-21###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:28 UTC 2020] Downloaded r_buildpack (635M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:38.001#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-21###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:30 UTC 2020] Downloading sap_java_buildpack_1_24... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:38.001#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-21###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:30 UTC 2020] Downloaded dotnet_core_buildpack (426.8M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:38.001#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-21###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:30 UTC 2020] Downloading go_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:38.001#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-21###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:30 UTC 2020] Downloaded sap_java_buildpack_1_25 (290.3M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:38.001#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-21###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:31 UTC 2020] Downloading sap_java_buildpack_1_23... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:38.001#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-21###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:31 UTC 2020] Downloaded python_buildpack (490.1M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:38.001#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-21###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:33 UTC 2020] Downloading java_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:38.001#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-21###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:33 UTC 2020] Downloaded sap_java_buildpack (290.3M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:38.001#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-21###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:35 UTC 2020] Downloading nginx_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:38.002#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-21###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:35 UTC 2020] Downloaded sap_java_buildpack_1_24 (290.2M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:38.002#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-21###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:35 UTC 2020] Downloaded php_buildpack (525.2M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:38.002#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-21###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:36 UTC 2020] Downloaded sap_java_buildpack_1_23 (290.2M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:38.002#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-21###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:36 UTC 2020] Downloaded nginx_buildpack (33M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:47.333#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:44 UTC 2020] Downloaded go_buildpack (723.9M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:55.197#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-28###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:51 UTC 2020] Cell bb72e7b9-30a4-4b3f-95fc-e5d23ef7a488 creating container for instance 4ed3c426-bcea-4c41-919e-41db8264a5fb (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:55.197#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-28###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:51 UTC 2020] Downloaded java_buildpack (747.4M) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:55.197#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-28###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:53 UTC 2020] Cell bb72e7b9-30a4-4b3f-95fc-e5d23ef7a488 successfully created container for instance 4ed3c426-bcea-4c41-919e-41db8264a5fb (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:55.197#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-28###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:53 UTC 2020] Downloading app package... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:55.197#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-28###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:53 UTC 2020] Downloaded app package (756.4K) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:55.197#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-28###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:54 UTC 2020]        [31;1m**ERROR**[0m Unable to install node: no match found for 6.x in [10.18.1 10.19.0 12.16.0 12.16.1 13.10.1 13.11.0] (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:55.197#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-28###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:54 UTC 2020]        engines.node (package.json): 6.x (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:55.197#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-28###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:54 UTC 2020] -----> Installing binaries (STDOUT, STG)#
+
+#2.0#2020 05 12 12:50:55.197#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-28###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:54 UTC 2020] Failed to compile droplet: Failed to run all supply scripts: exit status 14 (STDERR, STG)#
+
+#2.0#2020 05 12 12:51:09.099#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:54 UTC 2020] Exit status 223 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:09.099#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:54 UTC 2020] Cell bb72e7b9-30a4-4b3f-95fc-e5d23ef7a488 destroying container for instance 4ed3c426-bcea-4c41-919e-41db8264a5fb (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:09.099#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:54 UTC 2020] Cell bb72e7b9-30a4-4b3f-95fc-e5d23ef7a488 stopping instance 4ed3c426-bcea-4c41-919e-41db8264a5fb (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:09.099#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:55 UTC 2020] Failed to stage build: staging failed (STDERR, API)#
+
+#2.0#2020 05 12 12:51:09.099#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:55 UTC 2020] Cell bb72e7b9-30a4-4b3f-95fc-e5d23ef7a488 successfully destroyed container for instance 4ed3c426-bcea-4c41-919e-41db8264a5fb (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.380#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:54 UTC 2020] Exit status 223 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.380#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:54 UTC 2020] Cell bb72e7b9-30a4-4b3f-95fc-e5d23ef7a488 destroying container for instance 4ed3c426-bcea-4c41-919e-41db8264a5fb (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.381#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:54 UTC 2020] Cell bb72e7b9-30a4-4b3f-95fc-e5d23ef7a488 stopping instance 4ed3c426-bcea-4c41-919e-41db8264a5fb (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.381#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:55 UTC 2020] Failed to stage build: staging failed (STDERR, API)#
+
+#2.0#2020 05 12 12:51:25.381#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:50:55 UTC 2020] Cell bb72e7b9-30a4-4b3f-95fc-e5d23ef7a488 successfully destroyed container for instance 4ed3c426-bcea-4c41-919e-41db8264a5fb (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.381#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:14 UTC 2020] Creating build for app with guid b6519c81-5dac-433b-894d-d77d2cf76455 (STDOUT, API)#
+
+#2.0#2020 05 12 12:51:25.381#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloading uas_dataflow_server_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.381#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloading sap_java_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.381#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloading sap_java_buildpack_1_25... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.381#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloading r_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.381#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloading python_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.382#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloading sap_java_buildpack_1_24... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.382#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloaded sap_java_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.382#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloading binary_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.382#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloaded uas_dataflow_server_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.382#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloading php_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.382#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloaded sap_java_buildpack_1_25 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.382#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloaded python_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.382#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloaded r_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.382#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloading nodejs_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.383#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloading sap_java_buildpack_1_23... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.383#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloading ruby_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.383#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloaded binary_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.383#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloading dotnet_core_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.383#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloaded sap_java_buildpack_1_24 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.383#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloaded php_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.383#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloading staticfile_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.383#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloaded nodejs_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.383#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloading java_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.384#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloading nginx_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.384#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloaded dotnet_core_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.384#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloading go_buildpack... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.384#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloaded ruby_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.384#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloaded sap_java_buildpack_1_23 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.384#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloaded staticfile_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.384#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloaded java_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.384#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloaded nginx_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.384#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Cell 578cfd64-547a-47eb-82d0-710b4a3fbd7a creating container for instance 6a48a267-1574-4ac8-9aa5-0a125428c7f4 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.385#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:15 UTC 2020] Downloaded go_buildpack (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.385#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:16 UTC 2020] Cell 578cfd64-547a-47eb-82d0-710b4a3fbd7a successfully created container for instance 6a48a267-1574-4ac8-9aa5-0a125428c7f4 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.385#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:16 UTC 2020] Downloading app package... (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.385#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:16 UTC 2020] Downloaded app package (756.4K) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.385#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:17 UTC 2020] -----> Nodejs Buildpack version 1.7.15 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.385#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:17 UTC 2020]        [31;1m**ERROR**[0m Unable to install node: no match found for 6.x in [10.18.1 10.19.0 12.16.0 12.16.1 13.10.1 13.11.0] (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.385#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:17 UTC 2020]        engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.385#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:17 UTC 2020]        engines.node (package.json): 6.x (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.385#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:17 UTC 2020] -----> Installing binaries (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.386#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:17 UTC 2020] Failed to compile droplet: Failed to run all supply scripts: exit status 14 (STDERR, STG)#
+
+#2.0#2020 05 12 12:51:25.386#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:17 UTC 2020] Exit status 223 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.386#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:17 UTC 2020] Cell 578cfd64-547a-47eb-82d0-710b4a3fbd7a destroying container for instance 6a48a267-1574-4ac8-9aa5-0a125428c7f4 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.386#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:17 UTC 2020] Cell 578cfd64-547a-47eb-82d0-710b4a3fbd7a stopping instance 6a48a267-1574-4ac8-9aa5-0a125428c7f4 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.386#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:18 UTC 2020] Cell 578cfd64-547a-47eb-82d0-710b4a3fbd7a successfully destroyed container for instance 6a48a267-1574-4ac8-9aa5-0a125428c7f4 (STDOUT, STG)#
+
+#2.0#2020 05 12 12:51:25.386#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.APIMock.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [APIMock] b6519c81-5dac-433b-894d-d77d2cf76455 [Tue May 12 12:51:19 UTC 2020] Failed to stage build: staging failed (STDERR, API)#
+

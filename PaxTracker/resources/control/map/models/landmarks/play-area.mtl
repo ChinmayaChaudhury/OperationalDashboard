@@ -1,0 +1,79 @@
+# Blender MTL File: 'play-area.blend'
+# Material Count: 7
+
+newmtl 0
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+refl /home/solid_au/Productions/3DCGtrade/kids_toys/ref_0.png
+
+newmtl 1
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.416180 0.002701
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+refl /home/solid_au/Productions/3DCGtrade/kids_toys/ref_0.png
+
+newmtl 2
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.119968 0.006855
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+refl /home/solid_au/Productions/3DCGtrade/kids_toys/ref_0.png
+
+newmtl 5
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.184592 0.392817 0.014800
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+refl /home/solid_au/Productions/3DCGtrade/kids_toys/ref_0.png
+
+newmtl 7
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.017739 0.137153 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+refl /home/solid_au/Productions/3DCGtrade/kids_toys/ref_0.png
+
+newmtl 8
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.203322 0.062550 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+refl /home/solid_au/Productions/3DCGtrade/kids_toys/ref_0.png
+
+newmtl 9
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.051843 0.101950
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+refl /home/solid_au/Productions/3DCGtrade/kids_toys/ref_0.png

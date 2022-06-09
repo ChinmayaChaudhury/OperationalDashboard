@@ -1,0 +1,68 @@
+<mvc:View controllerName="PAX.controller.PassengerTracker" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+	xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns="sap.m" xmlns:custom="PAX.control">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<customHeader>
+					<Toolbar>
+						<!-- Logo -->
+						<html:section class="logo">
+							<Image src="img/logo.png"/>
+							<HBox>
+								<core:Icon src="sap-icon://circle-task-2" class="sapUiTinyMarginTop sapUiSmallMarginEnd" color="{= ${header>/header/status_ind} === '01' ? '#fc0d1b' : '#64c056' }"/>
+								<ObjectIdentifier title="{header>/header/flight}" text="{header>/header/connection}-{header>/header/dest}"/>
+							</HBox>
+						</html:section>
+						<!-- Flight info -->
+						<html:section>
+							<ObjectIdentifier title="TAIL#" text="{header>/header/tail}"/>
+							<ObjectIdentifier title="TYPE" text="{header>/header/type}"/>
+							<ObjectIdentifier title="STAND" text="{header>/header/stand}"/>
+							<ObjectIdentifier title="SOBT" text="{header>/header/sobt}"/>
+							<ObjectIdentifier title="EOBT" text="{header>/header/eobt}"/>
+							<ObjectIdentifier title="TOBT" text="{header>/header/tobt}"/>
+						</html:section>
+						<!-- Navigation buttons -->
+						<SegmentedButton selectedKey="pax" class="navigation">
+							<items>
+								<SegmentedButtonItem text="PAX" key="pax"/>
+								<SegmentedButtonItem text="Bags" key="bags"/>
+							</items>
+						</SegmentedButton>
+						<!-- PAX/Bags Stats -->
+						<html:section class="stats">
+							<HBox>
+								<Image src="img/icons/PAX@2x.png" width="1rem" class="sapUiTinyMarginBottom"/>
+								<ObjectIdentifier title="{header>/header/pax_join} jn / {header>/header/pax_connect} cn" text="{header>/header/pax_total}"/>
+							</HBox>
+							<ObjectIdentifier title="Pax @ Risk" text="{=Number(${header>/header/paxrisk})}"/>
+							<ObjectIdentifier title="Misconnects" text="{=Number(${header>/header/paxmisc})}"/>
+							<HBox>
+								<Image src="img/icons/Bag_icon@2x.png" width="1rem"/>
+								<ObjectIdentifier title="{header>/header/bag_join} jn / {header>/header/bag_connect} cn" text="{header>/header/bag_total}"/>
+							</HBox>
+							<ObjectIdentifier title="Bags @ Risk" text="{=Number(${header>/header/bagsrisk})}"/>
+							<ObjectIdentifier title="Misconnects" text="{=Number(${header>/header/bagsmisc})}"/>
+						</html:section>
+					</Toolbar>
+				</customHeader>
+				<subHeader>
+					<Toolbar>
+						<SegmentedButton select="_onFilterPassengers" selectedKey="airport" class="parallelogram">
+							<items>
+								<SegmentedButtonItem text="@ Airport" key="airport"/>
+								<SegmentedButtonItem text="Connections" key="connections"/>
+							</items>
+						</SegmentedButton>
+						<ObjectStatus text="Gate closes in {journey>/Journey/gateclosedin} min" state="None"/>
+					</Toolbar>
+				</subHeader>
+				<content>
+					<BusyDialog id="BusyDialog" customIcon="img/preloader.png" text="Fasten your seatbelt, we're about to take off!" />
+					<core:Fragment fragmentName="PAX.view.Fragments.airport" type="XML" class="tileBlock"/>
+					<core:Fragment fragmentName="PAX.view.Fragments.connections" type="XML" class="tileBlock"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

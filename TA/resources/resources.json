@@ -1,0 +1,162 @@
+{
+    "resources": [
+        {
+            "name": "manifest.json"
+        },
+        {
+            "name": "image/Maintenance.svg"
+        },
+        {
+            "name": "image/TowIcon-green.svg"
+        },
+        {
+            "name": "image/towing.jpg"
+        },
+        {
+            "name": "image/PTSIcon-green.svg"
+        },
+        {
+            "name": "image/airplane-flight-red.svg"
+        },
+        {
+            "name": "image/airplane-flight-green.svg"
+        },
+        {
+            "name": "image/past_delay.png"
+        },
+        {
+            "name": "image/TowIcon.svg"
+        },
+        {
+            "name": "image/Maintenance-green.svg"
+        },
+        {
+            "name": "image/intime.png"
+        },
+        {
+            "name": "image/TowIcon-red.svg"
+        },
+        {
+            "name": "image/Maintenance-red.svg"
+        },
+        {
+            "name": "image/past_activity_delay.png"
+        },
+        {
+            "name": "image/predicted_prepone.png"
+        },
+        {
+            "name": "image/red.jpg"
+        },
+        {
+            "name": "image/slightdelay.png"
+        },
+        {
+            "name": "image/PTSIcon.svg"
+        },
+        {
+            "name": "image/PTSIcon-red.svg"
+        },
+        {
+            "name": "image/waiting.jpg"
+        },
+        {
+            "name": "image/blue.jpg"
+        },
+        {
+            "name": "image/expected_delay.jpg"
+        },
+        {
+            "name": "image/predicted_delay.png"
+        },
+        {
+            "name": "image/prepone.png"
+        },
+        {
+            "name": "image/activity_delay.png"
+        },
+        {
+            "name": "image/airplane-flight.svg"
+        },
+        {
+            "name": "image/delay.png"
+        },
+        {
+            "name": "image/wrench.png"
+        },
+        {
+            "name": "i18n/i18n_en.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "extended_runnable_file.html"
+        },
+        {
+            "name": "controller/View1.controller.js"
+        },
+        {
+            "name": "css/style.css"
+        },
+        {
+            "name": "model/CopyOfdata2.json"
+        },
+        {
+            "name": "model/TA_V1.json"
+        },
+        {
+            "name": "model/data.json"
+        },
+        {
+            "name": "model/CopyOfdata4.json"
+        },
+        {
+            "name": "model/File1.js"
+        },
+        {
+            "name": "model/models.js"
+        },
+        {
+            "name": "model/CopyOfdata3.json"
+        },
+        {
+            "name": "model/CopyOfdata.json"
+        },
+        {
+            "name": "index.html"
+        },
+        {
+            "name": "fonts/EK03Serif-M01.ttf"
+        },
+        {
+            "name": "fonts/EK03Serif-L01.ttf"
+        },
+        {
+            "name": "fonts/EK03Plain-M01.ttf"
+        },
+        {
+            "name": "fonts/EK03Plain-L01.ttf"
+        },
+        {
+            "name": "fonts/EK03Plain-B01.ttf"
+        },
+        {
+            "name": "fonts/EK03Serif-B01.ttf"
+        },
+        {
+            "name": "view/View1.view.xml"
+        },
+        {
+            "name": "Component.js"
+        },
+        {
+            "name": "js/pts-timeline.js"
+        },
+        {
+            "name": "Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "neo-app.json"
+        }
+    ]
+}

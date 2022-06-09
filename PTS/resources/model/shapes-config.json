@@ -1,0 +1,568 @@
+{
+    "ShapeConfiguration": [{
+            "key": "CompletedProcessTask",
+            "shapeClassName": "sap.test.MyRectangle",
+            "shapeDataName": "CompletedProcessTask",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{startTime}",
+                "endTime": "{endTime}",
+                "title": "{info}",
+                "fill": "#FFFFFF",
+                "font-size": "{fontSize}",
+                "height": 30
+            }
+        },
+        {
+            "key": "InCompletedProcessTask",
+            "shapeClassName": "sap.test.MyRectangle",
+            "shapeDataName": "InCompletedProcessTask",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{startTime}",
+                "endTime": "{endTime}",
+                "title": "InCompletedProcessTask",
+                "fill": "#F2F1EF",
+                "height": 30
+            }
+        },
+        {
+            "key": "DelayedProcessTask",
+            "shapeClassName": "sap.test.MyRectangle",
+            "shapeDataName": "DelayedProcessTask",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{startTime}",
+                "endTime": "{endTime}",
+                "title": "DelayedProcessTask",
+                "fill": "#CD5F5F",
+                "height": 30
+            }
+        }, 
+        {
+            "key": "CompletedActivityTask",
+            "shapeClassName": "sap.test.MyRectangle",
+            "shapeDataName": "CompletedActivityTask",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{startTime}",
+                "endTime": "{endTime}",
+                "title": "CompletedActivityTask",
+                "fill": "#828282",
+                "height": 30
+            }
+        },
+        {
+            "key": "InProcessActivityTask",
+            "shapeClassName": "sap.test.MyRectangle",
+            "shapeDataName": "InProcessActivityTask",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{startTime}",
+                "endTime": "{endTime}",
+                "title": "InProcessActivityTask",
+                "fill": "#FFFFFF",
+                "height": 30
+            }
+        }, 
+        {
+            "key": "InCompletedActivityTask",
+            "shapeClassName": "sap.test.MyRectangle",
+            "shapeDataName": "InCompletedActivityTask",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{startTime}",
+                "endTime": "{endTime}",
+                "title": "InCompletedActivityTask",
+                "fill": "#D2D2D2",
+                "height": 30
+            }
+        }, 
+        {
+            "key": "DelayedActivityTask",
+            "shapeClassName": "sap.test.MyRectangle",
+            "shapeDataName": "DelayedActivityTask",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{startTime}",
+                "endTime": "{endTime}",
+                "title": "DelayedActivityTask",
+                "fill": "#CD5F5F",
+                "height": 30
+            }
+        }, 
+        {
+            "key": "CompletedActivityTaskText",
+            "shapeClassName": "sap.gantt.shape.Text",
+            "shapeDataName": "CompletedActivityTaskText",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{time}",
+                "text": "{text}",
+                "fontSize": "11",
+                "title": "",
+                "fill": "#C9C9C9"
+            }
+        }, 
+        {
+            "key": "InProcessActivityTaskText",
+            "shapeClassName": "sap.gantt.shape.Text",
+            "shapeDataName": "InProcessActivityTaskText",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{time}",
+                "text": "{text}",
+                "fontSize": "11",
+                "title": "",
+                "fill": "#8E8E8E"
+            }
+        }, 
+        {
+            "key": "InCompletedActivityTaskText",
+            "shapeClassName": "sap.gantt.shape.Text",
+            "shapeDataName": "InCompletedActivityTaskText",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{time}",
+                "text": "{text}",
+                "fontSize": "11",
+                "title": "",
+                "fill": "#FCFCFC"
+            }
+        }, 
+        {
+            "key": "DelayedActivityTaskText",
+            "shapeClassName": "sap.test.MyText",
+            "shapeDataName": "DelayedActivityTaskText",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{time}",
+                "text": "{text}",
+                "fontSize": "11",
+                "title": "",
+                "fill": "#F5EBEB"
+            }
+        }, 
+        {
+            "key": "uptriangle",
+            "shapeClassName": "sap.gantt.shape.ext.Triangle",
+            "shapeDataName": "uptriangle",
+            "level": 1,
+            "shapeProperties": {
+                "fill": "#B2B2B2",
+                "time": "{time}",
+                "title": "Open/Close",
+                "strokeWidth": 1,
+                "rotationAngle": "{rotationAngle}",
+                "base": 6,
+                "height": 6,
+                "distanceOfyAxisHeight": 3,
+                "yBias": 7
+            }
+        }, 
+        {
+            "key": "InTimeCompletedActivityTaskIndicatorStart",
+            "shapeClassName": "sap.test.MyRectangle",
+            "shapeDataName": "InTimeCompletedActivityTaskIndicatorStart",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{startTime}",
+                "endTime": "{endTime}",
+                "title": "InTimeCompletedActivityTaskIndicatorStart",
+                "fill": "#5DD20B",
+                "height": 30
+            }
+        }, 
+        {
+            "key": "InTimeCompletedActivityTaskIndicatorEnd",
+            "shapeClassName": "sap.test.MyRectangle",
+            "shapeDataName": "InTimeCompletedActivityTaskIndicatorEnd",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{startTime}",
+                "endTime": "{endTime}",
+                "title": "InTimeCompletedActivityTaskIndicatorEnd",
+                "fill": "#5DD20B",
+                "height": 30
+            }
+        }, 
+        {
+            "key": "DelayedCompletedActivityTaskIndicatorStart",
+            "shapeClassName": "sap.test.MyRectangle",
+            "shapeDataName": "DelayedCompletedActivityTaskIndicatorStart",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{startTime}",
+                "endTime": "{endTime}",
+                "title": "DelayedCompletedActivityTaskIndicatorStart",
+                "fill": "#CD5f5F",
+                "height": 30
+            }
+        },
+        {
+            "key": "DelayedCompletedActivityTaskIndicatorEnd",
+            "shapeClassName": "sap.test.MyRectangle",
+            "shapeDataName": "DelayedCompletedActivityTaskIndicatorEnd",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{startTime}",
+                "endTime": "{endTime}",
+                "title": "DelayedCompletedActivityTaskIndicatorEnd",
+                "fill": "#CD5f5F",
+                "height": 30
+            }
+        }, 
+        {
+            "key": "CompletedMileStoneTask",
+            "shapeClassName": "sap.test.RectangleGroup",
+            "shapeDataName": "CompletedMileStoneTask",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{startTime}",
+                "endTime": "{endTime}",
+                "title": "CompletedMileStoneTask",
+                "isDuration": true,
+                "enableDnD": true
+            },
+            "groupAggregation": [{
+                "shapeClassName": "sap.test.MyRectangle",
+                "shapeProperties": {
+                    "time": "{startTime}",
+                    "endTime": "{endTime}",
+                    "fill": "#818181",
+                    "isDuration": true,
+                    "enableDnD": true
+                }
+            }]
+        },
+        {
+            "key": "InCompletedMileStoneTask",
+            "shapeClassName": "sap.test.RectangleGroup",
+            "shapeDataName": "InCompletedMileStoneTask",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{startTime}",
+                "endTime": "{endTime}",
+                "title": "InCompletedMileStoneTask",
+                "isDuration": true,
+                "enableDnD": true
+            },
+            "groupAggregation": [{
+                "shapeClassName": "sap.test.MyRectangle",
+                "shapeProperties": {
+                    "time": "{startTime}",
+                    "endTime": "{endTime}",
+                    "fill": "#727272",
+                    "isDuration": true,
+                    "enableDnD": true
+                }
+            }]
+        },
+        {
+            "key": "DelayedMileStoneTask",
+            "shapeClassName": "sap.test.MyRectangle",
+            "shapeDataName": "DelayedMileStoneTask",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{startTime}",
+                "endTime": "{endTime}",
+                "title": "DelayedMileStoneTask",
+                "fill": "#AE5454",
+                "stroke": "#FFFFFF",
+                "stroke-opacity": 1,
+                "stroke-width": 2
+            }
+        },
+        {
+            "key": "SlightlyDelayedMileStoneTask",
+            "shapeClassName": "sap.test.MyRectangle",
+            "shapeDataName": "SlightlyDelayedMileStoneTask",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{startTime}",
+                "endTime": "{endTime}",
+                "title": "SlightlyDelayedMileStoneTask",
+                "fill": "#727272",
+                "stroke": "#FFFFFF",
+                "stroke-opacity": 1,
+                "stroke-width": 2
+            }
+        }, 
+        {
+            "key": "TransparentMileStoneTask",
+            "shapeClassName": "sap.test.MyRectangle",
+            "shapeDataName": "TransparentMileStoneTask",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{startTime}",
+                "endTime": "{endTime}",
+                "title": "",
+                "fill": "20180308062700"
+            }
+        }, 
+        {
+            "key": "CompletedMileStoneTaskText",
+            "shapeClassName": "sap.test.MyMileStoneText",
+            "shapeDataName": "CompletedMileStoneTaskText",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{time}",
+                "text": "{text}",
+                "fontSize": "{fontSize}",
+                "title": "text",
+                "fill": "#C9C9C9"
+            }
+        },
+        {
+            "key": "InCompletedMileStoneTaskText",
+            "shapeClassName": "sap.test.MyMileStoneText",
+            "shapeDataName": "InCompletedMileStoneTaskText",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{time}",
+                "text": "{text}",
+                "fontSize": "{fontSize}",
+                "title": "text",
+                "fill": "#FCFCFC"
+            }
+        },
+        {
+            "key": "DelayedMileStoneTaskText",
+            "shapeClassName": "sap.test.MyMileStoneText",
+            "shapeDataName": "DelayedMileStoneTaskText",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{time}",
+                "text": "{text}",
+                "fontSize": "{fontSize}",
+                "title": "text",
+                "fill": "#F5EBEB"
+            }
+        },
+        {
+            "key": "SlightlyDelayedMileStoneTaskText",
+            "shapeClassName": "sap.test.MyMileStoneText",
+            "shapeDataName": "SlightlyDelayedMileStoneTaskText",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{time}",
+                "text": "{text}",
+                "fontSize": "{fontSize}",
+                "title": "text",
+                "fill": "#F5EBEB"
+            }
+        }, 
+        {
+            "key": "ProcessTaskText",
+            "shapeClassName": "sap.gantt.shape.Text",
+            "shapeDataName": "ProcessTaskText",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{time}",
+                "text": "{text}",
+                "fontSize": "13",
+                "title": "",
+                "fill": "{fill}"
+            }
+        }, 
+        {
+            "key": "SDProcessTaskText",
+            "shapeClassName": "sap.gantt.shape.Text",
+            "shapeDataName": "SDProcessTaskText",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{time}",
+                "text": "{text}",
+                "fontSize": "{fontSize}",
+                "title": "",
+                "fill": "#FFFFFF"
+            }
+        },
+        {
+            "key": "TextPercentage",
+            "shapeClassName": "sap.test.MyText1",
+            "shapeDataName": "TextPercentage",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{time}",
+                "text": "{text}",
+                "fontSize": "{fontSize}",
+                "title": "",
+                "fill": "#FFFFFF"
+
+            }
+        },
+        {
+            "key": "DelayedProcessTaskText",
+            "shapeClassName": "sap.gantt.shape.Text",
+            "shapeDataName": "DelayedProcessTaskText",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{time}",
+                "text": "{text}",
+                "fontSize": "{fontSize}",
+                "title": "",
+                "fill": "#FFFFFF"
+            }
+        }, 
+        {
+            "key": "PredictedStartTaskEarly",
+            "shapeClassName": "sap.test.MyRectangle",
+            "shapeDataName": "PredictedStartTaskEarly",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{startTime}",
+                "endTime": "{endTime}",
+                "title": "PredictedStartTaskEarly",
+                "fill": "url(#pattern_backslash_green)",
+                "stroke": "#FFFFFF",
+                "height": 30
+            }
+        }, 
+        {
+            "key": "PredictedEndTaskEarly",
+            "shapeClassName": "sap.test.MyRectangle",
+            "shapeDataName": "PredictedEndTaskEarly",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{startTime}",
+                "endTime": "{endTime}",
+                "title": "PredictedEndTaskEarly",
+                "fill": "url(#pattern_backslash_green)",
+                "stroke": "#FFFFFF",
+                "height": 30
+            }
+        }, 
+        {
+            "key": "BeforeTaskPredictedDelay",
+            "shapeClassName": "sap.test.MyRectangle",
+            "shapeDataName": "BeforeTaskPredictedDelay",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{startTime}",
+                "endTime": "{endTime}",
+                "title": "BeforeTaskPredictedDelay",
+                "fill": "url(#pattern_backslash_red)",
+                "stroke": "#FFFFFF",
+                "height": 30
+            }
+        }, 
+        {
+            "key": "AfterTaskPredictedDelay",
+            "shapeClassName": "sap.test.MyRectangle",
+            "shapeDataName": "AfterTaskPredictedDelay",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{startTime}",
+                "endTime": "{endTime}",
+                "title": "AfterTaskPredictedDelay",
+                "fill": "url(#pattern_backslash_red)",
+                "height": 30
+            }
+        }, 
+        {
+            "key": "BeforeTaskPredictedSlightDelay",
+            "shapeClassName": "sap.test.MyRectangle",
+            "shapeDataName": "BeforeTaskPredictedSlightDelay",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{startTime}",
+                "endTime": "{endTime}",
+                "title": "BeforeTaskPredictedSlightDelay",
+                "fill": "url(#pattern_backslash_orange)",
+                "stroke": "#FFFFFF",
+                "height": 30
+            }
+        }, 
+        {
+            "key": "AfterTaskPredictedSlightDelay",
+            "shapeClassName": "sap.test.MyRectangle",
+            "shapeDataName": "AfterTaskPredictedSlightDelay",
+            "level": 1,
+            "shapeProperties": {
+                "time": "{startTime}",
+                "endTime": "{endTime}",
+                "title": "AfterTaskPredictedSlightDelay",
+                "fill": "url(#pattern_backslash_orange)",
+                "stroke": "#FFFFFF",
+                "height": 30
+            }
+        }, 
+        {
+            "key": "CompletedMileStone",
+            "shapeClassName": "sap.gantt.shape.ext.Diamond",
+            "shapeDataName": "CompletedMileStone",
+            "level": 1,
+            "shapeProperties": {
+                "fill": "#787878",
+                "time": "{time}",
+                "title": "CompletedMileStone",
+                "verticalDiagonal": 20,
+                "horizontalDiagonal": 20,
+                "enableDnD": true
+            }
+        }, 
+        {
+            "key": "InCompletedMileStone",
+            "shapeClassName": "sap.gantt.shape.ext.Diamond",
+            "shapeDataName": "InCompletedMileStone",
+            "level": 1,
+            "shapeProperties": {
+                "fill": "#A4A4A4",
+                "time": "{time}",
+                "title": "InCompletedMileStone",
+                "verticalDiagonal": 20,
+                "horizontalDiagonal": 20
+            }
+        },
+        {
+            "key": "DelayedMileStone",
+            "shapeClassName": "sap.gantt.shape.ext.Diamond",
+            "shapeDataName": "DelayedMileStone",
+            "level": 1,
+            "shapeProperties": {
+                "fill": "#C34B3F",
+                "time": "{time}",
+                "title": "DelayedMileStone",
+                "verticalDiagonal": 20,
+                "horizontalDiagonal": 20
+            }
+        },
+        {
+            "key": "SlightlyDelayedMileStone2",
+            "shapeClassName": "sap.gantt.shape.ext.Diamond",
+            "shapeDataName": "SlightlyDelayedMileStone",
+            "level": 1,
+            "shapeProperties": {
+                "fill": "#FCB430",
+                "time": "{time}",
+                "title": "SlightlyDelayedMileStone2",
+                "verticalDiagonal": 20,
+                "horizontalDiagonal": 20
+            }
+        },
+        {
+            "key": "relationship",
+            "shapeDataName": "relationship",
+            "level": 30,
+            "shapeClassName": "sap.gantt.shape.ext.rls.Relationship",
+            "shapeProperties": {
+                "isDuration": false,
+                "lShapeforTypeFS": true,
+                "showStart": false,
+                "showEnd": true,
+                "stroke": "#ECEDED",
+                "strokeWidth": 2,
+                "type": "{relation_type}",
+                "fromObjectPath": "{fromObjectPath}",
+                "toObjectPath": "{toObjectPath}",
+                "fromDataId": "{fromDataId}",
+                "toDataId": "{toDataId}",
+                "fromShapeId": "{fromShapeId}",
+                "toShapeId": "{toShapeId}",
+                "title": "{tooltip}",
+                "id": "{guid}"
+            }
+        }
+    ]
+}

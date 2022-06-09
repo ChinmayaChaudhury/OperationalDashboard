@@ -1,0 +1,34 @@
+@import (reference)  "../general/main";
+
+.Page-Header() {
+    display: grid;
+    grid-template-columns: 0.19fr 0.9fr 0.1fr;
+    min-height: 100px;
+    
+    // Look-n-feel
+    background: @gradient;
+    overflow: hidden;
+    
+    .shadowfy(0px, 1px, 7px, 2px, 0.2);
+
+    & > .logo {
+        .flexify(center, center, space-around);
+        .shadowfy(0px, 0px, 50px, 5px, 0.1);
+
+        background-color: @foreground;
+        
+        // Application name
+        h1 { 
+            color: @heading01;
+            text-transform: capitalize;
+            width: 60%;
+            margin: 0;
+        }
+    }
+
+    & > .middle {
+        padding: 0 30px;
+        
+        .flexify(center, center, start);
+    }
+}

@@ -1,0 +1,4064 @@
+#2.0#2020 05 12 12:46:46.162#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.startEvent#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########http-nio-0.0.0.0-8080-exec-12###
+[XS2StartProcessListener] Process environment: {
+  "PLATFORM" : "{\n  \"name\": \"CLOUD-FOUNDRY\",\n  \"module-types\": [\n    { \"name\": \"custom\" },\n    { \"name\": \"javascript.nodejs\" },\n    { \"name\": \"java\", \"parameters\": { \"buildpack\": \"sap_java_buildpack\" }},\n    { \"name\": \"java.tomcat\", \"parameters\": { \"buildpack\": \"sap_java_buildpack\" }, \"properties\": { \"TARGET_RUNTIME\": \"tomcat\" }},\n    { \"name\": \"java.tomee\",  \"parameters\": { \"buildpack\": \"sap_java_buildpack\" }, \"properties\": { \"TARGET_RUNTIME\": \"tomee\" }},\n    { \"name\": \"com.sap.xs.hdi-dynamic\", \"parameters\": { \"buildpack\": \"nodejs_buildpack\" }},\n    { \"name\": \"com.sap.xs.hdi\", \"parameters\": { \"no-route\": true, \"no-start\": true, \"memory\": \"256M\", \"tasks\": [{ \"name\": \"deploy\", \"memory\": \"256M\", \"command\": \"npm start\" }], \"dependency-type\": \"hard\" }, \"properties\" : { \"EXIT\": 1 }},\n    { \"name\": \"com.sap.xs.hdi-zdm\", \"parameters\": { \"zdm-mode\": true, \"no-route\": true, \"no-start\": true, \"memory\": \"256M\", \"tasks\": [{ \"name\": \"deploy\", \"memory\": \"256M\", \"command\": \"npm start\" }], \"dependency-type\": \"hard\" }, \"properties\" : { \"EXIT\": 1, \"HDI_DEPLOY_MODE\": \"ZDM\" }},\n    { \"name\": \"com.sap.portal.site-content\", \"parameters\": { \"no-route\": true, \"memory\": \"256M\", \"execute-app\": true, \"success-marker\": \"STDOUT:Deployment of site content to .* done.*\", \"failure-marker\": \"STDERR:Deployment of site content to .* failed.*\", \"stop-app\": true, \"check-deploy-id\": true, \"dependency-type\": \"hard\", \"health-check-type\": \"none\" }},\n    { \"name\": \"com.sap.portal.content\", \"parameters\": { \"no-route\": true, \"no-start\": true, \"memory\": \"256M\", \"tasks\": [{ \"name\": \"deploy\", \"memory\": \"256M\", \"command\": \"npm start\" }], \"dependency-type\": \"hard\" }, \"properties\" : { \"EXIT\": 1 }},\n    { \"name\": \"com.sap.xs.dwf\", \"parameters\": { \"no-route\": true, \"memory\": \"256M\", \"execute-app\": true, \"success-marker\": \"STDOUT:The deployment of DWF content to .* container finished successfully .*\", \"failure-marker\": \"STDERR:The deployment of DWF content to .* container failed .*\", \"stop-app\": true, \"check-deploy-id\": true, \"dependency-type\": \"hard\", \"health-check-type\": \"none\" }},\n    { \"name\": \"business-logging\", \"parameters\": { \"no-route\": true, \"memory\": \"256M\", \"execute-app\": true, \"success-marker\": \"STDOUT:Deployment of content deployer done.\", \"failure-marker\": \"STDERR:Deployment of content deployer failed.\", \"stop-app\": true, \"health-check-type\": \"none\" }},\n    { \"name\": \"com.sap.business-logging.content\", \"parameters\": { \"no-route\": true, \"no-start\": true, \"memory\": \"256M\", \"tasks\": [{ \"name\": \"deploy\", \"memory\": \"256M\", \"command\": \"npm start\" }], \"dependency-type\": \"hard\" }, \"properties\" : { \"EXIT\": 1 }},\n    { \"name\": \"com.sap.html5.application-content\", \"parameters\": { \"no-route\": true, \"memory\": \"256M\", \"execute-app\": true, \"success-marker\": \"STDOUT:Deployment of html5 application content done.*\", \"failure-marker\": \"STDERR:Deployment of html5 application content failed.*\", \"stop-app\": true, \"check-deploy-id\": true, \"dependency-type\": \"hard\", \"health-check-type\": \"none\" }}, \n    { \"name\": \"com.sap.html5.application.content\", \"parameters\": { \"no-route\": true, \"no-start\": true, \"memory\": \"256M\", \"tasks\": [{ \"name\": \"deploy\", \"memory\": \"256M\", \"command\": \"npm start\" }], \"dependency-type\": \"hard\" }, \"properties\" : { \"EXIT\": 1 }},\n    { \"name\": \"staticfile\", \"parameters\": { \"buildpack\": \"staticfile_buildpack\" }},\n    { \"name\": \"ruby\", \"parameters\": { \"buildpack\": \"ruby_buildpack\" }},\n    { \"name\": \"nodejs\", \"parameters\": { \"buildpack\": \"nodejs_buildpack\" }},\n    { \"name\": \"go\", \"parameters\": { \"buildpack\": \"go_buildpack\" }},\n    { \"name\": \"python\", \"parameters\": { \"buildpack\": \"python_buildpack\" }},\n    { \"name\": \"php\", \"parameters\": { \"buildpack\": \"php_buildpack\" }},\n    { \"name\": \"binary\", \"parameters\": { \"buildpack\": \"binary_buildpack\" }},\n    { \"name\": \"dotnet_core\", \"parameters\": { \"buildpack\": \"dotnet_core_buildpack\" }},\n    { \"name\": \"application\" },\n    { \"name\": \"com.sap.application.content\" },\n    { \"name\": \"com.sap.integration\" }\n  ],\n  \"resource-types\": [\n    { \"name\": \"com.sap.xs.hdi-container\", \"parameters\": { \"service\": \"hana\", \"service-plan\": \"hdi-shared\", \"service-alternatives\": [\"hanatrial\"], \"type\": \"managed-service\" }},\n    { \"name\": \"com.sap.xs.hana-sbss\", \"parameters\": { \"service\": \"hana\", \"service-plan\": \"sbss\", \"service-alternatives\": [\"hanatrial\"], \"type\": \"managed-service\" }},\n    { \"name\": \"com.sap.xs.hana-schema\", \"parameters\": { \"service\": \"hana\", \"service-plan\": \"schema\", \"service-alternatives\": [\"hanatrial\"], \"type\": \"managed-service\" }},\n    { \"name\": \"com.sap.xs.hana-securestore\", \"parameters\": { \"service\": \"hana\", \"service-plan\": \"securestore\", \"service-alternatives\": [\"hanatrial\"], \"type\": \"managed-service\" }},\n    { \"name\": \"com.sap.xs.managed-hdi-container\", \"parameters\": { \"service\": \"managed-hana\", \"service-plan\": \"hdi-shared\", \"type\": \"managed-service\" }},\n    { \"name\": \"com.sap.xs.managed-hana-schema\", \"parameters\": { \"service\": \"managed-hana\", \"service-plan\": \"schema\", \"type\": \"managed-service\" }},\n    { \"name\": \"com.sap.xs.managed-hana-securestore\", \"parameters\": { \"service\": \"managed-hana\", \"service-plan\": \"securestore\", \"type\": \"managed-service\" }},\n    { \"name\": \"com.sap.xs.job-scheduler\", \"parameters\": { \"service\": \"jobscheduler\", \"service-plan\": \"lite\", \"type\": \"managed-service\" }},\n    { \"name\": \"com.sap.xs.fs\", \"parameters\": { \"service\": \"fs-storage\", \"service-plan\": \"lite\", \"type\": \"managed-service\" }},\n    { \"name\": \"com.sap.xs.uaa\", \"parameters\": { \"service\": \"xsuaa\", \"service-plan\": \"application\", \"type\": \"managed-service\" }},\n    { \"name\": \"com.sap.xs.uaa-space\", \"parameters\": { \"service\": \"xsuaa\", \"service-plan\": \"application\", \"type\": \"managed-service\" }},\n    { \"name\": \"com.sap.xs.uaa-devuser\", \"parameters\": { \"service\": \"xsuaa\", \"service-plan\": \"application\", \"type\": \"managed-service\" }},\n    { \"name\": \"com.sap.xs.uaa-application\", \"parameters\": { \"service\": \"xsuaa\", \"service-plan\": \"application\", \"type\": \"managed-service\" }},\n    { \"name\": \"com.sap.xs.uaa-broker\", \"parameters\": { \"service\": \"xsuaa\", \"service-plan\": \"broker\", \"type\": \"managed-service\" }},\n    { \"name\": \"com.sap.xs.application-logs\", \"parameters\": { \"service\": \"application-logs\", \"service-plan\": \"lite\", \"ignore-update-errors\": true , \"type\": \"managed-service\" }},\n    { \"name\": \"com.sap.portal.site-host\", \"parameters\": { \"service\": \"portal-services\", \"service-plan\": \"site-host\", \"type\": \"managed-service\" }},\n    { \"name\": \"com.sap.portal.site-content\", \"parameters\": { \"service\": \"portal-services\", \"service-plan\": \"site-content\", \"type\": \"managed-service\" }},\n    { \"name\": \"com.sap.xs.dwf-edw-client\", \"parameters\": { \"service\": \"dwf\", \"service-plan\": \"edw-client\", \"type\": \"managed-service\"}},\n    { \"name\": \"com.sap.xs.auditlog\", \"parameters\": { \"service\": \"auditlog\", \"service-plan\": \"standard\", \"ignore-update-errors\": true , \"type\": \"managed-service\" }},\n    { \"name\": \"auditlog\", \"parameters\": { \"service\": \"auditlog\", \"service-plan\": \"standard\", \"ignore-update-errors\": true , \"type\": \"managed-service\" }},\n    { \"name\": \"org.mongodb\", \"parameters\": { \"service\": \"mongodb\", \"service-plan\": \"v3.0-dev\", \"type\": \"managed-service\" }},\n    { \"name\": \"mongodb\", \"parameters\": { \"service\": \"mongodb\", \"service-plan\": \"v3.0-dev\", \"type\": \"managed-service\" }},\n    { \"name\": \"org.postgresql\", \"parameters\": { \"service\": \"postgresql\", \"service-plan\": \"v9.4-dev\", \"type\": \"managed-service\" }},\n    { \"name\": \"postgresql\", \"parameters\": { \"service\": \"postgresql\", \"service-plan\": \"v9.4-dev\", \"type\": \"managed-service\" }},\n    { \"name\": \"com.rabbitmq\", \"parameters\": { \"service\": \"rabbitmq\", \"service-plan\": \"v3.6-dev\", \"type\": \"managed-service\" }},\n    { \"name\": \"rabbitmq\", \"parameters\": { \"service\": \"rabbitmq\", \"service-plan\": \"v3.6-dev\", \"type\": \"managed-service\" }},\n    { \"name\": \"io.redis\", \"parameters\": { \"service\": \"redis\", \"service-plan\": \"v3.0-dev\", \"type\": \"managed-service\" }},\n    { \"name\": \"redis\", \"parameters\": { \"service\": \"redis\", \"service-plan\": \"v3.0-dev\", \"type\": \"managed-service\" }},\n    { \"name\": \"com.influxdb\", \"parameters\": { \"service\": \"influxdb\", \"service-plan\": \"v0.13-container\", \"type\": \"managed-service\" }},\n    { \"name\": \"influxdb\", \"parameters\": { \"service\": \"influxdb\", \"service-plan\": \"v0.13-container\", \"type\": \"managed-service\" }},\n    { \"name\": \"org.cloudfoundry.user-provided-service\", \"parameters\": { \"type\": \"user-provided-service\" }},\n    { \"name\": \"org.cloudfoundry.managed-service\", \"parameters\": { \"type\": \"managed-service\" }},\n    { \"name\": \"org.cloudfoundry.existing-service\", \"parameters\": { \"type\": \"existing-service\" }},\n    { \"name\": \"org.cloudfoundry.existing-service-key\", \"parameters\": { \"type\": \"existing-service-key\" }},\n    { \"name\": \"mta-provided\", \"parameters\": { \"type\": \"mta-provides-dependency\" }},\n    { \"name\": \"configuration\", \"parameters\": { \"type\": \"configuration\" }},\n    { \"name\": \"autoscaler\", \"parameters\": { \"service\": \"autoscaler\", \"service-plan\": \"lite\", \"ignore-update-errors\": true , \"type\": \"managed-service\" }},\n    { \"name\": \"application-logs\", \"parameters\": { \"service\": \"application-logs\", \"service-plan\": \"lite\", \"ignore-update-errors\": true , \"type\": \"managed-service\" }},\n    { \"name\": \"connectivity\", \"parameters\": { \"service\": \"connectivity\", \"service-plan\": \"lite\", \"type\": \"managed-service\" }},\n    { \"name\": \"feature-flags\", \"parameters\": { \"service\": \"feature-flags\", \"service-plan\": \"lite\", \"type\": \"managed-service\" }},\n    { \"name\": \"metering\", \"parameters\": { \"service\": \"metering\", \"service-plan\": \"standard\", \"type\": \"managed-service\" }},\n    { \"name\": \"ml-foundation-services\", \"parameters\": { \"service\": \"ml-foundation-services\", \"service-plan\": \"lite\", \"type\": \"managed-service\" }},\n    { \"name\": \"objectstore\", \"parameters\": { \"service\": \"objectstore\", \"service-plan\": \"s3-standard\", \"type\": \"managed-service\" }},\n    { \"name\": \"destination\", \"parameters\": { \"service\": \"destination\", \"service-plan\": \"lite\", \"type\": \"managed-service\" }}\n  ]\n}\n",
+  "SKIP_SSL_VALIDATION" : "false",
+  "DB_TYPE" : "POSTGRESQL",
+  "CONTROLLER_CLIENT_THREAD_POOL_SIZE" : "64",
+  "XS_TYPE" : "CF",
+  "FLOWABLE_JOB_EXECUTOR_MAX_THREADS" : "64",
+  "VERSION" : "1.100.3",
+  "BASIC_AUTH_ENABLED" : "true",
+  "FLOWABLE_JOB_EXECUTOR_QUEUE_CAPACITY" : "8",
+  "CONTROLLER_CLIENT_CONNECTION_POOL_SIZE" : "192",
+  "GLOBAL_AUDITOR_USER" : "provisioned_user_xsa_deploy-serviceDSglobalAuditorUser",
+  "FLOWABLE_JOB_EXECUTOR_CORE_THREADS" : "32"
+}#
+
+#2.0#2020 05 12 12:46:46.163#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.startEvent#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########http-nio-0.0.0.0-8080-exec-12###
+[XS2StartProcessListener] Current user: chinmaya.gorachanda.chaudhury@sap.com#
+
+#2.0#2020 05 12 12:46:46.163#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.startEvent#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########http-nio-0.0.0.0-8080-exec-12###
+[XS2StartProcessListener] Client space: BestRun Airlines#
+
+#2.0#2020 05 12 12:46:46.163#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.startEvent#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########http-nio-0.0.0.0-8080-exec-12###
+[XS2StartProcessListener] Client org: SE_DEMO_SDCPlatformNextGenCF#
+
+#2.0#2020 05 12 12:46:46.163#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.startEvent#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########http-nio-0.0.0.0-8080-exec-12###
+[XS2StartProcessListener] Process variables: {
+  "abortOnError" : false,
+  "keepFiles" : false,
+  "mtaId" : "EmiratesDemo",
+  "versionRule" : "SAME_HIGHER",
+  "gitSkipSsl" : false,
+  "verifyArchiveSignature" : false,
+  "failOnCrashed" : true,
+  "noFailOnMissingPermissions" : false,
+  "useNamespacesForServices" : true,
+  "startTimeout" : 3600,
+  "enableEnvDetection" : true,
+  "deleteServiceBrokers" : false,
+  "appArchiveId" : "b55bb8b0-ba13-4502-b2cf-61e545b39206,ac399b2d-663d-44dd-a595-addeb4dd2740",
+  "gitUri" : "",
+  "deleteServiceKeys" : false,
+  "noRestartSubscribedApps" : false,
+  "useNamespaces" : false,
+  "noStart" : false,
+  "deleteServices" : false
+}#
+
+#2.0#2020 05 12 12:46:46.207#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.validateParametersTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-13###
+[ValidateDeployParametersStep] Executing task "validateParametersTask" of process "a39ce67c-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:46:46.207#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.validateParametersTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-13###
+[ValidateDeployParametersStep] Validating parameters...#
+
+#2.0#2020 05 12 12:46:46.212#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.validateParametersTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-13###
+[ValidateDeployParametersStep] Building archive from parts...#
+
+#2.0#2020 05 12 12:46:46.212#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.validateParametersTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-13###
+[ValidateDeployParametersStep] Merging archive part with ID "ac399b2d-663d-44dd-a595-addeb4dd2740", name "emirates.mtar.part.0"#
+
+#2.0#2020 05 12 12:46:46.818#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.validateParametersTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-13###
+[ValidateDeployParametersStep] Merging archive part with ID "b55bb8b0-ba13-4502-b2cf-61e545b39206", name "emirates.mtar.part.1"#
+
+#2.0#2020 05 12 12:46:48.196#Z#INFO#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.validateParametersTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-13###
+[ValidateDeployParametersStep] Deploying in org "SE_DEMO_SDCPlatformNextGenCF" and space "BestRun Airlines"#
+
+#2.0#2020 05 12 12:46:48.200#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.validateParametersTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-13###
+[ValidateDeployParametersStep] Parameters validated#
+
+#2.0#2020 05 12 12:46:48.201#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.validateParametersTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-13###
+Step "Validate Parameters" finished#
+
+#2.0#2020 05 12 12:46:48.235#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.deleteRemainingFileParts#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[DeleteRemainingFileParts] Executing task "deleteRemainingFileParts" of process "a39ce67c-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:46:48.284#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.deleteRemainingFileParts#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+Step "Delete Remaining File Parts" finished#
+
+#2.0#2020 05 12 12:46:48.311#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.processArchiveTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-29###
+[XS2ProcessMtaArchiveStep] Executing task "processArchiveTask" of process "a39ce67c-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:46:48.312#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.processArchiveTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-29###
+[XS2ProcessMtaArchiveStep] Processing MTA archive...#
+
+#2.0#2020 05 12 12:46:48.342#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.processArchiveTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-29###
+[XS2ProcessMtaArchiveStep] MTA Archive ID: e5a87464-0f40-49cd-a0de-8146a19cad81#
+
+#2.0#2020 05 12 12:46:48.342#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.processArchiveTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-29###
+[XS2ProcessMtaArchiveStep] MTA Archive Modules: [BaggageTracker, APIMock, PaxTracker, CustomerOrder, DemoRemote, TA, PTS]#
+
+#2.0#2020 05 12 12:46:48.342#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.processArchiveTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-29###
+[XS2ProcessMtaArchiveStep] MTA Archive Requires: []#
+
+#2.0#2020 05 12 12:46:48.342#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.processArchiveTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-29###
+[XS2ProcessMtaArchiveStep] MTA Archive Resources: []#
+
+#2.0#2020 05 12 12:46:48.350#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.processArchiveTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-29###
+[XS2ProcessMtaArchiveStep] MTA archive processed#
+
+#2.0#2020 05 12 12:46:48.351#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.processArchiveTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-29###
+Step "Process Archive" finished#
+
+#2.0#2020 05 12 12:46:48.385#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.processExtensionDescriptorsTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12###
+[ProcessMtaExtensionDescriptorsStep] Executing task "processExtensionDescriptorsTask" of process "a39ce67c-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:46:48.387#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.processExtensionDescriptorsTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12###
+[ProcessMtaExtensionDescriptorsStep] Processing MTA extension descriptors...#
+
+#2.0#2020 05 12 12:46:48.388#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.processExtensionDescriptorsTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12###
+[ProcessMtaExtensionDescriptorsStep] Extension descriptors: [ ]#
+
+#2.0#2020 05 12 12:46:48.388#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.processExtensionDescriptorsTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12###
+[ProcessMtaExtensionDescriptorsStep] MTA extension descriptors processed#
+
+#2.0#2020 05 12 12:46:48.389#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.processExtensionDescriptorsTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-12###
+Step "Process Extension Descriptors" finished#
+
+#2.0#2020 05 12 12:46:48.419#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.detectSchemaVersionTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-16###
+[DetectMtaSchemaVersionStep] Executing task "detectSchemaVersionTask" of process "a39ce67c-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:46:48.420#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.detectSchemaVersionTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-16###
+[DetectMtaSchemaVersionStep] Detecting MTA major schema version...#
+
+#2.0#2020 05 12 12:46:48.422#Z#INFO#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.detectSchemaVersionTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-16###
+[DetectMtaSchemaVersionStep] Detected MTA schema version: "3"#
+
+#2.0#2020 05 12 12:46:48.427#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.detectSchemaVersionTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-16###
+Step "Detect Schema Version" finished#
+
+#2.0#2020 05 12 12:46:48.454#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.mergeDescriptorsTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[MergeDescriptorsStep] Executing task "mergeDescriptorsTask" of process "a39ce67c-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:46:48.455#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.mergeDescriptorsTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[MergeDescriptorsStep] Validating and merging descriptors...#
+
+#2.0#2020 05 12 12:46:48.458#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.mergeDescriptorsTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[MergeDescriptorsStep] Merged deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.1.0",
+  "id" : "EmiratesDemo",
+  "version" : "0.0.1",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "APIMock",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : { },
+    "requiredDependencies" : [ ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "isPublic" : false,
+      "properties" : {
+        "url" : "${default-url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "PTS",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : { },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "~{url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "PTS",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "TA",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : { },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "~{url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "TA",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "DemoRemote",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : { },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "~{url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "DemoRemote",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "CustomerOrder",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : { },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "~{url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "CustomerOrder",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "PaxTracker",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : { },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "~{url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "PaxTracker",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "BaggageTracker",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : { },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "~{url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "BaggageTracker",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ ],
+  "parameters" : { },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+
+#2.0#2020 05 12 12:46:48.461#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.mergeDescriptorsTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[MergeDescriptorsStep] Descriptors validated and merged#
+
+#2.0#2020 05 12 12:46:48.462#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.mergeDescriptorsTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+Step "Merge Descriptors" finished#
+
+#2.0#2020 05 12 12:46:48.499#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.detectDeployedMtaTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-5###
+[DetectDeployedMtaStep] Executing task "detectDeployedMtaTask" of process "a39ce67c-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:46:48.500#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.detectDeployedMtaTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-5###
+[DetectDeployedMtaStep] Detecting deployed MTA...#
+
+#2.0#2020 05 12 12:46:48.501#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.detectDeployedMtaTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-5###
+[DetectDeployedMtaStep] Getting applications by metadata label selector "mta_id=57247034da69a27b9a693e6af0b7114b"...#
+
+#2.0#2020 05 12 12:46:48.665#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.detectDeployedMtaTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-5###
+[DetectDeployedMtaStep] Getting service instances by metadata label selector "mta_id=57247034da69a27b9a693e6af0b7114b"...#
+
+#2.0#2020 05 12 12:46:48.818#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.detectDeployedMtaTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-5###
+[DetectDeployedMtaStep] Getting applications...#
+
+#2.0#2020 05 12 12:46:49.167#Z#INFO#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.detectDeployedMtaTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-5###
+[DetectDeployedMtaStep] No deployed MTA detected - this is initial deployment#
+
+#2.0#2020 05 12 12:46:49.172#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.detectDeployedMtaTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-5###
+Step "Detect Deployed MTA" finished#
+
+#2.0#2020 05 12 12:46:49.198#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.collectSystemParametersTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-24###
+[CollectSystemParametersStep] Executing task "collectSystemParametersTask" of process "a39ce67c-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:46:49.199#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.collectSystemParametersTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-24###
+[CollectSystemParametersStep] Collecting system parameters...#
+
+#2.0#2020 05 12 12:46:49.200#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.collectSystemParametersTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-24###
+[CollectSystemParametersStep] Getting default domain...#
+
+#2.0#2020 05 12 12:46:49.478#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.collectSystemParametersTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-24###
+[CollectSystemParametersStep] Default domain: cfapps.eu10.hana.ondemand.com#
+
+#2.0#2020 05 12 12:46:49.479#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.collectSystemParametersTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-24###
+[CollectSystemParametersStep] Checking for overwriting read-only parameters for mta with id: "EmiratesDemo"#
+
+#2.0#2020 05 12 12:46:49.479#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.collectSystemParametersTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-24###
+[CollectSystemParametersStep] No read-only parameters are overwritten#
+
+#2.0#2020 05 12 12:46:49.509#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.collectSystemParametersTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-24###
+[CollectSystemParametersStep] Descriptor with system parameters: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.1.0",
+  "id" : "EmiratesDemo",
+  "version" : "0.0.1",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "APIMock",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "APIMock",
+      "generated-password" : "********",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "instances" : "${default-instances}",
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-apimock",
+      "app-name" : "${default-app-name}",
+      "protocol" : "https",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "isPublic" : false,
+      "properties" : {
+        "url" : "${default-url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "PTS",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "PTS",
+      "generated-password" : "********",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "instances" : "${default-instances}",
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-pts",
+      "app-name" : "${default-app-name}",
+      "protocol" : "https",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "~{url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "PTS",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "TA",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "TA",
+      "generated-password" : "********",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "instances" : "${default-instances}",
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-ta",
+      "app-name" : "${default-app-name}",
+      "protocol" : "https",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "~{url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "TA",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "DemoRemote",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "DemoRemote",
+      "generated-password" : "********",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "instances" : "${default-instances}",
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-demoremote",
+      "app-name" : "${default-app-name}",
+      "protocol" : "https",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "~{url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "DemoRemote",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "CustomerOrder",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "CustomerOrder",
+      "generated-password" : "********",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "instances" : "${default-instances}",
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-customerorder",
+      "app-name" : "${default-app-name}",
+      "protocol" : "https",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "~{url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "CustomerOrder",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "PaxTracker",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "PaxTracker",
+      "generated-password" : "********",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "instances" : "${default-instances}",
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-paxtracker",
+      "app-name" : "${default-app-name}",
+      "protocol" : "https",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "~{url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "PaxTracker",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "BaggageTracker",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "BaggageTracker",
+      "generated-password" : "********",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "instances" : "${default-instances}",
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-baggagetracker",
+      "app-name" : "${default-app-name}",
+      "protocol" : "https",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "~{url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "BaggageTracker",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ ],
+  "parameters" : {
+    "authorization-url" : "********",
+    "xs-api-url" : "https://api.cf.eu10.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.eu10.hana.ondemand.com",
+    "org" : "SE_DEMO_SDCPlatformNextGenCF",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.eu10.hana.ondemand.com",
+    "deploy-target" : "SE_DEMO_SDCPlatformNextGenCF BestRun Airlines",
+    "xs-auth-url" : "********",
+    "user" : "********",
+    "space" : "BestRun Airlines",
+    "controller-url" : "https://api.cf.eu10.hana.ondemand.com"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+
+#2.0#2020 05 12 12:46:49.509#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.collectSystemParametersTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-24###
+[CollectSystemParametersStep] Version rule: SAME_HIGHER#
+
+#2.0#2020 05 12 12:46:49.509#Z#INFO#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.collectSystemParametersTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-24###
+[CollectSystemParametersStep] Detected new MTA version: "0.0.1"#
+
+#2.0#2020 05 12 12:46:49.513#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.collectSystemParametersTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-24###
+[CollectSystemParametersStep] MTA accepted for deployment#
+
+#2.0#2020 05 12 12:46:49.513#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.collectSystemParametersTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-24###
+[CollectSystemParametersStep] System parameters collected#
+
+#2.0#2020 05 12 12:46:49.514#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.collectSystemParametersTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-24###
+Step "Collect System Parameters" finished#
+
+#2.0#2020 05 12 12:46:49.543#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.processDescriptorTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-18###
+[XS2ProcessDescriptorStep] Executing task "processDescriptorTask" of process "a39ce67c-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:46:49.547#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.processDescriptorTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-18###
+[XS2ProcessDescriptorStep] Resolved deployment descriptor with ZDM enhancements: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.1.0",
+  "id" : "EmiratesDemo",
+  "version" : "0.0.1",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "APIMock",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "APIMock",
+      "generated-password" : "********",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "instances" : "${default-instances}",
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-apimock",
+      "app-name" : "${default-app-name}",
+      "protocol" : "https",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "isPublic" : false,
+      "properties" : {
+        "url" : "${default-url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "PTS",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "PTS",
+      "generated-password" : "********",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "instances" : "${default-instances}",
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-pts",
+      "app-name" : "${default-app-name}",
+      "protocol" : "https",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "~{url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "PTS",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "TA",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "TA",
+      "generated-password" : "********",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "instances" : "${default-instances}",
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-ta",
+      "app-name" : "${default-app-name}",
+      "protocol" : "https",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "~{url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "TA",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "DemoRemote",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "DemoRemote",
+      "generated-password" : "********",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "instances" : "${default-instances}",
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-demoremote",
+      "app-name" : "${default-app-name}",
+      "protocol" : "https",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "~{url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "DemoRemote",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "CustomerOrder",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "CustomerOrder",
+      "generated-password" : "********",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "instances" : "${default-instances}",
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-customerorder",
+      "app-name" : "${default-app-name}",
+      "protocol" : "https",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "~{url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "CustomerOrder",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "PaxTracker",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "PaxTracker",
+      "generated-password" : "********",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "instances" : "${default-instances}",
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-paxtracker",
+      "app-name" : "${default-app-name}",
+      "protocol" : "https",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "~{url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "PaxTracker",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "BaggageTracker",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "BaggageTracker",
+      "generated-password" : "********",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "instances" : "${default-instances}",
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-baggagetracker",
+      "app-name" : "${default-app-name}",
+      "protocol" : "https",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "~{url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "BaggageTracker",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ ],
+  "parameters" : {
+    "authorization-url" : "********",
+    "xs-api-url" : "https://api.cf.eu10.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.eu10.hana.ondemand.com",
+    "org" : "SE_DEMO_SDCPlatformNextGenCF",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.eu10.hana.ondemand.com",
+    "deploy-target" : "SE_DEMO_SDCPlatformNextGenCF BestRun Airlines",
+    "xs-auth-url" : "********",
+    "user" : "********",
+    "space" : "BestRun Airlines",
+    "controller-url" : "https://api.cf.eu10.hana.ondemand.com"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+
+#2.0#2020 05 12 12:46:49.549#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.processDescriptorTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-18###
+[XS2ProcessDescriptorStep] Resolving properties and parameters in merged descriptor...#
+
+#2.0#2020 05 12 12:46:49.551#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.processDescriptorTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-18###
+[XS2ProcessDescriptorStep] Subscriptions: [ ]#
+
+#2.0#2020 05 12 12:46:49.551#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.processDescriptorTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-18###
+[XS2ProcessDescriptorStep] MTA Modules: [BaggageTracker, APIMock, PaxTracker, CustomerOrder, DemoRemote, TA, PTS]#
+
+#2.0#2020 05 12 12:46:49.553#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.processDescriptorTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-18###
+[XS2ProcessDescriptorStep] Resolved deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.1.0",
+  "id" : "EmiratesDemo",
+  "version" : "0.0.1",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "APIMock",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com",
+      "default-app-name" : "APIMock",
+      "generated-password" : "********",
+      "default-uri" : "se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com",
+      "default-instances" : 1,
+      "instances" : 1,
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-apimock",
+      "app-name" : "APIMock",
+      "protocol" : "https",
+      "domain" : "cfapps.eu10.hana.ondemand.com",
+      "host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-apimock",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "isPublic" : false,
+      "properties" : {
+        "url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "PTS",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-pts.cfapps.eu10.hana.ondemand.com",
+      "default-app-name" : "PTS",
+      "generated-password" : "********",
+      "default-uri" : "se-demo-sdcplatformnextgencf-bestrun-airlines-pts.cfapps.eu10.hana.ondemand.com",
+      "default-instances" : 1,
+      "instances" : 1,
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-pts",
+      "app-name" : "PTS",
+      "protocol" : "https",
+      "domain" : "cfapps.eu10.hana.ondemand.com",
+      "host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-pts",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "PTS",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "TA",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-ta.cfapps.eu10.hana.ondemand.com",
+      "default-app-name" : "TA",
+      "generated-password" : "********",
+      "default-uri" : "se-demo-sdcplatformnextgencf-bestrun-airlines-ta.cfapps.eu10.hana.ondemand.com",
+      "default-instances" : 1,
+      "instances" : 1,
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-ta",
+      "app-name" : "TA",
+      "protocol" : "https",
+      "domain" : "cfapps.eu10.hana.ondemand.com",
+      "host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-ta",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "TA",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "DemoRemote",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-demoremote.cfapps.eu10.hana.ondemand.com",
+      "default-app-name" : "DemoRemote",
+      "generated-password" : "********",
+      "default-uri" : "se-demo-sdcplatformnextgencf-bestrun-airlines-demoremote.cfapps.eu10.hana.ondemand.com",
+      "default-instances" : 1,
+      "instances" : 1,
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-demoremote",
+      "app-name" : "DemoRemote",
+      "protocol" : "https",
+      "domain" : "cfapps.eu10.hana.ondemand.com",
+      "host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-demoremote",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "DemoRemote",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "CustomerOrder",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-customerorder.cfapps.eu10.hana.ondemand.com",
+      "default-app-name" : "CustomerOrder",
+      "generated-password" : "********",
+      "default-uri" : "se-demo-sdcplatformnextgencf-bestrun-airlines-customerorder.cfapps.eu10.hana.ondemand.com",
+      "default-instances" : 1,
+      "instances" : 1,
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-customerorder",
+      "app-name" : "CustomerOrder",
+      "protocol" : "https",
+      "domain" : "cfapps.eu10.hana.ondemand.com",
+      "host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-customerorder",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "CustomerOrder",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "PaxTracker",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-paxtracker.cfapps.eu10.hana.ondemand.com",
+      "default-app-name" : "PaxTracker",
+      "generated-password" : "********",
+      "default-uri" : "se-demo-sdcplatformnextgencf-bestrun-airlines-paxtracker.cfapps.eu10.hana.ondemand.com",
+      "default-instances" : 1,
+      "instances" : 1,
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-paxtracker",
+      "app-name" : "PaxTracker",
+      "protocol" : "https",
+      "domain" : "cfapps.eu10.hana.ondemand.com",
+      "host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-paxtracker",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "PaxTracker",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "BaggageTracker",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-baggagetracker.cfapps.eu10.hana.ondemand.com",
+      "default-app-name" : "BaggageTracker",
+      "generated-password" : "********",
+      "default-uri" : "se-demo-sdcplatformnextgencf-bestrun-airlines-baggagetracker.cfapps.eu10.hana.ondemand.com",
+      "default-instances" : 1,
+      "instances" : 1,
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-baggagetracker",
+      "app-name" : "BaggageTracker",
+      "protocol" : "https",
+      "domain" : "cfapps.eu10.hana.ondemand.com",
+      "host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-baggagetracker",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "BaggageTracker",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ ],
+  "parameters" : {
+    "authorization-url" : "********",
+    "xs-api-url" : "https://api.cf.eu10.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.eu10.hana.ondemand.com",
+    "org" : "SE_DEMO_SDCPlatformNextGenCF",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.eu10.hana.ondemand.com",
+    "deploy-target" : "SE_DEMO_SDCPlatformNextGenCF BestRun Airlines",
+    "xs-auth-url" : "********",
+    "user" : "********",
+    "space" : "BestRun Airlines",
+    "controller-url" : "https://api.cf.eu10.hana.ondemand.com"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+
+#2.0#2020 05 12 12:46:49.553#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.processDescriptorTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-18###
+[XS2ProcessDescriptorStep] Merged descriptor properties and parameters resolved#
+
+#2.0#2020 05 12 12:46:49.554#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.processDescriptorTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-18###
+Step "Process Descriptor Step" finished#
+
+#2.0#2020 05 12 12:46:49.588#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.buildDeployModelTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2###
+[XS2BuildCloudDeployModelStep] Executing task "buildDeployModelTask" of process "a39ce67c-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:46:49.589#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.buildDeployModelTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2###
+[XS2BuildCloudDeployModelStep] Building cloud deployment model...#
+
+#2.0#2020 05 12 12:46:49.591#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.buildDeployModelTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2###
+[XS2BuildCloudDeployModelStep] MTA archive modules: [BaggageTracker, APIMock, PaxTracker, CustomerOrder, DemoRemote, TA, PTS]#
+
+#2.0#2020 05 12 12:46:49.591#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.buildDeployModelTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2###
+[XS2BuildCloudDeployModelStep] Deployed modules: []#
+
+#2.0#2020 05 12 12:46:49.592#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.buildDeployModelTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2###
+[XS2BuildCloudDeployModelStep] MTA modules: [BaggageTracker, APIMock, PaxTracker, CustomerOrder, DemoRemote, TA, PTS]#
+
+#2.0#2020 05 12 12:46:49.592#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.buildDeployModelTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2###
+[XS2BuildCloudDeployModelStep] Service keys to create: { }#
+
+#2.0#2020 05 12 12:46:49.594#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.buildDeployModelTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2###
+[XS2BuildCloudDeployModelStep] Modules to deploy: [ {
+  "majorSchemaVersion" : 3,
+  "name" : "APIMock",
+  "type" : "javascript.nodejs",
+  "properties" : { },
+  "parameters" : {
+    "app-name" : "APIMock",
+    "default-app-name" : "APIMock",
+    "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-apimock",
+    "default-instances" : 1,
+    "default-uri" : "se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com",
+    "default-url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com",
+    "dependency-type" : "soft",
+    "domain" : "cfapps.eu10.hana.ondemand.com",
+    "generated-password" : "********",
+    "generated-user" : "********",
+    "host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-apimock",
+    "instances" : 1,
+    "protocol" : "https",
+    "timestamp" : "20200512124649"
+  },
+  "requiredDependencies" : [ ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "APIMock_api",
+    "isPublic" : false,
+    "properties" : {
+      "url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com"
+    },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "APIMock",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "hooks" : [ ]
+}, {
+  "majorSchemaVersion" : 3,
+  "name" : "PTS",
+  "type" : "javascript.nodejs",
+  "properties" : { },
+  "parameters" : {
+    "app-name" : "PTS",
+    "default-app-name" : "PTS",
+    "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-pts",
+    "default-instances" : 1,
+    "default-uri" : "se-demo-sdcplatformnextgencf-bestrun-airlines-pts.cfapps.eu10.hana.ondemand.com",
+    "default-url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-pts.cfapps.eu10.hana.ondemand.com",
+    "dependency-type" : "soft",
+    "domain" : "cfapps.eu10.hana.ondemand.com",
+    "generated-password" : "********",
+    "generated-user" : "********",
+    "host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-pts",
+    "instances" : 1,
+    "protocol" : "https",
+    "timestamp" : "20200512124649"
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "APIMock_api",
+    "group" : "destinations",
+    "properties" : {
+      "forwardAuthToken" : "********",
+      "name" : "core-backend",
+      "url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com"
+    },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "PTS",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "hooks" : [ ]
+}, {
+  "majorSchemaVersion" : 3,
+  "name" : "TA",
+  "type" : "javascript.nodejs",
+  "properties" : { },
+  "parameters" : {
+    "app-name" : "TA",
+    "default-app-name" : "TA",
+    "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-ta",
+    "default-instances" : 1,
+    "default-uri" : "se-demo-sdcplatformnextgencf-bestrun-airlines-ta.cfapps.eu10.hana.ondemand.com",
+    "default-url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-ta.cfapps.eu10.hana.ondemand.com",
+    "dependency-type" : "soft",
+    "domain" : "cfapps.eu10.hana.ondemand.com",
+    "generated-password" : "********",
+    "generated-user" : "********",
+    "host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-ta",
+    "instances" : 1,
+    "protocol" : "https",
+    "timestamp" : "20200512124649"
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "APIMock_api",
+    "group" : "destinations",
+    "properties" : {
+      "forwardAuthToken" : "********",
+      "name" : "core-backend",
+      "url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com"
+    },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "TA",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "hooks" : [ ]
+}, {
+  "majorSchemaVersion" : 3,
+  "name" : "DemoRemote",
+  "type" : "javascript.nodejs",
+  "properties" : { },
+  "parameters" : {
+    "app-name" : "DemoRemote",
+    "default-app-name" : "DemoRemote",
+    "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-demoremote",
+    "default-instances" : 1,
+    "default-uri" : "se-demo-sdcplatformnextgencf-bestrun-airlines-demoremote.cfapps.eu10.hana.ondemand.com",
+    "default-url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-demoremote.cfapps.eu10.hana.ondemand.com",
+    "dependency-type" : "soft",
+    "domain" : "cfapps.eu10.hana.ondemand.com",
+    "generated-password" : "********",
+    "generated-user" : "********",
+    "host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-demoremote",
+    "instances" : 1,
+    "protocol" : "https",
+    "timestamp" : "20200512124649"
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "APIMock_api",
+    "group" : "destinations",
+    "properties" : {
+      "forwardAuthToken" : "********",
+      "name" : "core-backend",
+      "url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com"
+    },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "DemoRemote",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "hooks" : [ ]
+}, {
+  "majorSchemaVersion" : 3,
+  "name" : "CustomerOrder",
+  "type" : "javascript.nodejs",
+  "properties" : { },
+  "parameters" : {
+    "app-name" : "CustomerOrder",
+    "default-app-name" : "CustomerOrder",
+    "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-customerorder",
+    "default-instances" : 1,
+    "default-uri" : "se-demo-sdcplatformnextgencf-bestrun-airlines-customerorder.cfapps.eu10.hana.ondemand.com",
+    "default-url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-customerorder.cfapps.eu10.hana.ondemand.com",
+    "dependency-type" : "soft",
+    "domain" : "cfapps.eu10.hana.ondemand.com",
+    "generated-password" : "********",
+    "generated-user" : "********",
+    "host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-customerorder",
+    "instances" : 1,
+    "protocol" : "https",
+    "timestamp" : "20200512124649"
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "APIMock_api",
+    "group" : "destinations",
+    "properties" : {
+      "forwardAuthToken" : "********",
+      "name" : "core-backend",
+      "url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com"
+    },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "CustomerOrder",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "hooks" : [ ]
+}, {
+  "majorSchemaVersion" : 3,
+  "name" : "PaxTracker",
+  "type" : "javascript.nodejs",
+  "properties" : { },
+  "parameters" : {
+    "app-name" : "PaxTracker",
+    "default-app-name" : "PaxTracker",
+    "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-paxtracker",
+    "default-instances" : 1,
+    "default-uri" : "se-demo-sdcplatformnextgencf-bestrun-airlines-paxtracker.cfapps.eu10.hana.ondemand.com",
+    "default-url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-paxtracker.cfapps.eu10.hana.ondemand.com",
+    "dependency-type" : "soft",
+    "domain" : "cfapps.eu10.hana.ondemand.com",
+    "generated-password" : "********",
+    "generated-user" : "********",
+    "host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-paxtracker",
+    "instances" : 1,
+    "protocol" : "https",
+    "timestamp" : "20200512124649"
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "APIMock_api",
+    "group" : "destinations",
+    "properties" : {
+      "forwardAuthToken" : "********",
+      "name" : "core-backend",
+      "url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com"
+    },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "PaxTracker",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "hooks" : [ ]
+}, {
+  "majorSchemaVersion" : 3,
+  "name" : "BaggageTracker",
+  "type" : "javascript.nodejs",
+  "properties" : { },
+  "parameters" : {
+    "app-name" : "BaggageTracker",
+    "default-app-name" : "BaggageTracker",
+    "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-baggagetracker",
+    "default-instances" : 1,
+    "default-uri" : "se-demo-sdcplatformnextgencf-bestrun-airlines-baggagetracker.cfapps.eu10.hana.ondemand.com",
+    "default-url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-baggagetracker.cfapps.eu10.hana.ondemand.com",
+    "dependency-type" : "soft",
+    "domain" : "cfapps.eu10.hana.ondemand.com",
+    "generated-password" : "********",
+    "generated-user" : "********",
+    "host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-baggagetracker",
+    "instances" : 1,
+    "protocol" : "https",
+    "timestamp" : "20200512124649"
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "APIMock_api",
+    "group" : "destinations",
+    "properties" : {
+      "forwardAuthToken" : "********",
+      "name" : "core-backend",
+      "url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com"
+    },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "BaggageTracker",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "hooks" : [ ]
+} ]#
+
+#2.0#2020 05 12 12:46:49.595#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.buildDeployModelTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2###
+[XS2BuildCloudDeployModelStep] Custom domains: []#
+
+#2.0#2020 05 12 12:46:49.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.buildDeployModelTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2###
+[XS2BuildCloudDeployModelStep] Services to create: [ ]#
+
+#2.0#2020 05 12 12:46:49.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.buildDeployModelTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2###
+[XS2BuildCloudDeployModelStep] Cloud deployment model built#
+
+#2.0#2020 05 12 12:46:49.597#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.buildDeployModelTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-2###
+Step "Build Deploy Model" finished#
+
+#2.0#2020 05 12 12:46:49.634#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.buildUndeployModelTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-4###
+[BuildCloudUndeployModelStep] Executing task "buildUndeployModelTask" of process "a39ce67c-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:46:49.635#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.buildUndeployModelTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-4###
+[BuildCloudUndeployModelStep] Building cloud undeployment model...#
+
+#2.0#2020 05 12 12:46:49.637#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.buildUndeployModelTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-4###
+Step "Build Undeploy Model" finished#
+
+#2.0#2020 05 12 12:46:49.670#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.addDomainsTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10###
+[AddDomainsStep] Executing task "addDomainsTask" of process "a39ce67c-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:46:49.672#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.addDomainsTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10###
+[AddDomainsStep] Custom domains: []#
+
+#2.0#2020 05 12 12:46:49.674#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.addDomainsTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-10###
+Step "Add Domains" finished#
+
+#2.0#2020 05 12 12:46:49.710#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.prepareModulesDeploymentTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PrepareModulesDeploymentStep] Executing task "prepareModulesDeploymentTask" of process "a5b67720-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:46:49.711#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.prepareModulesDeploymentTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[PrepareModulesDeploymentStep] Preparing modules deployment...#
+
+#2.0#2020 05 12 12:46:49.717#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.prepareModulesDeploymentTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+Step "Prepare Modules Deployment" finished#
+
+#2.0#2020 05 12 12:46:49.868#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.reprocessDescriptorTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[XS2ProcessDescriptorStep] Executing task "reprocessDescriptorTask" of process "a5c7dcce-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:46:49.871#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.reprocessDescriptorTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[XS2ProcessDescriptorStep] Resolved deployment descriptor with ZDM enhancements: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.1.0",
+  "id" : "EmiratesDemo",
+  "version" : "0.0.1",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "APIMock",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "APIMock",
+      "generated-password" : "********",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "instances" : "${default-instances}",
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-apimock",
+      "app-name" : "${default-app-name}",
+      "protocol" : "https",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "isPublic" : false,
+      "properties" : {
+        "url" : "${default-url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "PTS",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "PTS",
+      "generated-password" : "********",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "instances" : "${default-instances}",
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-pts",
+      "app-name" : "${default-app-name}",
+      "protocol" : "https",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "~{url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "PTS",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "TA",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "TA",
+      "generated-password" : "********",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "instances" : "${default-instances}",
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-ta",
+      "app-name" : "${default-app-name}",
+      "protocol" : "https",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "~{url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "TA",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "DemoRemote",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "DemoRemote",
+      "generated-password" : "********",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "instances" : "${default-instances}",
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-demoremote",
+      "app-name" : "${default-app-name}",
+      "protocol" : "https",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "~{url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "DemoRemote",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "CustomerOrder",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "CustomerOrder",
+      "generated-password" : "********",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "instances" : "${default-instances}",
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-customerorder",
+      "app-name" : "${default-app-name}",
+      "protocol" : "https",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "~{url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "CustomerOrder",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "PaxTracker",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "PaxTracker",
+      "generated-password" : "********",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "instances" : "${default-instances}",
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-paxtracker",
+      "app-name" : "${default-app-name}",
+      "protocol" : "https",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "~{url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "PaxTracker",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "BaggageTracker",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "BaggageTracker",
+      "generated-password" : "********",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "instances" : "${default-instances}",
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-baggagetracker",
+      "app-name" : "${default-app-name}",
+      "protocol" : "https",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "~{url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "BaggageTracker",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ ],
+  "parameters" : {
+    "authorization-url" : "********",
+    "xs-api-url" : "https://api.cf.eu10.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.eu10.hana.ondemand.com",
+    "org" : "SE_DEMO_SDCPlatformNextGenCF",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.eu10.hana.ondemand.com",
+    "deploy-target" : "SE_DEMO_SDCPlatformNextGenCF BestRun Airlines",
+    "xs-auth-url" : "********",
+    "user" : "********",
+    "space" : "BestRun Airlines",
+    "controller-url" : "https://api.cf.eu10.hana.ondemand.com"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+
+#2.0#2020 05 12 12:46:49.874#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.reprocessDescriptorTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[XS2ProcessDescriptorStep] Resolving properties and parameters in merged descriptor...#
+
+#2.0#2020 05 12 12:46:49.875#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.reprocessDescriptorTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[XS2ProcessDescriptorStep] Subscriptions: [ ]#
+
+#2.0#2020 05 12 12:46:49.881#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.reprocessDescriptorTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[XS2ProcessDescriptorStep] MTA Modules: [BaggageTracker, APIMock, PaxTracker, CustomerOrder, DemoRemote, TA, PTS]#
+
+#2.0#2020 05 12 12:46:49.886#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.reprocessDescriptorTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[XS2ProcessDescriptorStep] Resolved deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.1.0",
+  "id" : "EmiratesDemo",
+  "version" : "0.0.1",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "APIMock",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com",
+      "default-app-name" : "APIMock",
+      "generated-password" : "********",
+      "default-uri" : "se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com",
+      "default-instances" : 1,
+      "instances" : 1,
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-apimock",
+      "app-name" : "APIMock",
+      "protocol" : "https",
+      "domain" : "cfapps.eu10.hana.ondemand.com",
+      "host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-apimock",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "isPublic" : false,
+      "properties" : {
+        "url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "PTS",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-pts.cfapps.eu10.hana.ondemand.com",
+      "default-app-name" : "PTS",
+      "generated-password" : "********",
+      "default-uri" : "se-demo-sdcplatformnextgencf-bestrun-airlines-pts.cfapps.eu10.hana.ondemand.com",
+      "default-instances" : 1,
+      "instances" : 1,
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-pts",
+      "app-name" : "PTS",
+      "protocol" : "https",
+      "domain" : "cfapps.eu10.hana.ondemand.com",
+      "host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-pts",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "PTS",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "TA",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-ta.cfapps.eu10.hana.ondemand.com",
+      "default-app-name" : "TA",
+      "generated-password" : "********",
+      "default-uri" : "se-demo-sdcplatformnextgencf-bestrun-airlines-ta.cfapps.eu10.hana.ondemand.com",
+      "default-instances" : 1,
+      "instances" : 1,
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-ta",
+      "app-name" : "TA",
+      "protocol" : "https",
+      "domain" : "cfapps.eu10.hana.ondemand.com",
+      "host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-ta",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "TA",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "DemoRemote",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-demoremote.cfapps.eu10.hana.ondemand.com",
+      "default-app-name" : "DemoRemote",
+      "generated-password" : "********",
+      "default-uri" : "se-demo-sdcplatformnextgencf-bestrun-airlines-demoremote.cfapps.eu10.hana.ondemand.com",
+      "default-instances" : 1,
+      "instances" : 1,
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-demoremote",
+      "app-name" : "DemoRemote",
+      "protocol" : "https",
+      "domain" : "cfapps.eu10.hana.ondemand.com",
+      "host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-demoremote",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "DemoRemote",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "CustomerOrder",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-customerorder.cfapps.eu10.hana.ondemand.com",
+      "default-app-name" : "CustomerOrder",
+      "generated-password" : "********",
+      "default-uri" : "se-demo-sdcplatformnextgencf-bestrun-airlines-customerorder.cfapps.eu10.hana.ondemand.com",
+      "default-instances" : 1,
+      "instances" : 1,
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-customerorder",
+      "app-name" : "CustomerOrder",
+      "protocol" : "https",
+      "domain" : "cfapps.eu10.hana.ondemand.com",
+      "host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-customerorder",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "CustomerOrder",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "PaxTracker",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-paxtracker.cfapps.eu10.hana.ondemand.com",
+      "default-app-name" : "PaxTracker",
+      "generated-password" : "********",
+      "default-uri" : "se-demo-sdcplatformnextgencf-bestrun-airlines-paxtracker.cfapps.eu10.hana.ondemand.com",
+      "default-instances" : 1,
+      "instances" : 1,
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-paxtracker",
+      "app-name" : "PaxTracker",
+      "protocol" : "https",
+      "domain" : "cfapps.eu10.hana.ondemand.com",
+      "host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-paxtracker",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "PaxTracker",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "BaggageTracker",
+    "type" : "javascript.nodejs",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-baggagetracker.cfapps.eu10.hana.ondemand.com",
+      "default-app-name" : "BaggageTracker",
+      "generated-password" : "********",
+      "default-uri" : "se-demo-sdcplatformnextgencf-bestrun-airlines-baggagetracker.cfapps.eu10.hana.ondemand.com",
+      "default-instances" : 1,
+      "instances" : 1,
+      "default-host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-baggagetracker",
+      "app-name" : "BaggageTracker",
+      "protocol" : "https",
+      "domain" : "cfapps.eu10.hana.ondemand.com",
+      "host" : "se-demo-sdcplatformnextgencf-bestrun-airlines-baggagetracker",
+      "generated-user" : "********",
+      "timestamp" : "20200512124649"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "APIMock_api",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "core-backend",
+        "forwardAuthToken" : "********",
+        "url" : "https://se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "BaggageTracker",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ ],
+  "parameters" : {
+    "authorization-url" : "********",
+    "xs-api-url" : "https://api.cf.eu10.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.eu10.hana.ondemand.com",
+    "org" : "SE_DEMO_SDCPlatformNextGenCF",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.eu10.hana.ondemand.com",
+    "deploy-target" : "SE_DEMO_SDCPlatformNextGenCF BestRun Airlines",
+    "xs-auth-url" : "********",
+    "user" : "********",
+    "space" : "BestRun Airlines",
+    "controller-url" : "https://api.cf.eu10.hana.ondemand.com"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+
+#2.0#2020 05 12 12:46:49.886#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.reprocessDescriptorTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[XS2ProcessDescriptorStep] Merged descriptor properties and parameters resolved#
+
+#2.0#2020 05 12 12:46:49.888#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.reprocessDescriptorTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+Step "Re-Process Descriptor Step" finished#
+
+#2.0#2020 05 12 12:46:49.917#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.buildApplicationDeployModelTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[XS2BuildApplicationDeployModelStep] Executing task "buildApplicationDeployModelTask" of process "a5c7dcce-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:46:49.919#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.buildApplicationDeployModelTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[XS2BuildApplicationDeployModelStep] Building cloud deployment model for application "APIMock"...#
+
+#2.0#2020 05 12 12:46:49.922#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.buildApplicationDeployModelTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[XS2BuildApplicationDeployModelStep] App with updated environment: {
+  "name" : "APIMock",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "EmiratesDemo",
+      "mta_version" : "0.0.1",
+      "mta_module" : "{\"name\":\"APIMock\"}",
+      "mta_module_provided_dependencies" : "[]",
+      "mta_bound_services" : "[]"
+    },
+    "labels" : {
+      "mta_id" : "57247034da69a27b9a693e6af0b7114b"
+    }
+  },
+  "memory" : 0,
+  "diskQuota" : 0,
+  "instances" : 1,
+  "runningInstances" : 0,
+  "staging" : {
+    "buildpacks" : [ ]
+  },
+  "uris" : [ "se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com" ],
+  "services" : [ ],
+  "env" : {
+    "MTA_METADATA" : "{\n  \"id\" : \"EmiratesDemo\",\n  \"version\" : \"0.0.1\"\n}",
+    "MTA_MODULE_METADATA" : "{\n  \"name\" : \"APIMock\"\n}",
+    "MTA_MODULE_PROVIDED_DEPENDENCIES" : "[ ]",
+    "MTA_SERVICES" : "[ ]"
+  },
+  "moduleName" : "APIMock",
+  "idleUris" : [ ],
+  "bindingParameters" : { },
+  "tasks" : [ ],
+  "routes" : [ ],
+  "serviceKeysToInject" : "********",
+  "domains" : [ "cfapps.eu10.hana.ondemand.com" ],
+  "restartParameters" : {
+    "shouldRestartOnVcapAppChange" : true,
+    "shouldRestartOnVcapServicesChange" : true,
+    "shouldRestartOnUserProvidedChange" : "********"
+  },
+  "attributesUpdateStrategy" : {
+    "shouldKeepExistingEnv" : false,
+    "shouldKeepExistingServiceBindings" : false,
+    "shouldKeepExistingRoutes" : false
+  }
+}#
+
+#2.0#2020 05 12 12:46:49.924#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.buildApplicationDeployModelTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[XS2BuildApplicationDeployModelStep] Configuration entries to publish: [ ]#
+
+#2.0#2020 05 12 12:46:49.924#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.buildApplicationDeployModelTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[XS2BuildApplicationDeployModelStep] Cloud deployment model for application built#
+
+#2.0#2020 05 12 12:46:49.926#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.buildApplicationDeployModelTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+Step "Build Application Deploy Model" finished#
+
+#2.0#2020 05 12 12:46:49.962#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.createAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[CreateOrUpdateAppStep] Executing task "createAppTask" of process "a5c7dcce-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:46:49.963#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.createAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[CreateOrUpdateAppStep] Getting application "APIMock"...#
+
+#2.0#2020 05 12 12:46:50.410#Z#INFO#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.createAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[CreateOrUpdateAppStep] Creating application "APIMock" from MTA module "APIMock"...#
+
+#2.0#2020 05 12 12:46:50.414#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.createAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[CreateOrUpdateAppStep] Creating application "APIMock" with disk quota "null", memory "[se-demo-sdcplatformnextgencf-bestrun-airlines-apimock.cfapps.eu10.hana.ondemand.com]", URIs "{
+  "buildpacks" : [ ]
+}" and staging: {4}#
+
+#2.0#2020 05 12 12:46:52.792#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.createAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[CreateOrUpdateAppStep] Getting application "APIMock"...#
+
+#2.0#2020 05 12 12:46:54.390#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.createAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[CreateOrUpdateAppStep] Updating metadata of application "b6519c81-5dac-433b-894d-d77d2cf76455" to: {
+  "annotations" : {
+    "mta_id" : "EmiratesDemo",
+    "mta_version" : "0.0.1",
+    "mta_module" : "{\"name\":\"APIMock\"}",
+    "mta_module_provided_dependencies" : "[]",
+    "mta_bound_services" : "[]"
+  },
+  "labels" : {
+    "mta_id" : "57247034da69a27b9a693e6af0b7114b"
+  }
+}#
+
+#2.0#2020 05 12 12:46:54.753#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.createAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[CreateOrUpdateAppStep] Binding parameters for application "APIMock": { }#
+
+#2.0#2020 05 12 12:46:54.753#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.createAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[CreateOrUpdateAppStep] Updating environment of application "APIMock" to: {
+  "MTA_METADATA" : "{\n  \"id\" : \"EmiratesDemo\",\n  \"version\" : \"0.0.1\"\n}",
+  "MTA_MODULE_METADATA" : "{\n  \"name\" : \"APIMock\"\n}",
+  "MTA_MODULE_PROVIDED_DEPENDENCIES" : "[ ]",
+  "MTA_SERVICES" : "[ ]"
+}#
+
+#2.0#2020 05 12 12:46:59.472#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.createAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[CreateOrUpdateAppStep] Getting application "APIMock"...#
+
+#2.0#2020 05 12 12:47:00.463#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.createAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[CreateOrUpdateAppStep] Updating metadata of application "b6519c81-5dac-433b-894d-d77d2cf76455" to: {
+  "annotations" : {
+    "mta_id" : "EmiratesDemo",
+    "mta_version" : "0.0.1",
+    "mta_module" : "{\"name\":\"APIMock\"}",
+    "mta_module_provided_dependencies" : "[]",
+    "mta_bound_services" : "[]"
+  },
+  "labels" : {
+    "mta_id" : "57247034da69a27b9a693e6af0b7114b"
+  }
+}#
+
+#2.0#2020 05 12 12:47:00.671#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.createAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[CreateOrUpdateAppStep] Application "APIMock" created#
+
+#2.0#2020 05 12 12:47:00.674#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.createAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+Step "Create App" finished#
+
+#2.0#2020 05 12 12:47:00.713#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.uploadAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[UploadAppStep] Executing task "uploadAppTask" of process "a5c7dcce-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:47:00.714#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.uploadAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[UploadAppStep] Upload app timeout in seconds: 3,600#
+
+#2.0#2020 05 12 12:47:00.714#Z#INFO#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.uploadAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[UploadAppStep] Uploading application "APIMock"...#
+
+#2.0#2020 05 12 12:47:01.593#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.uploadAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[UploadAppStep] Getting application "APIMock"...#
+
+#2.0#2020 05 12 12:47:04.130#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.uploadAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[UploadAppStep] Updating environment of application "APIMock" to: {
+  "DEPLOY_ATTRIBUTES" : "{\n  \"app-content-digest\" : \"6D528711CFBD56F42C938379B30618C8\"\n}",
+  "MTA_METADATA" : "{\n  \"id\" : \"EmiratesDemo\",\n  \"version\" : \"0.0.1\"\n}",
+  "MTA_MODULE_METADATA" : "{\n  \"name\" : \"APIMock\"\n}",
+  "MTA_MODULE_PROVIDED_DEPENDENCIES" : "[ ]",
+  "MTA_SERVICES" : "[ ]"
+}#
+
+#2.0#2020 05 12 12:47:06.618#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.uploadAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[UploadAppStep] Uploading file "APIMock/data.zip" for application "APIMock"#
+
+#2.0#2020 05 12 12:47:07.489#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.uploadAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[UploadAppStep] Asynchronously uploading binaries for application "APIMock"...#
+
+#2.0#2020 05 12 12:47:10.999#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.uploadAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[UploadAppStep] Started async upload of application "APIMock"#
+
+#2.0#2020 05 12 12:47:11.002#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.uploadAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+Step "Upload App" finished#
+
+#2.0#2020 05 12 12:47:11.153#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.uploadAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########App upload monitor: da3eb766-5773-4cd8-b26e-d383c56d119d###
+[UploadAppStep] Upload status: PROCESSING_UPLOAD#
+
+#2.0#2020 05 12 12:47:16.326#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.uploadAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########App upload monitor: da3eb766-5773-4cd8-b26e-d383c56d119d###
+[UploadAppStep] Upload status: READY#
+
+#2.0#2020 05 12 12:47:22.493#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.uploadAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11###
+[UploadAppStep] Executing task "uploadAppTask" of process "a5c7dcce-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:47:22.494#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.uploadAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11###
+[UploadAppStep] Upload app timeout in seconds: 3,600#
+
+#2.0#2020 05 12 12:47:22.494#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.uploadAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11###
+[UploadAppStep] Checking upload status of application "APIMock"...#
+
+#2.0#2020 05 12 12:47:22.736#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.uploadAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11###
+[UploadAppStep] Getting package "da3eb766-5773-4cd8-b26e-d383c56d119d"...#
+
+#2.0#2020 05 12 12:47:23.599#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.uploadAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11###
+[UploadAppStep] Application "APIMock" uploaded#
+
+#2.0#2020 05 12 12:47:23.602#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.uploadAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-11###
+Step "Upload App" finished#
+
+#2.0#2020 05 12 12:47:23.635#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.scaleAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-19###
+[ScaleAppStep] Executing task "scaleAppTask" of process "a5c7dcce-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:47:23.636#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.scaleAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-19###
+[ScaleAppStep] Scaling application "APIMock"...#
+
+#2.0#2020 05 12 12:47:23.637#Z#INFO#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.scaleAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-19###
+[ScaleAppStep] Scaling application "APIMock" to "1" instances... #
+
+#2.0#2020 05 12 12:47:23.640#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.scaleAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-19###
+[ScaleAppStep] Updating instances of application "APIMock" to: 1#
+
+#2.0#2020 05 12 12:47:25.594#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.scaleAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-19###
+[ScaleAppStep] Application "APIMock" scaled#
+
+#2.0#2020 05 12 12:47:25.596#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.scaleAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-19###
+Step "Scale App" finished#
+
+#2.0#2020 05 12 12:47:25.616#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.determineDesiredStateAchievingActionsTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[DetermineDesiredStateAchievingActionsStep] Executing task "determineDesiredStateAchievingActionsTask" of process "a5c7dcce-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:47:25.617#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.determineDesiredStateAchievingActionsTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[DetermineDesiredStateAchievingActionsStep] Getting application "APIMock"...#
+
+#2.0#2020 05 12 12:47:26.407#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.determineDesiredStateAchievingActionsTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[DetermineDesiredStateAchievingActionsStep] Current state of application APIMock: STOPPED#
+
+#2.0#2020 05 12 12:47:26.407#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.determineDesiredStateAchievingActionsTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[DetermineDesiredStateAchievingActionsStep] Desired state of application APIMock: STARTED#
+
+#2.0#2020 05 12 12:47:26.407#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.determineDesiredStateAchievingActionsTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[DetermineDesiredStateAchievingActionsStep] Actions that should be executed on application APIMock: [START, STAGE]#
+
+#2.0#2020 05 12 12:47:26.409#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.determineDesiredStateAchievingActionsTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+Step "Determine Desired State Achieving Actions" finished#
+
+#2.0#2020 05 12 12:47:26.438#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-4###
+[StageAppStep] Executing task "stageAppTask" of process "a5c7dcce-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:47:26.439#Z#INFO#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-4###
+[StageAppStep] Staging application "APIMock"...#
+
+#2.0#2020 05 12 12:47:26.442#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-4###
+[StageAppStep] Creating build for package "da3eb766-5773-4cd8-b26e-d383c56d119d"...#
+
+#2.0#2020 05 12 12:47:53.644#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-4###
+Step "Stage App" finished#
+
+#2.0#2020 05 12 12:48:02.651#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[StageAppStep] Executing task "stageAppTask" of process "a5c7dcce-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:48:02.652#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[StageAppStep] Checking status of application "APIMock"...#
+
+#2.0#2020 05 12 12:48:02.652#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[StageAppStep] Getting build "361ec8ac-e7be-4583-a12d-0130faa89b91"...#
+
+#2.0#2020 05 12 12:48:02.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[StageAppStep] Staging status of application "APIMock": PENDING#
+
+#2.0#2020 05 12 12:48:02.976#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+[StageAppStep] Getting recent logs of application "APIMock"...#
+
+#2.0#2020 05 12 12:48:03.834#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-32###
+Step "Stage App" finished#
+
+#2.0#2020 05 12 12:48:12.754#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[StageAppStep] Executing task "stageAppTask" of process "a5c7dcce-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:48:15.702#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[StageAppStep] Checking status of application "APIMock"...#
+
+#2.0#2020 05 12 12:48:15.702#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[StageAppStep] Getting build "361ec8ac-e7be-4583-a12d-0130faa89b91"...#
+
+#2.0#2020 05 12 12:48:15.869#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[StageAppStep] Staging status of application "APIMock": PENDING#
+
+#2.0#2020 05 12 12:48:15.870#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[StageAppStep] Getting recent logs of application "APIMock"...#
+
+#2.0#2020 05 12 12:48:19.611#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+Step "Stage App" finished#
+
+#2.0#2020 05 12 12:48:32.898#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[StageAppStep] Executing task "stageAppTask" of process "a5c7dcce-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:48:32.899#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[StageAppStep] Checking status of application "APIMock"...#
+
+#2.0#2020 05 12 12:48:32.899#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[StageAppStep] Getting build "361ec8ac-e7be-4583-a12d-0130faa89b91"...#
+
+#2.0#2020 05 12 12:48:33.041#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[StageAppStep] Staging status of application "APIMock": FAILED#
+
+#2.0#2020 05 12 12:48:33.042#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[StageAppStep] Getting recent logs of application "APIMock"...#
+
+#2.0#2020 05 12 12:48:34.061#Z#ERROR#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+[StageAppStep] Error staging application "APIMock": BuildpackCompileFailed - App staging failed in the buildpack compile phase
+Download the application logs via the dmol command and check them for more information.#
+
+#2.0#2020 05 12 12:48:34.068#Z#ERROR#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+Exception caught#
+
+com.sap.cloud.lm.sl.common.SLException: A step of the process has failed. Retrying it may solve the issue.
+	at com.sap.cloud.lm.sl.cf.process.steps.SyncFlowableStep.executeInternal(SyncFlowableStep.java:71)
+	at com.sap.cloud.lm.sl.cf.process.steps.SyncFlowableStep.lambda$execute$0(SyncFlowableStep.java:60)
+	at com.sap.cloud.lm.sl.cf.core.util.LoggingUtil.logWithCorrelationId(LoggingUtil.java:15)
+	at com.sap.cloud.lm.sl.cf.process.steps.SyncFlowableStep.execute(SyncFlowableStep.java:60)
+	at org.flowable.engine.impl.delegate.invocation.JavaDelegateInvocation.invoke(JavaDelegateInvocation.java:35)
+	at org.flowable.engine.impl.delegate.invocation.DelegateInvocation.proceed(DelegateInvocation.java:35)
+	at org.flowable.engine.impl.delegate.invocation.DefaultDelegateInterceptor.handleInvocation(DefaultDelegateInterceptor.java:26)
+	at org.flowable.engine.impl.bpmn.behavior.ServiceTaskDelegateExpressionActivityBehavior.execute(ServiceTaskDelegateExpressionActivityBehavior.java:111)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeActivityBehavior(ContinueProcessOperation.java:275)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeSynchronous(ContinueProcessOperation.java:159)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.continueThroughFlowNode(ContinueProcessOperation.java:114)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.run(ContinueProcessOperation.java:78)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:88)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:72)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:56)
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:25)
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53)
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:72)
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:56)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:56)
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.executeJob(ExecuteAsyncRunnable.java:128)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.run(ExecuteAsyncRunnable.java:116)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:836)
+#2.0#2020 05 12 12:48:34.073#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-25###
+Step "Stage App" finished#
+
+#2.0#2020 05 12 12:48:36.015#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-27###
+[StageAppStep] Executing task "stageAppTask" of process "a5c7dcce-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:48:36.017#Z#INFO#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-27###
+[StageAppStep] Staging application "APIMock"...#
+
+#2.0#2020 05 12 12:48:36.021#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-27###
+[StageAppStep] Creating build for package "da3eb766-5773-4cd8-b26e-d383c56d119d"...#
+
+#2.0#2020 05 12 12:48:57.322#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-27###
+Step "Stage App" finished#
+
+#2.0#2020 05 12 12:49:03.234#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[StageAppStep] Executing task "stageAppTask" of process "a5c7dcce-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:49:03.235#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[StageAppStep] Checking status of application "APIMock"...#
+
+#2.0#2020 05 12 12:49:03.236#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[StageAppStep] Getting build "b3ed1194-b8e4-486d-aa17-edfcb75afaec"...#
+
+#2.0#2020 05 12 12:49:03.364#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[StageAppStep] Staging status of application "APIMock": PENDING#
+
+#2.0#2020 05 12 12:49:03.365#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[StageAppStep] Getting recent logs of application "APIMock"...#
+
+#2.0#2020 05 12 12:49:04.097#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+Step "Stage App" finished#
+
+#2.0#2020 05 12 12:49:13.208#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[StageAppStep] Executing task "stageAppTask" of process "a5c7dcce-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:49:13.209#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[StageAppStep] Checking status of application "APIMock"...#
+
+#2.0#2020 05 12 12:49:13.209#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[StageAppStep] Getting build "b3ed1194-b8e4-486d-aa17-edfcb75afaec"...#
+
+#2.0#2020 05 12 12:49:13.343#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[StageAppStep] Staging status of application "APIMock": PENDING#
+
+#2.0#2020 05 12 12:49:13.344#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[StageAppStep] Getting recent logs of application "APIMock"...#
+
+#2.0#2020 05 12 12:49:13.994#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+Step "Stage App" finished#
+
+#2.0#2020 05 12 12:49:23.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[StageAppStep] Executing task "stageAppTask" of process "a5c7dcce-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:49:23.556#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[StageAppStep] Checking status of application "APIMock"...#
+
+#2.0#2020 05 12 12:49:23.556#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[StageAppStep] Getting build "b3ed1194-b8e4-486d-aa17-edfcb75afaec"...#
+
+#2.0#2020 05 12 12:49:23.734#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[StageAppStep] Staging status of application "APIMock": PENDING#
+
+#2.0#2020 05 12 12:49:23.735#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[StageAppStep] Getting recent logs of application "APIMock"...#
+
+#2.0#2020 05 12 12:49:25.305#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+Step "Stage App" finished#
+
+#2.0#2020 05 12 12:49:33.331#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[StageAppStep] Executing task "stageAppTask" of process "a5c7dcce-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:49:33.332#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[StageAppStep] Checking status of application "APIMock"...#
+
+#2.0#2020 05 12 12:49:33.332#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[StageAppStep] Getting build "b3ed1194-b8e4-486d-aa17-edfcb75afaec"...#
+
+#2.0#2020 05 12 12:49:39.159#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[StageAppStep] Staging status of application "APIMock": PENDING#
+
+#2.0#2020 05 12 12:49:39.160#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[StageAppStep] Getting recent logs of application "APIMock"...#
+
+#2.0#2020 05 12 12:49:39.915#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+Step "Stage App" finished#
+
+#2.0#2020 05 12 12:49:53.487#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[StageAppStep] Executing task "stageAppTask" of process "a5c7dcce-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:49:53.488#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[StageAppStep] Checking status of application "APIMock"...#
+
+#2.0#2020 05 12 12:49:53.488#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[StageAppStep] Getting build "b3ed1194-b8e4-486d-aa17-edfcb75afaec"...#
+
+#2.0#2020 05 12 12:49:53.600#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[StageAppStep] Staging status of application "APIMock": FAILED#
+
+#2.0#2020 05 12 12:49:53.601#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[StageAppStep] Getting recent logs of application "APIMock"...#
+
+#2.0#2020 05 12 12:49:55.282#Z#ERROR#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+[StageAppStep] Error staging application "APIMock": BuildpackCompileFailed - App staging failed in the buildpack compile phase
+Download the application logs via the dmol command and check them for more information.#
+
+#2.0#2020 05 12 12:49:55.286#Z#ERROR#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+Exception caught#
+
+com.sap.cloud.lm.sl.common.SLException: A step of the process has failed. Retrying it may solve the issue.
+	at com.sap.cloud.lm.sl.cf.process.steps.SyncFlowableStep.executeInternal(SyncFlowableStep.java:71)
+	at com.sap.cloud.lm.sl.cf.process.steps.SyncFlowableStep.lambda$execute$0(SyncFlowableStep.java:60)
+	at com.sap.cloud.lm.sl.cf.core.util.LoggingUtil.logWithCorrelationId(LoggingUtil.java:15)
+	at com.sap.cloud.lm.sl.cf.process.steps.SyncFlowableStep.execute(SyncFlowableStep.java:60)
+	at org.flowable.engine.impl.delegate.invocation.JavaDelegateInvocation.invoke(JavaDelegateInvocation.java:35)
+	at org.flowable.engine.impl.delegate.invocation.DelegateInvocation.proceed(DelegateInvocation.java:35)
+	at org.flowable.engine.impl.delegate.invocation.DefaultDelegateInterceptor.handleInvocation(DefaultDelegateInterceptor.java:26)
+	at org.flowable.engine.impl.bpmn.behavior.ServiceTaskDelegateExpressionActivityBehavior.execute(ServiceTaskDelegateExpressionActivityBehavior.java:111)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeActivityBehavior(ContinueProcessOperation.java:275)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeSynchronous(ContinueProcessOperation.java:159)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.continueThroughFlowNode(ContinueProcessOperation.java:114)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.run(ContinueProcessOperation.java:78)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:88)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:72)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:56)
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:25)
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53)
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:72)
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:56)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:56)
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.executeJob(ExecuteAsyncRunnable.java:128)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.run(ExecuteAsyncRunnable.java:116)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:836)
+#2.0#2020 05 12 12:49:55.292#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-26###
+Step "Stage App" finished#
+
+#2.0#2020 05 12 12:50:00.574#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-24###
+[StageAppStep] Executing task "stageAppTask" of process "a5c7dcce-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:50:01.119#Z#INFO#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-24###
+[StageAppStep] Staging application "APIMock"...#
+
+#2.0#2020 05 12 12:50:01.142#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-24###
+[StageAppStep] Creating build for package "da3eb766-5773-4cd8-b26e-d383c56d119d"...#
+
+#2.0#2020 05 12 12:50:04.679#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-24###
+Step "Stage App" finished#
+
+#2.0#2020 05 12 12:50:13.606#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[StageAppStep] Executing task "stageAppTask" of process "a5c7dcce-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:50:13.608#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[StageAppStep] Checking status of application "APIMock"...#
+
+#2.0#2020 05 12 12:50:13.608#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[StageAppStep] Getting build "4ed3c426-bcea-4c41-919e-41db8264a5fb"...#
+
+#2.0#2020 05 12 12:50:13.770#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[StageAppStep] Staging status of application "APIMock": PENDING#
+
+#2.0#2020 05 12 12:50:13.771#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+[StageAppStep] Getting recent logs of application "APIMock"...#
+
+#2.0#2020 05 12 12:50:14.567#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-20###
+Step "Stage App" finished#
+
+#2.0#2020 05 12 12:50:23.832#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[StageAppStep] Executing task "stageAppTask" of process "a5c7dcce-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:50:23.833#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[StageAppStep] Checking status of application "APIMock"...#
+
+#2.0#2020 05 12 12:50:23.833#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[StageAppStep] Getting build "4ed3c426-bcea-4c41-919e-41db8264a5fb"...#
+
+#2.0#2020 05 12 12:50:24.008#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[StageAppStep] Staging status of application "APIMock": PENDING#
+
+#2.0#2020 05 12 12:50:24.009#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+[StageAppStep] Getting recent logs of application "APIMock"...#
+
+#2.0#2020 05 12 12:50:24.781#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-31###
+Step "Stage App" finished#
+
+#2.0#2020 05 12 12:50:33.841#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-21###
+[StageAppStep] Executing task "stageAppTask" of process "a5c7dcce-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:50:33.842#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-21###
+[StageAppStep] Checking status of application "APIMock"...#
+
+#2.0#2020 05 12 12:50:33.842#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-21###
+[StageAppStep] Getting build "4ed3c426-bcea-4c41-919e-41db8264a5fb"...#
+
+#2.0#2020 05 12 12:50:33.963#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-21###
+[StageAppStep] Staging status of application "APIMock": PENDING#
+
+#2.0#2020 05 12 12:50:33.964#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-21###
+[StageAppStep] Getting recent logs of application "APIMock"...#
+
+#2.0#2020 05 12 12:50:38.005#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-21###
+Step "Stage App" finished#
+
+#2.0#2020 05 12 12:50:44.148#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[StageAppStep] Executing task "stageAppTask" of process "a5c7dcce-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:50:44.149#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[StageAppStep] Checking status of application "APIMock"...#
+
+#2.0#2020 05 12 12:50:44.149#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[StageAppStep] Getting build "4ed3c426-bcea-4c41-919e-41db8264a5fb"...#
+
+#2.0#2020 05 12 12:50:44.318#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[StageAppStep] Staging status of application "APIMock": PENDING#
+
+#2.0#2020 05 12 12:50:44.319#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+[StageAppStep] Getting recent logs of application "APIMock"...#
+
+#2.0#2020 05 12 12:50:47.337#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-1###
+Step "Stage App" finished#
+
+#2.0#2020 05 12 12:50:54.205#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-28###
+[StageAppStep] Executing task "stageAppTask" of process "a5c7dcce-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:50:54.206#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-28###
+[StageAppStep] Checking status of application "APIMock"...#
+
+#2.0#2020 05 12 12:50:54.206#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-28###
+[StageAppStep] Getting build "4ed3c426-bcea-4c41-919e-41db8264a5fb"...#
+
+#2.0#2020 05 12 12:50:54.381#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-28###
+[StageAppStep] Staging status of application "APIMock": PENDING#
+
+#2.0#2020 05 12 12:50:54.382#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-28###
+[StageAppStep] Getting recent logs of application "APIMock"...#
+
+#2.0#2020 05 12 12:50:55.202#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-28###
+Step "Stage App" finished#
+
+#2.0#2020 05 12 12:51:04.255#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8###
+[StageAppStep] Executing task "stageAppTask" of process "a5c7dcce-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:51:08.079#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8###
+[StageAppStep] Checking status of application "APIMock"...#
+
+#2.0#2020 05 12 12:51:08.079#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8###
+[StageAppStep] Getting build "4ed3c426-bcea-4c41-919e-41db8264a5fb"...#
+
+#2.0#2020 05 12 12:51:08.214#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8###
+[StageAppStep] Staging status of application "APIMock": FAILED#
+
+#2.0#2020 05 12 12:51:08.215#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8###
+[StageAppStep] Getting recent logs of application "APIMock"...#
+
+#2.0#2020 05 12 12:51:09.102#Z#ERROR#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8###
+[StageAppStep] Error staging application "APIMock": BuildpackCompileFailed - App staging failed in the buildpack compile phase
+Download the application logs via the dmol command and check them for more information.#
+
+#2.0#2020 05 12 12:51:09.111#Z#ERROR#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8###
+Exception caught#
+
+com.sap.cloud.lm.sl.common.SLException: A step of the process has failed. Retrying it may solve the issue.
+	at com.sap.cloud.lm.sl.cf.process.steps.SyncFlowableStep.executeInternal(SyncFlowableStep.java:71)
+	at com.sap.cloud.lm.sl.cf.process.steps.SyncFlowableStep.lambda$execute$0(SyncFlowableStep.java:60)
+	at com.sap.cloud.lm.sl.cf.core.util.LoggingUtil.logWithCorrelationId(LoggingUtil.java:15)
+	at com.sap.cloud.lm.sl.cf.process.steps.SyncFlowableStep.execute(SyncFlowableStep.java:60)
+	at org.flowable.engine.impl.delegate.invocation.JavaDelegateInvocation.invoke(JavaDelegateInvocation.java:35)
+	at org.flowable.engine.impl.delegate.invocation.DelegateInvocation.proceed(DelegateInvocation.java:35)
+	at org.flowable.engine.impl.delegate.invocation.DefaultDelegateInterceptor.handleInvocation(DefaultDelegateInterceptor.java:26)
+	at org.flowable.engine.impl.bpmn.behavior.ServiceTaskDelegateExpressionActivityBehavior.execute(ServiceTaskDelegateExpressionActivityBehavior.java:111)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeActivityBehavior(ContinueProcessOperation.java:275)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeSynchronous(ContinueProcessOperation.java:159)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.continueThroughFlowNode(ContinueProcessOperation.java:114)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.run(ContinueProcessOperation.java:78)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:88)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:72)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:56)
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:25)
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53)
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:72)
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:56)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:56)
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.executeJob(ExecuteAsyncRunnable.java:128)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.run(ExecuteAsyncRunnable.java:116)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:836)
+#2.0#2020 05 12 12:51:09.117#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8###
+Step "Stage App" finished#
+
+#2.0#2020 05 12 12:51:13.249#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-23###
+[StageAppStep] Executing task "stageAppTask" of process "a5c7dcce-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:51:14.021#Z#INFO#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-23###
+[StageAppStep] Staging application "APIMock"...#
+
+#2.0#2020 05 12 12:51:14.025#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-23###
+[StageAppStep] Creating build for package "da3eb766-5773-4cd8-b26e-d383c56d119d"...#
+
+#2.0#2020 05 12 12:51:15.290#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-23###
+Step "Stage App" finished#
+
+#2.0#2020 05 12 12:51:24.386#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[StageAppStep] Executing task "stageAppTask" of process "a5c7dcce-944e-11ea-9848-eeee0a9c6062"...#
+
+#2.0#2020 05 12 12:51:24.387#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[StageAppStep] Checking status of application "APIMock"...#
+
+#2.0#2020 05 12 12:51:24.387#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[StageAppStep] Getting build "6a48a267-1574-4ac8-9aa5-0a125428c7f4"...#
+
+#2.0#2020 05 12 12:51:24.563#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[StageAppStep] Staging status of application "APIMock": FAILED#
+
+#2.0#2020 05 12 12:51:24.564#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[StageAppStep] Getting recent logs of application "APIMock"...#
+
+#2.0#2020 05 12 12:51:25.389#Z#ERROR#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[StageAppStep] Error staging application "APIMock": BuildpackCompileFailed - App staging failed in the buildpack compile phase
+Download the application logs via the dmol command and check them for more information.#
+
+#2.0#2020 05 12 12:51:25.394#Z#ERROR#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+Exception caught#
+
+com.sap.cloud.lm.sl.common.SLException: A step of the process has failed. Retrying it may solve the issue.
+	at com.sap.cloud.lm.sl.cf.process.steps.SyncFlowableStep.executeInternal(SyncFlowableStep.java:71)
+	at com.sap.cloud.lm.sl.cf.process.steps.SyncFlowableStep.lambda$execute$0(SyncFlowableStep.java:60)
+	at com.sap.cloud.lm.sl.cf.core.util.LoggingUtil.logWithCorrelationId(LoggingUtil.java:15)
+	at com.sap.cloud.lm.sl.cf.process.steps.SyncFlowableStep.execute(SyncFlowableStep.java:60)
+	at org.flowable.engine.impl.delegate.invocation.JavaDelegateInvocation.invoke(JavaDelegateInvocation.java:35)
+	at org.flowable.engine.impl.delegate.invocation.DelegateInvocation.proceed(DelegateInvocation.java:35)
+	at org.flowable.engine.impl.delegate.invocation.DefaultDelegateInterceptor.handleInvocation(DefaultDelegateInterceptor.java:26)
+	at org.flowable.engine.impl.bpmn.behavior.ServiceTaskDelegateExpressionActivityBehavior.execute(ServiceTaskDelegateExpressionActivityBehavior.java:111)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeActivityBehavior(ContinueProcessOperation.java:275)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeSynchronous(ContinueProcessOperation.java:159)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.continueThroughFlowNode(ContinueProcessOperation.java:114)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.run(ContinueProcessOperation.java:78)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:88)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:72)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:56)
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:25)
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53)
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:72)
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:56)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:56)
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.executeJob(ExecuteAsyncRunnable.java:128)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.run(ExecuteAsyncRunnable.java:116)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:836)
+#2.0#2020 05 12 12:51:25.401#Z#DEBUG#com.sap.cloud.lm.sl.xs2.a39cbf50-944e-11ea-9848-eeee0a9c6062.OPERATION.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+Step "Stage App" finished#
+

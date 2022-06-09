@@ -1,0 +1,25 @@
+{
+	"welcomeFile": "index.html",
+	"authenticationMethod": "none",
+	"websockets": {
+		"enabled": true
+	},
+	"routes": [{
+		"source": "/api/(.*)",
+		"destination": "core-backend",
+		"csrfProtection": false,
+		"authenticationType": "xsuaa"
+	}, {
+		"source": "/websocket/(.*)",
+		"destination": "core-backend",
+		"csrfProtection": false,
+		"authenticationType": "xsuaa"
+	}, {
+		"source": "/(.*)",
+		"localDir": "resources",
+		"authenticationType": "xsuaa",
+		"replace": {
+			"pathSuffixes": ["index.html", "odataTest.html"]
+		}
+	}]
+}

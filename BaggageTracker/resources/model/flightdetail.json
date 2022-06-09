@@ -1,0 +1,68 @@
+{
+  "detail": [
+    {
+      "bagno": "2100",
+      "bagstatus": "Enroute",
+      "uldno": "392022",
+      "uldstatus": "Reconcile",
+      "timetobay": "34",
+      "custorderno": "3867542",
+      "paxname": "George Andrea",
+      "paxstatus": "At Bay",
+      "timetogate": "23",
+      "arrivaluld": "3324222",
+      "uldproduct": "xxx",
+      "arrivaluldstatus": "",
+      "timetobhs": "23",
+      "status":"0"
+    },
+        {
+           "bagno": "2011",
+      "bagstatus": "Enroute",
+      "uldno": "392022",
+      "uldstatus": "Reconcile",
+      "timetobay": "34",
+      "custorderno": "3867542",
+      "paxname": "King Andrea",
+      "paxstatus": "At Bay",
+      "timetogate": "23",
+      "arrivaluld": "3324222",
+      "uldproduct": "xxx",
+      "arrivaluldstatus": "",
+      "timetobhs": "23",
+      "status":"0"
+    },
+        {
+            "bagno": "2211",
+      "bagstatus": "Enroute",
+      "uldno": "392022",
+      "uldstatus": "Reconcile",
+      "timetobay": "34",
+      "custorderno": "3867542",
+      "paxname": "John Andrea",
+      "paxstatus": "At Bay",
+      "timetogate": "23",
+      "arrivaluld": "3324222",
+      "uldproduct": "xxx",
+      "arrivaluldstatus": "",
+      "timetobhs": "23",
+      "status":"0"
+    },
+        {
+           "bagno": "2511",
+      "bagstatus": "Enroute",
+      "uldno": "311022",
+      "uldstatus": "Reconcile",
+      "timetobay": "39",
+      "custorderno": "3867542",
+      "paxname": "Michale Andres",
+      "paxstatus": "At Bay",
+      "timetogate": "23",
+      "arrivaluld": "3324222",
+      "uldproduct": "xxx",
+      "arrivaluldstatus": "",
+      "timetobhs": "23",
+      "status":"0"
+    }
+  ]
+}

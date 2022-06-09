@@ -1,0 +1,19 @@
+@import (reference)  "../general/main";
+
+.action-button(@action-tag, @size, @status-attribute) {
+    @{action-tag}[role="button"] {
+        content: attr(title);
+
+        width: @size;
+        height: @size;
+        background-color: @icon-background;
+
+        .roundify(100%);                
+
+        .status-text(@status-attribute, background-color);
+
+        &:hover {
+            .Grow-Animation(2);
+        }
+    }
+}

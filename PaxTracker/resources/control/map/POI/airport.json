@@ -1,0 +1,160 @@
+{
+    "tree/Low-poly-tree.obj": [{
+            "latitude": 25.24985,
+            "longitude": 55.34970,
+            "id": "",
+            "scale": 0.005,
+            "elevation": 0,
+            "rotation": 20
+        },
+        {
+            "latitude": 25.24952,
+            "longitude": 55.34981,
+            "id": "",
+            "scale": 0.005,
+            "elevation": 0,
+            "rotation": 80
+        },
+        {
+            "latitude": 25.24612,
+            "longitude": 55.35404,
+            "id": "",
+            "scale": 0.005,
+            "elevation": 0,
+            "rotation": 80
+        },
+        {
+            "latitude": 25.24533,
+            "longitude": 55.35437,
+            "id": "",
+            "scale": 0.005,
+            "elevation": 0,
+            "rotation": 30
+        }
+    ],
+    "buildings/control tower.obj": [{
+        "latitude": 25.25070,
+        "longitude": 55.35759,
+        "minZoom": 16,
+        "maxZoom": 18.5,
+        "id": "",
+        "scale": 1,
+        "elevation": 0,
+        "rotation": 31
+    }],
+    "landmarks/train.obj": [{
+            "latitude": 25.244620,
+            "longitude": 55.359776,
+            "minZoom": 16,
+            "maxZoom": 21,
+            "id": "",
+            "scale": 2,
+            "elevation": 5,
+            "rotation": 31,
+            "level": "T3L2"
+        },
+        {
+            "latitude": 25.250945,
+            "longitude": 55.351050,
+            "minZoom": 16,
+            "maxZoom": 21,
+            "id": "",
+            "scale": 2,
+            "elevation": 0.2,
+            "rotation": 31,
+            "level": "T1U1"
+        },
+        {
+            "latitude": 25.251089,
+            "longitude": 55.350638,
+            "minZoom": 16,
+            "maxZoom": 21,
+            "id": "",
+            "scale": 2,
+            "elevation": 0.2,
+            "rotation": 31,
+            "level": "T1U1"
+        }
+    ],
+    "plane/boing_2.obj": [{
+            "latitude": 25.25229,
+            "longitude": 55.37279,
+            "minZoom": 16,
+            "maxZoom": 21,
+            "id": "",
+            "scale": 1,
+            "elevation": 30,
+            "rotation": 120
+        },
+        {
+            "latitude": 25.24159,
+            "longitude": 55.37332,
+            "minZoom": 16,
+            "maxZoom": 21,
+            "id": "",
+            "scale": 1,
+            "elevation": -3.2,
+            "rotation": 210
+        },
+        {
+            "latitude": 25.24192,
+            "longitude": 55.37249,
+            "minZoom": 16,
+            "maxZoom": 21,
+            "id": "",
+            "scale": 1,
+            "elevation": -3.2,
+            "rotation": 210
+        },
+        {
+            "latitude": 25.24913,
+            "longitude": 55.35828,
+            "minZoom": 16,
+            "maxZoom": 21,
+            "id": "",
+            "scale": 1,
+            "elevation": -3.2,
+            "rotation": 210
+        },
+        {
+            "latitude": 25.24941,
+            "longitude": 55.35759,
+            "minZoom": 16,
+            "maxZoom": 21,
+            "id": "",
+            "scale": 1,
+            "elevation": -3.2,
+            "rotation": 210
+        },
+        {
+            "latitude": 25.25249,
+            "longitude": 55.35219,
+            "minZoom": 16,
+            "maxZoom": 21,
+            "id": "",
+            "scale": 1,
+            "elevation": -3.2,
+            "rotation": 210
+        },
+        {
+            "latitude": 25.25291,
+            "longitude": 55.35171,
+            "minZoom": 16,
+            "maxZoom": 21,
+            "id": "",
+            "scale": 1,
+            "elevation": -3.2,
+            "rotation": 210
+        },
+        {
+            "latitude": 25.25326,
+            "longitude": 55.35101,
+            "minZoom": 16,
+            "maxZoom": 21,
+            "id": "",
+            "scale": 1,
+            "elevation": -3.2,
+            "rotation": 210
+        }
+    ]
+}

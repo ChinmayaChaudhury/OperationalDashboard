@@ -1,0 +1,68 @@
+{
+	"detail": [{
+		"paxname": "James Smith",
+		"status": "Landed",
+		"class": "J",
+		"cltv": 9,
+		"currentlocation": "In Duty Free",
+		"timetogate": "10 mins",
+		"baggagedetails": "BR544174, BLKBG, Enroute",
+		"custorderno": "C0207",
+		"pax_icon_visi": "1",
+		"pax_icon_status": "1",
+		"bag_icon_visi": "1",
+		"bag_icon_status": "1"
+	}, {
+		"paxname": "Chris Morris",
+		"status": "Landed",
+		"class": "J",
+		"cltv": 3,
+		"currentlocation": "Near Smoking Lounge - B07",
+		"timetogate": "9 mins",
+		"baggagedetails": "BR544194, BLKBG, Enroute",
+		"custorderno": "C0127",
+		"pax_icon_visi": "1",
+		"pax_icon_status": "1",
+		"bag_icon_visi": "1",
+		"bag_icon_status": "1"
+	}, {
+		"paxname": "Robert Persin",
+		"status": "Landed",
+		"class": "Y",
+		"cltv": 1,
+		"currentlocation": "Near Apple Store",
+		"timetogate": "11 mins",
+		"baggagedetails": "BR651897ABZ, BLKBG, Enroute",
+		"custorderno": "C0292",
+		"pax_icon_visi": "1",
+		"pax_icon_status": "1",
+		"bag_icon_visi": "1",
+		"bag_icon_status": "1"
+	}, {
+		"paxname": "Steve Jacobs",
+		"status": "Landed",
+		"class": "J",
+		"cltv": 4,
+		"currentlocation": "McDonald's",
+		"timetogate": "12 mins",
+		"baggagedetails": "BR616784, BLKBG, Enroute",
+		"custorderno": "C0095",
+		"pax_icon_visi": "1",
+		"pax_icon_status": "1",
+		"bag_icon_visi": "1",
+		"bag_icon_status": "1"
+	}, {
+		"paxname": "Javed Akram",
+		"status": "Landed",
+		"class": "Y",
+		"cltv": 1,
+		"currentlocation": "Burger King",
+		"timetogate": "12 mins",
+		"baggagedetails": "BR544287, AKE48374EK, Enroute",
+		"custorderno": "C0128",
+		"pax_icon_visi": "1",
+		"pax_icon_status": "1",
+		"bag_icon_visi": "1",
+		"bag_icon_status": "1"
+	}]
+}

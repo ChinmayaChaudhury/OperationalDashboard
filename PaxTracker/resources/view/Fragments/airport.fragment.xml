@@ -1,0 +1,148 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:forms="sap.ui.layout.form" xmlns:core="sap.ui.core"
+	xmlns:l="sap.ui.layout" xmlns:custom="PAX.control" xmlns:emirates="PAX.control.map">
+	<Table id="journeySummary" class="paxJourney" items="{journey>/}" visible="{view>/airport}"> 
+		<columns>
+			<Column vAlign="Middle" hAlign="Center">
+				<Text text="Checked-In"/>
+			</Column>
+			<Column vAlign="Middle" hAlign="Center">
+				<Text text="Landed (cn)"/>
+			</Column>
+			<Column vAlign="Middle" hAlign="Center">
+				<Text text="Immigration (jn)"/>
+			</Column>
+			<Column vAlign="Middle" hAlign="Center">
+				<Text text="@ Gate"/>
+			</Column>
+			<Column vAlign="Middle" hAlign="Center">
+				<Text text="Boarded"/>
+			</Column>
+		</columns>
+		<items>
+			<ColumnListItem>
+				<cells>
+					<VBox class="journeyProgressBar">
+						<ProgressIndicator percentValue="{=100 * (${journey>currstep} - 1) / 4}" state="None"/>
+						<custom:ProgressStep class="statusButton" count="{=${journey>checkedin}}" total="{=${journey>/total_chked_pax}}"/>
+						<Text text="{=Math.abs(${journey>checkedin})} / {journey>total_chked_pax}"/>
+					</VBox>
+					<VBox>
+						<custom:ProgressStep class="statusButton" count="{=${journey>landed}}" total="{=${journey>total_c_pax}}"/>
+						<Text text="{=Math.abs(${journey>landed})} / {journey>total_c_pax}"/>
+					</VBox>
+					<VBox>
+						<custom:ProgressStep class="statusButton" count="{=${journey>immigration}}" total="{=${journey>total_j_pax}}"/>
+						<Text text="{=Math.abs(${journey>immigration})} / {journey>total_j_pax}"/>
+					</VBox>
+					<VBox>
+						<custom:ProgressStep class="statusButton" count="{=${journey>atgate}}" total="{=${journey>totalpax}}"/>
+						<Text text="{=Math.abs(${journey>atgate})} / {journey>totalpax}"/>
+					</VBox>
+					<VBox>
+						<custom:ProgressStep class="statusButton" count="{=${journey>boarded}}" total="{=${journey>totalpax}}"/>
+						<Text text="{=Math.abs(${journey>boarded})} / {journey>totalpax}"/>
+					</VBox>
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+	<l:ResponsiveSplitter defaultPane="default" class="splitclass" id="airport" visible="{view>/airport}">
+		<l:PaneContainer>
+			<l:PaneContainer orientation="Vertical">
+				<l:SplitPane requiredParentWidth="300">
+					<VBox width="100%" id="mapHolder" class="sapUiTinyMarginTop">
+						<Toolbar>
+							<MenuButton text="Gate B - Departures" useDefaultActionOnly="true" id="mainMapMenu" class="mapMenu sapUiSmallMarginBegin sapUiMediumMarginEnd" width="auto">
+								<menu>
+									<Menu id="mapMenu" itemSelected="_onMapMenuAction" items="{locations>/locations}">
+										<items>
+											<MenuItem text="{locations>text}" items="{locations>items}">
+												<items>
+													<MenuItem text="{locations>text}" key="{locations>id}"/>
+												</items>
+											</MenuItem>
+										</items>
+									</Menu>
+								</menu>
+							</MenuButton>
+
+								<ObjectIdentifier title="@ Airport" class="flightKPI"/>
+								<ObjectNumber number="{journey>/Journey/airport_at_gate}" unit="@ Gate" class="flightKPI sapUiSmallMarginEnd"/>
+								<ObjectNumber number="{journey>/Journey/airport_not_at_gate}" unit="Not @ Gate" class="flightKPI sapUiMediumMarginEnd"/>
+
+								<ObjectIdentifier title="Not @ Airport" class="flightKPI"/>
+								<ObjectNumber number="{journey>/Journey/not_airport_connecting}" unit="Connecting" class="flightKPI sapUiSmallMarginEnd"/>
+								<ObjectNumber number="{journey>/Journey/not_airport_joining}" unit="Joining" class="flightKPI"/>
+
+
+							<ToolbarSpacer/>
+							<SearchField width="10%" placeholder="Search"/>
+						</Toolbar>
+						<emirates:Map id="indoorMap" currentLevel="CBU2" class="mapContainer"/>
+					</VBox>
+				</l:SplitPane>
+				<l:SplitPane requiredParentWidth="300" class="bagsPane">
+					<Table items="{pax>/detail}" class="bags" sticky="ColumnHeaders">
+					<layoutData>
+							<l:SplitterLayoutData size="35%"/>
+						</layoutData>
+						<columns>
+							<Column vAlign="Middle" hAlign="Center" width="7.5%">
+								<Text text="Alerts" class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center" width="20%">
+								<Text text="Pax Name" class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center" width="10%">
+								<Text text="Pax Status" class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center" width="5%">
+								<Text text="Class" class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center" width="5%">
+								<Text text="CLTV" class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center" width="7.5%">
+								<Text text="Location @Airport" class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center" width="8%">
+								<Text text="Time 2 Gate (mins)" class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center" width="25%">
+								<Text text="Baggage Details" class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center" width="12%">
+								<Text text="Customer Order No." class="font06rem"/>
+							</Column>
+						</columns>
+						<items>
+							<ColumnListItem>
+								<cells>
+									<HBox>
+										<!-- FIXUP: UI is tightly linked to backend! -->
+										<Button icon="sap-icon://person-placeholder" class="statusButton alertRed sapUiTinyMarginEnd" 
+											visible="{= ${pax>pax_icon_visi} === '1' &amp;&amp; ${pax>pax_icon_status} === '1' }"/>
+										<Button icon="sap-icon://person-placeholder" class="statusButton alertAmber sapUiTinyMarginEnd" 
+											visible="{= ${pax>pax_icon_visi} === '1' &amp;&amp; ${pax>pax_icon_status} === '2' }"/>
+										<Button icon="sap-icon://suitcase" class="statusButton alertRed" 
+											visible="{= ${pax>bag_icon_visi} === '1' &amp;&amp; ${pax>bag_icon_status} === '1' }"/>
+										<Button icon="sap-icon://suitcase" class="statusButton alertAmber"   
+											visible="{= ${pax>bag_icon_visi} === '1' &amp;&amp; ${pax>bag_icon_status} === '2' }"/>
+									</HBox> 
+									<Text text="{pax>paxname}"/>
+									<Text text="{pax>status}"/>
+									<Text text="{pax>class}"/>
+									<Text text="{pax>cltv}"/>
+									<Text text="{pax>currentlocation}"/>
+									<Text text="{pax>timetogate}"/>
+									<Text text="{= ${pax>baggagedetails}.replace(RegExp('\\|','g'), '\n') }"/> 
+									<Text text="{pax>custorderno}"/>
+								</cells>
+							</ColumnListItem>
+						</items>
+					</Table>
+				</l:SplitPane>
+			</l:PaneContainer>
+		</l:PaneContainer>
+	</l:ResponsiveSplitter>
+</core:FragmentDefinition>

@@ -1,0 +1,29 @@
+{
+	"detail": [{
+		"paxname": "Nitin Goyal",
+		"status": "Boarded",
+		"class": "J",
+		"cltv": 4,
+		"currentlocation": "",
+		"timetogate": 0,
+		"baggagedetails": "",
+		"custorderno": "C434",
+		"pax_icon_visi": "0",
+		"pax_icon_status": "0",
+		"bag_icon_visi": "1",
+		"bag_icon_status": "1"
+	}, {
+		"paxname": "Robert Persin",
+		"status": "Landed",
+		"class": "Y",
+		"cltv": 1,
+		"currentlocation": "Near Apple Store",
+		"timetogate": "11",
+		"baggagedetails": "BR651897ABZ, BLKBG, Enroute",
+		"custorderno": "C0292",
+		"pax_icon_visi": "1",
+		"pax_icon_status": "1",
+		"bag_icon_visi": "1",
+		"bag_icon_status": "1"
+	}]
+}

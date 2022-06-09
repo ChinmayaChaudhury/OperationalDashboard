@@ -1,0 +1,131 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:forms="sap.ui.layout.form" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified"
+	xmlns:l="sap.ui.layout"  xmlns:custom="ULD.control">>
+	<l:Grid defaultSpan="L3 M3 S3" class="removeGridBottomMargin sapUiTinyMarginTopBottom" width="100%">
+		<l:content>
+			<HBox direction="Row" justifyContent="Center" alignContent="Center">
+				<ObjectIdentifier title="{headerModel>/header/flight}" text="{headerModel>/header/connection}-{headerModel>/header/dest}"/>
+				<layoutData>
+					<l:GridData span="L2 M2 S2" linebreakS="true"/>
+				</layoutData>
+			</HBox>
+			<HBox direction="Row" justifyContent="Center" alignContent="Center" alignItems="Center" class="sapUiSmallMarginTop">
+				<ObjectNumber number="{/totaluld}" unit="" class="uldnumbers sapUiTinyMarginEnd"/>
+				<ObjectIdentifier title="Total ULDs"/>
+			</HBox>
+			<HBox direction="Row" justifyContent="Center" alignContent="Center" alignItems="Center">
+				<ObjectNumber number="{/timetobay}" unit="mins" class="uldnumbers sapUiTinyMarginEnd uldalign"/>
+				<ObjectIdentifier title="Time to Bay"/>	
+			</HBox>
+			<HBox direction="Row" justifyContent="Center" alignContent="Center" alignItems="Center">
+				<ObjectNumber number="{/timetoload}" unit="mins" class="uldnumbers sapUiTinyMarginEnd uldalign"/>
+				<ObjectIdentifier title="Time to Load"/>
+			</HBox>
+		</l:content>
+	</l:Grid>
+	<Table class="uldJourney" id="uldJourneyTbl" width="90%" items="{/journey}">
+		<columns>
+			<Column vAlign="Middle" hAlign="Center">
+				<Text text="In-Process"/>
+			</Column>
+			<Column vAlign="Middle" hAlign="Center">
+				<Text text="@ MUP"/>
+			</Column>
+			<Column vAlign="Middle" hAlign="Center">
+				<Text text="Enroute"/>
+			</Column>
+			<Column vAlign="Middle" hAlign="Center">
+				<Text text="@ Bay"/>
+			</Column>
+			<Column vAlign="Middle" hAlign="Center">
+				<Text text="Loaded"/>
+			</Column>
+		</columns>
+		<items>
+			<ColumnListItem>
+				<cells>
+					<VBox class="journeyProgressBar">
+						<ProgressIndicator percentValue="{=100 * (${currstep} - 1) / 4}" state="None"/>
+						<HBox alignContent="Center" alignItems="Center" justifyContent="Center" width="100%">
+							<Text class="uldTableDot" wrapping="false"/>
+							<custom:ProgressStep class="statusButton" count="{=${inprogress}}" total="{=${totalbags}}"/>
+							<Text class="uldTableDot" wrapping="false"/>
+						</HBox>
+						<Text text="{=Math.abs(${inprogress})} / {totalbags}"/>
+					</VBox>
+					<VBox>
+						<HBox alignContent="Center" alignItems="Center" justifyContent="Center" width="100%">
+							<Text class="uldTableDot" wrapping="false"/>
+							<custom:ProgressStep class="statusButton" count="{=${mup}}" total="{=${totalbags}}"/>
+							<Text class="uldTableDot" wrapping="false"/>
+						</HBox>
+						<Text text="{=Math.abs(${mup})} / {totalbags}"/>
+					</VBox>
+					<VBox>
+						<HBox alignContent="Center" alignItems="Center" justifyContent="Center" width="100%">
+							<Text class="uldTableDot" wrapping="false"/>
+							<custom:ProgressStep class="statusButton" count="{=${enroute}}" total="{=${totalbags}}"/>
+							<Text class="uldTableDot" wrapping="false"/>
+						</HBox>
+						<Text text="{=Math.abs(${enroute})} / {totalbags}"/>
+					</VBox>
+					<VBox>
+						<HBox alignContent="Center" alignItems="Center" justifyContent="Center" width="100%">
+							<Text class="uldTableDot" wrapping="false"/>
+							<custom:ProgressStep class="statusButton" count="{=${bay}}" total="{=${totalbags}}"/>
+							<Text class="uldTableDot" wrapping="false"/>
+						</HBox>
+						<Text text="{=Math.abs(${bay})} / {totalbags}"/>
+					</VBox>
+					<VBox>
+						<HBox alignContent="Center" alignItems="Center" justifyContent="Center" width="100%">
+							<Text class="uldTableDot" wrapping="false"/>
+							<custom:ProgressStep class="statusButton" count="{=${loaded}}" total="{=${totalbags}}"/>
+							<Text class="uldTableDot hideVisibility" wrapping="false"/>
+						</HBox>
+						<Text text="{=Math.abs(${loaded})} / {totalbags}"/>
+					</VBox>
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+	<Table class="ulds" width="90%" sticky="ColumnHeaders" items="{/flightulds}">
+		<columns>
+			<Column vAlign="Middle" hAlign="Center">
+				<HBox justifyContent="Center" alignItems="Center">
+					<Text text="ULD NO" class="font06rem"/>
+				</HBox>
+			</Column>
+			<Column vAlign="Middle" hAlign="Center">
+				<HBox justifyContent="Center" alignItems="Center">
+					<Text text="ULD Type" class="font06rem"/>
+				</HBox>
+			</Column>
+			<Column vAlign="Middle" hAlign="Center">
+				<HBox justifyContent="Center" alignItems="Center">
+					<Text text="ULD Status" class="font06rem"/>
+				</HBox>
+			</Column>
+			<Column vAlign="Middle" hAlign="Center">
+				<HBox justifyContent="Center" alignItems="Center">
+					<Text text="Time To Bay" class="font06rem"/>
+				</HBox>
+			</Column>
+			<Column vAlign="Middle" hAlign="Center">
+				<HBox justifyContent="Center" alignItems="Center">
+					<Text text="Time To Load" class="font06rem"/>
+				</HBox>
+			</Column>
+		</columns>
+		<items>
+			<ColumnListItem>
+				<cells>
+					<Text text="{uldno}"/>
+					<Text text="{type}"/>
+					<Text text="{uldstatus}"/>
+					<Text text="{timetobay}"/>
+					<Text text="{timetoload}"/>
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+</core:FragmentDefinition>

@@ -1,0 +1,164 @@
+{
+	"_version": "1.7.0",
+	"sap.app": {
+		"id": "com.emirates.neo",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"sourceTemplate": {
+			"id": "ui5template.basicSAPUI5ApplicationProject",
+			"version": "1.40.12"
+		},
+		"dataSources": {
+			"hub-list": {
+				"uri": "/api/hub-list",
+				"type": "JSON",
+				"settings": {
+					"localUri": "model/hub-list.json"
+				}
+			},
+			"hub-aerial": {
+				"uri": "/api/hub-aerial",
+				"type": "JSON",
+				"settings": {
+					"localUri": "model/hub-aerial.json"
+				}
+			},
+			"order-list": {
+				"uri": "/api/order-list",
+				"type": "JSON",
+				"settings": {
+					"localUri": "model/order-list.json"
+				}
+			},
+			"order-details": {
+				"uri": "/api/order-details",
+				"type": "JSON",
+				"settings": {
+					"localUri": "model/order-details.json"
+				}
+			}
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": [
+			"sap_hcb",
+			"sap_belize"
+		]
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "shared.view.App",
+			"type": "XML"
+		},
+		"dependencies": {
+			"minUI5Version": "1.30.0",
+			"libs": {
+				"sap.ui.core": {},
+				"sap.m": {},
+				"sap.ui.layout": {},
+				"sap.ushell": {},
+				"sap.collaboration": {},
+				"sap.ui.comp": {},
+				"sap.uxap": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "com.emirates.neo.i18n.i18n"
+				}
+			}
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"viewPath": "com.emirates.neo",
+				"controlId": "app",
+				"controlAggregation": "pages",
+				"async": true,
+				"clearTarget": true,
+				"transition": "fade",
+				"bypassed": {
+					"target": []
+				}
+			},
+			"routes": [{
+				"pattern": "",
+				"name": "master",
+				"target": "order-list"
+			}, {
+				"pattern": "order-list",
+				"name": "order-list",
+				"target": "order-list"
+			}, {
+				"pattern": "order-details/{order}",
+				"name": "order-details",
+				"target": "order-details"
+			}, {
+				"pattern": "flight-list",
+				"name": "flight-list",
+				"target": "flight-list"
+			}, {
+				"pattern": "flight-aerial",
+				"name": "flight-aerial",
+				"target": "flight-aerial"
+			}],
+			"targets": {
+				"master": {
+					"viewId": "app",
+					"viewName": "shared.view.App"
+				},
+				"order-list": {
+					"viewId": "order-list",
+					"viewName": "order-monitor.view.OrderList"
+				},
+				"order-details": {
+					"viewId": "order-details",
+					"viewName": "order-monitor.view.OrderDetails"
+				},
+				"flight-list": {
+					"viewId": "flight-list",
+					"viewName": "hub-monitor.view.FlightList"
+				},
+				"flight-aerial": {
+					"viewId": "flight-aerial",
+					"viewName": "hub-monitor.view.FlightAerial"
+				}
+			}
+		},
+		"resources": {
+			"css": [{
+				"uri": "appResources/asset/css/style.css"
+			}]
+		}
+	},
+	"sap.platform.hcp": {
+		"uri": "",
+		"_version": "1.1.0"
+	}
+}

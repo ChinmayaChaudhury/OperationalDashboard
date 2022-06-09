@@ -1,0 +1,1549 @@
+{
+	"root": {
+		"id": "root",
+		"level": "root",
+		"timeStamp": "20170101205000",
+		"horizonStartTime": "20170101060000",
+		"horizonEndTime":   "20170102050000",
+		"timeInterval": [		
+			
+			[{
+					"label": "6:00",
+					"position": "start"
+				}],
+				[{
+					"label": "7:00",
+					"position": "start"
+				}],
+				[{
+					"label": "8:00",
+					"position": "start"
+				}],
+				[{
+					"label": "9:00",
+					"position": "start"
+				}],
+				[{
+					"label": "10:00",
+					"position": "start"
+				}],
+				[{
+					"label": "11:00",
+					"position": "start"
+				}],
+				[{
+					"label": "12:00",
+					"position": "start"
+				}],
+				[{
+					"label": "13:00",
+					"position": "start"
+				}],
+				[{
+					"label": "14:00",
+					"position": "start"
+				}],
+				[{
+					"label": "15:00",
+					"position": "start"
+				}],
+				[{
+					"label": "16:00",
+					"position": "start"
+				}],
+				[{
+					"label": "17:00",
+					"position": "start"
+				}],
+				[{
+					"label": "18:00",
+					"position": "start"
+				}],
+				[{
+					"label": "19:00",
+					"position": "start"
+				}],
+				[{
+					"label": "20:00",
+					"position": "start"
+				}],
+				[{
+					"label": "21:00",
+					"position": "start"
+				}],
+				[{
+					"label": "22:00",
+					"position": "start"
+				}],
+				[{
+					"label": "23:00",
+					"position": "start"
+				}],
+				[{
+					"label": "0:00",
+					"position": "start"
+				}],
+				[{
+					"label": "1:00",
+					"position": "start"
+				}],
+				[{
+					"label": "2:00",
+					"position": "start"
+				}],
+				[{
+					"label": "3:00",
+					"position": "start"
+				}],
+				[{
+					"label": "4:00",
+					"position": "start"
+				}, 
+				{
+					"label": "5:00",
+					"position": "end"
+				}]
+
+				],
+		"children": [{"id": "0"
+		},{
+			"id": "1",
+			"text": "388-A0WLU",
+			"name": "388-A0WLU",
+			"icon": "PTSIcon-grey",
+			"airlines": "Emirates Flights",
+			"criticality": "3",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101132400",
+				"endTime": "20170101194500" 
+			}, {
+				"startTime": "20170101230500",
+				"endTime": "20170102071500"
+			}],
+			"nodelay": [{
+				"startTime": "20170101131900",
+				"endTime": "20170101132900"
+			}, {
+				"startTime": "20170102071000",
+				"endTime": "20170102072000"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101193800",
+				"endTime": "20170101200500"
+			}],
+			"expecteddelay": [{
+				"startTime": "20170101225300",
+				"endTime": "20170101231200"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101133900",
+				"text": "ZRH",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101191000",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101163800",
+				"text": "EK0088",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}, {
+				"time": "20170101232000",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170102064000",
+				"text": "MAN",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170102031300",
+				"text": "EK0021",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101133900",
+				"text": "13:31"
+			}, {
+				"time": "20170101190200",
+				"text": "19:45"
+			}, {
+				"time": "20170101163800",
+				"text": "D01"
+			}, {
+				"time": "20170101232000",
+				"text": "23:12"
+			}, {
+				"time": "20170102063200",
+				"text": "07:15"
+			}, {
+				"time": "20170102031300",
+				"text": "D01"
+			}],
+			"maintenancetext": [{}],
+			"towing": [{}],
+			"image": [{
+				"time": "20170101211200",
+				"iconName": "PTSIcon",
+				"ii": "2017-01-01 19:25:00"
+			}],
+			"maintenance": [{}],
+			"waitingtime": [{
+				"startTime": "20170101195800",
+				"endTime": "20170101230000"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101195000",
+				"text": "20+"
+			}, {
+				"time": "20170101230500",
+				"text": "12+"
+			}]
+		}, {
+			"id": "2",
+			"text": "388-A0WFI",
+			"name": "388-A0WFI",
+			"icon": "PTSIcon-grey",
+			"airlines": "Emirates Flights",
+			"criticality": "3",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101133300",
+				"endTime": "20170101194500"
+			}, {
+				"startTime": "20170101234100",
+				"endTime": "20170102071600"
+			}],
+			"nodelay": [{
+				"startTime": "20170101132800",
+				"endTime": "20170101133800"
+			}, {
+				"startTime": "20170102071100",
+				"endTime": "20170102072100"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101193800",
+				"endTime": "20170101203600"
+			}],
+			"expecteddelay": [{
+				"startTime": "20170101230300",
+				"endTime": "20170101234800"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101134800",
+				"text": "FRA",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101191000",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101164200",
+				"text": "EK0046",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}, {
+				"time": "20170101235600",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170102064600",
+				"text": "PVG",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170102033200",
+				"text": "EK0302",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101134800",
+				"text": "13:40"
+			}, {
+				"time": "20170101190200",
+				"text": "19:45"
+			}, {
+				"time": "20170101164200",
+				"text": "A10"
+			}, {
+				"time": "20170101235600",
+				"text": "23:48"
+			}, {
+				"time": "20170102064600",
+				"text": "07:16"
+			}, {
+				"time": "20170102033200",
+				"text": "A10"
+			}],
+			"maintenancetext": [{}],
+			"towing": [{}],
+			"image": [{
+				"time": "20170101215300",
+				"iconName": "PTSIcon",
+				"ii": "2017-01-01 20:36:00"
+			}],
+			"maintenance": [{}],
+			"waitingtime": [{
+				"startTime": "20170101202900",
+				"endTime": "20170101231400"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101195000",
+				"text": "51+"
+			}, {
+				"time": "20170101231500",
+				"text": "38+"
+			}]
+		}, {
+			"id": "3",
+			"text": "388-A0WFE",
+			"name": "388-A0WFE",
+			"icon": "TowIcon-grey",
+			"airlines": "Emirates Flights",
+			"criticality": "1",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101150700",
+				"endTime": "20170101163000",
+				"title": "KWI\t\tEK0858\tDXB\r15:09\tF20\t\t16:30"
+			}, {
+				"startTime": "20170101232600",
+				"endTime": "20170102061200"
+			}],
+			"nodelay": [{
+				"startTime": "20170101150200",
+				"endTime": "20170101151200"
+			}, {
+				"startTime": "20170102060700",
+				"endTime": "20170102061700"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101162300",
+				"endTime": "20170101171000"
+			}],
+			"expecteddelay": [{
+				"startTime": "20170101231700",
+				"endTime": "20170101233300"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101153000",
+				"text": "EK0858",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}, {
+				"time": "20170101234100",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170102054200",
+				"text": "MUC",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170102025200",
+				"text": "EK0053",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101153000",
+				"text": "B18R"
+			}, {
+				"time": "20170101234100",
+				"text": "23:33"
+			}, {
+				"time": "20170102054200",
+				"text": "06:12"
+			}, {
+				"time": "20170102025200",
+				"text": "B18R"
+			}],
+			"maintenancetext": [{
+				"time": "20170101183200",
+				"text": "18:32"
+			}, {
+				"time": "20170101200200",
+				"text": "20:10"
+			}],
+			"towing": [{
+				"startTime": "20170101174300",
+				"endTime": "20170101183000"
+			}, {
+				"startTime": "20170101202800",
+				"endTime": "20170101211000"
+			}],
+			"image": [{
+				"time": "20170101181000",
+				"iconName": "TowIcon"
+			}, {
+				"time": "20170101205000",
+				"iconName": "TowIcon"
+			}, {
+				"time": "20170101192000",
+				"iconName": "Maintenance"
+			}, {
+				"time": "20170101221500",
+				"iconName": "PTSIcon"
+			}, {
+				"time": "20170101173000",
+				"iconName": "PTSIcon"
+			}],
+			"maintenance": [{
+				"startTime": "20170101182300",
+				"endTime": "20170101203500"
+			}],
+			"waitingtime": [{
+				"startTime": "20170101170300",
+				"endTime": "20170101175000"
+			}, {
+				"startTime": "20170101210300",
+				"endTime": "20170101232400"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101163500",
+				"text": "40+"
+			}, {
+				"time": "20170101232500",
+				"text": "13+"
+			}]
+		}, {
+			"id": "4",
+			"text": "388-A0WFT",
+			"name": "388-A0WFT",
+			"icon": "PTSIcon-grey",
+			"airlines": "Emirates Flights",
+			"criticality": "2",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101132700",
+				"endTime": "20170101192500"
+			}, {
+				"startTime": "20170101235300",
+				"endTime": "20170102074300"
+			}],
+			"nodelay": [{
+				"startTime": "20170101132200",
+				"endTime": "20170101133200"
+			}, {
+				"startTime": "20170102073800",
+				"endTime": "20170102074800"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101191800",
+				"endTime": "20170101193200"
+			}],
+			"expecteddelay": [{
+				"startTime": "20170101231700",
+				"endTime": "20170102000000"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101134200",
+				"text": "MUC",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101185000",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101162900",
+				"text": "EK0050",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}, {
+				"time": "20170102000800",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170102071300",
+				"text": "CDG",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170102035100",
+				"text": "EK0071",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101134200",
+				"text": "13:34"
+			}, {
+				"time": "20170101184200",
+				"text": "19:25"
+			}, {
+				"time": "20170101162900",
+				"text": "A09"
+			}, {
+				"time": "20170102000800",
+				"text": "00:00"
+			}, {
+				"time": "20170102071300",
+				"text": "07:43"
+			}, {
+				"time": "20170102035100",
+				"text": "A09"
+			}],
+			"maintenancetext": [{}],
+			"towing": [{}],
+			"image": [{
+				"time": "20170101212600",
+				"iconName": "PTSIcon",
+				"ii": "2017-01-01 19:32:00"
+			}],
+			"maintenance": [{}],
+			"waitingtime": [{
+				"startTime": "20170101192500",
+				"endTime": "20170101232400"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101193000",
+				"text": "7+"
+			}, {
+				"time": "20170101232500",
+				"text": "40+"
+			}]
+		}, {
+			"id": "5",
+			"text": "388-A0WFW",
+			"name": "388-A0WFW",
+			"icon": "TowIcon-grey",
+			"airlines": "Emirates Flights",
+			"criticality": "0",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101044800",
+				"endTime": "20170101161500"
+			}, {
+				"startTime": "20170101224300",
+				"endTime": "20170102125700"
+			}],
+			"nodelay": [{
+				"startTime": "20170101044800",
+				"endTime": "20170101045300"
+			}, {
+				"startTime": "20170102125200",
+				"endTime": "20170102130200"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101160800",
+				"endTime": "20170101171000"
+			}],
+			"expecteddelay": [{
+				"startTime": "20170101223200",
+				"endTime": "20170101225000"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101050300",
+				"text": "JFK",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101154000",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101103500",
+				"text": "EK0202",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}, {
+				"time": "20170101225800",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170102122200",
+				"text": "JFK",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170102055300",
+				"text": "EK0203",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101050300",
+				"text": "04:55"
+			}, {
+				"time": "20170101153200",
+				"text": "16:15"
+			}, {
+				"time": "20170101103500",
+				"text": "F19"
+			}, {
+				"time": "20170101225800",
+				"text": "22:50"
+			}, {
+				"time": "20170102122140",
+				"text": "12:57"
+			}, {
+				"time": "20170102055300",
+				"text": "F19"
+			}],
+			"maintenancetext": [{
+				"time": "20170101183200",
+				"text": "18:32"
+			}, {
+				"time": "20170101200200",
+				"text": "20:10"
+			}],
+			"towing": [{
+				"startTime": "20170101174300",
+				"endTime": "20170101183000"
+			}, {
+				"startTime": "20170101202800",
+				"endTime": "20170101211000"
+			}],
+			"image": [{
+				"time": "20170101181000",
+				"iconName": "TowIcon"
+			}, {
+				"time": "20170101205000",
+				"iconName": "TowIcon"
+			}, {
+				"time": "20170101192000",
+				"iconName": "Maintenance"
+			}, {
+				"time": "20170101215200",
+				"iconName": "PTSIcon"
+			}, {
+				"time": "20170101173000",
+				"iconName": "PTSIcon"
+			}],
+			"maintenance": [{
+				"startTime": "20170101182300",
+				"endTime": "20170101203500"
+			}],
+			"waitingtime": [{
+				"startTime": "20170101170300",
+				"endTime": "20170101175000"
+			}, {
+				"startTime": "20170101210300",
+				"endTime": "20170101223900"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101162000",
+				"text": "55+"
+			}, {
+				"time": "20170101224000",
+				"text": "15+"
+			}]
+		}, {
+			"id": "6",
+			"text": "388-A0WND",
+			"name": "388-A0WND",
+			"icon": "airplane-flight",
+			"airlines": "Emirates Flights",
+			"criticality": "3",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101133100",
+				"endTime": "20170101205000"
+			}, {
+				"startTime": "20170101234200",
+				"endTime": "20170102055600"
+			}],
+			"nodelay": [{
+				"startTime": "20170101132600",
+				"endTime": "20170101133600"
+			}, {
+				"startTime": "20170102055100",
+				"endTime": "20170102060100"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101204300",
+				"endTime": "20170101205500"
+			}],
+			"expecteddelay": [{
+				"startTime": "20170101232300",
+				"endTime": "20170101234900"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101134600",
+				"text": "BKK",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101201500",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101171400",
+				"text": "EK0373",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}, {
+				"time": "20170101235700",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170102052100",
+				"text": "BKK",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170102025200",
+				"text": "EK0376",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101134600",
+				"text": "13:38"
+			}, {
+				"time": "20170101200700",
+				"text": "20:50"
+			}, {
+				"time": "20170101171400",
+				"text": "A08"
+			}, {
+				"time": "20170101235700",
+				"text": "23:49"
+			}, {
+				"time": "20170102051300",
+				"text": "05:56"
+			}, {
+				"time": "20170102025200",
+				"text": "A08"
+			}],
+			"maintenancetext": [{}],
+			"towing": [{}],
+			"image": [{
+				"time": "20170101221200",
+				"iconName": "PTSIcon",
+				"ii": "2017-01-01 20:55:00"
+			}],
+			"maintenance": [{}],
+			"waitingtime": [{
+				"startTime": "20170101204800",
+				"endTime": "20170101233000"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101205500",
+				"text": "5+"
+			}, {
+				"time": "20170101233500",
+				"text": "19+"
+			}]
+		}, {
+			"id": "7",
+			"text": "388-A0WFQ",
+			"name": "388-A0WFQ",
+			"icon": "airplane-flight",
+			"airlines": "Emirates Flights",
+			"criticality": "0",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101024600",
+				"endTime": "20170101091500"
+			}, {
+				"startTime": "20170101114100",
+				"endTime": "20170101182900"
+			}],
+			"nodelay": [{
+				"startTime": "20170101024100",
+				"endTime": "20170101025100"
+			}, {
+				"startTime": "20170101182400",
+				"endTime": "20170101183400"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101090800",
+				"endTime": "20170101093400"
+			}, {
+				"startTime": "20170101113300",
+				"endTime": "20170101114800"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101030100",
+				"text": "BKK",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101084000",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101060400",
+				"text": "EK0375",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}, {
+				"time": "20170101115600",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101175400",
+				"text": "MXP",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101150800",
+				"text": "EK0091",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101025800",
+				"text": "02:53"
+			}, {
+				"time": "20170101083200",
+				"text": "09:15"
+			}, {
+				"time": "20170101060400",
+				"text": "F21"
+			}, {
+				"time": "20170101115600",
+				"text": "11:48"
+			}, {
+				"time": "20170101174600",
+				"text": "18:29"
+			}, {
+				"time": "20170101150800",
+				"text": "F21"
+			}],
+			"maintenancetext": [{}],
+			"towing": [{}],
+			"image": [{
+				"time": "20170101103700",
+				"iconName": "PTSIcon",
+				"ii": "2017-01-01 09:34:00"
+			}],
+			"maintenance": [{}],
+			"waitingtime": [{
+				"startTime": "20170101092700",
+				"endTime": "20170101114000"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101092000",
+				"text": "19+"
+			}, {
+				"time": "20170101114500",
+				"text": "8+"
+			}]
+		}, {
+			"id": "8",
+			"text": "388-A0WLV",
+			"name": "388-A0WLV",
+			"icon": "airplane-flight",
+			"airlines": "Emirates Flights",
+			"criticality": "2",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101142700",
+				"endTime": "20170101201500"
+			}, {
+				"startTime": "20170101233300",
+				"endTime": "20170102071100"
+			}],
+			"nodelay": [{
+				"startTime": "20170101142200",
+				"endTime": "20170101143200"
+			}, {
+				"startTime": "20170102070600",
+				"endTime": "20170102071600"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101200800",
+				"endTime": "20170101212400"
+			}],
+			"expecteddelay": [{
+				"startTime": "20170101224700",
+				"endTime": "20170101234000"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101144200",
+				"text": "AMS",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101194000",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101172400",
+				"text": "EK0148",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}, {
+				"time": "20170101234800",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170102063600",
+				"text": "LGW",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170102032300",
+				"text": "EK0011",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101144200",
+				"text": "14:34"
+			}, {
+				"time": "20170101193200",
+				"text": "20:15"
+			}, {
+				"time": "20170101172400",
+				"text": "F12"
+			}, {
+				"time": "20170101234800",
+				"text": "23:36"
+			}, {
+				"time": "20170102062800",
+				"text": "07:11"
+			}, {
+				"time": "20170102032300",
+				"text": "F12"
+			}],
+			"maintenancetext": [{}],
+			"towing": [{}],
+			"image": [{
+				"time": "20170101220700",
+				"iconName": "PTSIcon",
+				"ii": "2017-01-01 21:24:00"
+			}],
+			"maintenance": [{}],
+			"waitingtime": [{
+				"startTime": "20170101211700",
+				"endTime": "20170101225400"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101202000",
+				"text": "69+"
+			}, {
+				"time": "20170101225500",
+				"text": "46+"
+			}]
+		}, {
+			"id": "9",
+			"text": "388-A0WVR",
+			"name": "388-A0WVR",
+			"icon": "airplane-flight",
+			"airlines": "Emirates Flights",
+			"criticality": "3",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101063800",
+				"endTime": "20170101080000",
+				"title": "DOH\t\tEK0842\tDXB\r06:50\tF20\t\t07:30"
+			}, {
+				"startTime": "20170101104600",
+				"endTime": "20170101174800"
+			}],
+			"nodelay": [{
+				"startTime": "20170101063300",
+				"endTime": "20170101064300"
+			}, {
+				"startTime": "20170101174300",
+				"endTime": "20170101175300"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101075200",
+				"endTime": "20170101104000"
+			}, {
+				"startTime": "20170101103300",
+				"endTime": "20170101105300"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101065500",
+				"text": "EK0842",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}, {
+				"time": "20170101110100",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101171300",
+				"text": "DUS",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101142000",
+				"text": "EK0057",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101065500",
+				"text": "F20"
+			}, {
+				"time": "20170101110100",
+				"text": "10:53"
+			}, {
+				"time": "20170101170500",
+				"text": "17:48"
+			}, {
+				"time": "20170101142000",
+				"text": "F20"
+			}],
+			"maintenancetext": [{}],
+			"towing": [{}],
+			"image": [{
+				"time": "20170101091200",
+				"iconName": "PTSIcon",
+				"ii": "2017-01-01 07:44:00"
+			}],
+			"maintenance": [{}],
+			"waitingtime": [{
+				"startTime": "20170101080900",
+				"endTime": "20170101104000"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101080500",
+				"text": "16+"
+			}, {
+				"time": "20170101104500",
+				"text": "13+"
+			}]
+		}, {
+			"id": "10",
+			"text": "388-A0WLP",
+			"name": "388-A0WLP",
+			"icon": "PTSIcon-grey",
+			"airlines": "Emirates Flights",
+			"criticality": "1",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101131500",
+				"endTime": "20170101202500"
+			}, {
+				"startTime": "20170101231700",
+				"endTime": "20170102065500"
+			}],
+			"nodelay": [{
+				"startTime": "20170101131000",
+				"endTime": "20170101132000"
+			}, {
+				"startTime": "20170102065000",
+				"endTime": "20170102070000"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101201800",
+				"endTime": "20170101204200"
+			}],
+			"expecteddelay": [{
+				"startTime": "20170101230800",
+				"endTime": "20170101232400"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101133000",
+				"text": "MAN",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101195000",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101165300",
+				"text": "EK0018",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}, {
+				"time": "20170101233200",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170102062000",
+				"text": "SIN",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170102030900",
+				"text": "EK0354",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101133000",
+				"text": "13:22"
+			}, {
+				"time": "20170101194200",
+				"text": "20:25"
+			}, {
+				"time": "20170101165300",
+				"text": "D06"
+			}, {
+				"time": "20170101233200",
+				"text": "23:24"
+			}, {
+				"time": "20170102061200",
+				"text": "06:55"
+			}, {
+				"time": "20170102030900",
+				"text": "D06"
+			}],
+			"maintenancetext": [{}],
+			"towing": [{}],
+			"image": [{
+				"time": "20170101215800",
+				"iconName": "PTSIcon",
+				"ii": "2017-01-01 20:42:00"
+			}],
+			"maintenance": [{}],
+			"waitingtime": [{
+				"startTime": "20170101203500",
+				"endTime": "20170101231500"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101203000",
+				"text": "17+"
+			}, {
+				"time": "20170101232000",
+				"text": "9+"
+			}]
+		}, {
+			"id": "11",
+			"text": "388-A0WFX",
+			"name": "388-A0WFX",
+			"icon": "PTSIcon-grey",
+			"airlines": "Emirates Flights",
+			"criticality": "3",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101091300",
+				"endTime": "20170101160000"
+			}, {
+				"startTime": "20170101232900",
+				"endTime": "20170102074800"
+			}],
+			"nodelay": [{
+				"startTime": "20170101090800",
+				"endTime": "20170101091800"
+			}, {
+				"startTime": "20170102074300",
+				"endTime": "20170102075300"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101155300",
+				"endTime": "20170101160300"
+			}],
+			"expecteddelay": [{
+				"startTime": "20170101232300",
+				"endTime": "20170101233600"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101092800",
+				"text": "LHR",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101152500",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101124000",
+				"text": "EK0008",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}, {
+				"time": "20170101234400",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170102071300",
+				"text": "ICN",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170102034200",
+				"text": "EK0322",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101092800",
+				"text": "09:20"
+			}, {
+				"time": "20170101151700",
+				"text": "16:00"
+			}, {
+				"time": "20170101124000",
+				"text": "F21"
+			}, {
+				"time": "20170101234400",
+				"text": "23:36"
+			}, {
+				"time": "20170102070500",
+				"text": "07:48"
+			}, {
+				"time": "20170102034200",
+				"text": "F21"
+			}],
+			"maintenancetext": [{
+				"time": "20170101171900",
+				"text": "17:19"
+			}, {
+				"time": "20170101184900",
+				"text": "18:57"
+			}],
+			"towing": [{
+				"startTime": "20170101163000",
+				"endTime": "20170101171700"
+			}, {
+				"startTime": "20170101191500",
+				"endTime": "20170101195700"
+			}],
+			"image": [{
+				"time": "20170101165700",
+				"iconName": "TowIcon"
+			}, {
+				"time": "20170101193700",
+				"iconName": "TowIcon"
+			}, {
+				"time": "20170101180700",
+				"iconName": "Maintenance"
+			}, {
+				"time": "20170101214300",
+				"iconName": "PTSIcon"
+			}, {
+				"time": "20170101161700",
+				"iconName": "PTSIcon"
+			}],
+			"maintenance": [{
+				"startTime": "20170101171000",
+				"endTime": "20170101192200"
+			}],
+			"waitingtime": [{
+				"startTime": "20170101155600",
+				"endTime": "20170101163700"
+			}, {
+				"startTime": "20170101195000",
+				"endTime": "20170101233000"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101160500",
+				"text": "3+"
+			}, {
+				"time": "20170101233500",
+				"text": "6+"
+			}]
+		}, {
+			"id": "12",
+			"text": "388-A0WNJ",
+			"name": "388-A0WNJ",
+			"icon": "airplane-flight",
+			"airlines": "Emirates Flights",
+			"criticality": "3",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101085400",
+				"endTime": "20170101154500"
+			}, {
+				"startTime": "20170101184700",
+				"endTime": "20170102004800"
+			}],
+			"nodelay": [{
+				"startTime": "20170101084900",
+				"endTime": "20170101085900"
+			}, {
+				"startTime": "20170102004300",
+				"endTime": "20170102005300"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101153800",
+				"endTime": "20170101154700"
+			}, {
+				"startTime": "20170101182800",
+				"endTime": "20170101185400"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101090900",
+				"text": "MAN",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101151000",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101122300",
+				"text": "EK0022",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}, {
+				"time": "20170101190200",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170102001300",
+				"text": "BKK",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101215100",
+				"text": "EK0374",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101090900",
+				"text": "09:01"
+			}, {
+				"time": "20170101150200",
+				"text": "15:45"
+			}, {
+				"time": "20170101122300",
+				"text": "F12"
+			}, {
+				"time": "20170101190200",
+				"text": "18:54"
+			}, {
+				"time": "20170102000500",
+				"text": "00:48"
+			}, {
+				"time": "20170101215100",
+				"text": "F12"
+			}],
+			"maintenancetext": [{}],
+			"towing": [{}],
+			"image": [{
+				"time": "20170101171100",
+				"iconName": "PTSIcon",
+				"ii": "2017-01-01 15:47:00"
+			}],
+			"maintenance": [{}],
+			"waitingtime": [{
+				"startTime": "20170101154000",
+				"endTime": "20170101183500"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101155000",
+				"text": "2+"
+			}, {
+				"time": "20170101184000",
+				"text": "19+"
+			}]
+		}, {
+			"id": "13",
+			"text": "388-A0WFO",
+			"name": "388-A0WFO",
+			"icon": "airplane-flight",
+			"airlines": "Emirates Flights",
+			"criticality": "1",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101133700",
+				"endTime": "20170101204000"
+			}, {
+				"startTime": "20170101232100",
+				"endTime": "20170102071100"
+			}],
+			"nodelay": [{
+				"startTime": "20170101133200",
+				"endTime": "20170101134200"
+			}, {
+				"startTime": "20170102070600",
+				"endTime": "20170102071600"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101203300",
+				"endTime": "20170101205400"
+			}],
+			"expecteddelay": [{
+				"startTime": "20170101230300",
+				"endTime": "20170101232800"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101135200",
+				"text": "LHR",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101200500",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101171200",
+				"text": "EK0002",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}, {
+				"time": "20170101233600",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170102063600",
+				"text": "LHR",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170102031900",
+				"text": "EK0007",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101135200",
+				"text": "13:44"
+			}, {
+				"time": "20170101195700",
+				"text": "20:40"
+			}, {
+				"time": "20170101171200",
+				"text": "F18"
+			}, {
+				"time": "20170101233600",
+				"text": "23:28"
+			}, {
+				"time": "20170102062800",
+				"text": "07:11"
+			}, {
+				"time": "20170102031900",
+				"text": "F18"
+			}],
+			"maintenancetext": [{}],
+			"towing": [{}],
+			"image": [{
+				"time": "20170101220200",
+				"iconName": "PTSIcon",
+				"ii": "2017-01-01 20:54:00"
+			}],
+			"maintenance": [{}],
+			"waitingtime": [{
+				"startTime": "20170101204700",
+				"endTime": "20170101231000"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101204500",
+				"text": "14+"
+			}, {
+				"time": "20170101231500",
+				"text": "18+"
+			}]
+		}, {
+			"id": "14",
+			"text": "388-A0WVU",
+			"name": "388-A0WVU",
+			"icon": "airplane-flight",
+			"airlines": "Emirates Flights",
+			"criticality": "3",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101141000",
+				"endTime": "20170101202500"
+			}, {
+				"startTime": "20170101234100",
+				"endTime": "20170102065800"
+			}],
+			"nodelay": [{
+				"startTime": "20170101140500",
+				"endTime": "20170101141500"
+			}, {
+				"startTime": "20170102065300",
+				"endTime": "20170102070300"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101201800",
+				"endTime": "20170101205500"
+			}],
+			"expecteddelay": [{
+				"startTime": "20170101230800",
+				"endTime": "20170101234800"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101142500",
+				"text": "PRG",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101195000",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170101172100",
+				"text": "EK0140",
+				"fill": "#919191",
+				"fontFamily": "EK03Plain-B01"
+			}, {
+				"time": "20170101235600",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170102062300",
+				"text": "HKG",
+				"fill": "#6d9ac8",
+				"fontFamily": "EK03Plain-L01"
+			}, {
+				"time": "20170102032300",
+				"text": "EK0382"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101142500",
+				"text": "14:17"
+			}, {
+				"time": "20170101194200",
+				"text": "20:25"
+			}, {
+				"time": "20170101172100",
+				"text": "F03"
+			}, {
+				"time": "20170101235600",
+				"text": "23:48"
+			}, {
+				"time": "20170102061500",
+				"text": "06:58"
+			}, {
+				"time": "20170102032300",
+				"text": "F03"
+			}],
+			"maintenancetext": [{}],
+			"towing": [{}],
+			"image": [{
+				"time": "20170101213500",
+				"iconName": "PTSIcon",
+				"ii": "2017-01-01 19:55:00"
+			}],
+			"maintenance": [{}],
+			"waitingtime": [{
+				"startTime": "20170101204800",
+				"endTime": "20170101231500"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101203000",
+				"text": "30+"
+			}, {
+				"time": "20170101232000",
+				"text": "33+"
+			}]
+		}]
+	}
+}

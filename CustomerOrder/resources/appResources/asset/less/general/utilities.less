@@ -1,0 +1,28 @@
+.roundify(@radius: 10px) {
+    border-radius: @radius;
+}
+
+.flexify(@content, @align, @justify, @direction: column) {
+    display: flex;
+    flex-direction: @direction;    
+    align-content: @content;
+    align-items: @align;
+    justify-content: @justify;
+    flex-wrap: wrap;
+}
+
+.shadowfy(@x, @y, @blur, @spread, @opacity: 1) {
+    box-shadow: @x @y @blur @spread rgba(0, 0, 0, @opacity);
+}
+
+.grid-columns(@count) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, calc(100% / @count));
+    grid-auto-flow: row;
+}
+
+.grid-columns-nonuniform(@columns){
+    display: grid;
+    grid-template-columns: @columns;
+    grid-auto-flow: row;
+}

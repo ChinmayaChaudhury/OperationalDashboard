@@ -1,0 +1,28 @@
+{
+    "header": {
+        "flight": "BR0241",
+        "o_date": "2018-02-19",
+        "o_time": "05:55:00",
+        "connection": "DXB",
+        "dest": "YYZ",
+        "tail": "A0WNN",
+        "type": "388",
+        "stand": "F19",
+        "sobt": "05:55",
+        "eobt": "06:25",
+        "tobt": "06:24",
+        "status_ind": "01",
+        "pax_total": "584",
+        "bag_total": "893",
+        "pax_join": "224",
+        "pax_connect": "360",
+        "paxrisk": "",
+        "paxmisc": "",
+        "bag_join": "286",
+        "bag_connect": "607",
+        "bagsrisk": 11,
+        "bagsmisc": "",
+        "last_bag_threshold": "",
+        "Pax_Threshold": ""
+    }
+}

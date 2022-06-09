@@ -1,0 +1,7 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<Dialog id="dialogEIBT" contentWidth="400px" icon="sap-icon://alert" title="Delay Alert">
+		<content>
+			<Text text="Predicted EIBT for 0407 + 30min"/>
+		</content>
+	</Dialog>
+</core:FragmentDefinition>

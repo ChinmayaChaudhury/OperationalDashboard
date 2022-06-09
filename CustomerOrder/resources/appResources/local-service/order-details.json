@@ -1,0 +1,95 @@
+{
+    "03/14/2018": [
+        {
+            "ORDER_CODE": "260418",
+            "MAIN_HEADING": "BR0407",
+            "SUB_HEADING": "SIN-DXB",
+            "ORIGIN_DESTINATION_REFNUMBER": 1,
+            "START_DATETIME": "01:40",
+            "END_DATETIME": "04:50",
+            "EVENT_STATUS": "green",
+            "TYPE": "FLIGHT"
+        },
+        {
+            "ORDER_CODE": "260418",
+            "MAIN_HEADING": "BR0001",
+            "SUB_HEADING": "DXB-LHR",
+            "ORIGIN_DESTINATION_REFNUMBER": 1,
+            "START_DATETIME": "07:45",
+            "END_DATETIME": "12:25",
+            "EVENT_STATUS": "green",
+            "TYPE": "FLIGHT"
+        }
+    ],
+    "03/17/2018": [
+        {
+            "ORDER_CODE": "260418",
+            "MAIN_HEADING": "BR0002",
+            "SUB_HEADING": "LHR-DXB",
+            "ORIGIN_DESTINATION_REFNUMBER": 1,
+            "START_DATETIME": "14:20",
+            "END_DATETIME": "00:20",
+            "EVENT_STATUS": "red",
+            "TYPE": "FLIGHT"
+        }
+    ],
+    "03/18/2018": [
+        {
+            "ORDER_CODE": "260418",
+            "MAIN_HEADING": "Car Hire",
+            "PROVIDER_NAME": "Car Trawler",
+            "PROVIDER_CONTACT": "Anil Kumar",
+            "PROVIDER_NUMBER": "+9715234974389",
+            "EMAIL": "anil@hertz.com",
+            "SUB_HEADING": "To Dubai",
+            "START_DATETIME": "01:20",
+            "END_DATETIME": "",
+            "EVENT_STATUS": "red",
+            "TYPE": "TAXI"
+        },
+        {
+            "ORDER_CODE": "260418",
+            "MAIN_HEADING": "Deluxe Twin Room",
+            "PROVIDER_NAME": "JW Marriott",
+            "BPNUMBER": 283923,
+            "ROOM_STAY_REFNUMBER": "0",
+            "RATEPLAN": "DEFAULT_RATE_PLAN",
+            "START_DATETIME": "03:30",
+            "END_DATETIME": "",
+            "EVENT_STATUS": "amber",
+            "TYPE": "HOTEL"
+        },
+        {
+            "ORDER_CODE": "260418",
+            "MAIN_HEADING": "Rugby Seven",
+            "PROVIDER_NAME": "Dubai Rugby Sevens",
+            "BPNUMBER": 283923,
+            "START_DATETIME": "17:30",
+            "REFNUMBER": 1,
+            "EVENT_STATUS": "gray",
+            "TYPE": "ACTIVITY"
+        },
+        {
+            "ORDER_CODE": "260418",
+            "MAIN_HEADING": "Signed Rugby Ball",
+            "PROVIDER_NAME": "Jean de Villiers",
+            "START_DATETIME": "17:30",
+            "BPNUMBER": 283923,
+            "REFNUMBER": 2,
+            "EVENT_STATUS": "gray",
+            "TYPE": "ACTIVITY"
+        }
+    ],
+    "03/20/2018": [
+        {
+            "ORDER_CODE": "260418",
+            "MAIN_HEADING": "BR0404",
+            "SUB_HEADING": "DXB-SIN",
+            "ORIGIN_DESTINATION_REFNUMBER": 3,
+            "START_DATETIME": "09:25",
+            "END_DATETIME": "20:25",
+            "EVENT_STATUS": "gray",
+            "TYPE": "FLIGHT"
+        }
+    ]
+}

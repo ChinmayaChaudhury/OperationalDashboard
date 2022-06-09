@@ -1,0 +1,24 @@
+{
+	"detail": [
+
+		{
+			"paxname": "Nitin Goyal",
+			"status": "",
+			"class": "J",
+			"cltv": 4,
+			"currentlocation": "",
+			"timetogate": "80 mins",
+			"baggagedetails": "",
+			"custorderno": "C434"
+		}, {
+			"paxname": "Robert Persin",
+			"status": "Checked-In",
+			"class": "Y",
+			"cltv": 1,
+			"currentlocation": "",
+			"timetogate": "80 mins",
+			"baggagedetails": "BR651897ABZ, , BLKBG",
+			"custorderno": "C0292"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+    "header": {
+        "flight": "BR0322",
+        "o_date": "2018-02-19",
+        "o_time": "03:45:00",
+        "connection": "DXB",
+        "dest": "ICN",
+        "tail": "BKWFC",
+        "type": "738",
+        "stand": "F19",
+        "sobt": "03:45",
+        "eobt": "03:45",
+        "tobt": "03:45",
+        "status_ind": "03",
+        "pax_total": "596",
+        "bag_total": "547",
+        "pax_join": "147",
+        "pax_connect": "449",
+        "paxrisk": 0,
+        "paxmisc": 0,
+        "bag_join": "95",
+        "bag_connect": "452",
+        "bagsrisk": 0,
+        "bagsmisc": 0,
+        "last_bag_threshold": "",
+        "Pax_Threshold": ""
+    }
+}

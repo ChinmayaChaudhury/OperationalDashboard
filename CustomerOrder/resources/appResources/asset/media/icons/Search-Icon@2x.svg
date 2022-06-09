@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="21px" viewBox="0 0 20 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Search Icon@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main-Nav-Bar" transform="translate(-1669.000000, -57.000000)" stroke="#B1ADA8">
+            <g id="Group-21" transform="translate(0.000000, -113.000000)">
+                <g id="Group-9" transform="translate(1480.000000, 161.000000)">
+                    <g id="Search-Icon" transform="translate(189.984810, 10.000000)">
+                        <ellipse id="Oval-3" cx="6.77034358" cy="7.14285714" rx="6.77034358" ry="7.14285714"></ellipse>
+                        <path d="M12.4577629,13.3673469 L18.9057091,19.4897959" id="Line-3" stroke-linecap="square"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

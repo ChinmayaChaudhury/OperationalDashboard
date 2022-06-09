@@ -1,0 +1,28 @@
+<core:FragmentDefinition xmlns="sap.m"  xmlns:html="http://www.w3.org/1999/xhtml" xmlns:core="sap.ui.core">
+	<html:section>
+		<List class="buttons-list vertical" width="auto">
+			<ActionListItem text="List" class="list" press="toList"/>
+			<ActionListItem text="Aerial" class="aerial" press="toAerial"/>
+			<ActionListItem text="T/A" class="turn-around" press="toTurnAround"/>
+		</List>
+		<html:ul class="buttons-image">
+			<html:li role="button" data-carrier="EK">BR</html:li>
+			<html:li role="button" data-carrier="Others">Others</html:li>
+		</html:ul>
+		<List class="buttons-list horizontal" width="auto">
+			<ActionListItem text="Arrivals" class="arrival"/>
+			<ActionListItem text="Departures" class="departure"/>
+			<ActionListItem text="Critical" class="critical"/>
+		</List>
+	</html:section>
+	<html:section>
+		<html:ul class="stats">
+			<html:li data-value="8">Flights Delayed</html:li>
+			<html:li data-value="2">Flights On-Time</html:li>
+			<html:li data-value="10">Possible Delays</html:li>
+		</html:ul>
+		<html:span class="search-bar">
+			<html:input type="search" placeholder="Search"></html:input>
+		</html:span>
+	</html:section>
+</core:FragmentDefinition>

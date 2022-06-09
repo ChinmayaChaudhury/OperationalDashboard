@@ -1,0 +1,215 @@
+<mvc:View controllerName="PTS.controller.first" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+	xmlns="sap.m" xmlns:gantt="sap.gantt" xmlns:table="sap.ui.table" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" height="100%" xmlns:custom="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
+	<App>
+		<pages>
+			<Page title="{i18n>ptsTitle}" showHeader="true" showFooter="true">   
+				<customHeader>
+					<Bar>
+						<contentLeft>
+							<FlexBox direction="Row" alignContent="Center" alignItems="Center" justifyContent="Center">
+								<html:img src="./media/images/logo.png" alt="Logo"/>
+								<html:h1>PTS</html:h1>
+								<html:hr size="60" class="VerticalLineHeaderInfo "/>
+								<mvc:XMLView viewName="PTS.view.header.FlightOpsHeader"/>
+							</FlexBox>
+						</contentLeft>
+						<contentRight>
+							<html:section class="popover-container">
+								<html:img src="./media/images/login-user-avatar.jpg" alt="" srcset="" role="button"></html:img>
+								<html:div class="popover">
+									<html:a href="" class="icon profile">Profile</html:a>
+									<html:a href="" class="icon settings">Settings</html:a>
+								</html:div>
+							</html:section>
+							<html:h1>John Bradman</html:h1>
+						</contentRight>
+					</Bar>
+				</customHeader>
+				<content>
+					<l:VerticalLayout class="nestedFlexboxes">
+						<l:content>
+							<HBox fitContainer="true" alignItems="Stretch" wrap="Wrap">
+								<items>
+									<VBox fitContainer="true">   
+										<layoutData>
+											<FlexItemData growFactor="7"/>
+										</layoutData>
+										<items>
+											<HBox id="xx" class="TopSectionHBoxInfo">
+												<l:Grid defaultSpan="L2 M2 S2">
+													<l:content>
+														<VBox class="FlightOutIconNo sapUiSmallMarginTop" justifyContent="Center" alignContent="Center" alignItems="Center">
+															<HBox justifyContent="Center" alignContent="Center" alignItems="Center">
+																<Image src="media/images/landed.svg" class="FlightInIconImage" densityAware="false"/>
+																<Text text="{EK>/root/headerinfo/flightIn_no}"></Text>
+															</HBox>
+															<Text class="flightTailInfoClass" text="{path:'EK>/root/headerinfo/flightIn_from_to', formatter:'.formatter.convertArrows'}"></Text>
+															<layoutData>
+																<l:GridData span="L1 M1 S1" linebreakL="false" linebreakM="false" linebreakS="false"/>
+															</layoutData>
+														</VBox>
+														<HBox class="StandGateEIBT sapUiTinyMarginTop" justifyContent="Center" alignContent="Center" alignItems="Center">
+															<ObjectIdentifier title="{i18n>stand}" text="{EK>/root/headerinfo/flightIn_stand}"/>
+															<html:hr size="28" class="VerticalLineHeaderInfo"/>
+															<ObjectIdentifier title="{i18n>gate}" text="{EK>/root/headerinfo/flightIn_gate}"/>
+															<html:hr size="28" class="VerticalLineHeaderInfo"/>
+															  
+															<ObjectIdentifier title="{i18n>aibt}" text="{EK>/root/headerinfo/flightIn_AIBT}"/>
+															<html:hr size="28" class="VerticalLineHeaderInfo"/>
+															<ObjectIdentifier title="{i18n>eibt}" text="{EK>/root/headerinfo/flightIn_EIBT}"/>
+															<html:hr size="28" class="VerticalLineHeaderInfo"/>
+															<Text class="dateTextFormat" text="{path:'EK>/root/headerinfo/act_inblock',formatter:'.dateFormatter'}"/>
+															<layoutData>
+																<l:GridData span="L3 M3 S3" linebreakL="false" linebreakM="false" linebreakS="false"/>
+															</layoutData>
+														</HBox>
+														<HBox class="AIRCRAFT_TAIL " justifyContent="Center" alignContent="Center" alignItems="Center">
+															<ObjectHeader title="{i18n>acreg}" number="{EK>/root/headerinfo/tail_id}"></ObjectHeader>
+															<html:hr size="28" class="VerticalLineHeaderInfo"/>
+															<ObjectHeader title="{i18n>subtype}" number="{EK>/root/headerinfo/aircraft_type}"></ObjectHeader>
+															<layoutData>
+																<l:GridData span="L3 M3 S3" linebreakL="false" linebreakM="false" linebreakS="false"/>
+															</layoutData>
+														</HBox>
+														<HBox class="StandGateEOBT sapUiTinyMarginTop" justifyContent="Center" alignContent="Center" alignItems="Center">
+															<ObjectIdentifier title="{i18n>stand}" text="{EK>/root/headerinfo/flightOut_stand}"/>
+															<html:hr size="28" class="VerticalLineHeaderInfo"/>
+															<ObjectIdentifier title="{i18n>gate}" text="{EK>/root/headerinfo/flightOut_gate}"/>
+															<html:hr size="28" class="VerticalLineHeaderInfo"/>
+															<ObjectIdentifier title="{i18n>aobt}" text="{EK>/root/headerinfo/flightOut_EOBT}"/>
+															<html:hr size="28" class="VerticalLineHeaderInfo"/>
+															<ObjectIdentifier title="{i18n>sobt}" text="{EK>/root/headerinfo/flightOut_SOBT}"/>
+															<html:hr size="28" class="VerticalLineHeaderInfo"/>
+															<ObjectIdentifier title="{i18n>eobt}" text="{EK>/root/headerinfo/flightOut_EOBT}"/>
+															<html:hr size="28" class="VerticalLineHeaderInfo"/>
+															<VBox class="boxTOBT">
+																<ObjectIdentifier title="{i18n>tobt}"/>
+																<ObjectStatus text="{EK>/root/headerinfo/flightOut_TOBT}" class="fontTOBT"
+																	state="{= ${EK>/root/headerinfo/delayInTOBT} > 0 ? 'Error' : 'None'}"/>
+															</VBox>
+															<html:hr size="28" class="VerticalLineHeaderInfo"/>
+															<Text class="dateTextFormat" text="{path:'EK>/root/headerinfo/est_offblock',formatter:'.dateFormatter'}"/>
+															<layoutData>
+																<l:GridData span="L4 M4 S4" linebreakL="false" linebreakM="false" linebreakS="false"/>
+															</layoutData>
+														</HBox>
+														<VBox class="FlightOutIconNo sapUiSmallMarginTop" justifyContent="Center" alignContent="Center" alignItems="Center">
+															<HBox justifyContent="Center" alignContent="Center" alignItems="Center">
+																<Image src="media/images/taking-off.svg" densityAware="false"/>
+																<Text text="{EK>/root/headerinfo/flightOut_no}"></Text>
+															</HBox>
+															<Text text="{path:'EK>/root/headerinfo/flightOut_from_to', formatter:'.formatter.convertArrows'}"></Text>
+															<layoutData>
+																<l:GridData span="L1 M1 S1" linebreakL="false" linebreakM="false" linebreakS="false"/>
+															</layoutData>
+														</VBox>
+													</l:content>
+												</l:Grid>
+											</HBox>
+											<HBox class="TopSectionHBoxClass sapUiTinyMarginBottom">
+												<VBox class="sapUiTinyMargin">
+													<SegmentedButton id="buttonPTSType" class="toggleML" selectionChange="onPTSTypeSelection" selectedKey="{ViewData>/ptstype}">
+														<items>
+															<SegmentedButtonItem text="{i18n>segmArrival}" key="A"/>
+															<SegmentedButtonItem text="{i18n>segmDeparture}" key="D"/>
+															<SegmentedButtonItem text="{i18n>segmTA}" key="H" enabled="{ViewData>/tabutton}"/>
+														</items>
+													</SegmentedButton>
+													<HBox id="searchActivity" class="searchActivityTable">
+														<Select class="searchActivitySelectTable" items="{ path: 'activity>/activitySet', sorter: { path: 'id' } }" change="onSelectionChange"
+															selectedKey="All" forceSelection="true">
+															<core:Item key="{activity>id}" text="{activity>name}"/>
+															<layoutData>
+																<FlexItemData growFactor="3"/>
+															</layoutData>
+														</Select>
+														<Button class="RefreshButton" icon="sap-icon://refresh" press="onActivityRefresh" type="Transparent"/>
+													</HBox>
+												</VBox>
+												<VBox class="pgrvb">
+													<FlexBox id="ChartHolder" alignItems="Center" justifyContent="Center" class="PTSSlider"></FlexBox>
+													<ProgressIndicator id="progBar" class="sapUiSmallMarginBottom pgrbar" showValue="true" state="Warning" displayOnly="true"/>
+												</VBox>
+											</HBox>
+										</items>
+									</VBox>
+								</items>
+							</HBox>
+						</l:content>
+					</l:VerticalLayout>
+					<gantt:GanttChartContainer id="GanttChartContainer" enableCursorLine="false" enableAdhocLine="true" width="99.5%">
+						<gantt:ganttCharts>
+							<gantt:GanttChartWithTable splitterResize="onResize" id="ganttView" class="EKGanttChartTable"
+								selectionMode="None" chartClick="onSelectChart"> 
+								<gantt:columns>
+									<table:Column id="ganttViewColumn" label="{i18n>name}">   
+										<table:template>
+											<VBox>
+												<HBox>   
+													<ObjectHeader icon="{path: 'EK>icon', formatter: '.formatter.setListIcon'}" title="{ path: 'EK>name'}"></ObjectHeader>
+													<HBox alignItems="Center">
+														<core:Icon src="sap-icon://detail-view" visible="{parts: [{path: 'EK>name'}, {path: 'EK>processStatus'}], formatter: '.formatter.showDetailsLink'}" class="detailsLink" press="showDetails" custom:key="{EK>name}"/>
+														<HBox class="iconBox" alignItems="Center">
+															<core:Icon src="sap-icon://circle-task-2" color="{= ${EK>processStatus} === 'delay' ? '#fc0d1b' : '#64c056' }" 
+																visible="{= ${EK>processStatus} ? true : false }" class="activityStatusIcons" 
+																	tooltip="{= ${EK>processStatus} === 'delay' ? 'Activity delayed' : 'Activity in time' }"/> 
+														</HBox>
+													</HBox>
+												</HBox>
+												<ObjectStatus text="{EK>time}" state="{path:'EK>activityStatus', formatter: '.formatter.formatHeader'}"/>
+											</VBox>
+										</table:template>
+									</table:Column>
+								</gantt:columns>
+								<gantt:adhocLines>
+									<gantt:AdhocLine timeStamp="{EK>/root/headerinfo/currentTime}" strokeWidth="2" stroke="#8DF7ED"></gantt:AdhocLine>
+								</gantt:adhocLines>
+							</gantt:GanttChartWithTable>
+						</gantt:ganttCharts>
+					</gantt:GanttChartContainer>
+				</content>
+				<footer>
+					<Bar class="PTSFooter">
+						<contentLeft>
+							<HBox class="sapUiTinyMarginBegin">
+								<Button id="expandTable" press="onExpandTable" text="{i18n>expandAll}" icon="sap-icon://expand"></Button>
+								<Button id="collapseTable" press="onCollapseTable" text="{i18n>collapseAll}" icon="sap-icon://collapse"></Button>
+								<Switch id="detml" state="false" customTextOn="ML" customTextOff="Det" change="onToggelChange">	</Switch>
+							</HBox>
+						</contentLeft>
+						<contentRight>
+							<FlexBox alignItems="Center" justifyContent="Start">
+								<items>
+									<HBox alignItems="Center">
+										<Image src="media/images/footer/prepone.png" densityAware="false" width="1.5rem">
+											<layoutData>
+												<FlexItemData growFactor="3"/>
+											</layoutData>
+										</Image>
+										<Text text="{i18n>legendOnTrack}" class="sapUiTinyMargin footerLegendText"></Text>
+									</HBox>
+									<HBox alignItems="Center">
+										<Image src="media/images/footer/past_delay.png" densityAware="false" width="1.5rem">
+											<layoutData>
+												<FlexItemData growFactor="3"/>
+											</layoutData>
+										</Image>
+										<Text text="{i18n>legendDelayedWithImpact}" class="sapUiTinyMargin footerLegendText"></Text>
+									</HBox>
+									<HBox alignItems="Center">
+										<Image src="media/images/footer/past_activity_delay.png" densityAware="false" width="1.5rem">
+											<layoutData>
+												<FlexItemData growFactor="3"/>
+											</layoutData>
+										</Image>
+										<Text text="{i18n>legendDelayedWithoutImpact}" class="sapUiTinyMargin footerLegendText"></Text>
+									</HBox>
+								</items>
+							</FlexBox>
+						</contentRight>
+					</Bar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

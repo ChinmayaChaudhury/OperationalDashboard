@@ -1,0 +1,38 @@
+// Controls alignment of grid items
+.grid-properties(@align: center, @justify: center, @content: center) {
+    align-items: @align;
+    justify-items: @justify;
+    justify-content: @content;
+}
+
+// Creates a new grid
+.grid(@columns: repeat(1, 1fr), @rows: repeat(1, 1fr)) {
+    display: grid;
+    grid-template-columns: @columns;
+    grid-template-rows: @rows;
+}
+
+// Position
+.position(@top, @right, @bottom, @left) {
+    top: @top;
+    right: @right;
+    bottom: @bottom;
+    left: @left;
+}
+
+// Table with a progress bar
+.processSteps(@steps: 1, @offset: 0%) {
+    // This assumes that each cell is a 'VBox', and that its items are aligned at the center.
+    @cellWidth: 100% / @steps;
+
+    // For the progress to be shifted to the middle, we need to shift it to the middle 
+    // of the first VBox by half of the width of that cell if it's going to be responsive.
+    left: calc(@cellWidth / 2);
+
+    // The space at the left of the first VBox and at the right of the last VBox are equal to a single cell's width. 
+    // width: calc(10% * (@steps - 1));
+    width: ~"calc(100% - @{cellWidth} - @{offset})" !important;
+
+    // // This will help us make the progress bar span the entire table.
+    position: absolute;
+}

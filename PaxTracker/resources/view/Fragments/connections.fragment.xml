@@ -1,0 +1,101 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:forms="sap.ui.layout.form" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified"
+	xmlns:l="sap.ui.layout" xmlns:custom="PAX.control">
+	<l:ResponsiveSplitter defaultPane="default" class="splitclass" id="connections" visible="{= !${view>/airport} }">
+		<l:PaneContainer>
+			<l:PaneContainer orientation="Horizontal">
+				<l:SplitPane requiredParentWidth="300">
+					<Table class="connectingFlights" id="flightSourceTbl" sticky="ColumnHeaders" items="{path: 'flights>/flightsources', sorter: { path: 'time2baythresold' }}" selectionChange="_onSelectFlight" mode="SingleSelectMaster">
+						<columns>
+							<Column vAlign="Middle" hAlign="Begin">
+								<HBox>
+									<SearchField width="100%" class="flightSearch" liveChange="_onSearchFlights" />
+								</HBox>
+							</Column>
+						</columns>
+						<items>
+							<ColumnListItem type="Active">
+								<cells>
+									<VBox >
+										<HBox justifyContent="SpaceBetween" alignItems="Start" height="2rem" class="flight">
+											<Text text="{flights>flight}" class="flightNumber"/>
+											<ObjectIdentifier title="Tail#" text="{flights>tail}"/>
+											<ObjectIdentifier title="Stand" text="{flights>stand}"/>
+											<ObjectIdentifier title="{flights>time_text}" text="{flights>time}"/>
+											<!--<core:Icon src="sap-icon://person-placeholder" visible="{=${flights>type} =='j'?true:false}"/>-->
+											<Image src="img/flight.png" class="sapUiTinyMarginBeginEnd" width="1.2rem"/>
+										</HBox>
+										<HBox class="sapUiTinyMarginTop">
+											<ObjectStatus class="sapUiSmallMarginBottom" title="Est. Time 2 Gate"
+												text="{= RegExp('-', 'i').test(${flights>time2baythresold}) === true ? ${flights>time2baythresold}.substring(1) : ${flights>time2baythresold}} mins"
+												state="{= RegExp('-', 'i').test(${flights>time2baythresold}) === true ? 'Error' : 'None'}"
+												icon="{= RegExp('-', 'i').test(${flights>time2baythresold}) === true ? 'sap-icon://alert' : 'none'}"/>
+											<ObjectAttribute title="PAX" text="{flights>totalpax}" class="sapMObjStatus"/>
+										</HBox>
+									</VBox>
+								</cells>
+							</ColumnListItem>
+						</items>
+						<layoutData><l:SplitterLayoutData size="22.5%" resizable="false"/></layoutData>
+					</Table>
+				</l:SplitPane>
+				<l:SplitPane requiredParentWidth="300" class="bagsPane">
+					<Table items="{flightdetail>/detail}" class="bags" sticky="ColumnHeaders">
+						<columns>
+							<Column vAlign="Middle" hAlign="Center" width="7.5%">
+								<Text text="Alerts" class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center" width="20%">
+								<Text text="Pax Name" class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center" width="10%">
+								<Text text="Pax Status" class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center" width="5%">
+								<Text text="Class" class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center" width="5%">
+								<Text text="CLTV" class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center" width="7.5%">
+								<Text text="Location @Airport" class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center" width="8%">
+								<Text text="Time 2 Gate (mins)" class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center" width="25%">
+								<Text text="Baggage Details" class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center" width="12%">
+								<Text text="Customer Order No." class="font06rem"/>
+							</Column>
+						</columns>
+						<items>
+							<ColumnListItem>
+								<cells>
+									<HBox>
+										<Button icon="sap-icon://person-placeholder" class="statusButton alertRed sapUiTinyMarginEnd" 
+											visible="{= ${flightdetail>pax_icon_visi} === '1' &amp;&amp; ${flightdetail>pax_icon_status} === '1' ? true : false }"/>
+										<Button icon="sap-icon://person-placeholder" class="statusButton alertAmber sapUiTinyMarginEnd" 
+											visible="{= ${flightdetail>pax_icon_visi} === '1' &amp;&amp; ${flightdetail>pax_icon_status} === '2' ? true : false }"/>
+										<Button icon="sap-icon://suitcase" class="statusButton alertRed" 
+											visible="{= ${flightdetail>bag_icon_visi} === '1' &amp;&amp; ${flightdetail>bag_icon_status} === '1' ? true : false }"/>
+										<Button icon="sap-icon://suitcase" class="statusButton alertAmber" 
+											visible="{= ${flightdetail>bag_icon_visi} === '1' &amp;&amp; ${flightdetail>bag_icon_status} === '2' ? true : false }"/>
+									</HBox> 
+									<Text text="{flightdetail>paxname}"/>
+									<Text text="{flightdetail>status}"/>
+									<Text text="{flightdetail>class}"/>
+									<Text text="{flightdetail>cltv}"/>
+									<Text text="{flightdetail>currentlocation}"/>
+									<Text text="{flightdetail>timetogate}"/>
+									<Text text="{= ${flightdetail>baggagedetails}.replace(RegExp(' \\|','g'), '\n') }"/> 
+									<Text text="{flightdetail>custorderno}"/>
+								</cells>
+							</ColumnListItem>
+						</items>
+					</Table>
+				</l:SplitPane>
+			</l:PaneContainer>
+		</l:PaneContainer>
+	</l:ResponsiveSplitter>
+</core:FragmentDefinition>

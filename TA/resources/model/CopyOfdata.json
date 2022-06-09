@@ -1,0 +1,201 @@
+{
+	"root": {
+		"id": "root",
+		"level": "root",
+		"children": [{
+			"text": "Aircraft",
+			"name": "Aircraft",
+			"id": "01",
+			"selectrectangle": [{
+				"id": "01_01",
+				"startTime": "20180308061000",
+				"endTime": "20180308065200"
+			}],
+			"cusTextShapeTaskGroup": [{
+				"id": "01_01_01",
+				"time": "20180308061500",
+				"text": "AIRCRAFT"
+			}],
+			"uptriangle": [{
+				"id": "01_01_02",
+				"time": "20180308065000"
+			}],
+			"rectangle": [{
+				"id": "01_02",
+				"startTime": "20180308065200",
+				"endTime": "20180308080000"
+			}],
+			"cusTextShapePercentage": [{
+				"id": "01_03",
+				"time": "20180308080100",
+				"text": "35%"
+			}],
+			"children": [{
+				"id": "0101",
+				"level": "01",
+				"name": "In-Blocks",
+				"greyrectangle": [{
+					"id": "0101_01",
+					"startTime": "20180308061000",
+					"endTime": "20180308062000"
+
+				}],
+				"greydiamond": [{
+					"id": "0101_02",
+					"time": "20180308061000"
+
+				}],
+				"cusTextWhiteTask": [{
+					"id": "0101_03",
+					"time": "20180308061100",
+					"text": "In_Block"
+				}]
+
+			}, {
+				"id": "0102",
+				"level": "01",
+				"name": "Cabin Door",
+				"greyrectangle": [{
+					"id": "0102_01_1",
+					"startTime": "20180308061500",
+					"endTime": "20180308062500"
+
+				}, {
+					"id": "0102_01_2",
+					"startTime": "20180308075700",
+					"endTime": "20180308080700"
+
+				}],
+				"orangediamond": [{
+					"id": "0102_02",
+					"time": "20180308061500"
+
+				}],
+				"greydiamond": [{
+					"id": "0102_03",
+					"time": "20180308075700"
+
+				}],
+				"cusTextWhiteTask": [{
+					"id": "0101_04_01",
+					"time": "20180308061700",
+					"text": "Cabin Door"
+				}, {
+					"id": "0101_04_02",
+					"time": "20180308080000",
+					"text": "Cabin Door"
+				}]
+
+			}, {
+				"id": "0103",
+				"level": "01",
+				"name": "Belly Door"
+			}, {
+				"id": "0104",
+				"level": "01",
+				"name": "Off-Blocks",
+				"greyrectangle": [{
+					"id": "0104_01",
+					"startTime": "20180308080000",
+					"endTime": "20180308081000"
+
+				}],
+				"greydiamond": [{
+					"id": "0104_02",
+					"time": "20180308080000"
+
+				}],
+				"cusTextWhiteTask": [{
+					"id": "0104_03",
+					"time": "20180308080300",
+					"text": "Off-Blocks"
+				}]
+			}]
+		}, {
+			"text": "Passenger",
+			"name": "Passenger",
+			"id": "02",
+			"selectrectangle": [{
+				"id": "02_01",
+				"startTime": "20180308061000",
+				"endTime": "20180308070200"
+			}],
+			"cusTextShapeTaskGroup": [{
+				"id": "02_01_01",
+				"time": "20180308061500",
+				"text": "PASSENGER"
+			}],
+			"uptriangle": [{
+				"id": "01_01_02",
+				"time": "20180308070000"
+			}],
+			"rectangle": [{
+				"id": "02_02",
+				"startTime": "20180308070200",
+				"endTime": "20180308075000"
+			}],
+			"cusTextShapePercentage": [{
+				"id": "02_03",
+				"time": "20180308075200",
+				"text": "50%"
+			}],
+			"children": [{
+				"id": "0201",
+				"level": "01",
+				"name": "Cabin Door",
+				"greyrectangle": [{
+					"id": "0201_01",
+					"startTime": "20180308061200",
+					"endTime": "20180308062600"
+
+				}],
+				"greydiamond": [{
+					"id": "0201_02",
+					"time": "20180308061200"
+
+				}],
+				"cusTextWhiteTask": [{
+					"id": "0201_03",
+					"time": "20180308061500",
+					"text": "Cabin Door Open"
+				}]
+
+			},
+			{
+				"id": "0202",
+				"level": "01",
+				"name": "Disembarkation",
+				"greyrectangle": [{
+					"id": "0202_01",
+					"startTime": "20180308061200",
+					"endTime": "20180308064600"
+
+				}],
+				"greydiamond": [{
+					"id": "0202_02",
+					"time": "20180308061200"
+
+				}],
+				"cusTextWhiteTask": [{
+					"id": "0201_03",
+					"time": "20180308061500",
+					"text": "Disembarkation"
+				}]
+
+			}
+			]
+		}],
+		"relationship": [{
+			"fromDataId": "0101",
+			"fromObjectPath": "0101",
+			"toDataId": "0201",
+			"toObjectPath": "0201",
+			"relation_type": 1,
+			"fromShapeId": "greyrectangle",
+			"toShapeId": "greyrectangle",
+			"style": 0,
+			"tooltip": "InBlock-to-CabinDoor",
+			"guid": "rel_0101_0201"
+		}]
+	}
+}

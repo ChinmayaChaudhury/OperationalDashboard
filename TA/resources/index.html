@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<!--<meta charset="UTF-8">-->
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+
+		<title>TurnAroundView</title>
+
+		<script id="sap-ui-bootstrap"
+			src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-theme="sap_belize"
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-language="en"
+			data-sap-ui-resourceroots='{"TurnAroundView": ""}'>
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/header.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<script>
+		sap.ui.getCore().attachInit(function() {
+                    jQuery.sap.require('TurnAroundView.model.File1');
+                    sap.ui.require(["sap/ui/core/ComponentContainer"], function(ComponentContainer) {
+
+                        new ComponentContainer({
+                                name: "TurnAroundView",
+                                manifest: true,
+                                height: "100%",
+                                componentCreated: function(oParams) {
+                                    var oComponent = oParams.getParameter("component");
+                    	             // do something with the component instance
+                    	             
+                                         }
+                                           }).placeAt("content");
+                                           
+                             });
+            		 });
+			/*sap.ui.getCore().attachInit(function() {
+				new sap.m.Shell({
+					app: new sap.ui.core.ComponentContainer({
+						height : "100%",
+						name : "TurnAroundView"
+					})
+				}).placeAt("content");
+			});*/
+		</script>
+	</head>
+
+	<body class="emirates" id="content">
+	</body>
+
+</html>

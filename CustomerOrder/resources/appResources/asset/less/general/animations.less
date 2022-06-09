@@ -1,0 +1,25 @@
+.Grow-Animation(@size) {
+    transform: scale(@size);
+    transition: all 250ms ease;
+}
+
+.Pulse() {
+    @keyframes pulse {
+        0% {
+            box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.2),
+                        0 0 5px 0 rgba(251, 139, 139, 0);
+        }
+        50% {
+            box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.2),
+                        0 0 5px 3px rgba(251, 139, 139, 1);
+        }
+        100% {
+            box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.2),
+                        0 0 5px 3px rgba(251, 139, 139, 0);
+        }
+    }
+    
+    &.deviation {
+        animation: pulse 2s infinite;
+    }
+}

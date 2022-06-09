@@ -1,0 +1,203 @@
+<!-- For percent value, it's an expression binding with the step number -->
+<core:FragmentDefinition xmlns="sap.m" xmlns:forms="sap.ui.layout.form" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout"  xmlns:custom="ULD.control">>
+	<l:ResponsiveSplitter defaultPane="default" class="splitclass" height="75%">
+		<l:PaneContainer>
+			<l:PaneContainer orientation="Vertical">
+				<l:SplitPane requiredParentWidth="300">
+					<Table class="connectingFlights" id="flightSourceTbl" sticky="ColumnHeaders" mode="SingleSelectMaster" selectionChange="onFlightSelect" items="{journey>/flightsources}">
+						<columns>
+							<Column vAlign="Middle" hAlign="Begin" width="20rem">
+								<SearchField width="12rem" liveChange="onSearchFlights"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center">
+								<Text text="Landed"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center">
+								<Text text="@ Bay"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center">
+								<Text text="Enroute"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center">
+								<Text text="@ Transfer"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center">
+								<Text text="BHS"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center">
+								<Text text="Reconcile"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center">
+								<Text text="@ MUP"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center">
+								<Text text="Enroute"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center">
+								<Text text="@ Bay"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center">
+								<Text text="Loaded"/>
+							</Column>
+						</columns>
+						<items>
+							<ColumnListItem type="Active">
+								<cells>
+									<VBox class="journeyProgressBar">
+										<ProgressIndicator id="progressBar" percentValue="{=( ${progressBar>/xd} * ( ${journey>currstep} - 1 ) + ${progressBar>/xi} ) * Math.ceil(${journey>currstep}/(${journey>currstep} + 1))}" state="None"/>
+										<HBox justifyContent="Start" alignItems="Center" class="flight" height="2rem">
+											<Text text="{=${journey>type} === 'j' ? 'Joining' : ${journey>flight}}" class="flightNumber"/> 
+											<ObjectIdentifier visible="{=${journey>type} === 'c'}" title="Tail#" text="{journey>tail}"/>
+											<ObjectIdentifier visible="{=${journey>type} === 'c'}" title="Stand" text="{journey>stand}"/>
+											<ObjectIdentifier visible="{=${journey>type} === 'c'}" title="AIBT" text="{journey>aibt}"/>
+											<core:Icon src="sap-icon://person-placeholder" visible="{=${journey>type} ==='j'?true:false}"/>
+											<Image src="{=${journey>type} ==='c'? 'img/flight.png':'img/pax.svg'}" class="sapUiTinyMarginBeginEnd" width="1.2rem"/>
+										</HBox>
+										<HBox>
+											<ObjectStatus class="sapUiSmallMarginBottom" title="Est. Time to Bay" text="{= RegExp('-', 'i').test(${journey>lastbagatbay}) === true ? ${journey>lastbagatbay}.substring(1) : ${journey>lastbagatbay}}" state="{= RegExp('-', 'i').test(${journey>lastbagatbay}) === true ? 'Error' : 'None'}" icon="{= RegExp('-', 'i').test(${journey>lastbagatbay}) === true ? 'sap-icon://alert' : 'none'}"/>
+											<ObjectAttribute title="Bags" text="{journey>totalbags}" class="sapMObjStatus"/>
+										</HBox>
+									</VBox>
+									<VBox class="journeyStep">
+										<custom:ProgressStep class="statusButton" count="{=${journey>landed}}" total="{=${journey>totalbags}}" visible="{=${journey>type} === 'c'}"/>
+										<Text text="{=Math.abs(${journey>landed})} / {journey>totalbags}"  visible="{=${journey>type} === 'c'}"/>
+									</VBox>
+									<VBox class="journeyStep">
+										<custom:ProgressStep class="statusButton" count="{=${journey>inb_bay}}" total="{=${journey>totalbags}}" visible="{=${journey>type} === 'c'}"/>
+										<Text text="{=Math.abs(${journey>inb_bay})} / {journey>totalbags}" visible="{=${journey>type} === 'c'}"/>
+									</VBox>
+									<VBox class="journeyStep">
+										<custom:ProgressStep class="statusButton" count="{=${journey>inb_enroute}}" total="{=${journey>totalbags}}" visible="{=${journey>type} === 'c'}"/>
+										<Text text="{=Math.abs(${journey>inb_enroute})} / {journey>totalbags}" visible="{=${journey>type} === 'c'}"/>
+									</VBox>
+									<VBox class="journeyStep">
+										<custom:ProgressStep class="statusButton" count="{=${journey>inb_transfer}}" total="{=${journey>totalbags}}" visible="{=${journey>type} === 'c'}"/>
+										<Text text="{=Math.abs(${journey>inb_transfer})} / {journey>totalbags}"  visible="{=${journey>type} === 'c'}"/>
+									</VBox>
+									<VBox class="journeyStep">
+										<custom:ProgressStep class="statusButton" count="{=${journey>bhs}}" total="{=${journey>totalbags}}"/>
+										<Text text="{=Math.abs(${journey>bhs})} / {journey>totalbags}" />
+									</VBox>
+									<VBox class="journeyStep">
+										<custom:ProgressStep class="statusButton" count="{=${journey>out_reconcile}}" total="{=${journey>totalbags}}"/>
+										<Text text="{=Math.abs(${journey>out_reconcile})} / {journey>totalbags}" />
+									</VBox>
+									<VBox class="journeyStep">
+										<custom:ProgressStep class="statusButton" count="{=${journey>out_mup}}" total="{=${journey>totalbags}}"/>
+										<Text text="{=Math.abs(${journey>out_mup})} / {journey>totalbags}" />
+									</VBox>
+									<VBox class="journeyStep">
+										<custom:ProgressStep class="statusButton" count="{=${journey>out_enroute}}" total="{=${journey>totalbags}}"/>
+										<Text text="{=Math.abs(${journey>out_enroute})} / {journey>totalbags}" />
+									</VBox>
+									<VBox class="journeyStep">
+										<custom:ProgressStep class="statusButton" count="{=${journey>out_bay}}" total="{=${journey>totalbags}}"/>
+										<Text text="{=Math.abs(${journey>out_bay})} / {journey>totalbags}" />
+									</VBox>
+									<VBox class="journeyStep">
+										<custom:ProgressStep class="statusButton" count="{=${journey>out_loaded}}" total="{=${journey>totalbags}}"/>
+										<Text text="{=Math.abs(${journey>out_loaded})} / {journey>totalbags}" />
+									</VBox>
+								</cells>
+							</ColumnListItem>
+						</items>
+					</Table>
+				</l:SplitPane>
+				<l:SplitPane requiredParentWidth="300" class="bagsPane">
+					<Table items="{flightDetails>/detail}" class="bags" sticky="ColumnHeaders" id="flightDetailTbl">
+						<layoutData>
+							<l:SplitterLayoutData size="0%"/>
+						</layoutData>
+						<headerToolbar>
+							<Toolbar>
+								<content>
+									<ObjectIdentifier title="{flightDetailsHeader>/flight}" text="{flightDetailsHeader>/origin}-{flightDetailsHeader>/conn}"/>
+									<ToolbarSpacer/>
+									<SearchField width="12rem"/>
+								</content>
+							</Toolbar>
+						</headerToolbar>
+						<columns>
+							<Column vAlign="Middle" hAlign="Center">
+								<VBox justifyContent="Center" alignItems="Center">
+									<Text text=""/>
+								</VBox>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center">
+								<VBox justifyContent="Center" alignItems="Center">
+									<Text text="Bag No." class="font06rem"/>
+								</VBox>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center">
+								<Text text="Bag Status" class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center">
+								<Text text="ULD No." class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center">
+								<Text text="ULD Status" class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center">
+								<Text text="Time to Bay (mins)" class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center">
+								<Text text="Customer Order No." class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center">
+								<Text text="Pax Name" class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center">
+								<Text text="Pax Status" class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center">
+								<Text text="Time to Gate (Mins)" class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center">
+								<Text text="Arrival ULD No." class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center">
+								<Text text="ULD Product" class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center">
+								<Text text="Arrival ULD Status" class="font06rem"/>
+							</Column>
+							<Column vAlign="Middle" hAlign="Center">
+								<Text text="Time 2 BHS (mins)" class="font06rem"/>
+							</Column>
+						</columns>
+						<items>
+							<ColumnListItem>
+								<cells>
+									<HBox>
+										<!-- FIXUP: UI is tightly linked to backend! -->
+										<Button icon="sap-icon://person-placeholder" class="statusButton alertRed sapUiTinyMarginEnd" 
+											visible="{= ${flightDetails>pax_icon_visi} === '1' &amp;&amp; ${flightDetails>pax_icon_status} === '1' }"/>
+										<Button icon="sap-icon://person-placeholder" class="statusButton alertAmber sapUiTinyMarginEnd" 
+											visible="{= ${flightDetails>pax_icon_visi} === '1' &amp;&amp; ${flightDetails>pax_icon_status} === '2' }"/>
+										<Button icon="sap-icon://suitcase" class="statusButton alertRed" 
+											visible="{= ${flightDetails>bag_icon_visi} === '1' &amp;&amp; ${flightDetails>bag_icon_status} === '1' }"/>
+										<Button icon="sap-icon://suitcase" class="statusButton alertAmber"   
+											visible="{= ${flightDetails>bag_icon_visi} === '1' &amp;&amp; ${flightDetails>bag_icon_status} === '2' }"/>
+									</HBox> 
+									<Text text="{flightDetails>bagno}"/>
+									<Text text="{flightDetails>bagstatus}"/>
+									<Text text="{flightDetails>out_uldno}"/>
+									<Text text="{flightDetails>out_uldstatus}"/>
+									<Text text="{flightDetails>timetobay}"/>
+									<Text text="{flightDetails>custorderno}"/>
+									<Text text="{flightDetails>paxname}"/>
+									<Text text="{flightDetails>paxstatus}"/>
+									<Text text="{flightDetails>timetogate}"/>
+									<Text text="{flightDetails>inb_uld}"/>
+									<Text text="{flightDetails>uldproduct}"/>
+									<Text text="{flightDetails>inb_uldstatus}"/>
+									<Text text="{flightDetails>timetobhs}"/>
+								</cells>
+							</ColumnListItem>
+						</items>
+					</Table>
+				</l:SplitPane>
+			</l:PaneContainer>
+		</l:PaneContainer>
+	</l:ResponsiveSplitter>
+</core:FragmentDefinition>

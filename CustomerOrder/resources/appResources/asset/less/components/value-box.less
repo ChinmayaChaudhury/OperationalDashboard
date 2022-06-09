@@ -1,0 +1,17 @@
+@import (reference)  "../general/main";
+
+.Value-Box(@attribute) {
+    display: inline-flex;
+    color: @heading02;
+    font-weight: normal;
+    
+    &::before {
+        content: attr(@attribute);
+        display: inline-flex;
+        margin-right: 5px;
+        font-size: 2rem;
+        color: @heading01;
+        vertical-align: middle;
+        line-height: 1.8rem;
+    }
+}

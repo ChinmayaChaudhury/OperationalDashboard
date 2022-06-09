@@ -1,0 +1,29 @@
+{
+	"detail": [{
+		"paxname": "Nitin Goyal",
+		"status": "Landed",
+		"class": "J",
+		"cltv": 4,
+		"currentlocation": "",
+		"timetogate": 48,
+		"baggagedetails": "",
+		"custorderno": "C434",
+		"pax_icon_visi": "1",
+		"pax_icon_status": "1",
+		"bag_icon_visi": "1",
+		"bag_icon_status": "1"
+	}, {
+		"paxname": "Robert Persin",
+		"status": "Landed",
+		"class": "Y",
+		"cltv": 1,
+		"currentlocation": "",
+		"timetogate": 50,
+		"baggagedetails": "BR651897ABZ, BLKBG, Arr Bay",
+		"custorderno": "C0292",
+		"pax_icon_visi": "1",
+		"pax_icon_status": "1",
+		"bag_icon_visi": "1",
+		"bag_icon_status": "1"
+	}]
+}

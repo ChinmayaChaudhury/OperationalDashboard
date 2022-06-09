@@ -1,0 +1,41 @@
+{
+    "BackSlashPattern": [{
+            "name": "pattern_backslash_green",
+            "stroke": "green",
+            "strokeWidth": 2,
+            "backgroundColor": "#C2C2C2",
+            "backgroundFillOpacity": 0.5
+        },
+        {
+            "name": "pattern_backslash_red",
+            "stroke": "#bc1d1d",
+            "strokeWidth": 2,
+            "backgroundColor": "#C2C2C2",
+            "backgroundFillOpacity": 0.5
+        },
+        {
+            "name": "pattern_backslash_orange",
+            "stroke": "#F3BA50",
+            "strokeWidth": 2,
+            "backgroundColor": "#C2C2C2",
+            "backgroundFillOpacity": 0.5
+        }
+    ],
+    "SlashPattern": [{
+            "name": "pattern_slash_grey",
+            "stroke": "#C7C7C7"
+        },
+        {
+            "name": "pattern_slash_orange",
+            "stroke": "#F3BA50"
+        },
+        {
+            "name": "pattern_backslashFilled_gray",
+            "stroke": "#C7C7C7",
+            "strokeWidth": 1,
+            "tileWidth": 4,
+            "tileHeight": 4,
+            "backgroundColor": "none"
+        }
+    ]
+}

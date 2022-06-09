@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="13px" viewBox="0 0 16 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Bag icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Header-BAG/PAX" transform="translate(-799.000000, -49.000000)" fill="#AFAFAF">
+            <g id="Group">
+                <g id="Group-6" transform="translate(799.000000, 19.000000)">
+                    <g id="Group-40">
+                        <path d="M11,32 L12,32 L12,43 L4,43 L4,32 L6,32 L6,31 C6,30.4477153 6.44771525,30 7,30 L10,30 C10.5522847,30 11,30.4477153 11,31 L11,32 Z M13,32 L14,32 C15.1045695,32 16,32.8954305 16,34 L16,41 C16,42.1045695 15.1045695,43 14,43 L13,43 L13,32 Z M3,32 L3,43 L2,43 C0.8954305,43 1.3527075e-16,42.1045695 0,41 L0,34 C-1.3527075e-16,32.8954305 0.8954305,32 2,32 L3,32 Z M7,31 L7,32 L10,32 L10,31 L7,31 Z" id="Bag-icon"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

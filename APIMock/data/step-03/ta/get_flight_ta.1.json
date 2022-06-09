@@ -1,0 +1,988 @@
+{
+	"root": {
+		"id": "root",
+		"level": "root",
+		"timeStamp": "20180219214000",
+		"horizonStartTime": "20180218170500",
+		"horizonEndTime": "20180221050500",
+		"children": [{
+			"id": "1",
+			"text": "388-A0WVR",
+			"name": "388-A0WVR",
+			"tail": "A0WVR",
+			"airlines": "Emirates Flights",
+			"criticality": "3",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20180217201800",
+				"endTime": "20180218032000",
+				"start_test": "20180217202500",
+				"end_test": "20180218032000",
+				"endTime_pts": "20180218032000",
+				"title": "LGW\t\tBR0010\t\tDXB\r20:25\t\tD05\t\t03:20"
+			}, {
+				"startTime_pts": "20180218070000",
+				"startTime": "20180218065400",
+				"endTime": "20180218141400",
+				"start_test": "20180218070100",
+				"end_test": "20180218141400",
+				"title": "DXB\t\tBR0308\t\tPEK\r07:01\t\tD05\t\t14:14"
+			}, {
+				"startTime_pts": "20180218225000",
+				"startTime": "20180218225600",
+				"endTime": "20180219084000",
+				"start_test": "20180218230300",
+				"end_test": "20180219084000",
+				"title": "PEK\t\tBR0309\t\tDXB\r23:03\t\tB18R\t\t08:40"
+			}, {
+				"startTime_pts": "20180219104000",
+				"startTime": "20180219104400",
+				"endTime": "20180219175200",
+				"start_test": "20180219105100",
+				"end_test": "20180219175200",
+				"title": "DXB\t\tBR0057\t\tDUS\r10:51\t\tB18R\t\t17:52"
+			}, {
+				"startTime_pts": "20180219194500",
+				"startTime": "20180219193800",
+				"endTime": "20180220021100",
+				"start_test": "20180219194500",
+				"end_test": "20180220021100",
+				"title": "DUS\t\tBR0058\t\tDXB\r19:45\t\tD08\t\t02:11"
+			}],
+			"flightfromtodetails": [{
+				"time": "20180217203300",
+				"text": "LGW",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01",
+				"median": 207
+			}, {
+				"time": "20180218022000",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180217232400",
+				"text": "BR0010",
+				"fill": "#919191",
+				"fontFamily": "BR03Plain-B01"
+			}, {
+				"time": "20180218070900",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180218131400",
+				"text": "PEK",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180218100900",
+				"text": "BR0308",
+				"fill": "#919191",
+				"fontFamily": "BR03Plain-B01"
+			}, {
+				"time": "20180218231100",
+				"text": "PEK",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180219074000",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180219032300",
+				"text": "BR0309",
+				"fill": "#919191",
+				"fontFamily": "BR03Plain-B01"
+			}, {
+				"time": "20180219105900",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180219165200",
+				"text": "DUS",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180219135300",
+				"text": "BR0057",
+				"fill": "#919191",
+				"fontFamily": "BR03Plain-B01"
+			}, {
+				"time": "20180219195300",
+				"text": "DUS",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180220011100",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180219223200",
+				"text": "BR0058",
+				"fill": "#919191",
+				"fontFamily": "BR03Plain-B01"
+			}],
+			"flighttimedetails": [{
+				"time": "20180217203300",
+				"text": "20:25",
+				"cme": "??"
+			}, {
+				"time": "20180218021000",
+				"text": "03:20",
+				"TEST": "TEST"
+			}, {
+				"time": "20180217234200",
+				"text": "D05"
+			}, {
+				"time": "20180218070900",
+				"text": "07:01",
+				"atnow": "??"
+			}, {
+				"time": "20180218130400",
+				"text": "14:14"
+			}, {
+				"time": "20180218102700",
+				"text": "D05"
+			}, {
+				"time": "20180218231100",
+				"text": "23:03",
+				"atnow": "??"
+			}, {
+				"time": "20180219073000",
+				"text": "08:40"
+			}, {
+				"time": "20180219034100",
+				"text": "B18R"
+			}, {
+				"time": "20180219105900",
+				"text": "10:51",
+				"atnow": "??"
+			}, {
+				"time": "20180219164200",
+				"text": "17:52"
+			}, {
+				"time": "20180219141100",
+				"text": "B18R"
+			}, {
+				"time": "20180219195300",
+				"text": "19:45",
+				"atnow": "??"
+			}, {
+				"time": "20180220010100",
+				"text": "02:11"
+			}, {
+				"time": "20180219225000",
+				"text": "D08"
+			}],
+			"waitingtime": [
+				[],
+				[],
+				[{
+					"startTime": "20180219084500",
+					"endTime": "20180219095000",
+					"PTS": "A",
+					"endTime_pts": "20180219204000",
+					"startTime_pts": "20180219233000",
+					"flightno1": "BR0002",
+					"flightno2": "BR0322"
+				}, {
+					"startTime": "20180219095500",
+					"endTime": "20180219110000",
+					"PTS": "D",
+					"endTime_pts": "20180219204000",
+					"startTime_pts": "20180219233000",
+					"flightno1": "BR0002",
+					"flightno2": "BR0322"
+				}, {
+					"startTime": "20180219175700",
+					"endTime": "20180219185500",
+					"PTS": "A",
+					"endTime_pts": "20180219204000",
+					"startTime_pts": "20180219233000",
+					"flightno1": "BR0002",
+					"flightno2": "BR0322"
+				}, {
+					"startTime": "20180219185000",
+					"endTime": "20180219194500",
+					"PTS": "D",
+					"endTime_pts": "20180219204000",
+					"startTime_pts": "20180219233000",
+					"flightno1": "BR0002",
+					"flightno2": "BR0322"
+				}]
+			],
+			"image": [
+				[],
+				[],
+				[{
+					"time": "20180219092000",
+					"iconName": "PTSIcon"
+				}, {
+					"time": "20180219103000",
+					"iconName": "PTSIcon"
+				}, {
+					"time": "20180219182800",
+					"iconName": "PTSIcon"
+				}, {
+					"time": "20180219192000",
+					"iconName": "PTSIcon"
+				}]
+			],
+			"towing": [
+				[],
+				[],
+				[]
+			],
+			"maintenance": [
+				[],
+				[],
+				[]
+			],
+			"expecteddelay": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
+			"nodelay": [{
+				"startTime": "20180217201500",
+				"endTime": "20180217204000"
+			}, {}, {}, {
+				"startTime": "20180218140400",
+				"endTime": "20180218142900"
+			}, {}, {
+				"startTime": "20180219083000",
+				"endTime": "20180219085500"
+			}, {}, {
+				"startTime": "20180219174200",
+				"endTime": "20180219180700"
+			}, {
+				"startTime": "20180219193100",
+				"endTime": "20180219195600"
+			}, {
+				"startTime": "20180220020100",
+				"endTime": "20180220022600"
+			}],
+			"confirmeddelay": [{}, {
+				"startTime": "20180218031000",
+				"endTime": "20180218034400"
+			}, {
+				"startTime": "20180218070000",
+				"endTime": "20180218071100"
+			}, {}, {
+				"startTime": "20180218225000",
+				"endTime": "20180218231300"
+			}, {}, {
+				"startTime": "20180219104000",
+				"endTime": "20180219110100"
+			}, {}, {}, {}],
+			"ConfirmedDelayText": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {
+				"time": "20180218032500",
+				"text": "24+"
+			}, {
+				"time": "20180218070500",
+				"text": "1+"
+			}, {}, {}, {}, {
+				"time": "20180218070500",
+				"text": "1+"
+			}, {}, {}, {}, {}, {
+				"time": "20180218225500",
+				"text": "13+"
+			}, {}, {}, {}, {}, {
+				"time": "20180219104500",
+				"text": "11+"
+			}, {}, {}]
+		}, {
+			"id": "2",
+			"text": "388-A0WNN",
+			"name": "388-A0WNN",
+			"tail": "A0WNN",
+			"airlines": "Emirates Flights",
+			"criticality": "3",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20180217223500",
+				"endTime": "20180218125800",
+				"start_test": "20180217224200",
+				"end_test": "20180218125800",
+				"endTime_pts": "20180218131500",
+				"title": "DXB\t\tBR0203\t\tJFK\r22:42\t\tF19\t\t12:58"
+			}, {
+				"startTime_pts": "20180218154000",
+				"startTime": "20180218155800",
+				"endTime": "20180219034500",
+				"start_test": "20180218160500",
+				"end_test": "20180219034500",
+				"title": "JFK\t\tBR0204\t\tDXB\r16:05\t\tF19\t\t03:45"
+			}, {
+				"startTime_pts": "20180219055500",
+				"startTime": "20180219061800",
+				"endTime": "20180219202500",
+				"start_test": "20180219062500",
+				"end_test": "20180219202500",
+				"title": "DXB\t\tBR0241\t\tYYZ\r06:25\t\tF19\t\t20:25"
+			}],
+			"flightfromtodetails": [{
+				"time": "20180217225000",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01",
+				"median": 436
+			}, {
+				"time": "20180218115800",
+				"text": "JFK",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180218053000",
+				"text": "BR0203",
+				"fill": "#919191",
+				"fontFamily": "BR03Plain-B01"
+			}, {
+				"time": "20180218161300",
+				"text": "JFK",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180219024500",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180218212700",
+				"text": "BR0204",
+				"fill": "#919191",
+				"fontFamily": "BR03Plain-B01"
+			}, {
+				"time": "20180219063300",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180219192500",
+				"text": "YYZ",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180219130300",
+				"text": "BR0241",
+				"fill": "#919191",
+				"fontFamily": "BR03Plain-B01"
+			}],
+			"flighttimedetails": [{
+				"time": "20180217225000",
+				"text": "22:42",
+				"cme": "??"
+			}, {
+				"time": "20180218114800",
+				"text": "12:58",
+				"TEST": "TEST"
+			}, {
+				"time": "20180218054800",
+				"text": "F19"
+			}, {
+				"time": "20180218161300",
+				"text": "16:05",
+				"atnow": "??"
+			}, {
+				"time": "20180219023500",
+				"text": "03:45"
+			}, {
+				"time": "20180218214500",
+				"text": "F19"
+			}, {
+				"time": "20180219063300",
+				"text": "06:25",
+				"atnow": "??"
+			}, {
+				"time": "20180219191500",
+				"text": "20:25"
+			}, {
+				"time": "20180219132100",
+				"text": "F19"
+			}],
+			"waitingtime": [
+				[{
+					"startTime": "20180219034000",
+					"endTime": "201802190450000",
+					"PTS": "A",
+					"endTime_pts": "20180219204000",
+					"startTime_pts": "20180219233000",
+					"flightno1": "BR0002",
+					"flightno2": "BR0322"
+				}, {
+					"startTime": "20180219050000",
+					"endTime": "20180219060500",
+					"PTS": "D",
+					"endTime_pts": "20180219204000",
+					"startTime_pts": "20180219233000",
+					"flightno1": "BR0002",
+					"flightno2": "BR0322"
+				}]
+			],
+			"image": [
+				[{
+					"time": "Invalid date",
+					"iconName": "TowIcon"
+				}],
+				[{
+					"time": "20180219041500",
+					"iconName": "PTSIcon"
+				}, {
+					"time": "20180219053500",
+					"iconName": "PTSIcon"
+				}]
+			],
+			"towing": [
+				[{
+					"startTime": "Invalid date",
+					"endTime": "Invalid date"
+				}]
+			],
+			"maintenance": [
+				[]
+			],
+			"expecteddelay": [{}, {}, {}, {}, {
+				"startTime": "20180219055500",
+				"endTime": "20180219063500"
+			}, {}],
+			"nodelay": [{}, {
+				"startTime": "20180218124800",
+				"endTime": "20180218131300"
+			}, {}, {
+				"startTime": "20180219033500",
+				"endTime": "20180219040000"
+			}, {}, {}],
+			"confirmeddelay": [{
+				"startTime": "20180217223500",
+				"endTime": "20180217225200"
+			}, {}, {
+				"startTime": "20180218154000",
+				"endTime": "20180218161500"
+			}, {}, {}, {
+				"startTime": "20180219201500",
+				"endTime": "20180219203800"
+			}],
+			"ConfirmedDelayText": [{}, {}, {}, {}, {}, {}, {}, {}, {
+				"time": "20180217224000",
+				"text": "7+"
+			}, {}, {
+				"time": "20180218154500",
+				"text": "25+"
+			}, {}, {}, {}, {
+				"time": "20180218154500",
+				"text": "25+"
+			}, {}, {
+				"time": "20180219203000",
+				"text": "13+"
+			}]
+		}, {
+			"id": "3",
+			"text": "388-A0WVT",
+			"name": "388-A0WVT",
+			"tail": "A0WVT",
+			"airlines": "Emirates Flights",
+			"criticality": "0",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20180217225500",
+				"endTime": "20180218061400",
+				"start_test": "20180217230200",
+				"end_test": "20180218061400",
+				"endTime_pts": "20180218064000",
+				"title": "DXB\t\tBR0011\t\tLGW\r23:02\t\tD07\t\t06:14"
+			}, {
+				"startTime_pts": "20180218094000",
+				"startTime": "20180218093300",
+				"endTime": "20180218162200",
+				"start_test": "20180218094000",
+				"end_test": "20180218162200",
+				"title": "LGW\t\tBR0012\t\tDXB\r09:40\t\tF22\t\t16:22"
+			}, {
+				"startTime_pts": "20180219050000",
+				"startTime": "20180219045300",
+				"endTime": "20180219105800",
+				"start_test": "20180219050000",
+				"end_test": "20180219105800",
+				"title": "DXB\t\tBR0127\t\tVIE\r05:00\t\tD10\t\t10:58"
+			}, {
+				"startTime_pts": "20180219135500",
+				"startTime": "20180219134800",
+				"endTime": "20180219193500",
+				"start_test": "20180219135500",
+				"end_test": "20180219193500",
+				"title": "VIE\t\tBR0128\t\tDXB\r13:55\t\tF03\t\t19:35"
+			}],
+			"flightfromtodetails": [{
+				"time": "20180217231000",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01",
+				"median": 229
+			}, {
+				"time": "20180218051400",
+				"text": "LGW",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180218022300",
+				"text": "BR0011",
+				"fill": "#919191",
+				"fontFamily": "BR03Plain-B01"
+			}, {
+				"time": "20180218094800",
+				"text": "LGW",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180218152200",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180218123500",
+				"text": "BR0012",
+				"fill": "#919191",
+				"fontFamily": "BR03Plain-B01"
+			}, {
+				"time": "20180219050800",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180219095800",
+				"text": "VIE",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180219073100",
+				"text": "BR0127",
+				"fill": "#919191",
+				"fontFamily": "BR03Plain-B01"
+			}, {
+				"time": "20180219140300",
+				"text": "VIE",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180219183500",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180219161900",
+				"text": "BR0128",
+				"fill": "#919191",
+				"fontFamily": "BR03Plain-B01"
+			}],
+			"flighttimedetails": [{
+				"time": "20180217231000",
+				"text": "23:02",
+				"cme": "??"
+			}, {
+				"time": "20180218050400",
+				"text": "06:14",
+				"TEST": "TEST"
+			}, {
+				"time": "20180218024100",
+				"text": "D07"
+			}, {
+				"time": "20180218094800",
+				"text": "09:40",
+				"atnow": "??"
+			}, {
+				"time": "20180218151200",
+				"text": "16:22"
+			}, {
+				"time": "20180218125300",
+				"text": "F22"
+			}, {
+				"time": "20180219050800",
+				"text": "05:00",
+				"atnow": "??"
+			}, {
+				"time": "20180219094800",
+				"text": "10:58"
+			}, {
+				"time": "20180219074900",
+				"text": "D10"
+			}, {
+				"time": "20180219140300",
+				"text": "13:55",
+				"atnow": "??"
+			}, {
+				"time": "20180219182500",
+				"text": "19:35"
+			}, {
+				"time": "20180219163700",
+				"text": "F03"
+			}],
+			"waitingtime": [
+				[],
+				[{
+					"startTime": "20180219105300",
+					"endTime": "20180219120800",
+					"PTS": "A",
+					"endTime_pts": "20180219204000",
+					"startTime_pts": "20180219233000",
+					"flightno1": "BR0002",
+					"flightno2": "BR0322"
+				}, {
+					"startTime": "20180219124000",
+					"endTime": "20180219135500",
+					"PTS": "D",
+					"endTime_pts": "20180219204000",
+					"startTime_pts": "20180219233000",
+					"flightno1": "BR0002",
+					"flightno2": "BR0322"
+				}]
+			],
+			"image": [
+				[{
+					"time": "Invalid date",
+					"iconName": "TowIcon"
+				}],
+				[{
+					"time": "20180219112800",
+					"iconName": "PTSIcon"
+				}, {
+					"time": "20180219132000",
+					"iconName": "PTSIcon"
+				}]
+			],
+			"towing": [
+				[{
+					"startTime": "Invalid date",
+					"endTime": "Invalid date"
+				}],
+				[]
+			],
+			"maintenance": [
+				[],
+				[]
+			],
+			"expecteddelay": [{}, {}, {}, {}, {}, {}, {}, {}],
+			"nodelay": [{}, {
+				"startTime": "20180218060400",
+				"endTime": "20180218062900"
+			}, {
+				"startTime": "20180218092500",
+				"endTime": "20180218095000"
+			}, {
+				"startTime": "20180218161200",
+				"endTime": "20180218163700"
+			}, {
+				"startTime": "20180219044900",
+				"endTime": "20180219051400"
+			}, {
+				"startTime": "20180219104800",
+				"endTime": "20180219111300"
+			}, {
+				"startTime": "20180219134000",
+				"endTime": "20180219140500"
+			}, {
+				"startTime": "20180219192500",
+				"endTime": "20180219195000"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20180217225000",
+				"endTime": "20180217231200"
+			}, {}, {}, {}, {}, {}, {}, {}],
+			"ConfirmedDelayText": [{}, {}, {}, {}, {}, {}, {}, {}, {
+				"time": "20180217225500",
+				"text": "12+"
+			}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+		}, {
+			"id": "4",
+			"text": "388-A0WFC",
+			"name": "388-A0WFC",
+			"tail": "A0WFC",
+			"airlines": "Emirates Flights",
+			"criticality": "2",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20180217230600",
+				"endTime": "20180218064500",
+				"start_test": "20180217231300",
+				"end_test": "20180218064500",
+				"endTime_pts": "20180218071000",
+				"title": "DXB\t\tBR0007\t\tLHR\r23:13\t\tA03\t\t06:45"
+			}, {
+				"startTime_pts": "20180218091000",
+				"startTime": "20180218090600",
+				"endTime": "20180218050000",
+				"start_test": "20180218091300",
+				"end_test": "20180218050000",
+				"title": "LHR\t\tBR0008\t\tDXB\r09:13\t\tB27\t\t05:00"
+			}, {
+				"startTime_pts": "20180219034500",
+				"startTime": "20180219034100",
+				"endTime": "20180219112500",
+				"start_test": "20180219034800",
+				"end_test": "20180219112500",
+				"title": "DXB\t\tBR0001\t\tLHR\r03:48\t\tF19\t\t11:25"
+			}, {
+				"startTime_pts": "20180219134000",
+				"startTime": "20180219133800",
+				"endTime": "20180219205000",
+				"start_test": "20180219134500",
+				"end_test": "20180219205000",
+				"title": "LHR\t\tBR0002\t\tDXB\r13:45\t\tF19\t\t20:50"
+			}, {
+				"startTime_pts": "20180219233000",
+				"startTime": "20180219232300",
+				"endTime": "20180220075000",
+				"start_test": "20180219233000",
+				"end_test": "20180220075000",
+				"title": "DXB\t\tBR0322\t\tICN\r23:30\t\tF19\t\t07:50"
+			}],
+			"flightfromtodetails": [{
+				"time": "20180217232100",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01",
+				"median": 238
+			}, {
+				"time": "20180218054500",
+				"text": "LHR",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180218024300",
+				"text": "BR0007",
+				"fill": "#919191",
+				"fontFamily": "BR03Plain-B01"
+			}, {
+				"time": "20180218092100",
+				"text": "LHR",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180218040000",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180218105100",
+				"text": "BR0008",
+				"fill": "#919191",
+				"fontFamily": "BR03Plain-B01"
+			}, {
+				"time": "20180219035600",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180219102500",
+				"text": "LHR",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180219070800",
+				"text": "BR0001",
+				"fill": "#919191",
+				"fontFamily": "BR03Plain-B01"
+			}, {
+				"time": "20180219135300",
+				"text": "LHR",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180219194000",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180219164600",
+				"text": "BR0002",
+				"fill": "#919191",
+				"fontFamily": "BR03Plain-B01"
+			}, {
+				"time": "20180219233800",
+				"text": "DXB",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180220065000",
+				"text": "ICN",
+				"fill": "#6d9ac8",
+				"fontFamily": "BR03Plain-L01"
+			}, {
+				"time": "20180220032000",
+				"text": "BR0322",
+				"fill": "#919191",
+				"fontFamily": "BR03Plain-B01"
+			}],
+			"flighttimedetails": [{
+				"time": "20180217232100",
+				"text": "23:13",
+				"cme": "??"
+			}, {
+				"time": "20180218053500",
+				"text": "06:45",
+				"TEST": "TEST"
+			}, {
+				"time": "20180218030100",
+				"text": "A03"
+			}, {
+				"time": "20180218092100",
+				"text": "09:13",
+				"atnow": "??"
+			}, {
+				"time": "20180218035000",
+				"text": "05:00"
+			}, {
+				"time": "20180218110900",
+				"text": "B27"
+			}, {
+				"time": "20180219035600",
+				"text": "03:48",
+				"atnow": "??"
+			}, {
+				"time": "20180219101500",
+				"text": "11:25"
+			}, {
+				"time": "20180219072600",
+				"text": "F19"
+			}, {
+				"time": "20180219135300",
+				"text": "13:45",
+				"atnow": "??"
+			}, {
+				"time": "20180219193000",
+				"text": "20:40"
+			}, {
+				"time": "20180219170400",
+				"text": "F19"
+			}, {
+				"time": "20180219233800",
+				"text": "23:30",
+				"atnow": "??"
+			}, {
+				"time": "20180220064000",
+				"text": "07:50"
+			}, {
+				"time": "20180220033800",
+				"text": "F19"
+			}],
+			"waitingtime": [
+				[],
+				[],
+				[{
+					"startTime": "20180219205300",
+					"endTime": "20180219215900",
+					"PTS": "A",
+					"endTime_pts": "20180219205000",
+					"startTime_pts": "20180219233000",
+					"flightno1": "BR0002",
+					"flightno2": "BR0322"
+				}, {
+					"startTime": "20180219215600",
+					"endTime": "20180219233000",
+					"PTS": "D",
+					"endTime_pts": "20180219205000",
+					"startTime_pts": "20180219233000",
+					"flightno1": "BR0002",
+					"flightno2": "BR0322"
+				}, {
+					"startTime": "20180219112000",
+					"endTime": "20180219122000",
+					"PTS": "A",
+					"endTime_pts": "20180219134500",
+					"startTime_pts": "20180219112500",
+					"flightno1": "BR0001",
+					"flightno2": "BR0002"
+				}, {
+					"startTime": "20180219124000",
+					"endTime": "20180219134500",
+					"PTS": "D",
+					"endTime_pts": "20180219134500",
+					"startTime_pts": "20180219112500",
+					"flightno1": "BR0001",
+					"flightno2": "BR0002"
+				}]
+			],
+			"image": [
+				[],
+				[],
+				[{
+					"time": "20180219210700",
+					"iconName": "PTSIcon"
+				}, {
+					"time": "20180219224130",
+					"iconName": "PTSIcon"
+				}, {
+					"time": "20180219114800",
+					"iconName": "PTSIcon"
+				}, {
+					"time": "20180219131300",
+					"iconName": "PTSIcon"
+				}]
+			],
+			"towing": [
+				[],
+				[],
+				[]
+			],
+			"maintenance": [
+				[],
+				[],
+				[]
+			],
+			"expecteddelay": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {
+				"startTime": "20180220074000",
+				"endTime": "20180220082700"
+			}],
+			"nodelay": [{}, {
+				"startTime": "20180218063500",
+				"endTime": "20180218070000"
+			}, {}, {
+				"startTime": "20180218045000",
+				"endTime": "20180218051500"
+			}, {}, {
+				"startTime": "20180219111500",
+				"endTime": "20180219114000"
+			}, {}, {}, {
+				"startTime": "20180219232000",
+				"endTime": "20180219234500"
+			}, {}],
+			"confirmeddelay": [{
+				"startTime": "20180217231000",
+				"endTime": "20180217232300"
+			}, {}, {
+				"startTime": "20180218091000",
+				"endTime": "20180218092300"
+			}, {}, {
+				"startTime": "20180219034500",
+				"endTime": "20180219035800"
+			}, {}, {
+				"startTime": "20180219134000",
+				"endTime": "20180219135500"
+			}, {
+				"startTime": "20180219203000",
+				"endTime": "20180219206400"
+			}, {}, {}],
+			"ConfirmedDelayText": [{}, {}, {}, {}, {}, {}, {}, {}, {
+				"time": "20180217231500",
+				"text": "3+"
+			}, {}, {
+				"time": "20180218091500",
+				"text": "3+"
+			}, {}, {}, {}, {
+				"time": "20180218091500",
+				"text": "3+"
+			}, {}, {}, {}, {}, {
+				"time": "20180219035000",
+				"text": "3+"
+			}, {}, {}, {}, {}, {
+				"time": "20180219134500",
+				"text": "5+"
+			}, {
+				"time": "20180219205500",
+				"text": "34+"
+			}, {
+				"time": "20180220075900",
+				"text": "47+"
+			}]
+		}]
+	}
+}

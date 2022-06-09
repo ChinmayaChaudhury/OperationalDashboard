@@ -1,0 +1,1624 @@
+{
+	"root": {
+		"id": "root",
+		"level": "root",
+		"timeStamp": "20170101180000",
+		"children": [{
+			"id": "1",
+			"text": "388-A0WLU",
+			"name": "388-A0WLU",
+			"icon": "airplane-flight",
+			"airlines": "Emirates Flights",
+			"criticality": "4",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101133100",
+				"endTime": "20170101194500"
+			}, {
+				"startTime": "20170101231200",
+				"endTime": "20170102071500"
+			}],
+			"nodelay": [{
+				"startTime": "20170101132600",
+				"endTime": "20170101133600"
+			}, {
+				"startTime": "20170101230700",
+				"endTime": "20170101231700"
+			}, {
+				"startTime": "20170101194000",
+				"endTime": "20170101195000"
+			}, {
+				"startTime": "20170102071000",
+				"endTime": "20170102072000"
+			}, {
+				"startTime": "20170101192000",
+				"endTime": "20170101193000"
+			}, {
+				"startTime": "20170101225500",
+				"endTime": "20170101230500"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101194500",
+				"endTime": "20170101192500"
+			}, {
+				"startTime": "20170101230000",
+				"endTime": "20170101231200"
+			}],
+			"maintenance": [{
+				"startTime": "20170101192500",
+				"endTime": "20170101230000"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101133600",
+				"text": "ZRH"
+			}, {
+				"time": "20170101191500",
+				"text": "DXB"
+			}, {
+				"time": "20170101163800",
+				"text": "EK0088"
+			}, {
+				"time": "20170101231700",
+				"text": "DXB"
+			}, {
+				"time": "20170102064500",
+				"text": "MAN"
+			}, {
+				"time": "20170102031300",
+				"text": "EK0021"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101133600",
+				"text": "13:31"
+			}, {
+				"time": "20170101191500",
+				"text": "19:45"
+			}, {
+				"time": "20170101163800",
+				"text": "D01"
+			}, {
+				"time": "20170101231700",
+				"text": "23:12"
+			}, {
+				"time": "20170102064500",
+				"text": "07:15"
+			}, {
+				"time": "20170102031300",
+				"text": "D01"
+			}],
+			"maintenancetext": [{
+				"time": "20170101193000",
+				"text": "19:25"
+			}, {
+				"time": "20170101223000",
+				"text": "23:00"
+			}],
+			"image": [{
+				"time": "20170101211200",
+				"iconName": "Maintenance"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101195000",
+				"text": "20+"
+			}, {
+				"time": "20170101230500",
+				"text": "12+"
+			}]
+		}, {
+			"id": "2",
+			"text": "388-A0WVB",
+			"name": "388-A0WVB",
+			"icon": "airplane-flight",
+			"airlines": "Emirates Flights",
+			"criticality": "4",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101134400",
+				"endTime": "20170101204000"
+			}, {
+				"startTime": "20170101070100",
+				"endTime": "20170102052400"
+			}],
+			"nodelay": [{
+				"startTime": "20170101133900",
+				"endTime": "20170101134900"
+			}, {
+				"startTime": "20170101065600",
+				"endTime": "20170101070600"
+			}, {
+				"startTime": "20170101203500",
+				"endTime": "20170101204500"
+			}, {
+				"startTime": "20170102051900",
+				"endTime": "20170102052900"
+			}, {
+				"startTime": "20170101210000",
+				"endTime": "20170101211000"
+			}, {
+				"startTime": "20170101230000",
+				"endTime": "20170101231000"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101204000",
+				"endTime": "20170101210500"
+			}, {
+				"startTime": "20170101230500",
+				"endTime": "20170101070100"
+			}],
+			"maintenance": [{
+				"startTime": "20170101210500",
+				"endTime": "20170101230500"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101134900",
+				"text": "LGW"
+			}, {
+				"time": "20170101201000",
+				"text": "DXB"
+			}, {
+				"time": "20170101171200",
+				"text": "EK0016"
+			}, {
+				"time": "20170101070600",
+				"text": "DXB"
+			}, {
+				"time": "20170102045400",
+				"text": "BKK"
+			}, {
+				"time": "20170101181200",
+				"text": "EK0384"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101134900",
+				"text": "13:44"
+			}, {
+				"time": "20170101201000",
+				"text": "20:40"
+			}, {
+				"time": "20170101171200",
+				"text": "F26R"
+			}, {
+				"time": "20170101070600",
+				"text": "07:01"
+			}, {
+				"time": "20170102045400",
+				"text": "05:24"
+			}, {
+				"time": "20170101181200",
+				"text": "F26R"
+			}],
+			"maintenancetext": [{
+				"time": "20170101211000",
+				"text": "21:05"
+			}, {
+				"time": "20170101223500",
+				"text": "23:05"
+			}],
+			"image": [{
+				"time": "20170101220500",
+				"iconName": "Maintenance"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101204500",
+				"text": "25+"
+			}, {
+				"time": "20170101231000",
+				"text": "964+"
+			}]
+		}, {
+			"id": "3",
+			"text": "388-A0WVB",
+			"name": "388-A0WVB",
+			"icon": "airplane-flight",
+			"airlines": "Emirates Flights",
+			"criticality": "4",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101134400",
+				"endTime": "20170101204000"
+			}, {
+				"startTime": "20170101070100",
+				"endTime": "20170102052400"
+			}],
+			"nodelay": [{
+				"startTime": "20170101133900",
+				"endTime": "20170101134900"
+			}, {
+				"startTime": "20170101065600",
+				"endTime": "20170101070600"
+			}, {
+				"startTime": "20170101203500",
+				"endTime": "20170101204500"
+			}, {
+				"startTime": "20170102051900",
+				"endTime": "20170102052900"
+			}, {
+				"startTime": "20170101210000",
+				"endTime": "20170101211000"
+			}, {
+				"startTime": "20170101230000",
+				"endTime": "20170101231000"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101204000",
+				"endTime": "20170101210500"
+			}, {
+				"startTime": "20170101230500",
+				"endTime": "20170101070100"
+			}],
+			"maintenance": [{
+				"startTime": "20170101210500",
+				"endTime": "20170101230500"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101134900",
+				"text": "LGW"
+			}, {
+				"time": "20170101201000",
+				"text": "DXB"
+			}, {
+				"time": "20170101171200",
+				"text": "EK0016"
+			}, {
+				"time": "20170101070600",
+				"text": "DXB"
+			}, {
+				"time": "20170102045400",
+				"text": "BKK"
+			}, {
+				"time": "20170101181200",
+				"text": "EK0384"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101134900",
+				"text": "13:44"
+			}, {
+				"time": "20170101201000",
+				"text": "20:40"
+			}, {
+				"time": "20170101171200",
+				"text": "F26R"
+			}, {
+				"time": "20170101070600",
+				"text": "07:01"
+			}, {
+				"time": "20170102045400",
+				"text": "05:24"
+			}, {
+				"time": "20170101181200",
+				"text": null
+			}],
+			"maintenancetext": [{
+				"time": "20170101211000",
+				"text": "21:05"
+			}, {
+				"time": "20170101223500",
+				"text": "23:05"
+			}],
+			"image": [{
+				"time": "20170101220500",
+				"iconName": "Maintenance"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101204500",
+				"text": "25+"
+			}, {
+				"time": "20170101231000",
+				"text": "964+"
+			}]
+		}, {
+			"id": "4",
+			"text": "388-A0WFI",
+			"name": "388-A0WFI",
+			"icon": "airplane-flight",
+			"airlines": "Emirates Flights",
+			"criticality": "4",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101134000",
+				"endTime": "20170101194500"
+			}, {
+				"startTime": "20170101234800",
+				"endTime": "20170102071600"
+			}],
+			"nodelay": [{
+				"startTime": "20170101133500",
+				"endTime": "20170101134500"
+			}, {
+				"startTime": "20170101234300",
+				"endTime": "20170101235300"
+			}, {
+				"startTime": "20170101194000",
+				"endTime": "20170101195000"
+			}, {
+				"startTime": "20170102071100",
+				"endTime": "20170102072100"
+			}, {
+				"startTime": "20170101203100",
+				"endTime": "20170101204100"
+			}, {
+				"startTime": "20170101230500",
+				"endTime": "20170101231500"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101194500",
+				"endTime": "20170101203600"
+			}, {
+				"startTime": "20170101231000",
+				"endTime": "20170101234800"
+			}],
+			"maintenance": [{
+				"startTime": "20170101203600",
+				"endTime": "20170101231000"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101134500",
+				"text": "FRA"
+			}, {
+				"time": "20170101191500",
+				"text": "DXB"
+			}, {
+				"time": "20170101164200",
+				"text": "EK0046"
+			}, {
+				"time": "20170101235300",
+				"text": "DXB"
+			}, {
+				"time": "20170102064600",
+				"text": "PVG"
+			}, {
+				"time": "20170102033200",
+				"text": "EK0302"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101134500",
+				"text": "13:40"
+			}, {
+				"time": "20170101191500",
+				"text": "19:45"
+			}, {
+				"time": "20170101164200",
+				"text": "A10"
+			}, {
+				"time": "20170101235300",
+				"text": "23:48"
+			}, {
+				"time": "20170102064600",
+				"text": "07:16"
+			}, {
+				"time": "20170102033200",
+				"text": "A10"
+			}],
+			"maintenancetext": [{
+				"time": "20170101204100",
+				"text": "20:36"
+			}, {
+				"time": "20170101224000",
+				"text": "23:10"
+			}],
+			"image": [{
+				"time": "20170101215300",
+				"iconName": "Maintenance"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101195000",
+				"text": "51+"
+			}, {
+				"time": "20170101231500",
+				"text": "38+"
+			}]
+		}, {
+			"id": "5",
+			"text": "388-A0WFE",
+			"name": "388-A0WFE",
+			"icon": "airplane-flight",
+			"airlines": "Emirates Flights",
+			"criticality": "4",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101150900",
+				"endTime": "20170101163000"
+			}, {
+				"startTime": "20170101233300",
+				"endTime": "20170102061200"
+			}],
+			"nodelay": [{
+				"startTime": "20170101150400",
+				"endTime": "20170101151400"
+			}, {
+				"startTime": "20170101232800",
+				"endTime": "20170101233800"
+			}, {
+				"startTime": "20170101162500",
+				"endTime": "20170101163500"
+			}, {
+				"startTime": "20170102060700",
+				"endTime": "20170102061700"
+			}, {
+				"startTime": "20170101170500",
+				"endTime": "20170101171500"
+			}, {
+				"startTime": "20170101231500",
+				"endTime": "20170101232500"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101163000",
+				"endTime": "20170101171000"
+			}, {
+				"startTime": "20170101232000",
+				"endTime": "20170101233300"
+			}],
+			"maintenance": [{
+				"startTime": "20170101171000",
+				"endTime": "20170101232000"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101151400",
+				"text": "KWI"
+			}, {
+				"time": "20170101160000",
+				"text": "DXB"
+			}, {
+				"time": "20170101154900",
+				"text": "EK0858"
+			}, {
+				"time": "20170101233800",
+				"text": "DXB"
+			}, {
+				"time": "20170102054200",
+				"text": "MUC"
+			}, {
+				"time": "20170102025200",
+				"text": "EK0053"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101151400",
+				"text": "15:09"
+			}, {
+				"time": "20170101160000",
+				"text": "16:30"
+			}, {
+				"time": "20170101154900",
+				"text": "B18R"
+			}, {
+				"time": "20170101233800",
+				"text": "23:33"
+			}, {
+				"time": "20170102054200",
+				"text": "06:12"
+			}, {
+				"time": "20170102025200",
+				"text": "B18R"
+			}],
+			"maintenancetext": [{
+				"time": "20170101171500",
+				"text": "17:10"
+			}, {
+				"time": "20170101225000",
+				"text": "23:20"
+			}],
+			"image": [{
+				"time": "20170101201500",
+				"iconName": "Maintenance"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101163500",
+				"text": "40+"
+			}, {
+				"time": "20170101232500",
+				"text": "13+"
+			}]
+		}, {
+			"id": "6",
+			"text": "388-A0WFT",
+			"name": "388-A0WFT",
+			"icon": "airplane-flight",
+			"airlines": "Emirates Flights",
+			"criticality": "4",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101133400",
+				"endTime": "20170101192500"
+			}, {
+				"startTime": "20170102000000",
+				"endTime": "20170102074300"
+			}],
+			"nodelay": [{
+				"startTime": "20170101132900",
+				"endTime": "20170101133900"
+			}, {
+				"startTime": "20170101235500",
+				"endTime": "20170102000500"
+			}, {
+				"startTime": "20170101192000",
+				"endTime": "20170101193000"
+			}, {
+				"startTime": "20170102073800",
+				"endTime": "20170102074800"
+			}, {
+				"startTime": "20170101192700",
+				"endTime": "20170101193700"
+			}, {
+				"startTime": "20170101231500",
+				"endTime": "20170101232500"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101192500",
+				"endTime": "20170101193200"
+			}, {
+				"startTime": "20170101232000",
+				"endTime": "20170102000000"
+			}],
+			"maintenance": [{
+				"startTime": "20170101193200",
+				"endTime": "20170101232000"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101133900",
+				"text": "MUC"
+			}, {
+				"time": "20170101185500",
+				"text": "DXB"
+			}, {
+				"time": "20170101162900",
+				"text": "EK0050"
+			}, {
+				"time": "20170102000500",
+				"text": "DXB"
+			}, {
+				"time": "20170102071300",
+				"text": "CDG"
+			}, {
+				"time": "20170102035100",
+				"text": "EK0071"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101133900",
+				"text": "13:34"
+			}, {
+				"time": "20170101185500",
+				"text": "19:25"
+			}, {
+				"time": "20170101162900",
+				"text": "A09"
+			}, {
+				"time": "20170102000500",
+				"text": "00:00"
+			}, {
+				"time": "20170102071300",
+				"text": "07:43"
+			}, {
+				"time": "20170102035100",
+				"text": "A09"
+			}],
+			"maintenancetext": [{
+				"time": "20170101193700",
+				"text": "19:32"
+			}, {
+				"time": "20170101225000",
+				"text": "23:20"
+			}],
+			"image": [{
+				"time": "20170101212600",
+				"iconName": "Maintenance"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101193000",
+				"text": "7+"
+			}, {
+				"time": "20170101232500",
+				"text": "40+"
+			}]
+		}, {
+			"id": "7",
+			"text": "388-A0WFW",
+			"name": "388-A0WFW",
+			"icon": "airplane-flight",
+			"airlines": "Emirates Flights",
+			"criticality": "4",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101045500",
+				"endTime": "20170101161500"
+			}, {
+				"startTime": "20170101225000",
+				"endTime": "20170102125700"
+			}],
+			"nodelay": [{
+				"startTime": "20170101045000",
+				"endTime": "20170101050000"
+			}, {
+				"startTime": "20170101224500",
+				"endTime": "20170101225500"
+			}, {
+				"startTime": "20170101161000",
+				"endTime": "20170101162000"
+			}, {
+				"startTime": "20170102125200",
+				"endTime": "20170102130200"
+			}, {
+				"startTime": "20170101170500",
+				"endTime": "20170101171500"
+			}, {
+				"startTime": "20170101223000",
+				"endTime": "20170101224000"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101161500",
+				"endTime": "20170101171000"
+			}, {
+				"startTime": "20170101223500",
+				"endTime": "20170101225000"
+			}],
+			"maintenance": [{
+				"startTime": "20170101171000",
+				"endTime": "20170101223500"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101050000",
+				"text": "JFK"
+			}, {
+				"time": "20170101154500",
+				"text": "DXB"
+			}, {
+				"time": "20170101103500",
+				"text": "EK0202"
+			}, {
+				"time": "20170101225500",
+				"text": "DXB"
+			}, {
+				"time": "20170102122700",
+				"text": "JFK"
+			}, {
+				"time": "20170102055300",
+				"text": "EK0203"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101050000",
+				"text": "04:55"
+			}, {
+				"time": "20170101154500",
+				"text": "16:15"
+			}, {
+				"time": "20170101103500",
+				"text": "F19"
+			}, {
+				"time": "20170101225500",
+				"text": "22:50"
+			}, {
+				"time": "20170102122700",
+				"text": "12:57"
+			}, {
+				"time": "20170102055300",
+				"text": "F19"
+			}],
+			"maintenancetext": [{
+				"time": "20170101171500",
+				"text": "17:10"
+			}, {
+				"time": "20170101220500",
+				"text": "22:35"
+			}],
+			"image": [{
+				"time": "20170101195200",
+				"iconName": "Maintenance"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101162000",
+				"text": "55+"
+			}, {
+				"time": "20170101224000",
+				"text": "15+"
+			}]
+		}, {
+			"id": "8",
+			"text": "388-A0WND",
+			"name": "388-A0WND",
+			"icon": "airplane-flight",
+			"airlines": "Emirates Flights",
+			"criticality": "4",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101133800",
+				"endTime": "20170101205000"
+			}, {
+				"startTime": "20170101234900",
+				"endTime": "20170102055600"
+			}],
+			"nodelay": [{
+				"startTime": "20170101133300",
+				"endTime": "20170101134300"
+			}, {
+				"startTime": "20170101234400",
+				"endTime": "20170101235400"
+			}, {
+				"startTime": "20170101204500",
+				"endTime": "20170101205500"
+			}, {
+				"startTime": "20170102055100",
+				"endTime": "20170102060100"
+			}, {
+				"startTime": "20170101205000",
+				"endTime": "20170101210000"
+			}, {
+				"startTime": "20170101232500",
+				"endTime": "20170101233500"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101205000",
+				"endTime": "20170101205500"
+			}, {
+				"startTime": "20170101233000",
+				"endTime": "20170101234900"
+			}],
+			"maintenance": [{
+				"startTime": "20170101205500",
+				"endTime": "20170101233000"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101134300",
+				"text": "BKK"
+			}, {
+				"time": "20170101202000",
+				"text": "DXB"
+			}, {
+				"time": "20170101171400",
+				"text": "EK0373"
+			}, {
+				"time": "20170101235400",
+				"text": "DXB"
+			}, {
+				"time": "20170102052600",
+				"text": "BKK"
+			}, {
+				"time": "20170102025200",
+				"text": "EK0376"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101134300",
+				"text": "13:38"
+			}, {
+				"time": "20170101202000",
+				"text": "20:50"
+			}, {
+				"time": "20170101171400",
+				"text": "A08"
+			}, {
+				"time": "20170101235400",
+				"text": "23:49"
+			}, {
+				"time": "20170102052600",
+				"text": "05:56"
+			}, {
+				"time": "20170102025200",
+				"text": "A08"
+			}],
+			"maintenancetext": [{
+				"time": "20170101210000",
+				"text": "20:55"
+			}, {
+				"time": "20170101230000",
+				"text": "23:30"
+			}],
+			"image": [{
+				"time": "20170101221200",
+				"iconName": "Maintenance"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101205500",
+				"text": "5+"
+			}, {
+				"time": "20170101233500",
+				"text": "19+"
+			}]
+		}, {
+			"id": "9",
+			"text": "388-A0WFQ",
+			"name": "388-A0WFQ",
+			"icon": "airplane-flight",
+			"airlines": "Emirates Flights",
+			"criticality": "4",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101025300",
+				"endTime": "20170101091500"
+			}, {
+				"startTime": "20170101114800",
+				"endTime": "20170101182900"
+			}],
+			"nodelay": [{
+				"startTime": "20170101024800",
+				"endTime": "20170101025800"
+			}, {
+				"startTime": "20170101114300",
+				"endTime": "20170101115300"
+			}, {
+				"startTime": "20170101091000",
+				"endTime": "20170101092000"
+			}, {
+				"startTime": "20170101182400",
+				"endTime": "20170101183400"
+			}, {
+				"startTime": "20170101092900",
+				"endTime": "20170101093900"
+			}, {
+				"startTime": "20170101113500",
+				"endTime": "20170101114500"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101091500",
+				"endTime": "20170101093400"
+			}, {
+				"startTime": "20170101114000",
+				"endTime": "20170101114800"
+			}],
+			"maintenance": [{
+				"startTime": "20170101093400",
+				"endTime": "20170101114000"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101025800",
+				"text": "BKK"
+			}, {
+				"time": "20170101084500",
+				"text": "DXB"
+			}, {
+				"time": "20170101060400",
+				"text": "EK0375"
+			}, {
+				"time": "20170101115300",
+				"text": "DXB"
+			}, {
+				"time": "20170101175900",
+				"text": "MXP"
+			}, {
+				"time": "20170101150800",
+				"text": "EK0091"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101025800",
+				"text": "02:53"
+			}, {
+				"time": "20170101084500",
+				"text": "09:15"
+			}, {
+				"time": "20170101060400",
+				"text": "F21"
+			}, {
+				"time": "20170101115300",
+				"text": "11:48"
+			}, {
+				"time": "20170101175900",
+				"text": "18:29"
+			}, {
+				"time": "20170101150800",
+				"text": "F21"
+			}],
+			"maintenancetext": [{
+				"time": "20170101093900",
+				"text": "09:34"
+			}, {
+				"time": "20170101111000",
+				"text": "11:40"
+			}],
+			"image": [{
+				"time": "20170101103700",
+				"iconName": "Maintenance"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101092000",
+				"text": "19+"
+			}, {
+				"time": "20170101114500",
+				"text": "8+"
+			}]
+		}, {
+			"id": "10",
+			"text": "388-A0WLV",
+			"name": "388-A0WLV",
+			"icon": "airplane-flight",
+			"airlines": "Emirates Flights",
+			"criticality": "4",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101143400",
+				"endTime": "20170101201500"
+			}, {
+				"startTime": "20170101233600",
+				"endTime": "20170102071100"
+			}],
+			"nodelay": [{
+				"startTime": "20170101142900",
+				"endTime": "20170101143900"
+			}, {
+				"startTime": "20170101233100",
+				"endTime": "20170101234100"
+			}, {
+				"startTime": "20170101201000",
+				"endTime": "20170101202000"
+			}, {
+				"startTime": "20170102070600",
+				"endTime": "20170102071600"
+			}, {
+				"startTime": "20170101211900",
+				"endTime": "20170101212900"
+			}, {
+				"startTime": "20170101224500",
+				"endTime": "20170101225500"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101201500",
+				"endTime": "20170101212400"
+			}, {
+				"startTime": "20170101225000",
+				"endTime": "20170101233600"
+			}],
+			"maintenance": [{
+				"startTime": "20170101212400",
+				"endTime": "20170101225000"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101143900",
+				"text": "AMS"
+			}, {
+				"time": "20170101194500",
+				"text": "DXB"
+			}, {
+				"time": "20170101172400",
+				"text": "EK0148"
+			}, {
+				"time": "20170101234100",
+				"text": "DXB"
+			}, {
+				"time": "20170102064100",
+				"text": "LGW"
+			}, {
+				"time": "20170102032300",
+				"text": "EK0011"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101143900",
+				"text": "14:34"
+			}, {
+				"time": "20170101194500",
+				"text": "20:15"
+			}, {
+				"time": "20170101172400",
+				"text": "F12"
+			}, {
+				"time": "20170101234100",
+				"text": "23:36"
+			}, {
+				"time": "20170102064100",
+				"text": "07:11"
+			}, {
+				"time": "20170102032300",
+				"text": "F12"
+			}],
+			"maintenancetext": [{
+				"time": "20170101212900",
+				"text": "21:24"
+			}, {
+				"time": "20170101222000",
+				"text": "22:50"
+			}],
+			"image": [{
+				"time": "20170101220700",
+				"iconName": "Maintenance"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101202000",
+				"text": "69+"
+			}, {
+				"time": "20170101225500",
+				"text": "46+"
+			}]
+		}, {
+			"id": "11",
+			"text": "388-A0WVR",
+			"name": "388-A0WVR",
+			"icon": "airplane-flight",
+			"airlines": "Emirates Flights",
+			"criticality": "4",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101064500",
+				"endTime": "20170101080000"
+			}, {
+				"startTime": "20170101105300",
+				"endTime": "20170101174800"
+			}],
+			"nodelay": [{
+				"startTime": "20170101064000",
+				"endTime": "20170101065000"
+			}, {
+				"startTime": "20170101104800",
+				"endTime": "20170101105800"
+			}, {
+				"startTime": "20170101075500",
+				"endTime": "20170101080500"
+			}, {
+				"startTime": "20170101174300",
+				"endTime": "20170101175300"
+			}, {
+				"startTime": "20170101073900",
+				"endTime": "20170101074900"
+			}, {
+				"startTime": "20170101103500",
+				"endTime": "20170101104500"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101080000",
+				"endTime": "20170101074400"
+			}, {
+				"startTime": "20170101104000",
+				"endTime": "20170101105300"
+			}],
+			"maintenance": [{
+				"startTime": "20170101074400",
+				"endTime": "20170101104000"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101065000",
+				"text": "DOH"
+			}, {
+				"time": "20170101073000",
+				"text": "DXB"
+			}, {
+				"time": "20170101072200",
+				"text": "EK0842"
+			}, {
+				"time": "20170101105800",
+				"text": "DXB"
+			}, {
+				"time": "20170101171800",
+				"text": "DUS"
+			}, {
+				"time": "20170101142000",
+				"text": "EK0057"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101065000",
+				"text": "06:45"
+			}, {
+				"time": "20170101073000",
+				"text": "08:00"
+			}, {
+				"time": "20170101072200",
+				"text": "F20"
+			}, {
+				"time": "20170101105800",
+				"text": "10:53"
+			}, {
+				"time": "20170101171800",
+				"text": "17:48"
+			}, {
+				"time": "20170101142000",
+				"text": "F20"
+			}],
+			"maintenancetext": [{
+				"time": "20170101074900",
+				"text": "07:44"
+			}, {
+				"time": "20170101101000",
+				"text": "10:40"
+			}],
+			"image": [{
+				"time": "20170101091200",
+				"iconName": "Maintenance"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101080500",
+				"text": "16+"
+			}, {
+				"time": "20170101104500",
+				"text": "13+"
+			}]
+		}, {
+			"id": "12",
+			"text": "388-A0WLP",
+			"name": "388-A0WLP",
+			"icon": "airplane-flight",
+			"airlines": "Emirates Flights",
+			"criticality": "4",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101132200",
+				"endTime": "20170101202500"
+			}, {
+				"startTime": "20170101232400",
+				"endTime": "20170102065500"
+			}],
+			"nodelay": [{
+				"startTime": "20170101131700",
+				"endTime": "20170101132700"
+			}, {
+				"startTime": "20170101231900",
+				"endTime": "20170101232900"
+			}, {
+				"startTime": "20170101202000",
+				"endTime": "20170101203000"
+			}, {
+				"startTime": "20170102065000",
+				"endTime": "20170102070000"
+			}, {
+				"startTime": "20170101203700",
+				"endTime": "20170101204700"
+			}, {
+				"startTime": "20170101231000",
+				"endTime": "20170101232000"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101202500",
+				"endTime": "20170101204200"
+			}, {
+				"startTime": "20170101231500",
+				"endTime": "20170101232400"
+			}],
+			"maintenance": [{
+				"startTime": "20170101204200",
+				"endTime": "20170101231500"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101132700",
+				"text": "MAN"
+			}, {
+				"time": "20170101195500",
+				"text": "DXB"
+			}, {
+				"time": "20170101165300",
+				"text": "EK0018"
+			}, {
+				"time": "20170101232900",
+				"text": "DXB"
+			}, {
+				"time": "20170102062500",
+				"text": "SIN"
+			}, {
+				"time": "20170102030900",
+				"text": "EK0354"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101132700",
+				"text": "13:22"
+			}, {
+				"time": "20170101195500",
+				"text": "20:25"
+			}, {
+				"time": "20170101165300",
+				"text": "D06"
+			}, {
+				"time": "20170101232900",
+				"text": "23:24"
+			}, {
+				"time": "20170102062500",
+				"text": "06:55"
+			}, {
+				"time": "20170102030900",
+				"text": "D06"
+			}],
+			"maintenancetext": [{
+				"time": "20170101204700",
+				"text": "20:42"
+			}, {
+				"time": "20170101224500",
+				"text": "23:15"
+			}],
+			"image": [{
+				"time": "20170101215800",
+				"iconName": "Maintenance"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101203000",
+				"text": "17+"
+			}, {
+				"time": "20170101232000",
+				"text": "9+"
+			}]
+		}, {
+			"id": "13",
+			"text": "388-A0WFX",
+			"name": "388-A0WFX",
+			"icon": "airplane-flight",
+			"airlines": "Emirates Flights",
+			"criticality": "4",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101092000",
+				"endTime": "20170101160000"
+			}, {
+				"startTime": "20170101233600",
+				"endTime": "20170102074800"
+			}],
+			"nodelay": [{
+				"startTime": "20170101091500",
+				"endTime": "20170101092500"
+			}, {
+				"startTime": "20170101233100",
+				"endTime": "20170101234100"
+			}, {
+				"startTime": "20170101155500",
+				"endTime": "20170101160500"
+			}, {
+				"startTime": "20170102074300",
+				"endTime": "20170102075300"
+			}, {
+				"startTime": "20170101155200",
+				"endTime": "20170101160200"
+			}, {
+				"startTime": "20170101232500",
+				"endTime": "20170101233500"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101160000",
+				"endTime": "20170101155700"
+			}, {
+				"startTime": "20170101233000",
+				"endTime": "20170101233600"
+			}],
+			"maintenance": [{
+				"startTime": "20170101155700",
+				"endTime": "20170101233000"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101092500",
+				"text": "LHR"
+			}, {
+				"time": "20170101153000",
+				"text": "DXB"
+			}, {
+				"time": "20170101124000",
+				"text": "EK0008"
+			}, {
+				"time": "20170101234100",
+				"text": "DXB"
+			}, {
+				"time": "20170102071800",
+				"text": "ICN"
+			}, {
+				"time": "20170102034200",
+				"text": "EK0322"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101092500",
+				"text": "09:20"
+			}, {
+				"time": "20170101153000",
+				"text": "16:00"
+			}, {
+				"time": "20170101124000",
+				"text": "F21"
+			}, {
+				"time": "20170101234100",
+				"text": "23:36"
+			}, {
+				"time": "20170102071800",
+				"text": "07:48"
+			}, {
+				"time": "20170102034200",
+				"text": "F21"
+			}],
+			"maintenancetext": [{
+				"time": "20170101160200",
+				"text": "15:57"
+			}, {
+				"time": "20170101230000",
+				"text": "23:30"
+			}],
+			"image": [{
+				"time": "20170101194300",
+				"iconName": "Maintenance"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101160500",
+				"text": "3+"
+			}, {
+				"time": "20170101233500",
+				"text": "6+"
+			}]
+		}, {
+			"id": "14",
+			"text": "388-A0WNJ",
+			"name": "388-A0WNJ",
+			"icon": "airplane-flight",
+			"airlines": "Emirates Flights",
+			"criticality": "4",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101090100",
+				"endTime": "20170101154500"
+			}, {
+				"startTime": "20170101185400",
+				"endTime": "20170102004800"
+			}],
+			"nodelay": [{
+				"startTime": "20170101085600",
+				"endTime": "20170101090600"
+			}, {
+				"startTime": "20170101184900",
+				"endTime": "20170101185900"
+			}, {
+				"startTime": "20170101154000",
+				"endTime": "20170101155000"
+			}, {
+				"startTime": "20170102004300",
+				"endTime": "20170102005300"
+			}, {
+				"startTime": "20170101154200",
+				"endTime": "20170101155200"
+			}, {
+				"startTime": "20170101183000",
+				"endTime": "20170101184000"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101154500",
+				"endTime": "20170101154700"
+			}, {
+				"startTime": "20170101183500",
+				"endTime": "20170101185400"
+			}],
+			"maintenance": [{
+				"startTime": "20170101154700",
+				"endTime": "20170101183500"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101090600",
+				"text": "MAN"
+			}, {
+				"time": "20170101151500",
+				"text": "DXB"
+			}, {
+				"time": "20170101122300",
+				"text": "EK0022"
+			}, {
+				"time": "20170101185900",
+				"text": "DXB"
+			}, {
+				"time": "20170102001800",
+				"text": "BKK"
+			}, {
+				"time": "20170101215100",
+				"text": "EK0374"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101090600",
+				"text": "09:01"
+			}, {
+				"time": "20170101151500",
+				"text": "15:45"
+			}, {
+				"time": "20170101122300",
+				"text": "F12"
+			}, {
+				"time": "20170101185900",
+				"text": "18:54"
+			}, {
+				"time": "20170102001800",
+				"text": "00:48"
+			}, {
+				"time": "20170101215100",
+				"text": "F12"
+			}],
+			"maintenancetext": [{
+				"time": "20170101155200",
+				"text": "15:47"
+			}, {
+				"time": "20170101180500",
+				"text": "18:35"
+			}],
+			"image": [{
+				"time": "20170101171100",
+				"iconName": "Maintenance"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101155000",
+				"text": "2+"
+			}, {
+				"time": "20170101184000",
+				"text": "19+"
+			}]
+		}, {
+			"id": "15",
+			"text": "388-A0WFO",
+			"name": "388-A0WFO",
+			"icon": "airplane-flight",
+			"airlines": "Emirates Flights",
+			"criticality": "4",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101134400",
+				"endTime": "20170101204000"
+			}, {
+				"startTime": "20170101232800",
+				"endTime": "20170102071100"
+			}],
+			"nodelay": [{
+				"startTime": "20170101133900",
+				"endTime": "20170101134900"
+			}, {
+				"startTime": "20170101232300",
+				"endTime": "20170101233300"
+			}, {
+				"startTime": "20170101203500",
+				"endTime": "20170101204500"
+			}, {
+				"startTime": "20170102070600",
+				"endTime": "20170102071600"
+			}, {
+				"startTime": "20170101204900",
+				"endTime": "20170101205900"
+			}, {
+				"startTime": "20170101230500",
+				"endTime": "20170101231500"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101204000",
+				"endTime": "20170101205400"
+			}, {
+				"startTime": "20170101231000",
+				"endTime": "20170101232800"
+			}],
+			"maintenance": [{
+				"startTime": "20170101205400",
+				"endTime": "20170101231000"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101134900",
+				"text": "LHR"
+			}, {
+				"time": "20170101201000",
+				"text": "DXB"
+			}, {
+				"time": "20170101171200",
+				"text": "EK0002"
+			}, {
+				"time": "20170101233300",
+				"text": "DXB"
+			}, {
+				"time": "20170102064100",
+				"text": "LHR"
+			}, {
+				"time": "20170102031900",
+				"text": "EK0007"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101134900",
+				"text": "13:44"
+			}, {
+				"time": "20170101201000",
+				"text": "20:40"
+			}, {
+				"time": "20170101171200",
+				"text": "F18"
+			}, {
+				"time": "20170101233300",
+				"text": "23:28"
+			}, {
+				"time": "20170102064100",
+				"text": "07:11"
+			}, {
+				"time": "20170102031900",
+				"text": "F18"
+			}],
+			"maintenancetext": [{
+				"time": "20170101205900",
+				"text": "20:54"
+			}, {
+				"time": "20170101224000",
+				"text": "23:10"
+			}],
+			"image": [{
+				"time": "20170101220200",
+				"iconName": "Maintenance"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101204500",
+				"text": "14+"
+			}, {
+				"time": "20170101231500",
+				"text": "18+"
+			}]
+		}, {
+			"id": "16",
+			"text": "388-A0WVU",
+			"name": "388-A0WVU",
+			"icon": "airplane-flight",
+			"airlines": "Emirates Flights",
+			"criticality": "4",
+			"location": "Terminal 3",
+			"flightduration": [{
+				"startTime": "20170101141700",
+				"endTime": "20170101202500"
+			}, {
+				"startTime": "20170101234800",
+				"endTime": "20170102065800"
+			}],
+			"nodelay": [{
+				"startTime": "20170101141200",
+				"endTime": "20170101142200"
+			}, {
+				"startTime": "20170101234300",
+				"endTime": "20170101235300"
+			}, {
+				"startTime": "20170101202000",
+				"endTime": "20170101203000"
+			}, {
+				"startTime": "20170102065300",
+				"endTime": "20170102070300"
+			}, {
+				"startTime": "20170101195000",
+				"endTime": "20170101200000"
+			}, {
+				"startTime": "20170101231000",
+				"endTime": "20170101232000"
+			}],
+			"confirmeddelay": [{
+				"startTime": "20170101202500",
+				"endTime": "20170101195500"
+			}, {
+				"startTime": "20170101231500",
+				"endTime": "20170101234800"
+			}],
+			"maintenance": [{
+				"startTime": "20170101195500",
+				"endTime": "20170101231500"
+			}],
+			"flightfromtodetails": [{
+				"time": "20170101142200",
+				"text": "PRG"
+			}, {
+				"time": "20170101195500",
+				"text": "DXB"
+			}, {
+				"time": "20170101172100",
+				"text": "EK0140"
+			}, {
+				"time": "20170101235300",
+				"text": "DXB"
+			}, {
+				"time": "20170102062800",
+				"text": "HKG"
+			}, {
+				"time": "20170102032300",
+				"text": "EK0382"
+			}],
+			"flighttimedetails": [{
+				"time": "20170101142200",
+				"text": "14:17"
+			}, {
+				"time": "20170101195500",
+				"text": "20:25"
+			}, {
+				"time": "20170101172100",
+				"text": "F03"
+			}, {
+				"time": "20170101235300",
+				"text": "23:48"
+			}, {
+				"time": "20170102062800",
+				"text": "06:58"
+			}, {
+				"time": "20170102032300",
+				"text": "F03"
+			}],
+			"maintenancetext": [{
+				"time": "20170101200000",
+				"text": "19:55"
+			}, {
+				"time": "20170101224500",
+				"text": "23:15"
+			}],
+			"image": [{
+				"time": "20170101213500",
+				"iconName": "Maintenance"
+			}],
+			"ConfirmedDelayText": [{
+				"time": "20170101203000",
+				"text": "30+"
+			}, {
+				"time": "20170101232000",
+				"text": "33+"
+			}]
+		}]
+	}
+}

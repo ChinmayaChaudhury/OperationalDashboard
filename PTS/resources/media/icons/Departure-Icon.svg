@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="12px" viewBox="0 0 18 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Departure Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main-Nav-Bar" transform="translate(-740.000000, -46.000000)" fill="#C9B896">
+            <g id="Group-21" transform="translate(0.000000, -113.000000)">
+                <g id="Group-19" transform="translate(587.000000, 152.000000)">
+                    <g id="Group-15" transform="translate(139.000000, 0.000000)">
+                        <path d="M14.6770507,14.1182213 L27.9484344,18.9080501 C28.1193982,18.9696312 28.2971666,19 28.470682,19 L28.4723832,19 C29.0966987,19 29.6810377,18.6170161 29.9072883,18.0028923 C29.9693796,17.8324898 30,17.6570258 30,17.4849361 C30,16.8649072 29.613843,16.2845264 28.9937802,16.060135 L24.9119132,14.5864064 L22.606879,6.00048204 L19.830631,5 L20.5859338,13.0241022 L17.1028653,11.7663292 L16.834937,9.64389009 L14,8.62147505 L14.0680453,9.16305134 L14.6770507,14.1182213 Z" id="Departure-Icon" transform="translate(22.000000, 12.000000) rotate(-45.000000) translate(-22.000000, -12.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

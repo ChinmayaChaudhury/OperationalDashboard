@@ -1,0 +1,52 @@
+<mvc:View  controllerName="hub-monitor.controller.FlightAerial" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:Custom="custom-control">
+	<Page title="{i18n>title}">
+		<customHeader>
+			<Bar>
+				<!--Branding-->
+				<contentLeft>
+					<html:img src="./appResources/asset/media/images/logo.png" alt="Logo"/>
+					<html:h1>Flight Ops Monitor</html:h1>
+				</contentLeft>
+				<!--Dashboard-->
+				<contentMiddle>
+					<mvc:XMLView viewName="shared.view.FlightOpsHeader"/>
+				</contentMiddle>
+				<!--Profile-->
+				<contentRight>
+					<html:section class="popover-container">
+						<html:img src="./appResources/asset/media/images/login-user-avatar.jpg" alt="" srcset="" role="button"></html:img>
+						<html:div class="popover">
+							<html:a href="" class="icon profile">Profile</html:a>
+							<html:a href="" class="icon settings">Settings</html:a>
+						</html:div>
+					</html:section>
+					<html:h1>John Bradman</html:h1>
+				</contentRight>
+			</Bar>
+		</customHeader>
+		<content>
+			<!-- Hub Map -->
+			<Custom:Map id="hub-map" maxZoom="1" minZoom="-2" imageOverlay="./appResources/asset/media/images/map.jpg" />
+			<Custom:FlightSideBar id="side-panel" flight="{/number}" status="{/status}" direction="{= ${/origin} === 'DXB' ? 'departing' : 'arriving' }" origin="{/origin}" destination="{/destination}" timings="{/general}"
+			 activities="{/activities}">
+				<Custom:timings>
+					<Custom:InfoBox title="{title}" value="{value}" status="{status}" />
+				</Custom:timings>
+				<Custom:activities>
+					<Custom:FlightActivity title="{name}" key="{abbreviation}" status="{status}" items="{path:'events', templateShareable:false}"  press="showDetails">
+						<Custom:items>
+							<Custom:InfoBox title="{title}" value="{value}" status="{status}" />
+						</Custom:items>
+					</Custom:FlightActivity>
+				</Custom:activities>
+				<Custom:links>
+					<Link text="PTS" press="toPTS"/>
+					<Link text="COM" press="toOrders" />
+							<Link text="LTG" href="https://app.powerbi.com/view?r=eyJrIjoiZDIzMjcwNDAtMzVmNC00MzQ0LTlkOWItM2IxNDA1MjJmOGU0IiwidCI6ImUwYjI2MzU1LTE4ODktNDBkOC04ZWYxLWU1NTk2MTZiZWZkYSIsImMiOjh9" target="_blank" />
+				</Custom:links>
+			</Custom:FlightSideBar>
+			<!-- <Button icon="sap-icon://sys-cancel" class="close-button" press="onPress" /> -->
+		</content>
+	</Page>
+</mvc:View>

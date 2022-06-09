@@ -1,0 +1,280 @@
+<mvc:View controllerName="TurnAroundView.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:gantt="sap.gantt" xmlns:table="sap.ui.table" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout">
+	<App>
+		<pages>
+			<Page title="Turn Around View" class="turnaroundview">
+				<customHeader>
+					<Bar>
+						<!--Branding-->
+						<contentLeft>
+							<html:img src="./media/images/logo.png" alt="Logo"/>
+							<html:h1>Flight Ops Monitor</html:h1>
+						</contentLeft>
+						<!--Dashboard-->
+						<contentMiddle>
+							<!--<mvc:XMLView viewName="TurnAroundView.view.header.FlightOpsHeader"/> -->
+							<!--<HBox>-->
+							<!--<core:Fragment fragmentName="TurnAroundView.view.header.header" type="XML" />	-->
+							<!--</HBox>-->
+							<!--<HBox wrap="Wrap" alignContent="Center" alignItems="Center" justifyContent="Center">-->
+							<l:Grid defaultSpan="L2 M2 S6" class="" position="Center">
+								<l:content>
+									<!--<HBox>-->
+									<!--	<layoutData>-->
+									<!--<l:GridData span="L6 M6 S6" linebreakL="true" linebreakM="true" linebreakS="true" />-->
+									<!--    </layoutData>-->
+									<!--</HBox>-->
+									<HBox justifyContent="End" alignItems="Center" class="sapUiSmallMarginTop">
+										<List class="buttons-list vertical " width="auto">
+											<ActionListItem text="List" class="list" press="toList"/>
+											<ActionListItem text="Aerial" class="aerial" press="toAerial"/>
+											<ActionListItem text="T/A" class="turn-around" press="toTurnAround"/>
+										</List>
+										<layoutData>
+											<l:GridData span="L1 M1 S1" linebreakL="false" linebreakM="false" linebreakS="false"/>
+										</layoutData>
+									</HBox>
+									<HBox justifyContent="Center" alignItems="Center" class="sapUiSmallMarginTop">
+										<html:ul class="buttons-image ">
+											<html:li role="button" data-carrier="EK">BR</html:li>
+											<html:li role="button" data-carrier="Others">Others</html:li>
+										</html:ul>
+										<layoutData>
+											<l:GridData span="L2 M2 S2" linebreakL="false" linebreakM="false" linebreakS="false"/>
+										</layoutData>
+									</HBox>
+									<HBox justifyContent="Center" alignItems="Center" class="sapUiMediumMarginTop">
+										<List class="buttons-list horizontal " width="auto">
+											<ActionListItem text="Arrivals" class="arrival"/>
+											<ActionListItem text="Departures" class="departure"/>
+											<ActionListItem text="Critical" class="critical"/>
+										</List>
+										<layoutData>
+											<l:GridData span="L2 M2 S2" linebreakL="false" linebreakM="false" linebreakS="false"/>
+										</layoutData>
+									</HBox>
+									<HBox justifyContent="Center" alignItems="Center" class="sapUiTinyMarginTop">
+										<html:hr size="70" class="VerticalLineHeaderInfo "/>
+										<layoutData>
+											<l:GridData span="L1 M1 S1" linebreakL="false" linebreakM="false" linebreakS="false"/>
+										</layoutData>
+									</HBox>
+									<HBox justifyContent="Center" alignItems="Center" class="sapUiTinyMarginTop">
+										<html:ul class="stats ">
+											<html:li data-value="8">Flights Delayed</html:li>
+											<html:li data-value="2">Flights On-Time</html:li>
+											<html:li data-value="10">Possible Delays</html:li>
+										</html:ul>
+										<layoutData>
+											<l:GridData span="L3 M3 S3" linebreakL="false" linebreakM="false" linebreakS="false"/>
+										</layoutData>
+									</HBox>
+									<HBox justifyContent="Center" alignItems="Center" alignContent="Center" class="sapUiMediumMarginTop">
+										<html:span class="search-bar flightSearchInputClass">
+											<SearchField class="flightSearchInputClass" liveChange="onFlightSearch" placeholder="Search"></SearchField>
+										</html:span>
+										<layoutData>
+											<l:GridData span="L3 M3 S3" linebreakL="false" linebreakM="false" linebreakS="false"/>
+										</layoutData>
+									</HBox>
+								</l:content>
+							</l:Grid>
+							<!--					<html:section>-->
+							<!--						<HBox direction="Row" justifyContent="Center" alignItems="Center" >-->
+							<!--							<List class="buttons-list vertical sapUiMediumMarginBeginEnd" width="auto">-->
+							<!--		<ActionListItem text="List" class="list" press="toList"/>-->
+							<!--		<ActionListItem text="Aerial" class="aerial" press="toAerial"/>-->
+							<!--		<ActionListItem text="T/A" class="turn-around" press="toTurnAround"/>-->
+							<!--	</List>-->
+							<!--	<html:ul class="buttons-image sapUiMediumMarginBeginEnd">-->
+							<!--		<html:li role="button" data-carrier="EK">EK</html:li>-->
+							<!--		<html:li role="button" data-carrier="Others">Others</html:li>-->
+							<!--	</html:ul>-->
+							<!--	<List class="buttons-list horizontal sapUiMediumMarginBeginEnd" width="auto">-->
+							<!--		<ActionListItem text="Arrivals" class="arrival"/>-->
+							<!--		<ActionListItem text="Departures" class="departure"/>-->
+							<!--		<ActionListItem text="Critical" class="critical"/>-->
+							<!--	</List>-->
+							<!--<html:hr size="70" class="VerticalLineHeaderInfo sapUiSmallMarginBegin"/>-->
+							<!--	<html:hr size="70" class="verticalLineHeaderClass sapUiSmallMarginBeginEnd" />-->
+							<!--	<html:ul class="stats sapUiMediumMarginBeginEnd">-->
+							<!--		<html:li data-value="8">Flights Delayed</html:li>-->
+							<!--		<html:li data-value="2">Flights On-Time</html:li>-->
+							<!--		<html:li data-value="10">Possible Delays</html:li>-->
+							<!--	</html:ul>-->
+							<!--	<html:span class="search-bar sapUiMediumMarginBeginEnd flightSearchInputClass">-->
+							<!--<html:input type="search" placeholder="Search"></html:input>-->
+							<!--		<SearchField class="flightSearchInputClass" liveChange="onFlightSearch" placeholder="Search"></SearchField>-->
+							<!--	</html:span>-->
+							<!--	</HBox>-->
+							<!--</html:section>-->
+							<!--<html:section>-->
+							<!--	<HBox direction="Row" alignContent="Center" alignItems="Center" justifyContent="Center">-->
+							<!--	<html:ul class="stats sapUiMediumMarginBeginEnd">-->
+							<!--		<html:li data-value="8">Flights Delayed</html:li>-->
+							<!--		<html:li data-value="2">Flights On-Time</html:li>-->
+							<!--		<html:li data-value="10">Possible Delays</html:li>-->
+							<!--	</html:ul>-->
+							<!--	<html:span class="search-bar sapUiMediumMarginBeginEnd flightSearchInputClass">-->
+							<!--<html:input type="search" placeholder="Search"></html:input>-->
+							<!--		<SearchField class="flightSearchInputClass" liveChange="onFlightSearch" placeholder="Search"></SearchField>-->
+							<!--	</html:span>-->
+							<!--	</HBox>-->
+							<!--</html:section>-->
+							<!--</HBox>-->
+						</contentMiddle>
+						<!--Profile-->
+						<contentRight>
+							<html:section class="popover-container">
+								<html:img src="./media/images/login-user-avatar.jpg" alt="" srcset="" role="button"></html:img>
+								<html:div class="popover">
+									<html:a href="" class="icon profile">Profile</html:a>
+									<html:a href="" class="icon settings">Settings</html:a>
+								</html:div>
+							</html:section>
+							<html:h1>John Bradman</html:h1>
+						</contentRight>
+					</Bar>
+				</customHeader>
+				<content>
+					<HBox class="TopSectionHBox" id="Daylight">
+						<!--<Text text="hi"></Text>-->
+						<HBox class="selectboxclass">
+							<Select forceSelection="true" id="flightsortid" class="searchActivitySelectTable" change="onSelectionChangeSort" selectedItemId="00">
+								<!--searchActivitySelectTable-->
+								<core:Item key="00" text="Sort Flight View"/>
+								<core:Item key="activity" text="Activity"/>
+								<!--<core:Item key="airlines" text="Flight Type"/>
+								<core:Item key="location" text="Location"/>
+								<core:Item key="criticality" text="Criticality"/>-->
+							</Select>
+							<!--<Select forceSelection="true" items="{ path: 'testmodel>/flightSet/', sorter: { path: 'id' } }" id="flightselectid"
+								change="onSelectionChange" selectedItemId="00" class="searchActivitySelectTable">
+								<core:Item key="{testmodel>id}" text="{testmodel>name}"/>
+							</Select>-->
+						</HBox>
+						<HBox id="ChartHolder" visible="false" alignItems="Start" justifyContent="Center" class="PTSSlider">
+							<!--<Select forceSelection="false" items="{ path: 'testmodel>/root/children', sorter: { path: 'id' } }" change="onSelectionChange" >
+								<core:Item key="{testmodel>id}" text="{testmodel>name}"/>
+							</Select>-->
+						</HBox>
+					</HBox>
+					<!--<ScrollContainer height="580px" width="1370px" horizontal="true" vertical="true">-->
+					<HBox height="75%" width="94%" class="DownSectionHBox">
+						<!--<Text text="hi"></Text>-->
+						<gantt:GanttChartContainer id="GanttChartContainer" class="GanttChartOuterLayer" enableNowLine="true" enableAdhocLine="true">
+							<!--<gantt:customToolbarItems>
+								<Toolbar>
+									<SearchField width="100%" placeholder="Search"/>
+								</Toolbar>
+							</gantt:customToolbarItems>-->
+							<gantt:ganttCharts>
+								<gantt:GanttChartWithTable chartClick="onChartClick" id="ganttView" shapeDragEnd="handleShapeDragEnd" class="EKGanttChartTableTurnAround">
+									<gantt:columns> 
+										<table:Column label="Flights" width="45%">
+											<table:template>
+												<!--<ObjectHeader title="{test>name}" class="objectheaderclass" icon="{test>icon}"/>-->
+												<HBox class="leftPanelClass">
+													<Text text="{EK>name}" class="textClass"/>
+													<!--<core:Icon class="iconClass" src="{test>icon}"/>-->
+													<!--<Image class="iconClass" src="media/images/{EK>icon}.svg"/>-->
+													<!--<core:Icon src="{path: 'EK>icon', formatter: '.formatter.setListIcon'}"/>-->
+													<core:Icon class="iconClass" src="sap-icon://ek/{EK>icon}" color="{path: 'EK>icon', formatter: '.formatter.setIconColor'}"/>
+													<!--<Image class="iconClass" src="/image/{test>icon}.svg"/>-->
+													<!--<Image src="image/intime.png" width="10px" height="10px"/>-->
+													<Image class="triangle-right"/>
+													<!--<Text text="▶" class="triangleclass" />-->
+													<!--<html:p class="triangleclass">&#9654;</html:p>-->
+												</HBox>
+											</table:template>
+										</table:Column>
+										<!--<table:Column id="iconColumn" label="" width="15%">
+											<table:template>
+												<core:Icon class="iconclass" src="{test>icon}"/>
+											</table:template>
+										</table:Column>-->
+									</gantt:columns>
+									<gantt:adhocLines>
+										<gantt:AdhocLine strokeWidth="2" stroke="#8df7ed" description="Current Time" timeStamp="{EK>/root/timeStamp}"></gantt:AdhocLine>
+									</gantt:adhocLines>
+								</gantt:GanttChartWithTable>
+							</gantt:ganttCharts>
+						</gantt:GanttChartContainer>
+					</HBox>
+					<!--</ScrollContainer>-->
+				</content>
+				<footer>
+					<OverflowToolbar class="PTSFooter" visible="true">
+						<FlexBox class="FooterLegendItems" height="50px" width="100%" alignItems="Start" justifyContent="End">
+							<items>
+								<HBox class="collapseexpandFoot" visible="false">
+									<Button id="expandTable" press="onExpandTable" text="Expand All" icon="sap-icon://expand" enabled="true"></Button>
+									<Button id="collapseTable" press="onCollapseTable" text="Collapse All" icon="sap-icon://collapse" enabled="false"></Button>
+								</HBox>
+								<ToolbarSpacer/>
+								<!--<HBox class="PredictedPrepone">-->
+								<HBox class="Prepone">
+									<Image src="media/images/blue.jpg" densityAware="false" width="23px">
+										<layoutData>
+											<FlexItemData growFactor="3"/>
+										</layoutData>
+									</Image>
+									<Text text="Maintenance" class="PredictedPreponeText"></Text>
+								</HBox>
+								<HBox class="Prepone">
+									<Image src="media/images/red.jpg" densityAware="false" width="25px">
+										<layoutData>
+											<FlexItemData growFactor="3"/>
+										</layoutData>
+									</Image>
+									<Text text="Confirmed Delay" class="PreponeText"></Text>
+								</HBox>
+								<HBox class="PastDelay">
+									<Image src="media/images/expected_delay.jpg" densityAware="false" width="25px">
+										<layoutData>
+											<FlexItemData growFactor="3"/>
+										</layoutData>
+									</Image>
+									<Text text="Expected Delay" class="PastDelayText"></Text>
+								</HBox>
+								<HBox class="ActivityDelay">
+									<Image src="media/images/towing.jpg" densityAware="false" width="25px">
+										<layoutData>
+											<FlexItemData growFactor="3"/>
+										</layoutData>
+									</Image>
+									<Text text="Towing" class="ActivityDelayText"></Text>
+								</HBox>
+								<HBox class="PredictedDelay">
+									<Image src="media/images/pts.jpg" densityAware="false" width="23px">
+										<layoutData>
+											<FlexItemData growFactor="3"/>
+										</layoutData>
+									</Image>
+									<Text text="PTS" class="PredictedDelayText"></Text>
+								</HBox>
+								<HBox class="RemoteSettings">
+									
+									<Button icon="sap-icon://action-settings" press="onRemoteSetting" class="RemoteSettingsButton"></Button>
+								</HBox>
+								<!--	<HBox class="PastActivityDelay">
+									<Image src="image/past_activity_delay.png" densityAware="false" width="23px">
+										<layoutData>
+											<FlexItemData growFactor="3"/>
+										</layoutData>
+									</Image>
+									<Text text="Past Activity Delay" class="PastActivityDelayText"></Text>
+								</HBox>-->
+								<!--                                                                    <HBox>
+                                                                                                                        <Select forceSelection="false" items="{ path: 'EK>/root/children', sorter: { path: 'id' } }" change="onSelectionChange" >
+                                                                                                                        <core:Item key="{EK>id}" text="{EK>name}"/>
+                                                                                                         </Select>
+</HBox>-->
+							</items>
+						</FlexBox>
+					</OverflowToolbar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

@@ -1,0 +1,19 @@
+{
+	"Journey": {
+		"currstep": 3,
+		"gateclosedin": 80,
+		"checkedin": 575,
+		"landed": 421,
+		"immigration": 137,
+		"atgate": 0,
+		"boarded": 0,
+		"totalpax": 596,
+		"total_j_pax": 147,
+		"total_c_pax": 449,
+		"airport_at_gate": 300,
+		"airport_not_at_gate": 254,
+		"not_airport_connecting": 11,
+		"not_airport_joining": 10,
+		"total_chked_pax": 596
+	}
+}
